@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+/>
+<title>Morning Brief Dashboard</title>
+<style>
+:root {
+--bg: #0f172a;
+--card-bg: #1e293b;
+--accent: #2563eb;
+--text: #f8fafc;
+--text-muted: #94a3b8;
+--border: #334155;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+Roboto, sans-serif;
+background-color: var(--bg);
+color: var(--text);
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+header { margin-bottom: 20px; }
+h1 { font-size: 1.75rem; color: #38bdf8; margin-bottom: 4px; }
+.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+.grid { display: grid; gap: 16px; margin-top: 16px; }
+.card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 8px;
+padding: 16px;
+}
+.label {
+font-weight: 600;
+color: #cbd5e1;
+margin-bottom: 8px;
+}
+textarea {
+width: 100%;
+height: 100px;
+padding: 10px;
+background: #0f172a;
+color: #e5e7eb;
+border: 1px solid var(--border);
+border-radius: 6px;
+font-size: 14px;
+resize: vertical;
+}
+.btn-group { margin-top: 10px; display: flex; gap: 8px; }
+button {
+padding: 8px 14px;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 500;
+}
+.btn-save { background: var(--accent); }
+.btn-clear { background: #ef4444; }
+.log-box {
+background: #0f172a;
+padding: 12px;
+border-radius: 6px;
+border: 1px solid var(--border);
+min-height: 60px;
+font-size: 14px;
+white-space: pre-wrap;
+margin-top: 8px;
+}
+.status-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+gap: 12px;
+margin-top: 8px;
+}
+.status-item {
+background: #0f172a;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid var(--border);
+}
+.status-item .val { font-size: 1.1rem; font-weight: 600; color:
+#38bdf8; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Morning Brief</h1>
+<div class="subtitle" id="live-time">Loading local time...</div>
+</header>
+
+<!-- System Overview -->
+<div class="card">
+<div class="label">System Overview</div>
+<div class="status-grid">
+<div class="status-item">
+<div class="subtitle">System Mode</div>
+<div class="val" id="sys-mode">Active</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Alert Level</div>
+<div class="val" id="sys-alert">Normal</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Refresh Interval</div>
+<div class="val" id="sys-refresh">60s</div>
+</div>
+</div>
+</div>
+
+<div class="grid">
+<!-- AI Research Box -->
+<div class="card">
+<div class="label">⭐ AI Research Box</div>
+<textarea id="ai-input" placeholder="Paste article, idea, note, or
+text here..."></textarea>
+
+<div class="btn-group">
+<button class="btn-save" id="ai-save">Save</button>
+<button class="btn-clear" id="ai-clear">Clear</button>
+</div>
+
+<div class="label" style="margin-top: 16px;">Saved Research
+Log</div>
+<div id="ai-log" class="log-box"></div>
+</div>
+</div>
+
+<script>
+// Live Time Update
+function updateClock() {
+const now = new Date();
+document.getElementById('live-time').textContent =
+now.toLocaleString('en-US', {
+dateStyle: 'full',
+timeStyle: 'medium'
+});
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// AI Research LocalStorage Manager
+const aiLog = document.getElementById("ai-log");
+const aiInput = document.getElementById("ai-input");
+
+function loadResearch() {
+const saved = localStorage.getItem("aiResearchLog");
+aiLog.textContent = saved ? saved : "No saved research yet.";
+}
+
+loadResearch();
+
+document.getElementById("ai-save").onclick = () => {
+const text = aiInput.value.trim();
+if (!text) return;
+
+const existing = localStorage.getItem("aiResearchLog") || "";
+const timestamp = new Date().toLocaleTimeString([], { hour:
+'2-digit', minute: '2-digit' });
+const entry = `[${timestamp}] ${text}`;
+const updated = existing ? existing + "\n\n---\n\n" + entry :
+entry;
+
+localStorage.setItem("aiResearchLog", updated);
+aiInput.value = "";
+loadResearch();
+};
+
+document.getElementById("ai-clear").onclick = () => {
+aiInput.value = "";
+};
+</script>
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+/>
+<title>Morning Brief Dashboard</title>
+<style>
+:root {
+--bg: #0f172a;
+--card-bg: #1e293b;
+--accent: #2563eb;
+--text: #f8fafc;
+--text-muted: #94a3b8;
+--border: #334155;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+Roboto, sans-serif;
+background-color: var(--bg);
+color: var(--text);
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+header { margin-bottom: 20px; }
+h1 { font-size: 1.75rem; color: #38bdf8; margin-bottom: 4px; }
+.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+.grid { display: grid; gap: 16px; margin-top: 16px; }
+.card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 8px;
+padding: 16px;
+}
+.label {
+font-weight: 600;
+color: #cbd5e1;
+margin-bottom: 8px;
+}
+textarea {
+width: 100%;
+height: 100px;
+padding: 10px;
+background: #0f172a;
+color: #e5e7eb;
+border: 1px solid var(--border);
+border-radius: 6px;
+font-size: 14px;
+resize: vertical;
+}
+.btn-group { margin-top: 10px; display: flex; gap: 8px; }
+button {
+padding: 8px 14px;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 500;
+}
+.btn-save { background: var(--accent); }
+.btn-clear { background: #ef4444; }
+.log-box {
+background: #0f172a;
+padding: 12px;
+border-radius: 6px;
+border: 1px solid var(--border);
+min-height: 60px;
+font-size: 14px;
+white-space: pre-wrap;
+margin-top: 8px;
+}
+.status-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+gap: 12px;
+margin-top: 8px;
+}
+.status-item {
+background: #0f172a;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid var(--border);
+}
+.status-item .val { font-size: 1.1rem; font-weight: 600; color:
+#38bdf8; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Morning Brief</h1>
+<div class="subtitle" id="live-time">Loading local time...</div>
+</header>
+
+<!-- System Overview -->
+<div class="card">
+<div class="label">System Overview</div>
+<div class="status-grid">
+<div class="status-item">
+<div class="subtitle">System Mode</div>
+<div class="val" id="sys-mode">Active</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Alert Level</div>
+<div class="val" id="sys-alert">Normal</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Refresh Interval</div>
+<div class="val" id="sys-refresh">60s</div>
+</div>
+</div>
+</div>
+
+<div class="grid">
+<!-- AI Research Box -->
+<div class="card">
+<div class="label">⭐ AI Research Box</div>
+<textarea id="ai-input" placeholder="Paste article, idea, note, or
+text here..."></textarea>
+
+<div class="btn-group">
+<button class="btn-save" id="ai-save">Save</button>
+<button class="btn-clear" id="ai-clear">Clear</button>
+</div>
+
+<div class="label" style="margin-top: 16px;">Saved Research
+Log</div>
+<div id="ai-log" class="log-box"></div>
+</div>
+</div>
+
+<script>
+// Live Time Update
+function updateClock() {
+const now = new Date();
+document.getElementById('live-time').textContent =
+now.toLocaleString('en-US', {
+dateStyle: 'full',
+timeStyle: 'medium'
+});
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// AI Research LocalStorage Manager
+const aiLog = document.getElementById("ai-log");
+const aiInput = document.getElementById("ai-input");
+
+function loadResearch() {
+const saved = localStorage.getItem("aiResearchLog");
+aiLog.textContent = saved ? saved : "No saved research yet.";
+}
+
+loadResearch();
+
+document.getElementById("ai-save").onclick = () => {
+const text = aiInput.value.trim();
+if (!text) return;
+
+const existing = localStorage.getItem("aiResearchLog") || "";
+const timestamp = new Date().toLocaleTimeString([], { hour:
+'2-digit', minute: '2-digit' });
+const entry = `[${timestamp}] ${text}`;
+const updated = existing ? existing + "\n\n---\n\n" + entry :
+entry;
+
+localStorage.setItem("aiResearchLog", updated);
+aiInput.value = "";
+loadResearch();
+};
+
+document.getElementById("ai-clear").onclick = () => {
+aiInput.value = "";
+};
+</script>
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+/>
+<title>Morning Brief Dashboard</title>
+<style>
+:root {
+--bg: #0f172a;
+--card-bg: #1e293b;
+--accent: #2563eb;
+--text: #f8fafc;
+--text-muted: #94a3b8;
+--border: #334155;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+Roboto, sans-serif;
+background-color: var(--bg);
+color: var(--text);
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+header { margin-bottom: 20px; }
+h1 { font-size: 1.75rem; color: #38bdf8; margin-bottom: 4px; }
+.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+.grid { display: grid; gap: 16px; margin-top: 16px; }
+.card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 8px;
+padding: 16px;
+}
+.label {
+font-weight: 600;
+color: #cbd5e1;
+margin-bottom: 8px;
+}
+textarea {
+width: 100%;
+height: 100px;
+padding: 10px;
+background: #0f172a;
+color: #e5e7eb;
+border: 1px solid var(--border);
+border-radius: 6px;
+font-size: 14px;
+resize: vertical;
+}
+.btn-group { margin-top: 10px; display: flex; gap: 8px; }
+button {
+padding: 8px 14px;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 500;
+}
+.btn-save { background: var(--accent); }
+.btn-clear { background: #ef4444; }
+.log-box {
+background: #0f172a;
+padding: 12px;
+border-radius: 6px;
+border: 1px solid var(--border);
+min-height: 60px;
+font-size: 14px;
+white-space: pre-wrap;
+margin-top: 8px;
+}
+.status-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+gap: 12px;
+margin-top: 8px;
+}
+.status-item {
+background: #0f172a;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid var(--border);
+}
+.status-item .val { font-size: 1.1rem; font-weight: 600; color:
+#38bdf8; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Morning Brief</h1>
+<div class="subtitle" id="live-time">Loading local time...</div>
+</header>
+
+<!-- System Overview -->
+<div class="card">
+<div class="label">System Overview</div>
+<div class="status-grid">
+<div class="status-item">
+<div class="subtitle">System Mode</div>
+<div class="val" id="sys-mode">Active</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Alert Level</div>
+<div class="val" id="sys-alert">Normal</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Refresh Interval</div>
+<div class="val" id="sys-refresh">60s</div>
+</div>
+</div>
+</div>
+
+<div class="grid">
+<!-- AI Research Box -->
+<div class="card">
+<div class="label">⭐ AI Research Box</div>
+<textarea id="ai-input" placeholder="Paste article, idea, note, or
+text here..."></textarea>
+
+<div class="btn-group">
+<button class="btn-save" id="ai-save">Save</button>
+<button class="btn-clear" id="ai-clear">Clear</button>
+</div>
+
+<div class="label" style="margin-top: 16px;">Saved Research
+Log</div>
+<div id="ai-log" class="log-box"></div>
+</div>
+</div>
+
+<script>
+// Live Time Update
+function updateClock() {
+const now = new Date();
+document.getElementById('live-time').textContent =
+now.toLocaleString('en-US', {
+dateStyle: 'full',
+timeStyle: 'medium'
+});
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// AI Research LocalStorage Manager
+const aiLog = document.getElementById("ai-log");
+const aiInput = document.getElementById("ai-input");
+
+function loadResearch() {
+const saved = localStorage.getItem("aiResearchLog");
+aiLog.textContent = saved ? saved : "No saved research yet.";
+}
+
+loadResearch();
+
+document.getElementById("ai-save").onclick = () => {
+const text = aiInput.value.trim();
+if (!text) return;
+
+const existing = localStorage.getItem("aiResearchLog") || "";
+const timestamp = new Date().toLocaleTimeString([], { hour:
+'2-digit', minute: '2-digit' });
+const entry = `[${timestamp}] ${text}`;
+const updated = existing ? existing + "\n\n---\n\n" + entry :
+entry;
+
+localStorage.setItem("aiResearchLog", updated);
+aiInput.value = "";
+loadResearch();
+};
+
+document.getElementById("ai-clear").onclick = () => {
+aiInput.value = "";
+};
+</script>
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+/>
+<title>Morning Brief Dashboard</title>
+<style>
+:root {
+--bg: #0f172a;
+--card-bg: #1e293b;
+--accent: #2563eb;
+--text: #f8fafc;
+--text-muted: #94a3b8;
+--border: #334155;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+Roboto, sans-serif;
+background-color: var(--bg);
+color: var(--text);
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+header { margin-bottom: 20px; }
+h1 { font-size: 1.75rem; color: #38bdf8; margin-bottom: 4px; }
+.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+.grid { display: grid; gap: 16px; margin-top: 16px; }
+.card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 8px;
+padding: 16px;
+}
+.label {
+font-weight: 600;
+color: #cbd5e1;
+margin-bottom: 8px;
+}
+textarea {
+width: 100%;
+height: 100px;
+padding: 10px;
+background: #0f172a;
+color: #e5e7eb;
+border: 1px solid var(--border);
+border-radius: 6px;
+font-size: 14px;
+resize: vertical;
+}
+.btn-group { margin-top: 10px; display: flex; gap: 8px; }
+button {
+padding: 8px 14px;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 500;
+}
+.btn-save { background: var(--accent); }
+.btn-clear { background: #ef4444; }
+.log-box {
+background: #0f172a;
+padding: 12px;
+border-radius: 6px;
+border: 1px solid var(--border);
+min-height: 60px;
+font-size: 14px;
+white-space: pre-wrap;
+margin-top: 8px;
+}
+.status-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+gap: 12px;
+margin-top: 8px;
+}
+.status-item {
+background: #0f172a;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid var(--border);
+}
+.status-item .val { font-size: 1.1rem; font-weight: 600; color:
+#38bdf8; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Morning Brief</h1>
+<div class="subtitle" id="live-time">Loading local time...</div>
+</header>
+
+<!-- System Overview -->
+<div class="card">
+<div class="label">System Overview</div>
+<div class="status-grid">
+<div class="status-item">
+<div class="subtitle">System Mode</div>
+<div class="val" id="sys-mode">Active</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Alert Level</div>
+<div class="val" id="sys-alert">Normal</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Refresh Interval</div>
+<div class="val" id="sys-refresh">60s</div>
+</div>
+</div>
+</div>
+
+<div class="grid">
+<!-- AI Research Box -->
+<div class="card">
+<div class="label">⭐ AI Research Box</div>
+<textarea id="ai-input" placeholder="Paste article, idea, note, or
+text here..."></textarea>
+
+<div class="btn-group">
+<button class="btn-save" id="ai-save">Save</button>
+<button class="btn-clear" id="ai-clear">Clear</button>
+</div>
+
+<div class="label" style="margin-top: 16px;">Saved Research
+Log</div>
+<div id="ai-log" class="log-box"></div>
+</div>
+</div>
+
+<script>
+// Live Time Update
+function updateClock() {
+const now = new Date();
+document.getElementById('live-time').textContent =
+now.toLocaleString('en-US', {
+dateStyle: 'full',
+timeStyle: 'medium'
+});
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// AI Research LocalStorage Manager
+const aiLog = document.getElementById("ai-log");
+const aiInput = document.getElementById("ai-input");
+
+function loadResearch() {
+const saved = localStorage.getItem("aiResearchLog");
+aiLog.textContent = saved ? saved : "No saved research yet.";
+}
+
+loadResearch();
+
+document.getElementById("ai-save").onclick = () => {
+const text = aiInput.value.trim();
+if (!text) return;
+
+const existing = localStorage.getItem("aiResearchLog") || "";
+const timestamp = new Date().toLocaleTimeString([], { hour:
+'2-digit', minute: '2-digit' });
+const entry = `[${timestamp}] ${text}`;
+const updated = existing ? existing + "\n\n---\n\n" + entry :
+entry;
+
+localStorage.setItem("aiResearchLog", updated);
+aiInput.value = "";
+loadResearch();
+};
+
+document.getElementById("ai-clear").onclick = () => {
+aiInput.value = "";
+};
+</script>
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+/>
+<title>Morning Brief Dashboard</title>
+<style>
+:root {
+--bg: #0f172a;
+--card-bg: #1e293b;
+--accent: #2563eb;
+--text: #f8fafc;
+--text-muted: #94a3b8;
+--border: #334155;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+Roboto, sans-serif;
+background-color: var(--bg);
+color: var(--text);
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+header { margin-bottom: 20px; }
+h1 { font-size: 1.75rem; color: #38bdf8; margin-bottom: 4px; }
+.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+.grid { display: grid; gap: 16px; margin-top: 16px; }
+.card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 8px;
+padding: 16px;
+}
+.label {
+font-weight: 600;
+color: #cbd5e1;
+margin-bottom: 8px;
+}
+textarea {
+width: 100%;
+height: 100px;
+padding: 10px;
+background: #0f172a;
+color: #e5e7eb;
+border: 1px solid var(--border);
+border-radius: 6px;
+font-size: 14px;
+resize: vertical;
+}
+.btn-group { margin-top: 10px; display: flex; gap: 8px; }
+button {
+padding: 8px 14px;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 500;
+}
+.btn-save { background: var(--accent); }
+.btn-clear { background: #ef4444; }
+.log-box {
+background: #0f172a;
+padding: 12px;
+border-radius: 6px;
+border: 1px solid var(--border);
+min-height: 60px;
+font-size: 14px;
+white-space: pre-wrap;
+margin-top: 8px;
+}
+.status-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+gap: 12px;
+margin-top: 8px;
+}
+.status-item {
+background: #0f172a;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid var(--border);
+}
+.status-item .val { font-size: 1.1rem; font-weight: 600; color:
+#38bdf8; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Morning Brief</h1>
+<div class="subtitle" id="live-time">Loading local time...</div>
+</header>
+
+<!-- System Overview -->
+<div class="card">
+<div class="label">System Overview</div>
+<div class="status-grid">
+<div class="status-item">
+<div class="subtitle">System Mode</div>
+<div class="val" id="sys-mode">Active</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Alert Level</div>
+<div class="val" id="sys-alert">Normal</div>
+</div>
+<div class="status-item">
+<div class="subtitle">Refresh Interval</div>
+<div class="val" id="sys-refresh">60s</div>
+</div>
+</div>
+</div>
+
+<div class="grid">
+<!-- AI Research Box -->
+<div class="card">
+<div class="label">⭐ AI Research Box</div>
+<textarea id="ai-input" placeholder="Paste article, idea, note, or
+text here..."></textarea>
+
+<div class="btn-group">
+<button class="btn-save" id="ai-save">Save</button>
+<button class="btn-clear" id="ai-clear">Clear</button>
+</div>
+
+<div class="label" style="margin-top: 16px;">Saved Research
+Log</div>
+<div id="ai-log" class="log-box"></div>
+</div>
+</div>
+
+<script>
+// Live Time Update
+function updateClock() {
+const now = new Date();
+document.getElementById('live-time').textContent =
+now.toLocaleString('en-US', {
+dateStyle: 'full',
+timeStyle: 'medium'
+});
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// AI Research LocalStorage Manager
+const aiLog = document.getElementById("ai-log");
+const aiInput = document.getElementById("ai-input");
+
+function loadResearch() {
+const saved = localStorage.getItem("aiResearchLog");
+aiLog.textContent = saved ? saved : "No saved research yet.";
+}
+
+loadResearch();
+
+document.getElementById("ai-save").onclick = () => {
+const text = aiInput.value.trim();
+if (!text) return;
+
+const existing = localStorage.getItem("aiResearchLog") || "";
+const timestamp = new Date().toLocaleTimeString([], { hour:
+'2-digit', minute: '2-digit' });
+const entry = `[${timestamp}] ${text}`;
+const updated = existing ? existing + "\n\n---\n\n" + entry :
+entry;
+
+localStorage.setItem("aiResearchLog", updated);
+aiInput.value = "";
+loadResearch();
+};
+
+document.getElementById("ai-clear").onclick = () => {
+aiInput.value = "";
+};
+</script>
+</body>
+</html> 
