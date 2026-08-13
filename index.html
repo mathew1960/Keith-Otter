@@ -81,6 +81,10 @@ color: var(--text-muted);
 min-height: 40px;
 white-space: pre-wrap;
 }
+.news-list { list-style: none; padding: 0; }
+.news-list li { margin-bottom: 8px; line-height: 1.4; }
+.news-list a { color: #38bdf8; text-decoration: none; }
+.news-list a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -125,15 +129,15 @@ text here..."></textarea>
 <!-- Agenda Card -->
 <div class="card">
 <div class="label">📅 Today's Agenda</div>
-<div id="agenda-container" class="log-box">Awaiting automated
-workflow output...</div>
+<div id="agenda-container" class="log-box">Calendar integration
+disabled in backend script.</div>
 </div>
 
 <!-- News Feed Card -->
 <div class="card">
 <div class="label">📰 Morning News Brief</div>
-<div id="news-container" class="log-box">Awaiting automated
-workflow output...</div>
+<div id="news-container" class="log-box">Loading RSS
+headlines...</div>
 </div>
 </div>
 
@@ -179,23 +183,28 @@ loadResearch();
 };
 
 async function loadDashboardData() {
-try {
-const agendaRes = await fetch('./output/agenda.json');
-if (agendaRes.ok) {
-const agendaData = await agendaRes.json();
-document.getElementById('agenda-container').textContent =
-JSON.stringify(agendaData, null, 2);
-}
-} catch (err) {}
+const newsContainer = document.getElementById('news-container');
+newsContainer.textContent = "Loading headlines...";
 
 try {
-const newsRes = await fetch('./output/news.json');
-if (newsRes.ok) {
-const newsData = await newsRes.json();
-document.getElementById('news-container').textContent =
-JSON.stringify(newsData, null, 2);
+const res = await
+fetch('https://api.rss2json.com/v1/api.json?rss_url=https://feeds.foxnews.com/foxnews/latest');
+const data = await res.json();
+
+if (data.status === 'ok' && data.items.length > 0) {
+let html = '<ul class="news-list">';
+data.items.slice(0, 8).forEach(item => {
+html += `<li><a href="${item.link}" target="_blank">•
+${item.title}</a></li>`;
+});
+html += '</ul>';
+newsContainer.innerHTML = html;
+} else {
+newsContainer.textContent = "Unable to parse feed.";
 }
-} catch (err) {}
+} catch (err) {
+newsContainer.textContent = "Failed to load live news feed.";
+}
 }
 
 loadDashboardData();
