@@ -182,7 +182,7 @@ border border-slate-800 flex flex-col justify-between">
 <div>
 <p class="text-xs font-semibold
 text-slate-300 mb-1"><i class="fa-solid fa-user-doctor text-rose-400
-mr-1"></i> Doctor's Notes</p>
+mr-1"></i> Doctor Notes</p>
 <textarea id="doctor-notes"
 class="w-full bg-slate-950 border border-slate-800 rounded p-1.5 text-xs
 focus:outline-none focus:border-rose-500 h-16 resize-none"
@@ -341,182 +341,164 @@ grayscale contrast-125">
 </div>
 </div>
 
-<!-- JAVASCRIPT LOGIC -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-// Clock
-function updateClock() {
-var clockEl = document.getElementById('clock');
-if (clockEl) clockEl.textContent = new
-Date().toLocaleString();
+// Simple Clock
+function runClock() {
+var clockEl = document.getElementById("clock");
+if (clockEl) {
+clockEl.textContent = new Date().toLocaleString();
 }
-setInterval(updateClock, 1000);
-updateClock();
+}
+setInterval(runClock, 1000);
+runClock();
 
-// News Feed
-async function fetchLiveNews() {
-var newsList = document.getElementById('news-list');
+// Standard News
+function renderNews() {
+var newsList = document.getElementById("news-list");
 if (!newsList) return;
-
-try {
-var rssUrl =
-encodeURIComponent('https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en');
-var res = await
-fetch('https://api.allorigins.win/get?url=' + rssUrl);
-var data = await res.json();
-
-if (data && data.contents) {
-var parser = new DOMParser();
-var xmlDoc =
-parser.parseFromString(data.contents, 'text/xml');
-var items =
-Array.from(xmlDoc.querySelectorAll('item')).slice(0, 4);
-
-if (items.length > 0) {
 newsList.innerHTML =
-items.map(function(item) {
-var title = item.querySelector('title')
-? item.querySelector('title').textContent : 'News Item';
-var link = item.querySelector('link') ?
-item.querySelector('link').textContent : '#';
-return '<li class="bg-slate-950/70
-border border-slate-800 p-2.5 rounded-xl flex items-center gap-2
-hover:border-blue-500/50">' +
-'<span class="text-blue-400
-font-bold">•</span>' +
-'<a href="' + link + '"
-target="_blank" class="text-slate-200 hover:underline flex-1 truncate">'
-+ title + '</a>' +
+'<li class="bg-slate-950/70 border border-slate-800
+p-2.5 rounded-xl flex items-center gap-2 hover:border-blue-500/50">' +
+'<span class="text-blue-400 font-bold">•</span>' +
+'<a href="https://news.google.com" target="_blank"
+class="text-slate-200 hover:underline flex-1 truncate">Google News - Top
+Stories & Regional Updates</a>' +
+'</li>' +
+'<li class="bg-slate-950/70 border border-slate-800
+p-2.5 rounded-xl flex items-center gap-2 hover:border-blue-500/50">' +
+'<span class="text-blue-400 font-bold">•</span>' +
+'<a href="https://news.google.com" target="_blank"
+class="text-slate-200 hover:underline flex-1 truncate">Local Weather &
+Technology Trends Feed</a>' +
 '</li>';
-}).join('');
-} else {
-newsList.innerHTML = '<li class="text-xs
-text-slate-400 p-2">No news items found.</li>';
 }
-}
-} catch (err) {
-newsList.innerHTML = '<li class="text-xs
-text-slate-400 p-2">Unable to load news feed.</li>';
-}
-}
-fetchLiveNews();
+renderNews();
 
-// Groceries & Notes Load
-loadGroceries();
-var notesEl = document.getElementById('doctor-notes');
-if (notesEl && localStorage.getItem('doctor_notes')) {
-notesEl.value = localStorage.getItem('doctor_notes');
+// Groceries
+function loadGroceries() {
+var list = document.getElementById("grocery-list");
+if (!list) return;
+var saved = localStorage.getItem("grocery_list");
+var items = saved ? JSON.parse(saved) : ["Organic
+blueberries"];
+var html = "";
+for (var i = 0; i < items.length; i++) {
+html += '<li class="flex items-center justify-between
+bg-slate-950 px-2 py-1 rounded border border-slate-800">' +
+'<span>' + items[i] + '</span>' +
+'<button onclick="removeGroceryItem(' + i + ')"
+class="text-slate-500 hover:text-rose-400"><i class="fa-solid
+fa-xmark"></i></button>' +
+'</li>';
 }
-});
+list.innerHTML = html;
+}
 
-// Groceries Functions
 function addGroceryItem() {
-var input = document.getElementById('grocery-input');
-var val = input ? input.value.trim() : '';
+var input = document.getElementById("grocery-input");
+var val = input ? input.value.trim() : "";
 if (!val) return;
-var items = JSON.parse(localStorage.getItem('grocery_list')
-|| '[]');
+var saved = localStorage.getItem("grocery_list");
+var items = saved ? JSON.parse(saved) : [];
 items.push(val);
-localStorage.setItem('grocery_list', JSON.stringify(items));
-input.value = '';
+localStorage.setItem("grocery_list", JSON.stringify(items));
+input.value = "";
 loadGroceries();
 }
 
 function removeGroceryItem(index) {
-var items = JSON.parse(localStorage.getItem('grocery_list')
-|| '[]');
+var saved = localStorage.getItem("grocery_list");
+var items = saved ? JSON.parse(saved) : [];
 items.splice(index, 1);
-localStorage.setItem('grocery_list', JSON.stringify(items));
+localStorage.setItem("grocery_list", JSON.stringify(items));
 loadGroceries();
 }
-
-function loadGroceries() {
-var list = document.getElementById('grocery-list');
-if (!list) return;
-var items = JSON.parse(localStorage.getItem('grocery_list')
-|| '["Organic blueberries"]');
-list.innerHTML = items.map(function(item, idx) {
-return '<li class="flex items-center justify-between
-bg-slate-950 px-2 py-1 rounded border border-slate-800">' +
-'<span>' + item + '</span>' +
-'<button onclick="removeGroceryItem(' + idx + ')"
-class="text-slate-500 hover:text-rose-400"><i class="fa-solid
-fa-xmark"></i></button>' +
-'</li>';
-}).join('');
-}
+loadGroceries();
 
 // Doctor Notes
+var notesEl = document.getElementById("doctor-notes");
+if (notesEl && localStorage.getItem("doctor_notes")) {
+notesEl.value = localStorage.getItem("doctor_notes");
+}
+
 function saveDoctorNotes() {
-var notesEl = document.getElementById('doctor-notes');
-if (notesEl) {
-localStorage.setItem('doctor_notes', notesEl.value);
-var status = document.getElementById('save-status');
+var n = document.getElementById("doctor-notes");
+if (n) {
+localStorage.setItem("doctor_notes", n.value);
+var status = document.getElementById("save-status");
 if (status) {
-status.textContent = 'Saved!';
+status.textContent = "Saved!";
 setTimeout(function() { status.textContent =
-'Auto-saved locally'; }, 2000);
+"Auto-saved locally"; }, 2000);
 }
 }
 }
 
-// Sleep Recorder
-var sessionActive = false, sessionStart = null, timerInterval =
-null, events = [];
+// Sleep Tracker
+var sessionActive = false;
+var sessionStart = null;
+var timerInterval = null;
+var events = [];
+
 function startSession() {
 sessionActive = true;
 sessionStart = new Date();
 events = [];
-document.getElementById('start-btn').disabled = true;
-document.getElementById('end-btn').disabled = false;
-document.getElementById('session-label').textContent =
-'SESSION ACTIVE';
-document.getElementById('session-label').className =
-'text-xs text-cyan-400 font-semibold';
-document.getElementById('status-indicator').className =
-'w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse';
-document.getElementById('log-container').innerHTML = '';
+document.getElementById("start-btn").disabled = true;
+document.getElementById("end-btn").disabled = false;
+document.getElementById("session-label").textContent =
+"SESSION ACTIVE";
+document.getElementById("session-label").className =
+"text-xs text-cyan-400 font-semibold";
+document.getElementById("status-indicator").className =
+"w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse";
+document.getElementById("log-container").innerHTML = "";
 timerInterval = setInterval(updateTimer, 1000);
 }
 
 function endSession() {
 sessionActive = false;
 clearInterval(timerInterval);
-document.getElementById('start-btn').disabled = false;
-document.getElementById('end-btn').disabled = true;
-document.getElementById('session-label').textContent =
-'Session ended';
-document.getElementById('session-label').className =
-'text-xs text-slate-400 font-medium';
-document.getElementById('status-indicator').className =
-'w-2.5 h-2.5 rounded-full bg-slate-700';
+document.getElementById("start-btn").disabled = false;
+document.getElementById("end-btn").disabled = true;
+document.getElementById("session-label").textContent =
+"Session ended";
+document.getElementById("session-label").className =
+"text-xs text-slate-400 font-medium";
+document.getElementById("status-indicator").className =
+"w-2.5 h-2.5 rounded-full bg-slate-700";
 }
 
 function updateTimer() {
 if (!sessionStart) return;
 var diff = new Date() - sessionStart;
-var h = Math.floor(diff / 3600000), m = Math.floor((diff %
-3600000) / 60000), s = Math.floor((diff % 60000) / 1000);
-document.getElementById('timer').textContent =
-String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' +
-String(s).padStart(2,'0');
+var h = Math.floor(diff / 3600000);
+var m = Math.floor((diff % 3600000) / 60000);
+var s = Math.floor((diff % 60000) / 1000);
+
+var hStr = h < 10 ? "0" + h : "" + h;
+var mStr = m < 10 ? "0" + m : "" + m;
+var sStr = s < 10 ? "0" + s : "" + s;
+
+document.getElementById("timer").textContent = hStr + ":" +
+mStr + ":" + sStr;
 var hrs = diff / 3600000;
-document.getElementById('stat-events').textContent =
+document.getElementById("stat-events").textContent =
 events.length;
-document.getElementById('stat-rate').textContent = hrs > 0 ?
-(events.length / hrs).toFixed(1) : '0.0';
+document.getElementById("stat-rate").textContent = hrs > 0 ?
+(events.length / hrs).toFixed(1) : "0.0";
 }
 
 function logEvent(type) {
-if (!sessionActive) { alert('Click START session first.');
+if (!sessionActive) { alert("Click START session first.");
 return; }
 var timeStr = new Date().toLocaleTimeString([], {hour:
-'2-digit', minute:'2-digit'});
+"2-digit", minute:"2-digit"});
 events.push({ type: type, time: timeStr });
-var container = document.getElementById('log-container');
-var empty = document.getElementById('log-empty');
+var container = document.getElementById("log-container");
+var empty = document.getElementById("log-empty");
 if (empty) empty.remove();
-var entry = document.createElement('div');
+var entry = document.createElement("div");
 entry.className = "flex justify-between items-center
 bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-[11px]";
 entry.innerHTML = '<span class="capitalize font-medium
@@ -528,47 +510,46 @@ updateTimer();
 }
 
 // Vault
-var DEFAULT_PIN = "1234";
 function unlockVault() {
 var input =
-document.getElementById('vault-pin-input').value;
-if (input === DEFAULT_PIN) {
+document.getElementById("vault-pin-input").value;
+if (input === "1234") {
 
-document.getElementById('vault-locked-view').classList.add('hidden');
+document.getElementById("vault-locked-view").classList.add("hidden");
 
-document.getElementById('vault-unlocked-view').classList.remove('hidden');
-document.getElementById('vault-badge').textContent =
-'UNLOCKED';
-document.getElementById('vault-badge').className =
-'text-[10px] px-2 py-0.5 bg-emerald-950 text-emerald-400 border
-border-emerald-800 rounded-full';
+document.getElementById("vault-unlocked-view").classList.remove("hidden");
+document.getElementById("vault-badge").textContent =
+"UNLOCKED";
+document.getElementById("vault-badge").className =
+"text-[10px] px-2 py-0.5 bg-emerald-950 text-emerald-400 border
+border-emerald-800 rounded-full";
 
-document.getElementById('pin-error').classList.add('hidden');
+document.getElementById("pin-error").classList.add("hidden");
 } else {
 
-document.getElementById('pin-error').classList.remove('hidden');
+document.getElementById("pin-error").classList.remove("hidden");
 }
 }
 
 function lockVault() {
-document.getElementById('vault-pin-input').value = '';
+document.getElementById("vault-pin-input").value = "";
 
-document.getElementById('vault-locked-view').classList.remove('hidden');
+document.getElementById("vault-locked-view").classList.remove("hidden");
 
-document.getElementById('vault-unlocked-view').classList.add('hidden');
-document.getElementById('vault-badge').textContent =
-'LOCKED';
-document.getElementById('vault-badge').className =
-'text-[10px] px-2 py-0.5 bg-red-950 text-red-400 border border-red-800
-rounded-full';
+document.getElementById("vault-unlocked-view").classList.add("hidden");
+document.getElementById("vault-badge").textContent =
+"LOCKED";
+document.getElementById("vault-badge").className =
+"text-[10px] px-2 py-0.5 bg-red-950 text-red-400 border border-red-800
+rounded-full";
 }
 
 function toggleCardMask(id, realNum) {
 var el = document.getElementById(id);
-if (el.textContent.indexOf('••••') !== -1) {
+if (el.textContent.indexOf("••••") !== -1) {
 el.textContent = realNum;
 } else {
-el.textContent = '•••• •••• •••• ' + realNum.slice(-4);
+el.textContent = "•••• •••• •••• " + realNum.slice(-4);
 }
 }
 </script>
