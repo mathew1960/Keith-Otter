@@ -91,11 +91,14 @@ width: 100%;
 border-radius: 6px;
 overflow: hidden;
 margin-top: 8px;
+background-color: #ffffff;
+border: 1px solid var(--border);
 }
 .calendar-container iframe {
 width: 100%;
-height: 350px;
+height: 300px;
 border: 0;
+display: block;
 }
 </style>
 </head>
@@ -125,13 +128,35 @@ border: 0;
 </div>
 
 <div class="grid">
+<!-- Weather Widget Card -->
+<div class="card">
+<div class="label">☀️ Weather Overview (La Quinta, CA)</div>
+<div class="metrics" id="weather-box">
+<div class="metric-box">
+<div class="metric-title">Temperature</div>
+<div class="metric-value" id="wx-temp">--</div>
+</div>
+<div class="metric-box">
+<div class="metric-title">Wind Speed</div>
+<div class="metric-value" id="wx-wind">--</div>
+</div>
+<div class="metric-box">
+<div class="metric-title">Humidity</div>
+<div class="metric-value" id="wx-humidity">--</div>
+</div>
+</div>
+</div>
+
+<!-- AI Research Card -->
 <div class="card">
 <div class="label">⭐ AI Research Box</div>
 <textarea id="ai-input" placeholder="Paste article, idea, note, or
 text here..."></textarea>
 <div class="btn-group">
-<button class="btn-save" id="ai-save">Save</button>
-<button class="btn-clear" id="ai-clear">Clear</button>
+<button class="btn-save" id="ai-save"
+type="button">Save</button>
+<button class="btn-clear" id="ai-clear"
+type="button">Clear</button>
 </div>
 <div style="margin-top: 12px; font-weight: 600; font-size:
 0.9rem;">Saved Research Log</div>
@@ -143,8 +168,8 @@ text here..."></textarea>
 <div class="label">📅 Today's Agenda</div>
 <div class="calendar-container">
 <iframe
-src="https://calendar.google.com/calendar/embed?src=keithotter5%40gmail.com&ctz=America%2FLos_Angeles&mode=AGENDA"
-style="border: 0" width="100%" height="350" frameborder="0"
+src="https://calendar.google.com/calendar/embed?src=keithotter5%40gmail.com&ctz=America%2FLos_Angeles&mode=AGENDA&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0"
+style="border:0" width="100%" height="300" frameborder="0"
 scrolling="no"></iframe>
 </div>
 </div>
@@ -169,8 +194,12 @@ hour: 'numeric', minute: '2-digit', second: '2-digit'
 setInterval(updateClock, 1000);
 updateClock();
 
+// Fixed AI Research Storage Logic
+document.addEventListener("DOMContentLoaded", () => {
 const aiLog = document.getElementById("ai-log");
 const aiInput = document.getElementById("ai-input");
+const saveBtn = document.getElementById("ai-save");
+const clearBtn = document.getElementById("ai-clear");
 
 function loadResearch() {
 const saved = localStorage.getItem("aiResearchLog");
@@ -178,7 +207,7 @@ aiLog.textContent = saved ? saved : "No saved research yet.";
 }
 loadResearch();
 
-document.getElementById("ai-save").onclick = () => {
+saveBtn.addEventListener("click", () => {
 const text = aiInput.value.trim();
 if (!text) return;
 const existing = localStorage.getItem("aiResearchLog") || "";
@@ -190,13 +219,34 @@ entry;
 localStorage.setItem("aiResearchLog", updated);
 aiInput.value = "";
 loadResearch();
-};
+});
 
-document.getElementById("ai-clear").onclick = () => {
+clearBtn.addEventListener("click", () => {
 localStorage.removeItem("aiResearchLog");
 aiInput.value = "";
 loadResearch();
-};
+});
+});
+
+// Live La Quinta Weather Fetch
+async function loadWeather() {
+try {
+const res = await
+fetch('https://api.open-meteo.com/v1/forecast?latitude=33.6633&longitude=-116.3090&current=temperature_2m,relative_humidity_2m,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph');
+const data = await res.json();
+if (data.current) {
+document.getElementById('wx-temp').textContent =
+Math.round(data.current.temperature_2m) + '°F';
+document.getElementById('wx-wind').textContent =
+Math.round(data.current.wind_speed_10m) + ' mph';
+document.getElementById('wx-humidity').textContent =
+data.current.relative_humidity_2m + '%';
+}
+} catch (err) {
+console.error("Weather load failed", err);
+}
+}
+loadWeather();
 
 async function loadDashboardData() {
 const newsContainer = document.getElementById('news-container');
