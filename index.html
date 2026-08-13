@@ -326,7 +326,7 @@ Sync</span>
 rounded-xl overflow-hidden">
 <iframe id="gcal-frame"
 
-src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FLos_Angeles"
+src="https://calendar.google.com/calendar/embed?height=240&wkst=1&ctz=America%2FLos_Angeles&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t"
 style="border: 0"
 width="100%"
 height="240"
@@ -343,49 +343,67 @@ grayscale contrast-125">
 
 <!-- JAVASCRIPT LOGIC -->
 <script>
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
 // 1. Clock
 function updateClock() {
-const clockEl = document.getElementById('clock');
+var clockEl = document.getElementById('clock');
 if (clockEl) clockEl.textContent = new
 Date().toLocaleString();
 }
 setInterval(updateClock, 1000);
 updateClock();
 
-// 2. Fetch Live Google News
+// 2. Fetch News via AllOrigins CORS proxy
 async function fetchLiveNews() {
-const newsList = document.getElementById('news-list');
+var newsList = document.getElementById('news-list');
 if (!newsList) return;
 
 try {
-const res = await
-fetch('https://api.rss2json.com/v1/api.json?rss_url=https://news.google.com/rss');
-const data = await res.json();
+var rssUrl =
+encodeURIComponent('https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en');
+var res = await
+fetch('https://api.allorigins.win/get?url=' + rssUrl);
+var data = await res.json();
 
-if (data.status === 'ok' && data.items.length > 0) {
-newsList.innerHTML = data.items.slice(0,
-4).map(item => `
-<li class="bg-slate-950/70 border
-border-slate-800 p-2.5 rounded-xl flex items-center gap-2
-hover:border-blue-500/50">
-<span class="text-blue-400
-font-bold">•</span>
-<a href="${item.link}" target="_blank"
-class="text-slate-200 hover:underline flex-1 truncate">${item.title}</a>
-</li>
-`).join('');
+if (data && data.contents) {
+var parser = new DOMParser();
+var xmlDoc =
+parser.parseFromString(data.contents, 'text/xml');
+var items =
+Array.from(xmlDoc.querySelectorAll('item')).slice(0, 4);
+
+if (items.length > 0) {
+newsList.innerHTML =
+items.map(function(item) {
+var title = item.querySelector('title')
+? item.querySelector('title').textContent : 'News Item';
+var link = item.querySelector('link') ?
+item.querySelector('link').textContent : '#';
+return '<li class="bg-slate-950/70
+border border-slate-800 p-2.5 rounded-xl flex items-center gap-2
+hover:border-blue-500/50">' +
+'<span class="text-blue-400
+font-bold">•</span>' +
+'<a href="' + link + '"
+target="_blank" class="text-slate-200 hover:underline flex-1 truncate">'
++ title + '</a>' +
+'</li>';
+}).join('');
+} else {
+newsList.innerHTML = '<li class="text-xs
+text-slate-400 p-2">No news items found.</li>';
+}
 }
 } catch (err) {
-newsList.innerHTML = `<li class="text-xs
-text-slate-400 p-2">Unable to load news feed.</li>`;
+newsList.innerHTML = '<li class="text-xs
+text-slate-400 p-2">Unable to load news feed.</li>';
 }
 }
 fetchLiveNews();
 
 // 3. Load Saved Groceries & Doctor Notes
 loadGroceries();
-const notesEl = document.getElementById('doctor-notes');
+var notesEl = document.getElementById('doctor-notes');
 if (notesEl && localStorage.getItem('doctor_notes')) {
 notesEl.value = localStorage.getItem('doctor_notes');
 }
@@ -393,11 +411,11 @@ notesEl.value = localStorage.getItem('doctor_notes');
 
 // 4. Grocery List Logic
 function addGroceryItem() {
-const input = document.getElementById('grocery-input');
-const val = input ? input.value.trim() : '';
+var input = document.getElementById('grocery-input');
+var val = input ? input.value.trim() : '';
 if (!val) return;
 
-let items = JSON.parse(localStorage.getItem('grocery_list')
+var items = JSON.parse(localStorage.getItem('grocery_list')
 || '[]');
 items.push(val);
 localStorage.setItem('grocery_list', JSON.stringify(items));
@@ -407,7 +425,7 @@ loadGroceries();
 }
 
 function removeGroceryItem(index) {
-let items = JSON.parse(localStorage.getItem('grocery_list')
+var items = JSON.parse(localStorage.getItem('grocery_list')
 || '[]');
 items.splice(index, 1);
 localStorage.setItem('grocery_list', JSON.stringify(items));
@@ -415,37 +433,37 @@ loadGroceries();
 }
 
 function loadGroceries() {
-const list = document.getElementById('grocery-list');
+var list = document.getElementById('grocery-list');
 if (!list) return;
-let items = JSON.parse(localStorage.getItem('grocery_list')
+var items = JSON.parse(localStorage.getItem('grocery_list')
 || '["Organic blueberries"]');
-list.innerHTML = items.map((item, idx) => `
-<li class="flex items-center justify-between
-bg-slate-950 px-2 py-1 rounded border border-slate-800">
-<span>${item}</span>
-<button onclick="removeGroceryItem(${idx})"
+list.innerHTML = items.map(function(item, idx) {
+return '<li class="flex items-center justify-between
+bg-slate-950 px-2 py-1 rounded border border-slate-800">' +
+'<span>' + item + '</span>' +
+'<button onclick="removeGroceryItem(' + idx + ')"
 class="text-slate-500 hover:text-rose-400"><i class="fa-solid
-fa-xmark"></i></button>
-</li>
-`).join('');
+fa-xmark"></i></button>' +
+'</li>';
+}).join('');
 }
 
 // 5. Save Doctor Notes
 function saveDoctorNotes() {
-const notesEl = document.getElementById('doctor-notes');
+var notesEl = document.getElementById('doctor-notes');
 if (notesEl) {
 localStorage.setItem('doctor_notes', notesEl.value);
-const status = document.getElementById('save-status');
+var status = document.getElementById('save-status');
 if (status) {
 status.textContent = 'Saved!';
-setTimeout(() => status.textContent = 'Auto-saved
-locally', 2000);
+setTimeout(function() { status.textContent =
+'Auto-saved locally'; }, 2000);
 }
 }
 }
 
 // 6. Sleep Recorder Logic
-let sessionActive = false, sessionStart = null, timerInterval =
+var sessionActive = false, sessionStart = null, timerInterval =
 null, events = [];
 function startSession() {
 sessionActive = true;
@@ -478,12 +496,13 @@ document.getElementById('status-indicator').className =
 
 function updateTimer() {
 if (!sessionStart) return;
-const diff = new Date() - sessionStart;
-const h = Math.floor(diff / 3600000), m = Math.floor((diff %
+var diff = new Date() - sessionStart;
+var h = Math.floor(diff / 3600000), m = Math.floor((diff %
 3600000) / 60000), s = Math.floor((diff % 60000) / 1000);
 document.getElementById('timer').textContent =
-`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-const hrs = diff / 3600000;
+String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' +
+String(s).padStart(2,'0');
+var hrs = diff / 3600000;
 document.getElementById('stat-events').textContent =
 events.length;
 document.getElementById('stat-rate').textContent = hrs > 0 ?
@@ -493,27 +512,27 @@ document.getElementById('stat-rate').textContent = hrs > 0 ?
 function logEvent(type) {
 if (!sessionActive) { alert('Click START session first.');
 return; }
-const timeStr = new Date().toLocaleTimeString([], {hour:
+var timeStr = new Date().toLocaleTimeString([], {hour:
 '2-digit', minute:'2-digit'});
-events.push({ type, time: timeStr });
-const container = document.getElementById('log-container');
-const empty = document.getElementById('log-empty');
+events.push({ type: type, time: timeStr });
+var container = document.getElementById('log-container');
+var empty = document.getElementById('log-empty');
 if (empty) empty.remove();
-const entry = document.createElement('div');
+var entry = document.createElement('div');
 entry.className = "flex justify-between items-center
 bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-[11px]";
-entry.innerHTML = `<span class="capitalize font-medium
-text-slate-200">${type}</span><span class="font-mono
-text-slate-500">${timeStr}</span>`;
+entry.innerHTML = '<span class="capitalize font-medium
+text-slate-200">' + type + '</span><span class="font-mono
+text-slate-500">' + timeStr + '</span>';
 container.appendChild(entry);
 container.scrollTop = container.scrollHeight;
 updateTimer();
 }
 
 // 7. Secure Vault PIN Lock
-const DEFAULT_PIN = "1234";
+var DEFAULT_PIN = "1234";
 function unlockVault() {
-const input =
+var input =
 document.getElementById('vault-pin-input').value;
 if (input === DEFAULT_PIN) {
 
@@ -547,8 +566,8 @@ rounded-full';
 }
 
 function toggleCardMask(id, realNum) {
-const el = document.getElementById(id);
-if (el.textContent.includes('••••')) {
+var el = document.getElementById(id);
+if (el.textContent.indexOf('••••') !== -1) {
 el.textContent = realNum;
 } else {
 el.textContent = '•••• •••• •••• ' + realNum.slice(-4);
