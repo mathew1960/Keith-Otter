@@ -5,476 +5,446 @@
 <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
 <title>Morning Brief Dashboard</title>
-<!-- Tailwind CSS & Font Awesome -->
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-@import
-url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-body {
-font-family: 'Inter', system-ui, -apple-system, sans-serif;
-background-color: #090d16;
-color: #f1f5f9;
-padding: 20px;
-max-width: 960px;
-margin: 0 auto;
-}
-
-/* Distinct Color-Coded Cards */
-.card-amber { background: #111827; border: 1px solid #f59e0b33;
-border-top: 4px solid #f59e0b; }
-.card-blue { background: #111827; border: 1px solid #3b82f633;
-border-top: 4px solid #3b82f6; }
-.card-rose { background: #111827; border: 1px solid #f43f5e33;
-border-top: 4px solid #f43f5e; }
-.card-cyan { background: #111827; border: 1px solid #06b6d433;
-border-top: 4px solid #06b6d4; }
-.card-emerald{ background: #111827; border: 1px solid #10b98133;
-border-top: 4px solid #10b981; }
-.card-indigo { background: #111827; border: 1px solid #6366f133;
-border-top: 4px solid #6366f1; }
-
 .card {
-border-radius: 16px;
-padding: 20px;
-margin-bottom: 20px;
-box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+background-color: rgba(15, 23, 42, 0.6);
+border-radius: 1rem;
+padding: 1.25rem;
+border-width: 1px;
+backdrop-filter: blur(8px);
 }
-
+.card-amber { border-color: rgba(245, 158, 11, 0.4); }
+.card-blue { border-color: rgba(59, 130, 246, 0.4); }
+.card-rose { border-color: rgba(244, 63, 94, 0.4); }
+.card-cyan { border-color: rgba(6, 182, 212, 0.4); }
+.card-emerald { border-color: rgba(16, 185, 129, 0.4); }
+.card-indigo { border-color: rgba(99, 102, 241, 0.4); }
 .label {
+font-size: 0.875rem;
 font-weight: 700;
-font-size: 0.95rem;
-margin-bottom: 14px;
 display: flex;
 align-items: center;
 justify-content: space-between;
+margin-bottom: 0.75rem;
 }
-
-.custom-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
-.custom-scroll::-webkit-scrollbar-track { background: #0b0f19; }
-.custom-scroll::-webkit-scrollbar-thumb { background: #334155;
-border-radius: 4px; }
 </style>
 </head>
-<body>
+<body class="bg-slate-950 text-slate-100 min-h-screen p-4 md:p-8
+font-sans">
 
-<!-- Header -->
-<header class="mb-6 flex justify-between items-center border-b
+<div class="max-w-6xl mx-auto space-y-6">
+
+<!-- HEADER -->
+<header class="flex justify-between items-center border-b
 border-slate-800 pb-4">
 <div>
-<h1 class="text-3xl font-extrabold tracking-tight
+<h1 class="text-3xl font-black tracking-tight
 text-white">Morning Brief</h1>
-<div id="clock" class="text-xs text-slate-400 mt-1
-font-mono">Loading time...</div>
+<p id="clock" class="text-sm font-mono
+text-slate-400">Loading time...</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-block w-2.5 h-2.5 bg-emerald-500
+rounded-full animate-pulse"></span>
+<span class="text-xs text-slate-400 font-mono">SYSTEM
+ONLINE</span>
 </div>
 </header>
+
+<!-- GRID LAYOUT -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+gap-6">
 
 <!-- 1. WEATHER OVERVIEW (AMBER) -->
 <div class="card card-amber">
 <div class="label text-amber-400">
-<span><i class="fa-solid fa-sun mr-2"></i> Weather Overview
-(La Quinta, CA)</span>
+<span><i class="fa-solid fa-sun mr-2"></i> Weather
+Overview (La Quinta, CA)</span>
 </div>
-<div class="grid grid-cols-3 gap-3">
-<div class="bg-slate-950/70 border border-slate-800 p-3
-rounded-xl text-center">
-<div class="text-[11px]
-text-slate-400">Temperature</div>
-<div class="text-2xl font-bold text-amber-400
-mt-1">85°F</div>
+<div class="grid grid-cols-3 gap-2 text-center">
+<div class="bg-slate-900/80 p-3 rounded-lg border
+border-slate-800">
+<p class="text-[10px] text-slate-400 uppercase
+font-semibold">Temperature</p>
+<p class="text-xl font-black
+text-amber-400">95°F</p>
 </div>
-<div class="bg-slate-950/70 border border-slate-800 p-3
-rounded-xl text-center">
-<div class="text-[11px] text-slate-400">Wind Speed</div>
-<div class="text-2xl font-bold text-amber-400 mt-1">5
-mph</div>
+<div class="bg-slate-900/80 p-3 rounded-lg border
+border-slate-800">
+<p class="text-[10px] text-slate-400 uppercase
+font-semibold">Wind Speed</p>
+<p class="text-xl font-black text-amber-400">4
+mph</p>
 </div>
-<div class="bg-slate-950/70 border border-slate-800 p-3
-rounded-xl text-center">
-<div class="text-[11px] text-slate-400">Humidity</div>
-<div class="text-2xl font-bold text-amber-400
-mt-1">39%</div>
+<div class="bg-slate-900/80 p-3 rounded-lg border
+border-slate-800">
+<p class="text-[10px] text-slate-400 uppercase
+font-semibold">Humidity</p>
+<p class="text-xl font-black
+text-amber-400">27%</p>
 </div>
 </div>
 </div>
 
-<!-- 2. MORNING NEWS BRIEF - TOP 4 (BLUE) -->
-<div class="card card-blue">
+<!-- 2. TOP NEWS HEADLINES (BLUE) -->
+<div class="card card-blue md:col-span-2">
 <div class="label text-blue-400">
-<span><i class="fa-solid fa-newspaper mr-2"></i> Top 4 News
-Headlines</span>
+<span><i class="fa-solid fa-newspaper mr-2"></i> Top
+News Headlines</span>
+<span class="text-[10px] text-blue-300 bg-blue-950
+border border-blue-800 px-2 py-0.5 rounded-full">Live Feed</span>
 </div>
 <ul id="news-list" class="space-y-2 text-xs">
-<!-- Populated via JS (strictly 4 items) -->
+<li class="text-slate-500 italic p-2">Fetching
+news...</li>
 </ul>
 </div>
 
-<!-- 3. PRESCRIPTION REFILLS & HEALTH HUB (ROSE) -->
-<div class="card card-rose">
+<!-- 3. PRESCRIPTIONS & HEALTH HUB (ROSE) -->
+<div class="card card-rose md:col-span-2 lg:col-span-3">
 <div class="label text-rose-400">
-<span><i class="fa-solid fa-prescription-bottle-medical
-mr-2"></i> Prescriptions & Health Hub</span>
+<span><i class="fa-solid fa-pills mr-2"></i>
+Prescriptions & Health Hub</span>
 </div>
 
-<!-- Refill Specs Table -->
-<div class="overflow-x-auto custom-scroll mb-4">
-<table class="w-full text-left text-xs border-collapse">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Prescription Table -->
+<div class="bg-slate-900/60 p-3 rounded-xl border
+border-slate-800">
+<table class="w-full text-left text-xs">
 <thead>
-<tr class="text-slate-400 border-b border-slate-800
-bg-slate-950/50">
-<th class="p-2">Medication</th>
-<th class="p-2">Dosage</th>
-<th class="p-2">Rx #</th>
-<th class="p-2">Next Refill</th>
-<th class="p-2">Status</th>
+<tr class="text-slate-400 border-b
+border-slate-800">
+<th class="pb-2">Medication</th>
+<th class="pb-2">Dosage</th>
+<th class="pb-2">Rx #</th>
+<th class="pb-2">Next Refill</th>
+<th class="pb-2
+text-right">Status</th>
 </tr>
 </thead>
-<tbody id="rx-table-body" class="divide-y
-divide-slate-800/60 text-slate-300">
+<tbody class="divide-y divide-slate-800/50">
 <tr>
-<td class="p-2 font-medium">Lisinopril</td>
-<td class="p-2">10 mg</td>
-<td class="p-2 font-mono
-text-slate-400">#482910</td>
-<td class="p-2">Aug 20, 2026</td>
-<td class="p-2"><span class="px-2 py-0.5
-rounded-full text-[10px] bg-emerald-950 text-emerald-400 border
-border-emerald-800">OK</span></td>
+<td class="py-2
+font-medium">Lisinopril</td>
+<td class="text-slate-400">10
+mg</td>
+<td class="text-slate-400
+font-mono">#482910</td>
+<td class="text-slate-300">Aug 20,
+2026</td>
+<td class="text-right"><span
+class="px-2 py-0.5 bg-emerald-950 text-emerald-400 border
+border-emerald-800 rounded-full text-[10px]">OK</span></td>
 </tr>
 <tr>
-<td class="p-2 font-medium">Atorvastatin</td>
-<td class="p-2">20 mg</td>
-<td class="p-2 font-mono
-text-slate-400">#391024</td>
-<td class="p-2 text-amber-400 font-semibold">Aug
-15, 2026</td>
-<td class="p-2"><span class="px-2 py-0.5
-rounded-full text-[10px] bg-amber-950 text-amber-400 border
-border-amber-800">Refill Soon</span></td>
+<td class="py-2
+font-medium">Atorvastatin</td>
+<td class="text-slate-400">20
+mg</td>
+<td class="text-slate-400
+font-mono">#391024</td>
+<td class="text-amber-400
+font-semibold">Aug 15, 2026</td>
+<td class="text-right"><span
+class="px-2 py-0.5 bg-amber-950 text-amber-400 border border-amber-800
+rounded-full text-[10px]">Refill Soon</span></td>
 </tr>
 </tbody>
 </table>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<!-- Grocery List -->
-<div class="bg-slate-950/70 border border-slate-800 p-3.5
-rounded-xl">
-<div class="text-xs font-semibold text-rose-300 mb-2
-flex items-center gap-2">
-<i class="fa-solid fa-cart-shopping"></i> Grocery
-List
-</div>
-<div class="flex gap-2 mb-2">
-<input type="text" id="grocery-input"
-placeholder="Add grocery item..."
-class="flex-1 bg-slate-900 border
-border-slate-700 rounded-lg px-2.5 py-1 text-xs text-slate-200
-focus:outline-none focus:border-rose-500">
+<!-- Interactive Grocery & Doctor Notes -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<div class="bg-slate-900/60 p-3 rounded-xl
+border border-slate-800">
+<p class="text-xs font-semibold
+text-slate-300 mb-2"><i class="fa-solid fa-cart-shopping text-rose-400
+mr-1"></i> Grocery List</p>
+<div class="flex gap-1 mb-2">
+<input id="grocery-input" type="text"
+placeholder="Add item..." class="w-full bg-slate-950 border
+border-slate-800 rounded px-2 py-1 text-xs focus:outline-none
+focus:border-rose-500">
 <button onclick="addGroceryItem()"
-class="bg-rose-600 hover:bg-rose-500 text-white px-3 py-1 rounded-lg
-text-xs font-medium">Add</button>
+class="bg-rose-600 hover:bg-rose-500 text-white px-2.5 py-1 rounded
+text-xs font-bold">+</button>
 </div>
-<ul id="grocery-list" class="space-y-1.5 text-xs
-max-h-28 overflow-y-auto custom-scroll pr-1">
-<li class="flex items-center justify-between
-bg-slate-900 px-2.5 py-1 rounded border border-slate-800">
-<span>Organic blueberries</span>
-<button onclick="this.parentElement.remove()"
-class="text-slate-500 hover:text-rose-400"><i class="fa-solid
-fa-xmark"></i></button>
-</li>
-</ul>
+<ul id="grocery-list" class="space-y-1
+text-xs max-h-24 overflow-y-auto"></ul>
 </div>
 
-<!-- Doctor's Notes -->
-<div class="bg-slate-950/70 border border-slate-800 p-3.5
-rounded-xl flex flex-col">
-<div class="text-xs font-semibold text-rose-300 mb-2
-flex items-center gap-2">
-<i class="fa-solid fa-user-doctor"></i> Doctor's
-Notes
+<div class="bg-slate-900/60 p-3 rounded-xl
+border border-slate-800 flex flex-col justify-between">
+<div>
+<p class="text-xs font-semibold
+text-slate-300 mb-1"><i class="fa-solid fa-user-doctor text-rose-400
+mr-1"></i> Doctor's Notes</p>
+<textarea id="doctor-notes"
+class="w-full bg-slate-950 border border-slate-800 rounded p-1.5 text-xs
+focus:outline-none focus:border-rose-500 h-16 resize-none"
+placeholder="Notes for next visit..."></textarea>
 </div>
-<textarea id="doctor-notes" placeholder="Notes for next
-appointment..."
-class="w-full flex-1 min-h-[70px] bg-slate-900
-border border-slate-700 rounded-lg p-2 text-xs text-slate-200
-focus:outline-none focus:border-rose-500 resize-none"></textarea>
-<div class="flex justify-between items-center mt-2">
-<span id="save-status" class="text-[10px]
-text-slate-500">Auto-saved locally</span>
+<div class="flex justify-between
+items-center mt-1">
+<span id="save-status"
+class="text-[10px] text-slate-500">Auto-saved locally</span>
 <button onclick="saveDoctorNotes()"
-class="bg-rose-600 hover:bg-rose-500 text-white px-2.5 py-1 rounded-lg
-text-xs font-medium">Save Note</button>
+class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-2 py-0.5
+rounded text-[10px]">Save</button>
+</div>
 </div>
 </div>
 </div>
 </div>
 
 <!-- 4. APNEATRACK SLEEP RECORDER (CYAN) -->
-<div class="card card-cyan">
+<div class="card card-cyan md:col-span-2">
 <div class="label text-cyan-400">
-<span><i class="fa-solid fa-bed mr-2"></i> ApneaTrack Sleep
-Recorder</span>
-<span class="text-[10px] px-2 py-0.5 bg-cyan-950
-text-cyan-300 border border-cyan-800 rounded-full font-normal">Personal
-Logger</span>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<!-- Controls & Timer -->
-<div class="bg-slate-950/70 border border-slate-800 p-4
-rounded-xl flex flex-col justify-between">
-<div class="flex justify-between items-center">
-<div id="session-label" class="text-xs
-text-slate-400 font-medium">No active session</div>
-<div id="status-indicator" class="w-2.5 h-2.5
-rounded-full bg-slate-700"></div>
-</div>
-<div id="timer" class="font-mono text-3xl font-bold
-text-white my-3 text-center tracking-tight">00:00:00</div>
-<div class="flex gap-2">
-<button onclick="startSession()" id="start-btn"
-class="flex-1 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold
-py-2 rounded-lg text-xs flex items-center justify-center gap-1">
-<i class="fa-solid fa-play"></i> START
-</button>
-<button onclick="endSession()" id="end-btn" disabled
-class="flex-1 bg-slate-800 hover:bg-slate-700 text-white font-semibold
-py-2 rounded-lg text-xs flex items-center justify-center gap-1
-disabled:opacity-40">
-<i class="fa-solid fa-stop"></i> END
-</button>
+<span><i class="fa-solid fa-bed mr-2"></i>
+ApneaTrack Sleep Recorder</span>
+<div class="flex items-center gap-1.5">
+<span id="status-indicator" class="w-2.5 h-2.5
+rounded-full bg-slate-700"></span>
+<span id="session-label" class="text-xs
+text-slate-400 font-medium">No active session</span>
 </div>
 </div>
 
-<!-- Stats & Quick Event Buttons -->
-<div class="bg-slate-950/70 border border-slate-800 p-4
-rounded-xl">
-<div class="text-[11px] text-slate-400 font-medium
-mb-2">QUICK LOG EVENT</div>
-<div class="grid grid-cols-2 gap-2 mb-3">
-<button onclick="logEvent('apnea')"
-class="bg-red-950/60 hover:bg-red-900 border border-red-800 text-red-400
-p-2 rounded-lg text-xs font-medium flex items-center justify-center
-gap-1.5">
-<i class="fa-solid fa-lungs"></i> Apnea
-</button>
-<button onclick="logEvent('snore')"
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
+<div class="sm:col-span-2 bg-slate-900/80 p-4
+rounded-xl border border-slate-800 flex flex-col justify-center
+items-center">
+<p id="timer" class="text-4xl font-black
+font-mono tracking-wider text-slate-100">00:00:00</p>
+<div class="flex gap-2 mt-3">
+<button id="start-btn"
+onclick="startSession()" class="bg-cyan-600 hover:bg-cyan-500 text-white
+text-xs px-4 py-1.5 rounded-lg font-bold">START</button>
+<button id="end-btn" onclick="endSession()"
+disabled class="bg-slate-800 disabled:opacity-50 text-slate-300 text-xs
+px-4 py-1.5 rounded-lg font-bold">END</button>
+</div>
+</div>
+<div class="bg-slate-900/80 p-3 rounded-xl border
+border-slate-800 flex flex-col justify-around text-center text-xs">
+<div>
+<p class="text-slate-400 text-[10px]">EVENTS
+LOGGED</p>
+<p id="stat-events" class="text-xl font-bold
+text-cyan-400">0</p>
+</div>
+<div>
+<p class="text-slate-400 text-[10px]">EVENTS
+/ HR</p>
+<p id="stat-rate" class="text-xl font-bold
+text-cyan-400">0.0</p>
+</div>
+</div>
+</div>
+
+<div class="grid grid-cols-4 gap-2">
+<button onclick="logEvent('Apnea')"
+class="bg-rose-950/60 hover:bg-rose-900 border border-rose-800
+text-rose-300 p-2 rounded-lg text-xs font-semibold">Apnea</button>
+<button onclick="logEvent('Snore')"
 class="bg-amber-950/60 hover:bg-amber-900 border border-amber-800
-text-amber-400 p-2 rounded-lg text-xs font-medium flex items-center
-justify-center gap-1.5">
-<i class="fa-solid fa-volume-high"></i> Snore
-</button>
-<button onclick="logEvent('gasping')"
+text-amber-300 p-2 rounded-lg text-xs font-semibold">Snore</button>
+<button onclick="logEvent('Gasping')"
 class="bg-orange-950/60 hover:bg-orange-900 border border-orange-800
-text-orange-400 p-2 rounded-lg text-xs font-medium flex items-center
-justify-center gap-1.5">
-<i class="fa-solid fa-wind"></i> Gasping
-</button>
-<button onclick="logEvent('awake')"
-class="bg-sky-950/60 hover:bg-sky-900 border border-sky-800 text-sky-400
-p-2 rounded-lg text-xs font-medium flex items-center justify-center
-gap-1.5">
-<i class="fa-solid fa-eye"></i> Awake
-</button>
+text-orange-300 p-2 rounded-lg text-xs font-semibold">Gasping</button>
+<button onclick="logEvent('Awake')"
+class="bg-emerald-950/60 hover:bg-emerald-900 border border-emerald-800
+text-emerald-300 p-2 rounded-lg text-xs font-semibold">Awake</button>
 </div>
-<div class="flex justify-between text-[11px]
-text-slate-400 border-t border-slate-800 pt-2">
-<span>Events: <strong id="stat-events"
-class="text-cyan-400">0</strong></span>
-<span>Rate: <strong id="stat-rate"
-class="text-cyan-400">0.0</strong>/hr</span>
-</div>
+<div id="log-container" class="mt-3 max-h-20
+overflow-y-auto space-y-1">
+<p id="log-empty" class="text-[11px] text-slate-500
+italic text-center">No events logged during session.</p>
 </div>
 </div>
 
-<!-- Log Output -->
-<div class="mt-3 bg-slate-950/90 border border-slate-800 p-2.5
-rounded-xl">
-<div id="log-container" class="max-h-20 overflow-y-auto
-custom-scroll space-y-1 text-xs text-slate-300">
-<div id="log-empty" class="text-center py-2
-text-slate-600 italic">No events logged in current session.</div>
-</div>
-</div>
-</div>
-
-<!-- 5. PRIVATE SECURE VAULT (EMERALD) -->
+<!-- 5. SECURE VAULT (EMERALD) -->
 <div class="card card-emerald">
 <div class="label text-emerald-400">
-<span><i class="fa-solid fa-shield-halved mr-2"></i> Private
-Secure Vault</span>
-<span id="vault-badge" class="text-[10px] px-2 py-0.5
-bg-red-950 text-red-400 border border-red-800
+<span><i class="fa-solid fa-vault mr-2"></i> Secure
+Vault</span>
+<span id="vault-badge" class="text-[10px] px-2
+py-0.5 bg-red-950 text-red-400 border border-red-800
 rounded-full">LOCKED</span>
 </div>
 
-<!-- Locked PIN View -->
-<div id="vault-locked-view" class="bg-slate-950/80 border
-border-slate-800 p-6 rounded-xl text-center">
-<i class="fa-solid fa-lock text-3xl text-emerald-500
-mb-2"></i>
-<div class="text-xs text-slate-300 font-medium mb-3">Enter
-PIN to access IDs & Emergency Credit Cards</div>
-<div class="flex justify-center gap-2 max-w-xs mx-auto">
-<input type="password" id="vault-pin-input"
-maxlength="4" placeholder="••••"
-class="w-24 text-center bg-slate-900 border
-border-slate-700 rounded-lg px-3 py-1.5 text-sm font-mono text-white
-focus:outline-none focus:border-emerald-500 tracking-widest">
-<button onclick="unlockVault()" class="bg-emerald-600
-hover:bg-emerald-500 text-white px-4 py-1.5 rounded-lg text-xs
-font-semibold">Unlock</button>
+<div id="vault-locked-view" class="space-y-3">
+<p class="text-xs text-slate-400">Enter PIN
+(Default: 1234)</p>
+<div class="flex gap-2">
+<input id="vault-pin-input" type="password"
+maxlength="4" placeholder="••••" class="w-full bg-slate-950 border
+border-slate-800 rounded px-2.5 py-1 text-center font-mono text-sm
+tracking-widest focus:outline-none focus:border-emerald-500">
+<button onclick="unlockVault()"
+class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs px-3 py-1
+rounded font-bold">Unlock</button>
 </div>
-<div id="pin-error" class="text-[11px] text-red-400 mt-2
-hidden">Incorrect PIN. Try 1234</div>
+<p id="pin-error" class="text-[10px] text-rose-400
+hidden">Incorrect PIN</p>
 </div>
 
-<!-- Unlocked View (Hidden by default) -->
-<div id="vault-unlocked-view" class="hidden space-y-4">
-<div class="flex justify-between items-center border-b
-border-slate-800 pb-2">
-<span class="text-xs text-slate-400">Local Encrypted
-Session</span>
-<button onclick="lockVault()" class="text-xs
-text-red-400 hover:underline"><i class="fa-solid fa-lock mr-1"></i> Lock
-Vault</button>
+<div id="vault-unlocked-view" class="hidden space-y-3
+text-xs">
+<div class="bg-slate-900/80 p-2.5 rounded-lg border
+border-slate-800 space-y-2">
+<div class="flex justify-between items-center">
+<span class="text-slate-400">Primary
+Card:</span>
+<span id="card-1" class="font-mono
+text-slate-200">•••• •••• •••• 4242</span>
+<button onclick="toggleCardMask('card-1',
+'4532 8910 1112 4242')" class="text-slate-500 hover:text-emerald-400"><i
+class="fa-solid fa-eye"></i></button>
 </div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<!-- Emergency Cards -->
-<div class="bg-slate-950/80 border border-slate-800
-p-3.5 rounded-xl">
-<div class="text-xs font-semibold text-emerald-300
-mb-2 flex items-center gap-2">
-<i class="fa-solid fa-credit-card"></i>
-Emergency Cards
 </div>
-<div class="bg-slate-900 border border-slate-800
-p-2.5 rounded-lg text-xs flex justify-between items-center">
-<div>
-<div class="font-medium">Primary Visa</div>
-<div id="card-num-1" class="font-mono
-text-slate-400">•••• •••• •••• 4821</div>
-</div>
-<button onclick="toggleCardMask('card-num-1',
-'4532 8910 3341 4821')" class="text-[11px] bg-slate-800
-hover:bg-slate-700 px-2 py-1 rounded text-slate-300">Reveal</button>
+<button onclick="lockVault()" class="w-full
+bg-slate-800 hover:bg-slate-700 text-slate-300 py-1 rounded
+text-xs">Lock Vault</button>
 </div>
 </div>
 
-<!-- ID Photo Storage -->
-<div class="bg-slate-950/80 border border-slate-800
-p-3.5 rounded-xl">
-<div class="text-xs font-semibold text-emerald-300
-mb-2 flex items-center gap-2">
-<i class="fa-solid fa-id-card"></i> ID &
-Insurance Documents
-</div>
-<div class="grid grid-cols-2 gap-2">
-<div class="border border-dashed
-border-slate-700 p-3 rounded-lg text-center bg-slate-900/50
-hover:border-emerald-500 cursor-pointer">
-<i class="fa-solid fa-image text-slate-500
-text-xl mb-1"></i>
-<div class="text-[10px]
-text-slate-400">Driver's License</div>
-</div>
-<div class="border border-dashed
-border-slate-700 p-3 rounded-lg text-center bg-slate-900/50
-hover:border-emerald-500 cursor-pointer">
-<i class="fa-solid fa-file-medical
-text-slate-500 text-xl mb-1"></i>
-<div class="text-[10px]
-text-slate-400">Insurance Card</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<!-- 6. TODAY'S AGENDA (INDIGO) -->
-<div class="card card-indigo">
+<!-- 6. TODAY'S AGENDA / CALENDAR (INDIGO) -->
+<div class="card card-indigo md:col-span-2 lg:col-span-3">
 <div class="label text-indigo-400">
-<span><i class="fa-solid fa-calendar-days mr-2"></i> Today's
-Agenda</span>
+<span><i class="fa-solid fa-calendar-days mr-2"></i>
+Today's Agenda</span>
+<span class="text-[10px] text-indigo-300
+bg-indigo-950 border border-indigo-800 px-2 py-0.5 rounded-full">Live
+Sync</span>
 </div>
-<div class="bg-slate-950/70 border border-slate-800 p-3.5
-rounded-xl text-xs text-slate-400">
-Calendar integration active. No upcoming conflicts scheduled
-for today.
+<div class="bg-slate-950/70 border border-slate-800 p-2
+rounded-xl overflow-hidden">
+<iframe id="gcal-frame"
+
+src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FLos_Angeles"
+style="border: 0"
+width="100%"
+height="240"
+frameborder="0"
+scrolling="no"
+class="rounded-lg opacity-90 invert
+grayscale contrast-125">
+</iframe>
 </div>
 </div>
 
+</div>
+</div>
+
+<!-- JAVASCRIPT LOGIC -->
 <script>
-// Clock
+document.addEventListener('DOMContentLoaded', () => {
+// 1. Clock
 function updateClock() {
-document.getElementById('clock').textContent = new
+const clockEl = document.getElementById('clock');
+if (clockEl) clockEl.textContent = new
 Date().toLocaleString();
 }
 setInterval(updateClock, 1000);
 updateClock();
 
-// News (Top 4)
-const newsData = [
-{ title: "Police rescue 60 cats and kittens from abandoned
-sailboat off Washington beach", link: "#" },
-{ title: "Dallas-Fort Worth airport to install Islamic foot
-wash stations inside bathrooms", link: "#" },
-{ title: "Jemele Hill claims to know what DiJonai Carrington
-meant with 'White privilege' post", link: "#" },
-{ title: "WNBA fans react as league addresses recent
-streaming feedback", link: "#" }
-];
+// 2. Fetch Live Google News
+async function fetchLiveNews() {
+const newsList = document.getElementById('news-list');
+if (!newsList) return;
 
-function loadNews() {
-const container = document.getElementById('news-list');
-container.innerHTML = newsData.slice(0, 4).map(item => `
-<li class="bg-slate-950/70 border border-slate-800 p-2.5
-rounded-xl flex items-center gap-2 hover:border-blue-500/50">
-<span class="text-blue-400 font-bold">•</span>
-<a href="${item.link}" class="text-slate-200
-hover:underline flex-1">${item.title}</a>
+try {
+const res = await
+fetch('https://api.rss2json.com/v1/api.json?rss_url=https://news.google.com/rss');
+const data = await res.json();
+
+if (data.status === 'ok' && data.items.length > 0) {
+newsList.innerHTML = data.items.slice(0,
+4).map(item => `
+<li class="bg-slate-950/70 border
+border-slate-800 p-2.5 rounded-xl flex items-center gap-2
+hover:border-blue-500/50">
+<span class="text-blue-400
+font-bold">•</span>
+<a href="${item.link}" target="_blank"
+class="text-slate-200 hover:underline flex-1 truncate">${item.title}</a>
 </li>
 `).join('');
 }
-loadNews();
+} catch (err) {
+newsList.innerHTML = `<li class="text-xs
+text-slate-400 p-2">Unable to load news feed.</li>`;
+}
+}
+fetchLiveNews();
 
-// Grocery List
+// 3. Load Saved Groceries & Doctor Notes
+loadGroceries();
+const notesEl = document.getElementById('doctor-notes');
+if (notesEl && localStorage.getItem('doctor_notes')) {
+notesEl.value = localStorage.getItem('doctor_notes');
+}
+});
+
+// 4. Grocery List Logic
 function addGroceryItem() {
 const input = document.getElementById('grocery-input');
-const val = input.value.trim();
+const val = input ? input.value.trim() : '';
 if (!val) return;
-const list = document.getElementById('grocery-list');
-const li = document.createElement('li');
-li.className = "flex items-center justify-between
-bg-slate-900 px-2.5 py-1 rounded border border-slate-800";
-li.innerHTML = `<span>${val}</span><button
-onclick="this.parentElement.remove()" class="text-slate-500
-hover:text-rose-400"><i class="fa-solid fa-xmark"></i></button>`;
-list.appendChild(li);
+
+let items = JSON.parse(localStorage.getItem('grocery_list')
+|| '[]');
+items.push(val);
+localStorage.setItem('grocery_list', JSON.stringify(items));
+
 input.value = '';
+loadGroceries();
 }
 
-// Doctor Notes
+function removeGroceryItem(index) {
+let items = JSON.parse(localStorage.getItem('grocery_list')
+|| '[]');
+items.splice(index, 1);
+localStorage.setItem('grocery_list', JSON.stringify(items));
+loadGroceries();
+}
+
+function loadGroceries() {
+const list = document.getElementById('grocery-list');
+if (!list) return;
+let items = JSON.parse(localStorage.getItem('grocery_list')
+|| '["Organic blueberries"]');
+list.innerHTML = items.map((item, idx) => `
+<li class="flex items-center justify-between
+bg-slate-950 px-2 py-1 rounded border border-slate-800">
+<span>${item}</span>
+<button onclick="removeGroceryItem(${idx})"
+class="text-slate-500 hover:text-rose-400"><i class="fa-solid
+fa-xmark"></i></button>
+</li>
+`).join('');
+}
+
+// 5. Save Doctor Notes
 function saveDoctorNotes() {
-localStorage.setItem('doctor_notes',
-document.getElementById('doctor-notes').value);
+const notesEl = document.getElementById('doctor-notes');
+if (notesEl) {
+localStorage.setItem('doctor_notes', notesEl.value);
 const status = document.getElementById('save-status');
+if (status) {
 status.textContent = 'Saved!';
-setTimeout(() => status.textContent = 'Auto-saved locally',
-2000);
+setTimeout(() => status.textContent = 'Auto-saved
+locally', 2000);
 }
-if (localStorage.getItem('doctor_notes')) {
-document.getElementById('doctor-notes').value =
-localStorage.getItem('doctor_notes');
+}
 }
 
-// Sleep Recorder
+// 6. Sleep Recorder Logic
 let sessionActive = false, sessionStart = null, timerInterval =
 null, events = [];
 function startSession() {
@@ -540,7 +510,7 @@ container.scrollTop = container.scrollHeight;
 updateTimer();
 }
 
-// Vault Lock/Unlock
+// 7. Secure Vault PIN Lock
 const DEFAULT_PIN = "1234";
 function unlockVault() {
 const input =
