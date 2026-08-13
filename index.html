@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -121,6 +121,20 @@ text here..."></textarea>
 0.9rem;">Saved Research Log</div>
 <div class="log-box" id="ai-log">No saved research yet.</div>
 </div>
+
+<!-- Agenda Card -->
+<div class="card">
+<div class="label">📅 Today's Agenda</div>
+<div id="agenda-container" class="log-box">Awaiting automated
+workflow output...</div>
+</div>
+
+<!-- News Feed Card -->
+<div class="card">
+<div class="label">📰 Morning News Brief</div>
+<div id="news-container" class="log-box">Awaiting automated
+workflow output...</div>
+</div>
 </div>
 
 <script>
@@ -151,7 +165,7 @@ const existing = localStorage.getItem("aiResearchLog") || "";
 const timestamp = new Date().toLocaleTimeString([], { hour:
 '2-digit', minute: '2-digit' });
 const entry = `[${timestamp}] ${text}`;
-const updated = existing ? existing + "\n\n--- \n\n" + entry :
+const updated = existing ? existing + "\n\n---\n\n" + entry :
 entry;
 localStorage.setItem("aiResearchLog", updated);
 aiInput.value = "";
@@ -163,7 +177,28 @@ localStorage.removeItem("aiResearchLog");
 aiInput.value = "";
 loadResearch();
 };
+
+async function loadDashboardData() {
+try {
+const agendaRes = await fetch('./output/agenda.json');
+if (agendaRes.ok) {
+const agendaData = await agendaRes.json();
+document.getElementById('agenda-container').textContent =
+JSON.stringify(agendaData, null, 2);
+}
+} catch (err) {}
+
+try {
+const newsRes = await fetch('./output/news.json');
+if (newsRes.ok) {
+const newsData = await newsRes.json();
+document.getElementById('news-container').textContent =
+JSON.stringify(newsData, null, 2);
+}
+} catch (err) {}
+}
+
+loadDashboardData();
 </script>
-<script src="scripts/main.js"></script>
 </body>
-</html>   
+</html>
