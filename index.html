@@ -85,6 +85,18 @@ white-space: pre-wrap;
 .news-list li { margin-bottom: 8px; line-height: 1.4; }
 .news-list a { color: #38bdf8; text-decoration: none; }
 .news-list a:hover { text-decoration: underline; }
+
+.calendar-container {
+width: 100%;
+border-radius: 6px;
+overflow: hidden;
+margin-top: 8px;
+}
+.calendar-container iframe {
+width: 100%;
+height: 350px;
+border: 0;
+}
 </style>
 </head>
 <body>
@@ -129,8 +141,12 @@ text here..."></textarea>
 <!-- Agenda Card -->
 <div class="card">
 <div class="label">📅 Today's Agenda</div>
-<div id="agenda-container" class="log-box">Calendar integration
-disabled in backend script.</div>
+<div class="calendar-container">
+<iframe
+src="https://calendar.google.com/calendar/embed?src=keithotter5%40gmail.com&ctz=America%2FLos_Angeles&mode=AGENDA"
+style="border: 0" width="100%" height="350" frameborder="0"
+scrolling="no"></iframe>
+</div>
 </div>
 
 <!-- News Feed Card -->
