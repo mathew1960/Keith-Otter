@@ -86,12 +86,13 @@ white-space: pre-wrap;
 .news-list a { color: #38bdf8; text-decoration: none; }
 .news-list a:hover { text-decoration: underline; }
 
+/* Dark Mode Calendar Inversion Filter */
 .calendar-container {
 width: 100%;
 border-radius: 6px;
 overflow: hidden;
 margin-top: 8px;
-background-color: #ffffff;
+background-color: #1e293b;
 border: 1px solid var(--border);
 }
 .calendar-container iframe {
@@ -99,6 +100,7 @@ width: 100%;
 height: 300px;
 border: 0;
 display: block;
+filter: invert(90%) hue-rotate(180deg);
 }
 </style>
 </head>
@@ -128,7 +130,7 @@ display: block;
 </div>
 
 <div class="grid">
-<!-- Weather Widget Card -->
+<!-- Weather Card -->
 <div class="card">
 <div class="label">☀️ Weather Overview (La Quinta, CA)</div>
 <div class="metrics" id="weather-box">
@@ -194,7 +196,6 @@ hour: 'numeric', minute: '2-digit', second: '2-digit'
 setInterval(updateClock, 1000);
 updateClock();
 
-// Fixed AI Research Storage Logic
 document.addEventListener("DOMContentLoaded", () => {
 const aiLog = document.getElementById("ai-log");
 const aiInput = document.getElementById("ai-input");
@@ -228,7 +229,6 @@ loadResearch();
 });
 });
 
-// Live La Quinta Weather Fetch
 async function loadWeather() {
 try {
 const res = await
