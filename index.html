@@ -279,20 +279,79 @@ errands, things not to forget..."></textarea>
 automatically on this device.</div>
 </section>
 
-<!-- HEALTH / SLEEP -->
-<section class="card full">
-<h2>🌙 Health / Sleep</h2>
+<!-- HEALTH / SLEEP RECORDER -->
+<section class="card full" id="sleep-recorder">
+<h2>🌙 Sleep Apnea Recorder</h2>
+
 <div class="grid">
 <div class="item">
-<strong>Sleep Notes</strong><br>
-<span class="muted">Add anything useful from last
-night.</span>
+<strong>Tonight's Event Count</strong><br>
+<span id="sleep-count"
+style="font-size:34px;font-weight:800;">0</span>
+<div class="muted">Tap a button each time you notice or log an
+event.</div>
 </div>
+
 <div class="item">
-<strong>Personal Wellness</strong><br>
-<span class="muted">Hydration • movement • appointments •
-notes</span>
+<strong>Quick Sleep Notes</strong><br><br>
+<textarea id="sleep-notes" rows="5"
+placeholder="How did you sleep? CPAP notes, dry mouth, headache,
+awakenings, etc..."></textarea>
+<div class="muted" style="margin-top:8px;">
+Saves automatically on this device.
 </div>
+</div>
+</div>
+
+<div style="margin-top:16px;">
+<strong>Log an event</strong>
+
+<div style="
+display:grid;
+grid-template-columns:repeat(2,minmax(0,1fr));
+gap:10px;
+margin-top:10px;
+">
+<button onclick="logSleepEvent('Apnea')"
+style="background:#9f1239;">
+Apnea
+</button>
+
+<button onclick="logSleepEvent('Snore')"
+style="background:#b45309;">
+Snore
+</button>
+
+<button onclick="logSleepEvent('Gasping')"
+style="background:#c2410c;">
+Gasping
+</button>
+
+<button onclick="logSleepEvent('Awake')"
+style="background:#047857;">
+Awake
+</button>
+</div>
+</div>
+
+<div style="margin-top:18px;">
+<strong>Event History</strong>
+<div id="sleep-history" style="margin-top:10px;"></div>
+</div>
+
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
+<button onclick="exportSleepLog()" style="background:#334155;">
+Export Sleep Log
+</button>
+
+<button onclick="clearSleepLog()" style="background:#7f1d1d;">
+Clear Tonight
+</button>
+</div>
+
+<div class="muted" style="margin-top:12px;">
+Personal logging tool only — not a medical diagnosis or apnea
+detector.
 </div>
 </section>
 
@@ -406,6 +465,98 @@ if (e.key === "Enter") addTask();
 });
 
 renderTasks();
+// SLEEP RECORDER
+let sleepEvents =
+JSON.parse(localStorage.getItem("keith_sleep_events") || "[]");
+
+const sleepNotes = document.getElementById("sleep-notes");
+if (sleepNotes) {
+sleepNotes.value = localStorage.getItem("keith_sleep_notes") || "";
+
+sleepNotes.addEventListener("input", () => {
+localStorage.setItem("keith_sleep_notes", sleepNotes.value);
+});
+}
+
+function saveSleepEvents() {
+localStorage.setItem("keith_sleep_events",
+JSON.stringify(sleepEvents));
+}
+
+function logSleepEvent(type) {
+const now = new Date();
+
+sleepEvents.push({
+type: type,
+time: now.toISOString(),
+displayTime: now.toLocaleString()
+});
+
+saveSleepEvents();
+renderSleepEvents();
+}
+
+function renderSleepEvents() {
+const count = document.getElementById("sleep-count");
+const history = document.getElementById("sleep-history");
+
+if (!count || !history) return;
+
+count.textContent = sleepEvents.length;
+history.innerHTML = "";
+
+if (sleepEvents.length === 0) {
+history.innerHTML = '<div class="item muted">No sleep events
+logged yet.</div>';
+return;
+}
+
+[...sleepEvents].reverse().forEach(event => {
+const row = document.createElement("div");
+row.className = "item";
+row.textContent = event.type + " • " + event.displayTime;
+history.appendChild(row);
+});
+}
+
+function clearSleepLog() {
+if (!confirm("Clear tonight's sleep event log?")) return;
+
+sleepEvents = [];
+saveSleepEvents();
+renderSleepEvents();
+}
+
+function exportSleepLog() {
+const notesText = sleepNotes ? sleepNotes.value : "";
+
+let text = "Keith Sleep Log\n\n";
+text += "Exported: " + new Date().toLocaleString() + "\n\n";
+
+text += "Events:\n";
+
+if (sleepEvents.length === 0) {
+text += "No events logged.\n";
+} else {
+sleepEvents.forEach(event => {
+text += "- " + event.type + " | " + event.displayTime + "\n";
+});
+}
+
+text += "\nSleep Notes:\n" + notesText + "\n";
+
+const blob = new Blob([text], { type: "text/plain" });
+const url = URL.createObjectURL(blob);
+
+const link = document.createElement("a");
+link.href = url;
+link.download = "keith-sleep-log.txt";
+link.click();
+
+URL.revokeObjectURL(url);
+}
+
+renderSleepEvents();
 </script>
 
 </body>
