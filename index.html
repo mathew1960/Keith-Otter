@@ -505,9 +505,7 @@ if (!count || !history) return;
 count.textContent = sleepEvents.length;
 history.innerHTML = "";
 
-if (sleepEvents.length === 0) {
-history.innerHTML = '<div class="item muted">No sleep events
-logged yet.</div>';
+history.innerHTML = '<div class="item muted">No sleep events logged yet.</div>';
 return;
 }
 
