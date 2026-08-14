@@ -97,7 +97,7 @@ TASKS</span>
 <input id="task-input" type="text" placeholder="Add
 task..." class="w-full bg-slate-950 border border-slate-800 rounded px-3
 py-1 text-xs focus:outline-none focus:border-indigo-500">
-<button onclick="addTask()" class="bg-indigo-600
+<button id="add-btn" class="bg-indigo-600
 hover:bg-indigo-500 text-white font-bold px-3 py-1 rounded text-xs">+
 ADD</button>
 </div>
@@ -107,14 +107,6 @@ overflow-y-auto list-decimal list-inside text-slate-300">
 <li class="bg-slate-900/80 px-3 py-1.5 rounded-lg
 border border-slate-800 flex justify-between items-center">
 <span>Check medication refills</span>
-<button onclick="this.parentElement.remove()"
-class="text-slate-500 hover:text-rose-400">&times;</button>
-</li>
-<li class="bg-slate-900/80 px-3 py-1.5 rounded-lg
-border border-slate-800 flex justify-between items-center">
-<span>Review schedule</span>
-<button onclick="this.parentElement.remove()"
-class="text-slate-500 hover:text-rose-400">&times;</button>
 </li>
 </ol>
 </div>
@@ -144,7 +136,7 @@ scrolling="no"></iframe>
 </div>
 </div>
 
-<!-- HEALTH & SLEEP QUICK-HUB -->
+<!-- HEALTH & SLEEP HUB -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
 <!-- RX & NOTES -->
@@ -165,13 +157,12 @@ font-bold">OK</span>
 rounded-lg border border-slate-800">
 <span>Atorvastatin 20mg</span>
 <span class="text-amber-400 font-bold">Refill
-Soon (Aug 15)</span>
+Soon</span>
 </div>
 </div>
-<textarea id="doctor-notes" oninput="saveNotes()"
-class="w-full bg-slate-950 border border-slate-800 rounded p-2 text-xs
-focus:outline-none h-20 resize-none" placeholder="Quick
-notes..."></textarea>
+<textarea id="doctor-notes" class="w-full bg-slate-950
+border border-slate-800 rounded p-2 text-xs focus:outline-none h-20
+resize-none" placeholder="Quick notes..."></textarea>
 </div>
 
 <!-- SLEEP RECORDER -->
@@ -189,18 +180,18 @@ text-cyan-400">0</p>
 uppercase">Events Logged</p>
 </div>
 <div class="grid grid-cols-2 gap-2">
-<button onclick="logEvent('Apnea')"
-class="bg-rose-950/80 hover:bg-rose-900 border border-rose-800
-text-rose-300 py-2 rounded-lg text-xs font-bold">Apnea</button>
-<button onclick="logEvent('Snore')"
-class="bg-amber-950/80 hover:bg-amber-900 border border-amber-800
-text-amber-300 py-2 rounded-lg text-xs font-bold">Snore</button>
-<button onclick="logEvent('Gasping')"
-class="bg-orange-950/80 hover:bg-orange-900 border border-orange-800
-text-orange-300 py-2 rounded-lg text-xs font-bold">Gasping</button>
-<button onclick="logEvent('Awake')"
-class="bg-emerald-950/80 hover:bg-emerald-900 border border-emerald-800
-text-emerald-300 py-2 rounded-lg text-xs font-bold">Awake</button>
+<button class="event-btn bg-rose-950/80 border
+border-rose-800 text-rose-300 py-2 rounded-lg text-xs
+font-bold">Apnea</button>
+<button class="event-btn bg-amber-950/80 border
+border-amber-800 text-amber-300 py-2 rounded-lg text-xs
+font-bold">Snore</button>
+<button class="event-btn bg-orange-950/80 border
+border-orange-800 text-orange-300 py-2 rounded-lg text-xs
+font-bold">Gasping</button>
+<button class="event-btn bg-emerald-950/80 border
+border-emerald-800 text-emerald-300 py-2 rounded-lg text-xs
+font-bold">Awake</button>
 </div>
 </div>
 
@@ -209,48 +200,57 @@ text-emerald-300 py-2 rounded-lg text-xs font-bold">Awake</button>
 </div>
 
 <script>
-function runClock() {
-var el = document.getElementById("clock-display");
-if (el) {
-var d = new Date();
-el.textContent = d.toLocaleTimeString() + " - " +
-d.toLocaleDateString();
+// Clock Handler
+function updateClock() {
+var clockEl = document.getElementById("clock-display");
+if (clockEl) {
+var now = new Date();
+clockEl.textContent = now.toLocaleTimeString() + " - " +
+now.toLocaleDateString();
 }
 }
-setInterval(runClock, 1000);
-runClock();
+setInterval(updateClock, 1000);
+updateClock();
 
-function addTask() {
+// Task Handler
+var addBtn = document.getElementById("add-btn");
+if (addBtn) {
+addBtn.addEventListener("click", function() {
 var input = document.getElementById("task-input");
-var val = input.value.trim();
-if (!val) return;
+var text = input.value.trim();
+if (text !== "") {
 var list = document.getElementById("task-list");
-var li = document.createElement("li");
-li.className = "bg-slate-900/80 px-3 py-1.5 rounded-lg
-border border-slate-800 flex justify-between items-center";
-li.innerHTML = '<span>' + val + '</span><button
-onclick="this.parentElement.remove()" class="text-slate-500
-hover:text-rose-400">&times;</button>';
-list.appendChild(li);
+var item = document.createElement("li");
+item.className = "bg-slate-900/80 px-3 py-1.5
+rounded-lg border border-slate-800 flex justify-between items-center";
+item.textContent = text;
+list.appendChild(item);
 input.value = "";
 }
-
-function saveNotes() {
-var txt = document.getElementById("doctor-notes").value;
-localStorage.setItem("m_notes", txt);
-}
-var saved = localStorage.getItem("m_notes");
-if (saved) {
-document.getElementById("doctor-notes").value = saved;
+});
 }
 
-var events = 0;
-function logEvent(type) {
-events++;
-var stat = document.getElementById("stat-events");
-if (stat) {
-stat.textContent = events;
+// Doctor Notes Handler
+var notesArea = document.getElementById("doctor-notes");
+if (notesArea) {
+notesArea.value = localStorage.getItem("user_notes") || "";
+notesArea.addEventListener("input", function() {
+localStorage.setItem("user_notes", notesArea.value);
+});
 }
+
+// Sleep Counter Handler
+var eventCount = 0;
+var eventBtns = document.querySelectorAll(".event-btn");
+for (var i = 0; i < eventBtns.length; i++) {
+eventBtns[i].addEventListener("click", function() {
+eventCount++;
+var statDisplay =
+document.getElementById("stat-events");
+if (statDisplay) {
+statDisplay.textContent = eventCount;
+}
+});
 }
 </script>
 </body>
