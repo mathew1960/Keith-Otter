@@ -1,85 +1,80 @@
 name: Daily Agenda Builder
 
 on:
-  schedule:
-    # Runs at 6:00 AM PDT (13:00 UTC) every day
-    # PDT = UTC-7, so 6:00 AM PDT = 13:00 UTC
-    - cron: '0 13 * * *'
-  workflow_dispatch:   # Manual trigger from GitHub Actions UI
-    inputs:
-      triggered_by:
-        description: 'Who triggered this? (claude, chatgpt, manual)'
-        required: false
-        default: 'manual'
-  repository_dispatch:  # MCP / API trigger from Claude or ChatGPT
-    types: [run-daily-agenda]
+schedule:
+- cron: '0 13 * * *'
+
+workflow_dispatch:
+inputs:
+triggered_by:
+description: 'Who triggered this? (claude, chatgpt, manual)'
+required: false
+default: 'manual'
+
+repository_dispatch:
+types:
+- run-daily-agenda
 
 jobs:
-  build-agenda:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write  # Needed to commit the output file back to the repo
+build-agenda:
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+permissions:
+contents: write
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+steps:
+- name: Checkout repository
+uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          pip install --quiet \
-            google-auth \
-            google-auth-oauthlib \
-            google-auth-httplib2 \
-            google-api-python-client \
-            feedparser \
-            pytz
+- name: Set up Python
+uses: actions/setup-python@v5
+with:
+python-version: '3.11'
 
-      - name: Write Google Calendar credentials file
-        env:
-          GCAL_SERVICE_ACCOUNT_JSON: ${{ secrets.GCAL_SERVICE_ACCOUNT_JSON }}
-        run: |
-          echo "$GCAL_SERVICE_ACCOUNT_JSON" > scripts/service_account.json
+- name: Install dependencies
+run: |
+pip install --quiet \
+requests \
+icalendar \
+recurring-ical-events \
+feedparser \
+pytz
 
-      - name: Fetch Google Calendar events
-        env:
-          GCAL_CALENDAR_ID: ${{ secrets.GCAL_CALENDAR_ID }}
-        run: python scripts/fetch_calendar.py
+- name: Fetch Google Calendar events
+env:
+GCAL_ICAL_URL: ${{ secrets.GCAL_ICAL_URL }}
+run: python scripts/fetch_calendar.py
 
-      - name: Fetch Fox News headlines
-        run: python scripts/fetch_rss.py
+- name: Fetch Fox News headlines
+run: python scripts/fetch_rss.py
 
-      - name: Combine into daily agenda file
-        run: python scripts/build_agenda.py
+- name: Combine into daily agenda file
+run: python scripts/build_agenda.py
 
-      - name: Clean up credentials
-        if: always()
-        run: rm -f scripts/service_account.json
+- name: Commit and push agenda file
+run: |
+git config user.name "Daily Agenda Bot"
+git config user.email "actions@github.com"
+git add agenda/daily_agenda.txt
+git diff --cached --quiet || git commit -m "Daily agenda
+update: $(date +'%Y-%m-%d')"
+git push
 
-      - name: Commit and push agenda file
-        run: |
-          git config user.name "Daily Agenda Bot"
-          git config user.email "actions@github.com"
-          git add agenda/daily_agenda.txt
-          git diff --cached --quiet || git commit -m "📅 Daily agenda update: $(date +'%Y-%m-%d')"
-          git push
-
-      - name: Notify n8n MCP on completion
-        if: always()
-        env:
-          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
-        run: |
-          curl -s -X POST "$N8N_WEBHOOK_URL" \
-            -H "Content-Type: application/json" \
-            -d "{
-              \"workflow\": \"daily_agenda\",
-              \"status\": \"${{ job.status }}\",
-              \"triggered_by\": \"${{ github.event.inputs.triggered_by || github.event_name }}\",
-              \"date\": \"$(date +'%Y-%m-%d')\",
-              \"repo\": \"${{ github.repository }}\",
-              \"agenda_url\": \"https://github.com/${{ github.repository }}/blob/main/agenda/daily_agenda.txt\"
-            }" || echo "n8n notification skipped - webhook not configured"
+- name: Notify n8n MCP on completion
+if: always()
+env:
+N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+run: |
+curl -s -X POST "$N8N_WEBHOOK_URL" \
+-H "Content-Type: application/json" \
+-d "{
+\"workflow\": \"daily_agenda\",
+\"status\": \"${{ job.status }}\",
+\"triggered_by\": \"${{ github.event.inputs.triggered_by
+|| github.event_name }}\",
+\"date\": \"$(date +'%Y-%m-%d')\",
+\"repo\": \"${{ github.repository }}\",
+\"agenda_url\": \"https://github.com/${{ github.repository
+}}/blob/main/agenda/daily_agenda.txt\"
+}" || echo "n8n notification skipped - webhook not
+configured"
