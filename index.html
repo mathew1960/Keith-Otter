@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
-<title>Morning Brief Dashboard</title>
+<title>Morning Brief</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -21,287 +21,213 @@ backdrop-filter: blur(12px);
 </head>
 <body class="text-slate-100 min-h-screen p-4 md:p-8 font-sans">
 
-<div class="max-w-6xl mx-auto space-y-6">
+<div class="max-w-5xl mx-auto space-y-6">
 
 <!-- HEADER -->
 <header class="flex justify-between items-center border-b
 border-slate-800 pb-4">
 <div>
-<h1 class="text-3xl font-black tracking-tight
-text-white">Morning Brief</h1>
-<p id="clock-display" class="text-sm font-mono
+<h1 class="text-3xl font-black text-white
+tracking-tight">Morning Brief</h1>
+<p id="clock-display" class="text-xs font-mono
 text-slate-400">Loading time...</p>
 </div>
-<div class="flex items-center gap-2 bg-slate-900/80 px-3
-py-1.5 rounded-full border border-slate-800">
+<div class="flex items-center gap-2 bg-slate-900 px-3 py-1.5
+rounded-full border border-slate-800">
 <span class="w-2.5 h-2.5 bg-emerald-500 rounded-full
 animate-pulse"></span>
 <span class="text-xs font-mono text-emerald-400
-font-bold">SYSTEM ACTIVE</span>
+font-bold">ONLINE</span>
 </div>
 </header>
 
-<!-- GRID LAYOUT -->
+<!-- TOP ROW: WEATHER & RANK LIST -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-<!-- WEATHER CARD -->
+<!-- WEATHER -->
 <div class="glass-card p-5">
 <div class="flex justify-between items-center mb-4">
 <span class="text-xs font-bold text-amber-400
 uppercase tracking-wider">
-<i class="fa-solid fa-sun mr-1"></i> Weather •
-La Quinta, CA
+<i class="fa-solid fa-sun mr-1"></i> La Quinta,
+CA
 </span>
 <span class="text-[10px] bg-slate-800 text-slate-300
 px-2.5 py-1 rounded-full font-semibold">TODAY</span>
 </div>
-
-<div class="grid grid-cols-3 gap-3 text-center mb-3">
+<div class="grid grid-cols-3 gap-2 text-center">
 <div class="bg-slate-900/60 p-3 rounded-xl border
 border-slate-800">
-<p class="text-[10px] text-slate-400 font-bold
-uppercase">Temp</p>
-<p class="text-2xl font-black
-text-amber-400">85°F</p>
+<p class="text-[10px] text-slate-400 uppercase
+font-bold">Temp</p>
+<p class="text-xl font-black
+text-amber-400">82°F</p>
 </div>
 <div class="bg-slate-900/60 p-3 rounded-xl border
 border-slate-800">
-<p class="text-[10px] text-slate-400 font-bold
-uppercase">Wind</p>
-<p class="text-2xl font-black text-amber-400">5
+<p class="text-[10px] text-slate-400 uppercase
+font-bold">Wind</p>
+<p class="text-xl font-black text-amber-400">2
 mph</p>
 </div>
 <div class="bg-slate-900/60 p-3 rounded-xl border
 border-slate-800">
-<p class="text-[10px] text-slate-400 font-bold
-uppercase">Humidity</p>
-<p class="text-2xl font-black
-text-amber-400">39%</p>
+<p class="text-[10px] text-slate-400 uppercase
+font-bold">Humidity</p>
+<p class="text-xl font-black
+text-amber-400">38%</p>
 </div>
 </div>
 </div>
 
-<!-- NEWS BRIEF CARD -->
+<!-- PRIORITY RANK LIST -->
+<div class="glass-card p-5">
+<div class="flex justify-between items-center mb-3">
+<span class="text-xs font-bold text-indigo-400
+uppercase tracking-wider">
+<i class="fa-solid fa-list-check mr-1"></i>
+Priority Rank List
+</span>
+<span class="text-[10px] bg-indigo-950
+text-indigo-300 border border-indigo-800 px-2 py-0.5 rounded-full">TOP
+TASKS</span>
+</div>
+
+<div class="flex gap-2 mb-3">
+<input id="task-input" type="text" placeholder="Add
+task..." class="w-full bg-slate-950 border border-slate-800 rounded px-3
+py-1 text-xs focus:outline-none focus:border-indigo-500">
+<button onclick="addTask()" class="bg-indigo-600
+hover:bg-indigo-500 text-white font-bold px-3 py-1 rounded text-xs">+
+ADD</button>
+</div>
+
+<ol id="task-list" class="space-y-1.5 text-xs max-h-36
+overflow-y-auto list-decimal list-inside text-slate-300">
+<li class="bg-slate-900/80 px-3 py-1.5 rounded-lg
+border border-slate-800 flex justify-between items-center">
+<span>Check medication refills</span>
+<button onclick="this.parentElement.remove()"
+class="text-slate-500 hover:text-rose-400">&times;</button>
+</li>
+<li class="bg-slate-900/80 px-3 py-1.5 rounded-lg
+border border-slate-800 flex justify-between items-center">
+<span>Review schedule</span>
+<button onclick="this.parentElement.remove()"
+class="text-slate-500 hover:text-rose-400">&times;</button>
+</li>
+</ol>
+</div>
+
+</div>
+
+<!-- CALENDAR CARD -->
 <div class="glass-card p-5">
 <div class="flex justify-between items-center mb-4">
-<span class="text-xs font-bold text-blue-400
-uppercase tracking-wider">
-<i class="fa-solid fa-newspaper mr-1"></i> Top
-News Headlines
+<span class="text-xs font-bold text-purple-400 uppercase
+tracking-wider">
+<i class="fa-solid fa-calendar-days mr-1"></i>
+Calendar Schedule
 </span>
-<span class="text-[10px] bg-blue-950 border
-border-blue-800 text-blue-300 px-2.5 py-1 rounded-full
-font-semibold">LIVE FEED</span>
+<a href="https://calendar.google.com" target="_blank"
+class="text-[10px] bg-purple-950 border border-purple-800
+text-purple-300 px-2.5 py-1 rounded-full font-semibold
+hover:bg-purple-900">OPEN GOOGLE CALENDAR</a>
 </div>
 
-<ul class="space-y-2 text-xs">
-<li class="bg-slate-900/60 p-2.5 rounded-xl border
-border-slate-800 flex items-center justify-between">
-<span class="text-slate-200">Google News: Top
-Local & National Headlines</span>
-<a href="https://news.google.com"
-target="_blank" class="text-blue-400 hover:underline
-text-[10px]">Open</a>
-</li>
-<li class="bg-slate-900/60 p-2.5 rounded-xl border
-border-slate-800 flex items-center justify-between">
-<span class="text-slate-200">Southern California
-Regional News</span>
-<a href="https://news.google.com"
-target="_blank" class="text-blue-400 hover:underline
-text-[10px]">Open</a>
-</li>
-</ul>
+<div class="w-full rounded-xl overflow-hidden border
+border-slate-800">
+<iframe
+src="https://calendar.google.com/calendar/embed?height=320&wkst=1&ctz=America%2FLos_Angeles&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudiY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+style="border:0" width="100%" height="320" frameborder="0"
+scrolling="no"></iframe>
+</div>
 </div>
 
-<!-- HEALTH HUB -->
-<div class="glass-card p-5 md:col-span-2">
-<div class="flex justify-between items-center mb-4">
-<span class="text-xs font-bold text-rose-400
-uppercase tracking-wider">
-<i class="fa-solid fa-pills mr-1"></i>
-Prescriptions & Health Hub
+<!-- HEALTH & SLEEP QUICK-HUB -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+<!-- RX & NOTES -->
+<div class="glass-card p-5 space-y-4">
+<span class="text-xs font-bold text-rose-400 uppercase
+tracking-wider block">
+<i class="fa-solid fa-pills mr-1"></i> Prescriptions
+& Notes
 </span>
-<span class="text-[10px] bg-rose-950 border
-border-rose-800 text-rose-300 px-2.5 py-1 rounded-full
-font-semibold">ACTIVE</span>
+<div class="text-xs space-y-2">
+<div class="flex justify-between bg-slate-900/60 p-2
+rounded-lg border border-slate-800">
+<span>Lisinopril 10mg</span>
+<span class="text-emerald-400
+font-bold">OK</span>
 </div>
-
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-<div class="bg-slate-900/60 p-3 rounded-xl border
-border-slate-800">
-<table class="w-full text-left text-xs">
-<thead>
-<tr class="text-slate-400 border-b
-border-slate-800">
-<th class="pb-2">Medication</th>
-<th class="pb-2">Dosage</th>
-<th class="pb-2">Rx #</th>
-<th class="pb-2">Next Refill</th>
-<th class="pb-2
-text-right">Status</th>
-</tr>
-</thead>
-<tbody class="divide-y divide-slate-800/50">
-<tr>
-<td class="py-2.5
-font-semibold">Lisinopril</td>
-<td class="text-slate-400">10
-mg</td>
-<td class="text-slate-400
-font-mono">#482910</td>
-<td class="text-slate-300">Aug 20,
-2026</td>
-<td class="text-right"><span
-class="px-2 py-0.5 bg-emerald-950 text-emerald-400 border
-border-emerald-800 rounded-full text-[10px]">OK</span></td>
-</tr>
-<tr>
-<td class="py-2.5
-font-semibold">Atorvastatin</td>
-<td class="text-slate-400">20
-mg</td>
-<td class="text-slate-400
-font-mono">#391024</td>
-<td class="text-amber-400
-font-semibold">Aug 15, 2026</td>
-<td class="text-right"><span
-class="px-2 py-0.5 bg-amber-950 text-amber-400 border border-amber-800
-rounded-full text-[10px]">Refill Soon</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-<div class="bg-slate-900/60 p-3 rounded-xl
-border border-slate-800 flex flex-col justify-between">
-<div>
-<p class="text-xs font-bold
-text-slate-300 mb-2"><i class="fa-solid fa-cart-shopping text-rose-400
-mr-1"></i> Grocery List</p>
-<div class="flex gap-1.5 mb-2">
-<input id="grocery-input"
-type="text" placeholder="Add item..." class="w-full bg-slate-950 border
-border-slate-800 rounded px-2.5 py-1 text-xs focus:outline-none">
-<button onclick="addGroceryItem()"
-class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-3 py-1
-rounded text-xs">+ ADD</button>
-</div>
-<ul id="grocery-list" class="space-y-1
-text-xs max-h-24 overflow-y-auto"></ul>
+<div class="flex justify-between bg-slate-900/60 p-2
+rounded-lg border border-slate-800">
+<span>Atorvastatin 20mg</span>
+<span class="text-amber-400 font-bold">Refill
+Soon (Aug 15)</span>
 </div>
 </div>
-
-<div class="bg-slate-900/60 p-3 rounded-xl
-border border-slate-800 flex flex-col justify-between">
-<div>
-<p class="text-xs font-bold
-text-slate-300 mb-1"><i class="fa-solid fa-user-doctor text-rose-400
-mr-1"></i> Doctor Notes</p>
-<textarea id="doctor-notes"
+<textarea id="doctor-notes" oninput="saveNotes()"
 class="w-full bg-slate-950 border border-slate-800 rounded p-2 text-xs
-focus:outline-none h-16 resize-none" placeholder="Notes for next
-appointment..."></textarea>
-</div>
-<div class="flex justify-between
-items-center mt-2">
-<span id="save-indicator"
-class="text-[10px] text-slate-500">Auto-saved</span>
-<button onclick="saveDoctorNotes()"
-class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-3 py-1
-rounded text-[10px]">SAVE</button>
-</div>
-</div>
-</div>
-</div>
+focus:outline-none h-20 resize-none" placeholder="Quick
+notes..."></textarea>
 </div>
 
-<!-- SLEEP LOGGER -->
-<div class="glass-card p-5 md:col-span-2">
-<div class="flex justify-between items-center mb-4">
-<span class="text-xs font-bold text-cyan-400
-uppercase tracking-wider">
+<!-- SLEEP RECORDER -->
+<div class="glass-card p-5 space-y-4">
+<span class="text-xs font-bold text-cyan-400 uppercase
+tracking-wider block">
 <i class="fa-solid fa-bed mr-1"></i> ApneaTrack
 Sleep Recorder
 </span>
-<span id="session-label" class="text-[10px]
-bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full font-semibold">NO
-SESSION</span>
-</div>
-
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
-<div class="sm:col-span-2 bg-slate-900/80 p-4
-rounded-xl border border-slate-800 flex flex-col justify-center
-items-center">
-<p id="timer" class="text-4xl font-black
-font-mono tracking-wider text-slate-100">00:00:00</p>
-<div class="flex gap-2 mt-3">
-<button id="start-btn"
-onclick="startSleepSession()" class="bg-cyan-500 hover:bg-cyan-600
-text-slate-950 font-black text-xs px-5 py-1.5 rounded-lg">START</button>
-<button id="end-btn"
-onclick="endSleepSession()" disabled class="bg-slate-800 text-slate-500
-font-black text-xs px-5 py-1.5 rounded-lg
-disabled:opacity-50">END</button>
-</div>
-</div>
 <div class="bg-slate-900/80 p-3 rounded-xl border
-border-slate-800 flex flex-col justify-around text-center text-xs">
-<div>
-<p class="text-slate-400 text-[10px]
-font-bold">EVENTS LOGGED</p>
-<p id="stat-events" class="text-2xl
-font-black text-cyan-400">0</p>
+border-slate-800 text-center">
+<p id="stat-events" class="text-3xl font-black
+text-cyan-400">0</p>
+<p class="text-[10px] text-slate-400 font-bold
+uppercase">Events Logged</p>
 </div>
-<div>
-<p class="text-slate-400 text-[10px]
-font-bold">EVENTS / HR</p>
-<p id="stat-rate" class="text-2xl font-black
-text-cyan-400">0.0</p>
-</div>
-</div>
-</div>
-
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
-<button onclick="logSleepEvent('Apnea')"
-class="bg-rose-950/60 hover:bg-rose-900 border border-rose-800
-text-rose-300 p-2.5 rounded-xl text-xs font-bold">Apnea</button>
-<button onclick="logSleepEvent('Snore')"
-class="bg-amber-950/60 hover:bg-amber-900 border border-amber-800
-text-amber-300 p-2.5 rounded-xl text-xs font-bold">Snore</button>
-<button onclick="logSleepEvent('Gasping')"
-class="bg-orange-950/60 hover:bg-orange-900 border border-orange-800
-text-orange-300 p-2.5 rounded-xl text-xs font-bold">Gasping</button>
-<button onclick="logSleepEvent('Awake')"
-class="bg-emerald-950/60 hover:bg-emerald-900 border border-emerald-800
-text-emerald-300 p-2.5 rounded-xl text-xs font-bold">Awake</button>
+<div class="grid grid-cols-2 gap-2">
+<button onclick="logEvent('Apnea')"
+class="bg-rose-950/80 hover:bg-rose-900 border border-rose-800
+text-rose-300 py-2 rounded-lg text-xs font-bold">Apnea</button>
+<button onclick="logEvent('Snore')"
+class="bg-amber-950/80 hover:bg-amber-900 border border-amber-800
+text-amber-300 py-2 rounded-lg text-xs font-bold">Snore</button>
+<button onclick="logEvent('Gasping')"
+class="bg-orange-950/80 hover:bg-orange-900 border border-orange-800
+text-orange-300 py-2 rounded-lg text-xs font-bold">Gasping</button>
+<button onclick="logEvent('Awake')"
+class="bg-emerald-950/80 hover:bg-emerald-900 border border-emerald-800
+text-emerald-300 py-2 rounded-lg text-xs font-bold">Awake</button>
 </div>
 </div>
 
 </div>
+
 </div>
 
 <script>
 function runClock() {
-var clock = document.getElementById("clock-display");
-if (clock) {
-var now = new Date();
-clock.textContent = now.toLocaleTimeString() + " - " +
-now.toLocaleDateString();
+var el = document.getElementById("clock-display");
+if (el) {
+var d = new Date();
+el.textContent = d.toLocaleTimeString() + " - " +
+d.toLocaleDateString();
 }
 }
 setInterval(runClock, 1000);
 runClock();
 
-function addGroceryItem() {
-var input = document.getElementById("grocery-input");
+function addTask() {
+var input = document.getElementById("task-input");
 var val = input.value.trim();
 if (!val) return;
-var list = document.getElementById("grocery-list");
+var list = document.getElementById("task-list");
 var li = document.createElement("li");
-li.className = "bg-slate-950 px-2.5 py-1 rounded-lg border
-border-slate-800 text-slate-300 flex justify-between items-center";
+li.className = "bg-slate-900/80 px-3 py-1.5 rounded-lg
+border border-slate-800 flex justify-between items-center";
 li.innerHTML = '<span>' + val + '</span><button
 onclick="this.parentElement.remove()" class="text-slate-500
 hover:text-rose-400">&times;</button>';
@@ -309,51 +235,22 @@ list.appendChild(li);
 input.value = "";
 }
 
-function saveDoctorNotes() {
-var notes = document.getElementById("doctor-notes").value;
-localStorage.setItem("saved_notes", notes);
-var ind = document.getElementById("save-indicator");
-ind.textContent = "Saved!";
-setTimeout(function() { ind.textContent = "Auto-saved"; },
-2000);
+function saveNotes() {
+var txt = document.getElementById("doctor-notes").value;
+localStorage.setItem("m_notes", txt);
 }
-var saved = localStorage.getItem("saved_notes");
-if (saved) { document.getElementById("doctor-notes").value =
-saved; }
-
-var activeSession = false;
-var eventTotal = 0;
-
-function startSleepSession() {
-activeSession = true;
-document.getElementById("start-btn").disabled = true;
-document.getElementById("end-btn").disabled = false;
-document.getElementById("session-label").textContent =
-"SESSION ACTIVE";
-document.getElementById("session-label").className =
-"text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-800 px-2.5
-py-1 rounded-full font-semibold";
+var saved = localStorage.getItem("m_notes");
+if (saved) {
+document.getElementById("doctor-notes").value = saved;
 }
 
-function endSleepSession() {
-activeSession = false;
-document.getElementById("start-btn").disabled = false;
-document.getElementById("end-btn").disabled = true;
-document.getElementById("session-label").textContent = "NO
-SESSION";
-document.getElementById("session-label").className =
-"text-[10px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full
-font-semibold";
+var events = 0;
+function logEvent(type) {
+events++;
+var stat = document.getElementById("stat-events");
+if (stat) {
+stat.textContent = events;
 }
-
-function logSleepEvent(type) {
-if (!activeSession) {
-alert("Please click START to begin tracking.");
-return;
-}
-eventTotal++;
-document.getElementById("stat-events").textContent =
-eventTotal;
 }
 </script>
 </body>
