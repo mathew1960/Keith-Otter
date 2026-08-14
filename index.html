@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
-<title>Morning & Afternoon Brief</title>
+<title>Morning Brief Dashboard</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -30,36 +30,18 @@ border-slate-800 pb-4">
 <h1 class="text-3xl font-black tracking-tight
 text-white">Morning Brief</h1>
 <p id="clock-display" class="text-sm font-mono
-text-slate-400">Initializing...</p>
+text-slate-400">Loading time...</p>
 </div>
 <div class="flex items-center gap-2 bg-slate-900/80 px-3
 py-1.5 rounded-full border border-slate-800">
-<span class="w-2 h-2 bg-emerald-500 rounded-full
+<span class="w-2.5 h-2.5 bg-emerald-500 rounded-full
 animate-pulse"></span>
 <span class="text-xs font-mono text-emerald-400
 font-bold">SYSTEM ACTIVE</span>
 </div>
 </header>
 
-<!-- MODE TOGGLE SWITCH -->
-<div class="flex justify-center my-4">
-<div class="bg-slate-900 border border-slate-800 p-1.5
-rounded-full flex items-center gap-3">
-<button id="btn-morning" onclick="setMode('morning')"
-class="flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs
-font-bold bg-amber-500 text-slate-950 transition-all">
-<i class="fa-solid fa-sun"></i> MORNING
-</button>
-<button id="btn-afternoon"
-onclick="setMode('afternoon')" class="flex items-center gap-1.5 px-4
-py-1.5 rounded-full text-xs font-bold text-slate-400 hover:text-white
-transition-all">
-<i class="fa-solid fa-moon"></i> AFTERNOON
-</button>
-</div>
-</div>
-
-<!-- MAIN GRID -->
+<!-- GRID LAYOUT -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
 <!-- WEATHER CARD -->
@@ -80,61 +62,54 @@ border-slate-800">
 <p class="text-[10px] text-slate-400 font-bold
 uppercase">Temp</p>
 <p class="text-2xl font-black
-text-amber-400">82°</p>
-<p class="text-[9px] text-slate-500">feels
-84°</p>
+text-amber-400">85°F</p>
 </div>
 <div class="bg-slate-900/60 p-3 rounded-xl border
 border-slate-800">
 <p class="text-[10px] text-slate-400 font-bold
 uppercase">Wind</p>
-<p class="text-2xl font-black
-text-amber-400">2</p>
-<p class="text-[9px] text-slate-500">mph NE</p>
+<p class="text-2xl font-black text-amber-400">5
+mph</p>
 </div>
 <div class="bg-slate-900/60 p-3 rounded-xl border
 border-slate-800">
 <p class="text-[10px] text-slate-400 font-bold
 uppercase">Humidity</p>
 <p class="text-2xl font-black
-text-amber-400">38%</p>
-<p class="text-[9px]
-text-slate-500">comfortable</p>
+text-amber-400">39%</p>
 </div>
 </div>
-<p class="text-[10px] text-slate-400 text-center
-font-mono">Sunrise 6:12 AM • Sunset 7:48 PM</p>
 </div>
 
 <!-- NEWS BRIEF CARD -->
 <div class="glass-card p-5">
 <div class="flex justify-between items-center mb-4">
-<span id="news-title" class="text-xs font-bold
-text-blue-400 uppercase tracking-wider">
-<i class="fa-solid fa-newspaper mr-1"></i>
-Morning News Brief
+<span class="text-xs font-bold text-blue-400
+uppercase tracking-wider">
+<i class="fa-solid fa-newspaper mr-1"></i> Top
+News Headlines
 </span>
 <span class="text-[10px] bg-blue-950 border
 border-blue-800 text-blue-300 px-2.5 py-1 rounded-full
-font-semibold">TOP STORIES</span>
+font-semibold">LIVE FEED</span>
 </div>
 
-<ul id="news-container" class="space-y-2 text-xs">
+<ul class="space-y-2 text-xs">
 <li class="bg-slate-900/60 p-2.5 rounded-xl border
 border-slate-800 flex items-center justify-between">
-<span class="text-slate-200">Local La Quinta
-weather & community updates</span>
+<span class="text-slate-200">Google News: Top
+Local & National Headlines</span>
 <a href="https://news.google.com"
 target="_blank" class="text-blue-400 hover:underline
-text-[10px]">Read</a>
+text-[10px]">Open</a>
 </li>
 <li class="bg-slate-900/60 p-2.5 rounded-xl border
 border-slate-800 flex items-center justify-between">
-<span class="text-slate-200">National financial
-& technology market brief</span>
+<span class="text-slate-200">Southern California
+Regional News</span>
 <a href="https://news.google.com"
 target="_blank" class="text-blue-400 hover:underline
-text-[10px]">Read</a>
+text-[10px]">Open</a>
 </li>
 </ul>
 </div>
@@ -144,16 +119,15 @@ text-[10px]">Read</a>
 <div class="flex justify-between items-center mb-4">
 <span class="text-xs font-bold text-rose-400
 uppercase tracking-wider">
-<i class="fa-solid fa-trash-can-medical
-mr-1"></i> Health Hub
+<i class="fa-solid fa-pills mr-1"></i>
+Prescriptions & Health Hub
 </span>
 <span class="text-[10px] bg-rose-950 border
-border-rose-800 text-rose-300 px-2.5 py-1 rounded-full font-semibold">2
-REFILLS</span>
+border-rose-800 text-rose-300 px-2.5 py-1 rounded-full
+font-semibold">ACTIVE</span>
 </div>
 
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-<!-- Prescriptions Table -->
 <div class="bg-slate-900/60 p-3 rounded-xl border
 border-slate-800">
 <table class="w-full text-left text-xs">
@@ -199,9 +173,7 @@ rounded-full text-[10px]">Refill Soon</span></td>
 </table>
 </div>
 
-<!-- Grocery List & Doctor Notes -->
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-<!-- Grocery List -->
 <div class="bg-slate-900/60 p-3 rounded-xl
 border border-slate-800 flex flex-col justify-between">
 <div>
@@ -211,8 +183,7 @@ mr-1"></i> Grocery List</p>
 <div class="flex gap-1.5 mb-2">
 <input id="grocery-input"
 type="text" placeholder="Add item..." class="w-full bg-slate-950 border
-border-slate-800 rounded px-2.5 py-1 text-xs focus:outline-none
-focus:border-rose-500">
+border-slate-800 rounded px-2.5 py-1 text-xs focus:outline-none">
 <button onclick="addGroceryItem()"
 class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-3 py-1
 rounded text-xs">+ ADD</button>
@@ -222,17 +193,16 @@ text-xs max-h-24 overflow-y-auto"></ul>
 </div>
 </div>
 
-<!-- Doctor Notes -->
 <div class="bg-slate-900/60 p-3 rounded-xl
 border border-slate-800 flex flex-col justify-between">
 <div>
 <p class="text-xs font-bold
 text-slate-300 mb-1"><i class="fa-solid fa-user-doctor text-rose-400
-mr-1"></i> Doctor's Notes</p>
+mr-1"></i> Doctor Notes</p>
 <textarea id="doctor-notes"
 class="w-full bg-slate-950 border border-slate-800 rounded p-2 text-xs
-focus:outline-none focus:border-rose-500 h-16 resize-none"
-placeholder="Notes for next appointment..."></textarea>
+focus:outline-none h-16 resize-none" placeholder="Notes for next
+appointment..."></textarea>
 </div>
 <div class="flex justify-between
 items-center mt-2">
@@ -247,7 +217,7 @@ rounded text-[10px]">SAVE</button>
 </div>
 </div>
 
-<!-- SLEEP RECORDER -->
+<!-- SLEEP LOGGER -->
 <div class="glass-card p-5 md:col-span-2">
 <div class="flex justify-between items-center mb-4">
 <span class="text-xs font-bold text-cyan-400
@@ -255,8 +225,9 @@ uppercase tracking-wider">
 <i class="fa-solid fa-bed mr-1"></i> ApneaTrack
 Sleep Recorder
 </span>
-<span class="text-[10px] bg-slate-800 text-slate-300
-px-2.5 py-1 rounded-full font-semibold">PERSONAL LOGGER</span>
+<span id="session-label" class="text-[10px]
+bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full font-semibold">NO
+SESSION</span>
 </div>
 
 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
@@ -312,50 +283,21 @@ text-emerald-300 p-2.5 rounded-xl text-xs font-bold">Awake</button>
 </div>
 
 <script>
-// --- LIVE CLOCK ---
 function runClock() {
 var clock = document.getElementById("clock-display");
 if (clock) {
 var now = new Date();
-clock.textContent = now.toLocaleTimeString([], {hour:
-'2-digit', minute:'2-digit', second:'2-digit'}) + " • LIVE";
+clock.textContent = now.toLocaleTimeString() + " - " +
+now.toLocaleDateString();
 }
 }
 setInterval(runClock, 1000);
 runClock();
 
-// --- MORNING / AFTERNOON TOGGLE ---
-function setMode(mode) {
-var btnM = document.getElementById("btn-morning");
-var btnA = document.getElementById("btn-afternoon");
-var title = document.getElementById("news-title");
-
-if (mode === "morning") {
-btnM.className = "flex items-center gap-1.5 px-4 py-1.5
-rounded-full text-xs font-bold bg-amber-500 text-slate-950
-transition-all";
-btnA.className = "flex items-center gap-1.5 px-4 py-1.5
-rounded-full text-xs font-bold text-slate-400 hover:text-white
-transition-all";
-title.innerHTML = '<i class="fa-solid fa-sun mr-1"></i>
-Morning News Brief';
-} else {
-btnA.className = "flex items-center gap-1.5 px-4 py-1.5
-rounded-full text-xs font-bold bg-indigo-500 text-white transition-all";
-btnM.className = "flex items-center gap-1.5 px-4 py-1.5
-rounded-full text-xs font-bold text-slate-400 hover:text-white
-transition-all";
-title.innerHTML = '<i class="fa-solid fa-moon mr-1"></i>
-Afternoon News Brief';
-}
-}
-
-// --- GROCERY LIST ---
 function addGroceryItem() {
 var input = document.getElementById("grocery-input");
 var val = input.value.trim();
 if (!val) return;
-
 var list = document.getElementById("grocery-list");
 var li = document.createElement("li");
 li.className = "bg-slate-950 px-2.5 py-1 rounded-lg border
@@ -367,7 +309,6 @@ list.appendChild(li);
 input.value = "";
 }
 
-// --- DOCTOR NOTES ---
 function saveDoctorNotes() {
 var notes = document.getElementById("doctor-notes").value;
 localStorage.setItem("saved_notes", notes);
@@ -380,7 +321,6 @@ var saved = localStorage.getItem("saved_notes");
 if (saved) { document.getElementById("doctor-notes").value =
 saved; }
 
-// --- SLEEP TRACKER ---
 var activeSession = false;
 var eventTotal = 0;
 
@@ -388,22 +328,27 @@ function startSleepSession() {
 activeSession = true;
 document.getElementById("start-btn").disabled = true;
 document.getElementById("end-btn").disabled = false;
-document.getElementById("end-btn").className = "bg-rose-500
-text-white font-black text-xs px-5 py-1.5 rounded-lg";
+document.getElementById("session-label").textContent =
+"SESSION ACTIVE";
+document.getElementById("session-label").className =
+"text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-800 px-2.5
+py-1 rounded-full font-semibold";
 }
 
 function endSleepSession() {
 activeSession = false;
 document.getElementById("start-btn").disabled = false;
 document.getElementById("end-btn").disabled = true;
-document.getElementById("end-btn").className = "bg-slate-800
-text-slate-500 font-black text-xs px-5 py-1.5 rounded-lg
-disabled:opacity-50";
+document.getElementById("session-label").textContent = "NO
+SESSION";
+document.getElementById("session-label").className =
+"text-[10px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full
+font-semibold";
 }
 
 function logSleepEvent(type) {
 if (!activeSession) {
-alert("Please click START to begin tracking session.");
+alert("Please click START to begin tracking.");
 return;
 }
 eventTotal++;
