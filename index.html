@@ -1,16 +1,412 @@
-Keith Dashboard
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keith Dashboard</title>
 
-Top row:
-Weather | Morning Brief
+<style>
+* { box-sizing: border-box; }
 
-Second row:
-Today's Tasks | Email Watch
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background:
+radial-gradient(circle at top right, #5b321d 0, transparent
+30%),
+linear-gradient(135deg, #08111f, #101827 55%, #172033);
+color: #f8fafc;
+min-height: 100vh;
+}
 
-Third row:
-News Worth Knowing | Calendar
+.wrap {
+max-width: 1200px;
+margin: auto;
+padding: 22px;
+}
 
-Fourth row:
-AI Corner | Notes
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 18px;
+margin-bottom: 22px;
+border-bottom: 1px solid #334155;
+padding-bottom: 16px;
+}
 
-Bottom:
-Health / Sleep
+h1 {
+margin: 0;
+font-size: 32px;
+}
+
+.sub {
+color: #94a3b8;
+margin-top: 5px;
+}
+
+.status {
+background: #16372b;
+color: #86efac;
+padding: 8px 13px;
+border-radius: 999px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(2, minmax(0,1fr));
+gap: 18px;
+}
+
+.card {
+background: rgba(15,23,42,.82);
+border: 1px solid rgba(148,163,184,.2);
+border-radius: 18px;
+padding: 20px;
+box-shadow: 0 12px 30px rgba(0,0,0,.25);
+}
+
+.card h2 {
+margin: 0 0 14px;
+font-size: 17px;
+color: #fbbf24;
+}
+
+.big-temp {
+font-size: 46px;
+font-weight: 800;
+margin: 4px 0;
+}
+
+.muted {
+color: #94a3b8;
+font-size: 13px;
+}
+
+.item {
+background: rgba(30,41,59,.72);
+padding: 10px 12px;
+border-radius: 11px;
+margin: 8px 0;
+}
+
+.task-row {
+display: flex;
+gap: 8px;
+margin-bottom: 10px;
+}
+
+input, textarea {
+width: 100%;
+color: white;
+background: #0f172a;
+border: 1px solid #334155;
+border-radius: 10px;
+padding: 10px;
+}
+
+button {
+border: 0;
+border-radius: 10px;
+padding: 10px 14px;
+font-weight: bold;
+cursor: pointer;
+background: #2563eb;
+color: white;
+}
+
+button:hover { opacity: .9; }
+
+.task {
+display: flex;
+justify-content: space-between;
+gap: 10px;
+align-items: center;
+}
+
+.done {
+text-decoration: line-through;
+opacity: .55;
+}
+
+.remove {
+background: #7f1d1d;
+padding: 5px 9px;
+}
+
+.full {
+grid-column: 1 / -1;
+}
+
+.brief {
+line-height: 1.55;
+white-space: pre-wrap;
+}
+
+.nav {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+margin-bottom: 18px;
+}
+
+.nav button {
+background: #1e293b;
+border: 1px solid #334155;
+}
+
+footer {
+text-align: center;
+color: #64748b;
+padding: 25px 0 8px;
+font-size: 12px;
+}
+
+@media (max-width: 760px) {
+.grid { grid-template-columns: 1fr; }
+.full { grid-column: auto; }
+h1 { font-size: 26px; }
+header { align-items: flex-start; }
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+<div>
+<h1>🏆 Keith Dashboard</h1>
+<div class="sub">
+<span id="date"></span> • La Quinta, California
+</div>
+</div>
+<div class="status">● ONLINE</div>
+</header>
+
+<div class="nav">
+<button onclick="jump('weather')">☀️ Weather</button>
+<button onclick="jump('brief')">🌅 Morning Brief</button>
+<button onclick="jump('tasks')">✅ Tasks</button>
+<button onclick="jump('email')">📧 Email</button>
+<button onclick="jump('news')">📰 News</button>
+<button onclick="jump('ai')">🤖 AI Corner</button>
+</div>
+
+<main class="grid">
+
+<!-- WEATHER -->
+<section class="card" id="weather">
+<h2>☀️ Desert Weather</h2>
+<div class="big-temp">--°F</div>
+<div>La Quinta • ZIP 92253</div>
+<div class="item">High: --° &nbsp; Low: --°</div>
+<div class="item">Conditions: Ready for weather feed</div>
+<div class="muted">GitHub/Vercel weather connection comes
+next.</div>
+</section>
+
+<!-- MORNING BRIEF -->
+<section class="card" id="brief">
+<h2>🌅 Morning Brief</h2>
+<div class="brief" id="briefText">Good morning, Keith.
+
+Your personal morning brief will appear here.
+
+Weather • News • Email Watch • Personal Focus • Reminder Notes • AI
+Personal Block</div>
+</section>
+
+<!-- TASKS -->
+<section class="card" id="tasks">
+<h2>✅ Today's Tasks</h2>
+
+<div class="task-row">
+<input id="taskInput" placeholder="Add something to
+remember...">
+<button onclick="addTask()">ADD</button>
+</div>
+
+<div id="taskList"></div>
+</section>
+
+<!-- EMAIL -->
+<section class="card" id="email">
+<h2>📧 Email Watch</h2>
+<div class="item">Important personal email only</div>
+<div class="item">Security • Finance • Travel • Appointments •
+Family</div>
+<div class="muted">No promotions or newsletter clutter.</div>
+</section>
+
+<!-- NEWS -->
+<section class="card" id="news">
+<h2>📰 News Worth Knowing</h2>
+<div class="item">📈 Markets / Economy</div>
+<div class="item">🤖 AI / Technology</div>
+<div class="item">🌴 La Quinta / California</div>
+</section>
+
+<!-- CALENDAR -->
+<section class="card">
+<h2>📅 Calendar</h2>
+<div class="item">Today's personal events will appear here.</div>
+<button
+onclick="window.open('https://calendar.google.com','_blank')">
+Open Google Calendar
+</button>
+</section>
+
+<!-- AI -->
+<section class="card" id="ai">
+<h2>🤖 AI Corner</h2>
+<div class="item"><strong>Personal note:</strong><br>One useful
+idea for today.</div>
+<div class="item"><strong>Tool idea:</strong><br>One practical
+ChatGPT tip.</div>
+<div class="item"><strong>Mini workflow:</strong><br>Keep it short
+and useful.</div>
+</section>
+
+<!-- NOTES -->
+<section class="card">
+<h2>📝 Keith's Notes</h2>
+<textarea id="notes" rows="9" placeholder="Ideas, reminders,
+errands, things not to forget..."></textarea>
+<div class="muted" style="margin-top:8px;">Notes save
+automatically on this device.</div>
+</section>
+
+<!-- HEALTH / SLEEP -->
+<section class="card full">
+<h2>🌙 Health / Sleep</h2>
+<div class="grid">
+<div class="item">
+<strong>Sleep Notes</strong><br>
+<span class="muted">Add anything useful from last
+night.</span>
+</div>
+<div class="item">
+<strong>Personal Wellness</strong><br>
+<span class="muted">Hydration • movement • appointments •
+notes</span>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+Keith Dashboard • GitHub + Vercel • No n8n • No Zapier
+</footer>
+
+</div>
+
+<script>
+// DATE
+document.getElementById("date").textContent =
+new Date().toLocaleDateString("en-US", {
+weekday: "long",
+month: "long",
+day: "numeric",
+year: "numeric"
+});
+
+// NAVIGATION
+function jump(id) {
+document.getElementById(id).scrollIntoView({
+behavior: "smooth"
+});
+}
+
+// NOTES
+const notes = document.getElementById("notes");
+notes.value = localStorage.getItem("keith_notes") || "";
+
+notes.addEventListener("input", () => {
+localStorage.setItem("keith_notes", notes.value);
+});
+
+// TASKS
+let tasks = JSON.parse(localStorage.getItem("keith_tasks") || "[]");
+
+if (tasks.length === 0) {
+tasks = [
+{text:"Clean kitchen", done:false},
+{text:"EDD", done:false},
+{text:"Finish GitHub repo", done:false},
+{text:"Fix AI To-Do tasks checklist", done:false},
+{text:"Take out trash", done:false},
+{text:"Review 1 pending task", done:false}
+];
+}
+
+function saveTasks() {
+localStorage.setItem("keith_tasks", JSON.stringify(tasks));
+}
+
+function renderTasks() {
+const list = document.getElementById("taskList");
+list.innerHTML = "";
+
+tasks.forEach((task, index) => {
+const row = document.createElement("div");
+row.className = "item task";
+
+const text = document.createElement("span");
+text.textContent = task.text;
+if (task.done) text.className = "done";
+text.style.cursor = "pointer";
+
+text.onclick = () => {
+tasks[index].done = !tasks[index].done;
+saveTasks();
+renderTasks();
+};
+
+const remove = document.createElement("button");
+remove.textContent = "×";
+remove.className = "remove";
+
+remove.onclick = () => {
+tasks.splice(index, 1);
+saveTasks();
+renderTasks();
+};
+
+row.appendChild(text);
+row.appendChild(remove);
+list.appendChild(row);
+});
+
+saveTasks();
+}
+
+function addTask() {
+const input = document.getElementById("taskInput");
+const value = input.value.trim();
+
+if (!value) return;
+
+tasks.push({
+text: value,
+done: false
+});
+
+input.value = "";
+saveTasks();
+renderTasks();
+}
+
+document.getElementById("taskInput").addEventListener("keydown", e =>
+{
+if (e.key === "Enter") addTask();
+});
+
+renderTasks();
+</script>
+
+</body>
+</html>
