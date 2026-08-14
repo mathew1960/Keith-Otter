@@ -1,557 +1,884 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-<title>Morning Brief Dashboard</title>
+initial-scale=1.0" />
+<title>Morning & Afternoon Brief</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
 <style>
-.card {
-background-color: rgba(15, 23, 42, 0.6);
-border-radius: 1rem;
-padding: 1.25rem;
-border-width: 1px;
-backdrop-filter: blur(8px);
+@import
+url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-.card-amber { border-color: rgba(245, 158, 11, 0.4); }
-.card-blue { border-color: rgba(59, 130, 246, 0.4); }
-.card-rose { border-color: rgba(244, 63, 94, 0.4); }
-.card-cyan { border-color: rgba(6, 182, 212, 0.4); }
-.card-emerald { border-color: rgba(16, 185, 129, 0.4); }
-.card-indigo { border-color: rgba(99, 102, 241, 0.4); }
-.label {
-font-size: 0.875rem;
+
+body {
+font-family: 'Inter', system-ui, sans-serif;
+background: #070b14;
+color: #f0f4fe;
+min-height: 100vh;
+padding: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* ── Animated background ── */
+.bg-canvas {
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+z-index: 0;
+background: radial-gradient(ellipse at 20% 50%, #0f1a2e 0%,
+#060a14 100%);
+overflow: hidden;
+}
+
+.bg-canvas::before {
+content: '';
+position: absolute;
+top: -30%;
+left: -20%;
+width: 80%;
+height: 80%;
+background: radial-gradient(circle, rgba(99, 102, 241, 0.06)
+0%, transparent 70%);
+animation: drift 18s ease-in-out infinite alternate;
+}
+
+.bg-canvas::after {
+content: '';
+position: absolute;
+bottom: -30%;
+right: -20%;
+width: 70%;
+height: 70%;
+background: radial-gradient(circle, rgba(16, 185, 129, 0.05)
+0%, transparent 70%);
+animation: drift 22s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes drift {
+0% {
+transform: translate(0, 0) scale(1);
+}
+100% {
+transform: translate(60px, -40px) scale(1.2);
+}
+}
+
+.orb {
+position: absolute;
+border-radius: 50%;
+filter: blur(80px);
+opacity: 0.3;
+pointer-events: none;
+}
+.orb-1 {
+width: 400px;
+height: 400px;
+background: #6366f1;
+top: -100px;
+right: -100px;
+animation: floatOrb 25s ease-in-out infinite alternate;
+}
+.orb-2 {
+width: 300px;
+height: 300px;
+background: #f59e0b;
+bottom: -50px;
+left: -50px;
+animation: floatOrb 20s ease-in-out infinite
+alternate-reverse;
+}
+.orb-3 {
+width: 250px;
+height: 250px;
+background: #f43f5e;
+top: 40%;
+left: 50%;
+animation: floatOrb 30s ease-in-out infinite alternate;
+}
+
+@keyframes floatOrb {
+0% {
+transform: translate(0, 0) scale(1);
+}
+100% {
+transform: translate(40px, -60px) scale(1.3);
+}
+}
+
+.dashboard {
+position: relative;
+z-index: 1;
+max-width: 1100px;
+width: 100%;
+}
+
+.glass {
+background: rgba(17, 25, 45, 0.65);
+backdrop-filter: blur(18px) saturate(1.4);
+-webkit-backdrop-filter: blur(18px) saturate(1.4);
+border: 1px solid rgba(255, 255, 255, 0.06);
+border-radius: 24px;
+box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.8), inset 0
+1px 0 rgba(255, 255, 255, 0.04);
+transition: all 0.3s ease;
+}
+
+.glass:hover {
+border-color: rgba(255, 255, 255, 0.10);
+box-shadow: 0 24px 60px -16px rgba(0, 0, 0, 0.9), inset 0
+1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.card-header {
+display: flex;
+align-items: center;
+gap: 10px;
 font-weight: 700;
+font-size: 0.85rem;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+padding-bottom: 14px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+margin-bottom: 16px;
+}
+
+.card-header i {
+font-size: 1rem;
+width: 20px;
+text-align: center;
+}
+
+.theme-card {
+background: rgba(17, 25, 45, 0.55);
+backdrop-filter: blur(18px) saturate(1.4);
+-webkit-backdrop-filter: blur(18px) saturate(1.4);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 24px;
+padding: 22px 24px;
+box-shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.7);
+transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+position: relative;
+}
+
+.theme-card:hover {
+border-color: rgba(255, 255, 255, 0.10);
+transform: translateY(-2px);
+box-shadow: 0 24px 56px -16px rgba(0, 0, 0, 0.8);
+}
+
+.theme-card .card-header {
+color: var(--accent);
+}
+
+.theme-card .card-header i {
+color: var(--accent);
+}
+
+.theme-card::before {
+content: '';
+position: absolute;
+top: 0;
+left: 20px;
+right: 20px;
+height: 2.5px;
+border-radius: 0 0 4px 4px;
+background: linear-gradient(90deg, transparent,
+var(--accent), transparent);
+opacity: 0.6;
+}
+
+.theme-amber {
+--accent: #f59e0b;
+--accent-dim: rgba(245, 158, 11, 0.12);
+--accent-glow: 0 0 30px rgba(245, 158, 11, 0.08);
+}
+.theme-blue {
+--accent: #3b82f6;
+--accent-dim: rgba(59, 130, 246, 0.12);
+--accent-glow: 0 0 30px rgba(59, 130, 246, 0.08);
+}
+.theme-rose {
+--accent: #f43f5e;
+--accent-dim: rgba(244, 63, 94, 0.12);
+--accent-glow: 0 0 30px rgba(244, 63, 94, 0.08);
+}
+.theme-cyan {
+--accent: #06b6d4;
+--accent-dim: rgba(6, 182, 212, 0.12);
+--accent-glow: 0 0 30px rgba(6, 182, 212, 0.08);
+}
+.theme-emerald {
+--accent: #10b981;
+--accent-dim: rgba(16, 185, 129, 0.12);
+--accent-glow: 0 0 30px rgba(16, 185, 129, 0.08);
+}
+.theme-indigo {
+--accent: #6366f1;
+--accent-dim: rgba(99, 102, 241, 0.12);
+--accent-glow: 0 0 30px rgba(99, 102, 241, 0.08);
+}
+
+.badge {
+font-size: 0.6rem;
+font-weight: 600;
+padding: 3px 12px;
+border-radius: 100px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+background: var(--accent-dim);
+color: var(--accent);
+border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.custom-scroll::-webkit-scrollbar {
+width: 4px;
+height: 4px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+background: rgba(255, 255, 255, 0.02);
+border-radius: 10px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+background: rgba(255, 255, 255, 0.10);
+border-radius: 10px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+background: rgba(255, 255, 255, 0.18);
+}
+
+.input-glass {
+background: rgba(0, 0, 0, 0.35);
+border: 1px solid rgba(255, 255, 255, 0.06);
+border-radius: 12px;
+padding: 8px 14px;
+font-size: 0.8rem;
+color: #e8edf9;
+transition: all 0.25s ease;
+width: 100%;
+outline: none;
+font-family: 'Inter', sans-serif;
+}
+
+.input-glass:focus {
+border-color: var(--accent);
+background: rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.input-glass::placeholder {
+color: rgba(255, 255, 255, 0.25);
+}
+
+.btn-accent {
+background: var(--accent);
+color: #fff;
+font-weight: 600;
+font-size: 0.7rem;
+padding: 7px 18px;
+border-radius: 100px;
+border: none;
+cursor: pointer;
+transition: all 0.25s ease;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+display: inline-flex;
+align-items: center;
+gap: 6px;
+}
+
+.btn-accent:hover {
+transform: scale(1.04);
+filter: brightness(1.15);
+box-shadow: 0 0 20px var(--accent-dim);
+}
+
+.btn-accent:disabled {
+opacity: 0.35;
+cursor: not-allowed;
+transform: none;
+filter: none;
+box-shadow: none;
+}
+
+.btn-outline {
+background: transparent;
+border: 1px solid rgba(255, 255, 255, 0.08);
+color: #b0bcdb;
+font-weight: 500;
+font-size: 0.7rem;
+padding: 7px 18px;
+border-radius: 100px;
+cursor: pointer;
+transition: all 0.25s ease;
+text-transform: uppercase;
+letter-spacing: 0.02em;
+}
+
+.btn-outline:hover {
+background: rgba(255, 255, 255, 0.04);
+border-color: rgba(255, 255, 255, 0.15);
+color: #fff;
+}
+
+.timer-digits {
+font-family: 'Inter', monospace;
+font-weight: 700;
+font-size: 2.6rem;
+letter-spacing: 0.04em;
+background: linear-gradient(135deg, #f0f4fe 60%, #8a9bc0);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.pulse-dot {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+display: inline-block;
+transition: all 0.3s ease;
+}
+
+.pulse-dot.active {
+background: #06b6d4;
+box-shadow: 0 0 16px rgba(6, 182, 212, 0.5);
+animation: pulse 1.6s ease-in-out infinite;
+}
+
+.pulse-dot.idle {
+background: #334155;
+box-shadow: none;
+animation: none;
+}
+
+@keyframes pulse {
+0%,
+100% {
+transform: scale(1);
+opacity: 1;
+}
+50% {
+transform: scale(1.2);
+opacity: 0.6;
+}
+}
+
+.vault-pin-input {
+background: rgba(0, 0, 0, 0.4);
+border: 1px solid rgba(255, 255, 255, 0.08);
+border-radius: 14px;
+padding: 10px 16px;
+font-size: 1.4rem;
+font-family: 'Inter', monospace;
+letter-spacing: 0.3em;
+text-align: center;
+color: #fff;
+width: 120px;
+outline: none;
+transition: all 0.25s ease;
+}
+
+.vault-pin-input:focus {
+border-color: #10b981;
+box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.15);
+}
+
+.news-item {
+background: rgba(0, 0, 0, 0.25);
+border: 1px solid rgba(255, 255, 255, 0.04);
+border-radius: 14px;
+padding: 10px 14px;
+transition: all 0.25s ease;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.news-item:hover {
+background: rgba(255, 255, 255, 0.04);
+border-color: rgba(255, 255, 255, 0.08);
+transform: translateX(4px);
+}
+
+.news-dot {
+width: 6px;
+height: 6px;
+border-radius: 50%;
+flex-shrink: 0;
+}
+
+.grocery-item {
+background: rgba(0, 0, 0, 0.25);
+border: 1px solid rgba(255, 255, 255, 0.04);
+border-radius: 10px;
+padding: 6px 12px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin-bottom: 0.75rem;
+transition: all 0.2s ease;
+}
+
+.grocery-item:hover {
+background: rgba(255, 255, 255, 0.04);
+}
+
+.toggle-switch {
+position: relative;
+display: inline-block;
+width: 50px;
+height: 28px;
+}
+
+.toggle-switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.toggle-slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #334155;
+transition: 0.4s;
+border-radius: 34px;
+}
+
+.toggle-slider:before {
+position: absolute;
+content: "";
+height: 20px;
+width: 20px;
+left: 4px;
+bottom: 4px;
+background: white;
+transition: 0.4s;
+border-radius: 50%;
+}
+
+input:checked+.toggle-slider {
+background: #6366f1;
+}
+
+input:checked+.toggle-slider:before {
+transform: translateX(22px);
+}
+
+@media (max-width: 640px) {
+body {
+padding: 12px;
+}
+.theme-card {
+padding: 16px 14px;
+}
+.timer-digits {
+font-size: 1.8rem;
+}
+.card-header {
+font-size: 0.7rem;
+}
 }
 </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen p-4 md:p-8
-font-sans">
+<body>
 
-<div class="max-w-6xl mx-auto space-y-6">
-
-<!-- HEADER -->
-<header class="flex justify-between items-center border-b
-border-slate-800 pb-4">
-<div>
-<h1 class="text-3xl font-black tracking-tight
-text-white">Morning Brief</h1>
-<p id="clock" class="text-sm font-mono
-text-slate-400">Loading time...</p>
+<!-- ─── Animated Background ─── -->
+<div class="bg-canvas">
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
 </div>
-<div class="flex items-center gap-2">
-<span class="inline-block w-2.5 h-2.5 bg-emerald-500
-rounded-full animate-pulse"></span>
-<span class="text-xs text-slate-400 font-mono">SYSTEM
-ONLINE</span>
+
+<!-- ─── Dashboard ─── -->
+<div class="dashboard">
+
+<!-- ─── HEADER ─── -->
+<header class="flex flex-wrap items-center justify-between gap-4
+mb-6 relative z-10">
+<div>
+<h1 class="text-3xl sm:text-4xl font-extrabold
+tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text
+text-transparent">
+Morning Brief
+</h1>
+<div class="flex items-center gap-3 mt-1.5">
+<span class="text-xs text-slate-400 font-mono
+tracking-wider" id="clock">Loading…</span>
+<span class="w-1.5 h-1.5 rounded-full
+bg-slate-600"></span>
+<span class="text-[10px] uppercase tracking-[0.15em]
+text-slate-500 font-medium">Live</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-2 bg-slate-900/60
+border border-slate-800/60 rounded-full px-4 py-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-400
+animate-pulse"></span>
+<span class="text-[10px] font-medium text-slate-300
+uppercase tracking-wider">System Active</span>
+</div>
 </div>
 </header>
 
-<!-- GRID LAYOUT -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
-gap-6">
-
-<!-- 1. WEATHER OVERVIEW -->
-<div class="card card-amber">
-<div class="label text-amber-400">
-<span><i class="fa-solid fa-sun mr-2"></i> Weather
-Overview (La Quinta, CA)</span>
-</div>
-<div class="grid grid-cols-3 gap-2 text-center">
-<div class="bg-slate-900/80 p-3 rounded-lg border
-border-slate-800">
-<p class="text-[10px] text-slate-400 uppercase
-font-semibold">Temperature</p>
-<p class="text-xl font-black
-text-amber-400">95°F</p>
-</div>
-<div class="bg-slate-900/80 p-3 rounded-lg border
-border-slate-800">
-<p class="text-[10px] text-slate-400 uppercase
-font-semibold">Wind Speed</p>
-<p class="text-xl font-black text-amber-400">4
-mph</p>
-</div>
-<div class="bg-slate-900/80 p-3 rounded-lg border
-border-slate-800">
-<p class="text-[10px] text-slate-400 uppercase
-font-semibold">Humidity</p>
-<p class="text-xl font-black
-text-amber-400">27%</p>
-</div>
-</div>
+<!-- ─── MORNING / AFTERNOON TOGGLE ─── -->
+<div class="flex items-center justify-center gap-4 my-4
+bg-slate-800/40 p-3 rounded-2xl border border-slate-700/50 max-w-xs
+mx-auto relative z-10">
+<span id="mode-label-morning" class="text-xs font-bold
+text-amber-400">☀️ MORNING</span>
+<label class="toggle-switch">
+<input type="checkbox" id="mode-toggle">
+<span class="toggle-slider"></span>
+</label>
+<span id="mode-label-afternoon" class="text-xs font-bold
+text-slate-500">🌙 AFTERNOON</span>
 </div>
 
-<!-- 2. TOP NEWS HEADLINES -->
-<div class="card card-blue md:col-span-2">
-<div class="label text-blue-400">
-<span><i class="fa-solid fa-newspaper mr-2"></i> Top
-News Headlines</span>
-<span class="text-[10px] text-blue-300 bg-blue-950
-border border-blue-800 px-2 py-0.5 rounded-full">Live Feed</span>
+<!-- ─── GRID ─── -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+
+<!-- ─── 1. WEATHER (AMBER) ─── -->
+<div data-mode="morning" class="theme-card theme-amber
+lg:col-span-1">
+<div class="card-header">
+<i class="fa-solid fa-sun"></i> Weather · La Quinta,
+CA
+<span class="badge ml-auto">today</span>
 </div>
-<ul id="news-list" class="space-y-2 text-xs">
-<li class="text-slate-500 italic p-2">Fetching
-news...</li>
+<div class="grid grid-cols-3 gap-3">
+<div class="bg-slate-900/60 border
+border-slate-800/40 rounded-2xl p-4 text-center
+hover:border-amber-500/30 transition-smooth">
+<div class="text-[10px] uppercase tracking-wider
+text-slate-400 font-medium">Temp</div>
+<div class="text-3xl font-bold text-amber-400
+mt-1">82°</div>
+<div class="text-[10px] text-slate-500">feels
+84°</div>
+</div>
+<div class="bg-slate-900/60 border
+border-slate-800/40 rounded-2xl p-4 text-center
+hover:border-amber-500/30 transition-smooth">
+<div class="text-[10px] uppercase tracking-wider
+text-slate-400 font-medium">Wind</div>
+<div class="text-3xl font-bold text-amber-400
+mt-1">2</div>
+<div class="text-[10px] text-slate-500">mph
+NE</div>
+</div>
+<div class="bg-slate-900/60 border
+border-slate-800/40 rounded-2xl p-4 text-center
+hover:border-amber-500/30 transition-smooth">
+<div class="text-[10px] uppercase tracking-wider
+text-slate-400 font-medium">Humidity</div>
+<div class="text-3xl font-bold text-amber-400
+mt-1">38%</div>
+<div class="text-[10px]
+text-slate-500">comfortable</div>
+</div>
+</div>
+<div class="mt-3 flex items-center gap-2 text-[11px]
+text-slate-400">
+<i class="fa-regular fa-clock
+text-amber-400/60"></i>
+<span>Sunrise 6:12 AM · Sunset 7:48 PM</span>
+</div>
+</div>
+
+<!-- ─── 2. NEWS BRIEF (BLUE) - MORNING ─── -->
+<div data-mode="morning" class="theme-card theme-blue
+lg:col-span-1">
+<div class="card-header">
+<i class="fa-solid fa-newspaper"></i> Morning News
+Brief
+<span class="badge ml-auto">top stories</span>
+</div>
+<ul id="news-list" class="space-y-2.5">
+<!-- Populated by JS -->
 </ul>
 </div>
 
-<!-- 3. PRESCRIPTIONS & HEALTH HUB -->
-<div class="card card-rose md:col-span-2 lg:col-span-3">
-<div class="label text-rose-400">
-<span><i class="fa-solid fa-pills mr-2"></i>
-Prescriptions & Health Hub</span>
+<!-- ─── 2b. NEWS BRIEF (BLUE) - AFTERNOON ─── -->
+<div data-mode="afternoon" class="theme-card theme-blue
+lg:col-span-1" style="display: none;">
+<div class="card-header">
+<i class="fa-solid fa-newspaper"></i> Afternoon
+Brief
+<span class="badge ml-auto">coming soon</span>
+</div>
+<ul class="space-y-2.5">
+<li class="news-item">
+<span class="news-dot"
+style="background:#3b82f6; opacity:0.6;"></span>
+<span class="text-slate-200 text-xs">📌
+Afternoon headlines will go here</span>
+</li>
+<li class="news-item">
+<span class="news-dot"
+style="background:#3b82f6; opacity:0.6;"></span>
+<span class="text-slate-200 text-xs">📌 Add
+afternoon to-do items or tasks</span>
+</li>
+<li class="news-item">
+<span class="news-dot"
+style="background:#3b82f6; opacity:0.6;"></span>
+<span class="text-slate-200 text-xs">📌
+Afternoon focus area: one thing to accomplish</span>
+</li>
+<li class="news-item">
+<span class="news-dot"
+style="background:#3b82f6; opacity:0.6;"></span>
+<span class="text-slate-200 text-xs">📌 Check
+back later for updates</span>
+</li>
+</ul>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<!-- Prescription Table -->
-<div class="bg-slate-900/60 p-3 rounded-xl border
-border-slate-800">
-<table class="w-full text-left text-xs">
+<!-- ─── 3. PRESCRIPTIONS & HEALTH (ROSE) ─── -->
+<div data-mode="morning" class="theme-card theme-rose
+lg:col-span-2">
+<div class="card-header">
+<i class="fa-solid
+fa-prescription-bottle-medical"></i> Health Hub
+<span class="badge ml-auto">2 refills</span>
+</div>
+
+<!-- Table -->
+<div class="overflow-x-auto custom-scroll mb-4">
+<table class="w-full text-left text-xs
+border-collapse">
 <thead>
 <tr class="text-slate-400 border-b
-border-slate-800">
-<th class="pb-2">Medication</th>
-<th class="pb-2">Dosage</th>
-<th class="pb-2">Rx #</th>
-<th class="pb-2">Next Refill</th>
-<th class="pb-2
-text-right">Status</th>
+border-slate-800/60 bg-slate-900/30">
+<th class="p-2.5
+font-medium">Medication</th>
+<th class="p-2.5
+font-medium">Dosage</th>
+<th class="p-2.5 font-medium">Rx #</th>
+<th class="p-2.5 font-medium">Next
+Refill</th>
+<th class="p-2.5
+font-medium">Status</th>
 </tr>
 </thead>
-<tbody class="divide-y divide-slate-800/50">
+<tbody id="rx-table-body" class="divide-y
+divide-slate-800/40 text-slate-300">
 <tr>
-<td class="py-2
+<td class="p-2.5
 font-medium">Lisinopril</td>
-<td class="text-slate-400">10
-mg</td>
-<td class="text-slate-400
-font-mono">#482910</td>
-<td class="text-slate-300">Aug 20,
-2026</td>
-<td class="text-right"><span
-class="px-2 py-0.5 bg-emerald-950 text-emerald-400 border
-border-emerald-800 rounded-full text-[10px]">OK</span></td>
+<td class="p-2.5">10 mg</td>
+<td class="p-2.5 font-mono
+text-slate-400">#482910</td>
+<td class="p-2.5">Aug 20, 2026</td>
+<td class="p-2.5"><span class="px-3
+py-0.5 rounded-full text-[10px] font-medium bg-emerald-950/60
+text-emerald-400 border border-emerald-800/40">OK</span></td>
 </tr>
 <tr>
-<td class="py-2
+<td class="p-2.5
 font-medium">Atorvastatin</td>
-<td class="text-slate-400">20
-mg</td>
-<td class="text-slate-400
-font-mono">#391024</td>
-<td class="text-amber-400
+<td class="p-2.5">20 mg</td>
+<td class="p-2.5 font-mono
+text-slate-400">#391024</td>
+<td class="p-2.5 text-amber-400
 font-semibold">Aug 15, 2026</td>
-<td class="text-right"><span
-class="px-2 py-0.5 bg-amber-950 text-amber-400 border border-amber-800
-rounded-full text-[10px]">Refill Soon</span></td>
+<td class="p-2.5"><span class="px-3
+py-0.5 rounded-full text-[10px] font-medium bg-amber-950/60
+text-amber-400 border border-amber-800/40">Refill Soon</span></td>
 </tr>
 </tbody>
 </table>
 </div>
 
-<!-- Grocery & Notes -->
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-<div class="bg-slate-900/60 p-3 rounded-xl
-border border-slate-800">
-<p class="text-xs font-semibold
-text-slate-300 mb-2"><i class="fa-solid fa-cart-shopping text-rose-400
-mr-1"></i> Grocery List</p>
-<div class="flex gap-1 mb-2">
-<input id="grocery-input" type="text"
-placeholder="Add item..." class="w-full bg-slate-950 border
-border-slate-800 rounded px-2 py-1 text-xs focus:outline-none
-focus:border-rose-500">
+<!-- Grocery + Notes -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Grocery -->
+<div class="bg-slate-900/40 border
+border-slate-800/40 rounded-2xl p-4">
+<div class="text-xs font-semibold
+text-rose-300/80 flex items-center gap-2 mb-2.5">
+<i class="fa-solid fa-cart-shopping"></i>
+Grocery List
+</div>
+<div class="flex gap-2 mb-2.5">
+<input type="text" id="grocery-input"
+placeholder="Add item…" class="input-glass" style="--accent:#f43f5e;">
 <button onclick="addGroceryItem()"
-class="bg-rose-600 hover:bg-rose-500 text-white px-2.5 py-1 rounded
-text-xs font-bold">+</button>
+class="btn-accent" style="--accent:#f43f5e; padding:7px 16px;
+font-size:0.65rem;">
+<i class="fa-solid fa-plus"></i> Add
+</button>
 </div>
-<ul id="grocery-list" class="space-y-1
-text-xs max-h-24 overflow-y-auto"></ul>
+<ul id="grocery-list" class="space-y-1.5
+max-h-32 overflow-y-auto custom-scroll pr-1">
+<!-- JS populates -->
+</ul>
 </div>
 
-<div class="bg-slate-900/60 p-3 rounded-xl
-border border-slate-800 flex flex-col justify-between">
-<div>
-<p class="text-xs font-semibold
-text-slate-300 mb-1"><i class="fa-solid fa-user-doctor text-rose-400
-mr-1"></i> Doctor Notes</p>
-<textarea id="doctor-notes"
-class="w-full bg-slate-950 border border-slate-800 rounded p-1.5 text-xs
-focus:outline-none focus:border-rose-500 h-16 resize-none"
-placeholder="Notes for next visit..."></textarea>
+<!-- Doctor's Notes -->
+<div class="bg-slate-900/40 border
+border-slate-800/40 rounded-2xl p-4 flex flex-col">
+<div class="text-xs font-semibold
+text-rose-300/80 flex items-center gap-2 mb-2.5">
+<i class="fa-solid fa-user-doctor"></i>
+Doctor's Notes
 </div>
-<div class="flex justify-between
-items-center mt-1">
-<span id="save-status"
-class="text-[10px] text-slate-500">Auto-saved locally</span>
+<textarea id="doctor-notes" placeholder="Notes
+for next appointment…" class="input-glass flex-1 min-h-[72px]
+resize-none" style="--accent:#f43f5e;"></textarea>
+<div class="flex justify-between items-center
+mt-2">
+<span id="save-status" class="text-[10px]
+text-slate-500">Auto-saved</span>
 <button onclick="saveDoctorNotes()"
-class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-2 py-0.5
-rounded text-[10px]">Save</button>
-</div>
+class="btn-accent" style="--accent:#f43f5e; padding:5px 16px;
+font-size:0.6rem;">
+<i class="fa-regular
+fa-floppy-disk"></i> Save
+</button>
 </div>
 </div>
 </div>
 </div>
 
-<!-- 4. SLEEP RECORDER -->
-<div class="card card-cyan md:col-span-2">
-<div class="label text-cyan-400">
-<span><i class="fa-solid fa-bed mr-2"></i>
-ApneaTrack Sleep Recorder</span>
-<div class="flex items-center gap-1.5">
-<span id="status-indicator" class="w-2.5 h-2.5
-rounded-full bg-slate-700"></span>
+<!-- ─── 4. APNEATRACK (CYAN) ─── -->
+<div data-mode="morning" class="theme-card theme-cyan
+lg:col-span-2">
+<div class="card-header">
+<i class="fa-solid fa-bed"></i> ApneaTrack Sleep
+Recorder
+<span class="badge ml-auto">personal logger</span>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Timer & Controls -->
+<div class="bg-slate-900/40 border
+border-slate-800/40 rounded-2xl p-5 flex flex-col justify-between
+md:col-span-2">
+<div class="flex justify-between items-center">
 <span id="session-label" class="text-xs
 text-slate-400 font-medium">No active session</span>
+<span class="pulse-dot idle"
+id="status-indicator"></span>
+</div>
+<div class="timer-digits text-center py-2"
+id="timer">00:00:00</div>
+<div class="flex gap-2.5 mt-1">
+<button onclick="startSession()"
+id="start-btn" class="btn-accent flex-1 justify-center"
+style="--accent:#06b6d4;">
+<i class="fa-solid fa-play"></i> Start
+</button>
+<button onclick="endSession()" id="end-btn"
+disabled class="btn-outline flex-1 justify-center"
+style="border-color:rgba(255,255,255,0.06);">
+<i class="fa-solid fa-stop"></i> End
+</button>
 </div>
 </div>
 
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
-<div class="sm:col-span-2 bg-slate-900/80 p-4
-rounded-xl border border-slate-800 flex flex-col justify-center
-items-center">
-<p id="timer" class="text-4xl font-black
-font-mono tracking-wider text-slate-100">00:00:00</p>
-<div class="flex gap-2 mt-3">
-<button id="start-btn"
-onclick="startSession()" class="bg-cyan-600 hover:bg-cyan-500 text-white
-text-xs px-4 py-1.5 rounded-lg font-bold">START</button>
-<button id="end-btn" onclick="endSession()"
-disabled class="bg-slate-800 disabled:opacity-50 text-slate-300 text-xs
-px-4 py-1.5 rounded-lg font-bold">END</button>
+<!-- Quick Log -->
+<div class="bg-slate-900/40 border
+border-slate-800/40 rounded-2xl p-5">
+<div class="text-[10px] uppercase tracking-wider
+text-slate-400 font-medium mb-2.5">Quick Log</div>
+<div class="grid grid-cols-2 gap-2 mb-3">
+<button onclick="logEvent('apnea')"
+class="bg-red-950/40 hover:bg-red-900/40 border border-red-800/30
+text-red-400 p-2.5 rounded-xl text-[10px] font-medium flex items-center
+justify-center gap-1.5 transition-smooth">
+<i class="fa-solid fa-lungs"></i> Apnea
+</button>
+<button onclick="logEvent('snore')"
+class="bg-amber-950/40 hover:bg-amber-900/40 border border-amber-800/30
+text-amber-400 p-2.5 rounded-xl text-[10px] font-medium flex
+items-center justify-center gap-1.5 transition-smooth">
+<i class="fa-solid fa-volume-high"></i>
+Snore
+</button>
+<button onclick="logEvent('gasping')"
+class="bg-orange-950/40 hover:bg-orange-900/40 border
+border-orange-800/30 text-orange-400 p-2.5 rounded-xl text-[10px]
+font-medium flex items-center justify-center gap-1.5 transition-smooth">
+<i class="fa-solid fa-wind"></i> Gasp
+</button>
+<button onclick="logEvent('awake')"
+class="bg-sky-950/40 hover:bg-sky-900/40 border border-sky-800/30
+text-sky-400 p-2.5 rounded-xl text-[10px] font-medium flex items-center
+justify-center gap-1.5 transition-smooth">
+<i class="fa-solid fa-eye"></i> Awake
+</button>
+</div>
+<div class="flex justify-between text-[10px]
+text-slate-400 border-t border-slate-800/40 pt-2.5">
+<span>Events: <strong id="stat-events"
+class="text-cyan-400">0</strong></span>
+<span>Rate: <strong id="stat-rate"
+class="text-cyan-400">0.0</strong>/hr</span>
 </div>
 </div>
-<div class="bg-slate-900/80 p-3 rounded-xl border
-border-slate-800 flex flex-col justify-around text-center text-xs">
-<div>
-<p class="text-slate-400 text-[10px]">EVENTS
-LOGGED</p>
-<p id="stat-events" class="text-xl font-bold
-text-cyan-400">0</p>
 </div>
-<div>
-<p class="text-slate-400 text-[10px]">EVENTS
-/ HR</p>
-<p id="stat-rate" class="text-xl font-bold
-text-cyan-400">0.0</p>
+
+<!-- Log output -->
+<div class="mt-3 bg-slate-900/40 border
+border-slate-800/40 rounded-2xl p-3">
+<div id="log-container" class="max-h-20
+overflow-y-auto custom-scroll space-y-1 text-xs text-slate-300">
+<div id="log-empty" class="text-center py-2
+text-slate-500 italic">No events logged this session.</div>
 </div>
 </div>
 </div>
 
-<div class="grid grid-cols-4 gap-2">
-<button onclick="logEvent('Apnea')"
-class="bg-rose-950/60 hover:bg-rose-900 border border-rose-800
-text-rose-300 p-2 rounded-lg text-xs font-semibold">Apnea</button>
-<button onclick="logEvent('Snore')"
-class="bg-amber-950/60 hover:bg-amber-900 border border-amber-800
-text-amber-300 p-2 rounded-lg text-xs font-semibold">Snore</button>
-<button onclick="logEvent('Gasping')"
-class="bg-orange-950/60 hover:bg-orange-900 border border-orange-800
-text-orange-300 p-2 rounded-lg text-xs font-semibold">Gasping</button>
-<button onclick="logEvent('Awake')"
-class="bg-emerald-950/60 hover:bg-emerald-900 border border-emerald-800
-text-emerald-300 p-2 rounded-lg text-xs font-semibold">Awake</button>
-</div>
-<div id="log-container" class="mt-3 max-h-20
-overflow-y-auto space-y-1">
-<p id="log-empty" class="text-[11px] text-slate-500
-italic text-center">No events logged during session.</p>
-</div>
+<!-- ─── 5. PRIVATE VAULT (EMERALD) ─── -->
+<div data-mode="morning" class="theme-card theme-emerald
+lg:col-span-1">
+<div class="card-header">
+<i class="fa-solid fa-shield-halved"></i> Secure
+Vault
+<span id="vault-badge" class="badge ml-auto"
+style="--accent:#ef4444; color:#ef4444;
+background:rgba(239,68,68,0.12);">LOCKED</span>
 </div>
 
-<!-- 5. SECURE VAULT -->
-<div class="card card-emerald">
-<div class="label text-emerald-400">
-<span><i class="fa-solid fa-vault mr-2"></i> Secure
-Vault</span>
-<span id="vault-badge" class="text-[10px] px-2
-py-0.5 bg-red-950 text-red-400 border border-red-800
-rounded-full">LOCKED</span>
-</div>
-
-<div id="vault-locked-view" class="space-y-3">
-<p class="text-xs text-slate-400">Enter PIN
-(Default: 1234)</p>
-<div class="flex gap-2">
-<input id="vault-pin-input" type="password"
-maxlength="4" placeholder="••••" class="w-full bg-slate-950 border
-border-slate-800 rounded px-2.5 py-1 text-center font-mono text-sm
-tracking-widest focus:outline-none focus:border-emerald-500">
+<!-- Locked -->
+<div id="vault-locked-view" class="bg-slate-900/40
+border border-slate-800/40 rounded-2xl p-6 text-center">
+<i class="fa-solid fa-lock text-3xl
+text-emerald-400/60 mb-2"></i>
+<div class="text-xs text-slate-300 font-medium
+mb-3">Enter PIN to access IDs &amp; emergency cards</div>
+<div class="flex justify-center items-center gap-3">
+<input type="password" id="vault-pin-input"
+maxlength="4" placeholder="••••" class="vault-pin-input">
 <button onclick="unlockVault()"
-class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs px-3 py-1
-rounded font-bold">Unlock</button>
+class="btn-accent" style="--accent:#10b981; padding:10px 22px;">
+<i class="fa-solid fa-key"></i> Unlock
+</button>
 </div>
-<p id="pin-error" class="text-[10px] text-rose-400
-hidden">Incorrect PIN</p>
-</div>
-
-<div id="vault-unlocked-view" class="hidden space-y-3
-text-xs">
-<div class="bg-slate-900/80 p-2.5 rounded-lg border
-border-slate-800 space-y-2">
-<div class="flex justify-between items-center">
-<span class="text-slate-400">Primary
-Card:</span>
-<span id="card-1" class="font-mono
-text-slate-200">•••• •••• •••• 4242</span>
-<button onclick="toggleCardMask('card-1',
-'4532 8910 1112 4242')" class="text-slate-500 hover:text-emerald-400"><i
-class="fa-solid fa-eye"></i></button>
-</div>
-</div>
-<button onclick="lockVault()" class="w-full
-bg-slate-800 hover:bg-slate-700 text-slate-300 py-1 rounded
-text-xs">Lock Vault</button>
-</div>
+<div id="pin-error" class="text-[11px] text-red-400
+mt-3 hidden">Incorrect PIN · try 1234</div>
 </div>
 
-<!-- 6. TODAY'S AGENDA -->
-<div class="card card-indigo md:col-span-2 lg:col-span-3">
-<div class="label text-indigo-400">
-<span><i class="fa-solid fa-calendar-days mr-2"></i>
-Today's Agenda</span>
-<span class="text-[10px] text-indigo-300
-bg-indigo-950 border border-indigo-800 px-2 py-0.5 rounded-full">Live
-Sync</span>
-</div>
-<div class="bg-slate-950/70 border border-slate-800 p-2
-rounded-xl overflow-hidden">
-<iframe id="gcal-frame"
-
-src="https://calendar.google.com/calendar/embed?height=240&wkst=1&ctz=America%2FLos_Angeles&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t"
-style="border: 0"
-width="100%"
-height="240"
-frameborder="0"
-scrolling="no"
-class="rounded-lg opacity-90 invert
-grayscale contrast-125">
-</iframe>
-</div>
-</div>
-
-</div>
-</div>
-
-<script>
-// Simple Clock
-function runClock() {
-var clockEl = document.getElementById("clock");
-if (clockEl) {
-clockEl.textContent = new Date().toLocaleString();
-}
-}
-setInterval(runClock, 1000);
-runClock();
-
-// Standard News
-function renderNews() {
-var newsList = document.getElementById("news-list");
-if (!newsList) return;
-newsList.innerHTML =
-'<li class="bg-slate-950/70 border border-slate-800
-p-2.5 rounded-xl flex items-center gap-2 hover:border-blue-500/50">' +
-'<span class="text-blue-400 font-bold">•</span>' +
-'<a href="https://news.google.com" target="_blank"
-class="text-slate-200 hover:underline flex-1 truncate">Google News - Top
-Stories & Regional Updates</a>' +
-'</li>' +
-'<li class="bg-slate-950/70 border border-slate-800
-p-2.5 rounded-xl flex items-center gap-2 hover:border-blue-500/50">' +
-'<span class="text-blue-400 font-bold">•</span>' +
-'<a href="https://news.google.com" target="_blank"
-class="text-slate-200 hover:underline flex-1 truncate">Local Weather &
-Technology Trends Feed</a>' +
-'</li>';
-}
-renderNews();
-
-// Groceries
-function loadGroceries() {
-var list = document.getElementById("grocery-list");
-if (!list) return;
-var saved = localStorage.getItem("grocery_list");
-var items = saved ? JSON.parse(saved) : ["Organic
-blueberries"];
-var html = "";
-for (var i = 0; i < items.length; i++) {
-html += '<li class="flex items-center justify-between
-bg-slate-950 px-2 py-1 rounded border border-slate-800">' +
-'<span>' + items[i] + '</span>' +
-'<button onclick="removeGroceryItem(' + i + ')"
-class="text-slate-500 hover:text-rose-400"><i class="fa-solid
-fa-xmark"></i></button>' +
-'</li>';
-}
-list.innerHTML = html;
-}
-
-function addGroceryItem() {
-var input = document.getElementById("grocery-input");
-var val = input ? input.value.trim() : "";
-if (!val) return;
-var saved = localStorage.getItem("grocery_list");
-var items = saved ? JSON.parse(saved) : [];
-items.push(val);
-localStorage.setItem("grocery_list", JSON.stringify(items));
-input.value = "";
-loadGroceries();
-}
-
-function removeGroceryItem(index) {
-var saved = localStorage.getItem("grocery_list");
-var items = saved ? JSON.parse(saved) : [];
-items.splice(index, 1);
-localStorage.setItem("grocery_list", JSON.stringify(items));
-loadGroceries();
-}
-loadGroceries();
-
-// Doctor Notes
-var notesEl = document.getElementById("doctor-notes");
-if (notesEl && localStorage.getItem("doctor_notes")) {
-notesEl.value = localStorage.getItem("doctor_notes");
-}
-
-function saveDoctorNotes() {
-var n = document.getElementById("doctor-notes");
-if (n) {
-localStorage.setItem("doctor_notes", n.value);
-var status = document.getElementById("save-status");
-if (status) {
-status.textContent = "Saved!";
-setTimeout(function() { status.textContent =
-"Auto-saved locally"; }, 2000);
-}
-}
-}
-
-// Sleep Tracker
-var sessionActive = false;
-var sessionStart = null;
-var timerInterval = null;
-var events = [];
-
-function startSession() {
-sessionActive = true;
-sessionStart = new Date();
-events = [];
-document.getElementById("start-btn").disabled = true;
-document.getElementById("end-btn").disabled = false;
-document.getElementById("session-label").textContent =
-"SESSION ACTIVE";
-document.getElementById("session-label").className =
-"text-xs text-cyan-400 font-semibold";
-document.getElementById("status-indicator").className =
-"w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse";
-document.getElementById("log-container").innerHTML = "";
-timerInterval = setInterval(updateTimer, 1000);
-}
-
-function endSession() {
-sessionActive = false;
-clearInterval(timerInterval);
-document.getElementById("start-btn").disabled = false;
-document.getElementById("end-btn").disabled = true;
-document.getElementById("session-label").textContent =
-"Session ended";
-document.getElementById("session-label").className =
-"text-xs text-slate-400 font-medium";
-document.getElementById("status-indicator").className =
-"w-2.5 h-2.5 rounded-full bg-slate-700";
-}
-
-function updateTimer() {
-if (!sessionStart) return;
-var diff = new Date() - sessionStart;
-var h = Math.floor(diff / 3600000);
-var m = Math.floor((diff % 3600000) / 60000);
-var s = Math.floor((diff % 60000) / 1000);
-
-var hStr = h < 10 ? "0" + h : "" + h;
-var mStr = m < 10 ? "0" + m : "" + m;
-var sStr = s < 10 ? "0" + s : "" + s;
-
-document.getElementById("timer").textContent = hStr + ":" +
-mStr + ":" + sStr;
-var hrs = diff / 3600000;
-document.getElementById("stat-events").textContent =
-events.length;
-document.getElementById("stat-rate").textContent = hrs > 0 ?
-(events.length / hrs).toFixed(1) : "0.0";
-}
-
-function logEvent(type) {
-if (!sessionActive) { alert("Click START session first.");
-return; }
-var timeStr = new Date().toLocaleTimeString([], {hour:
-"2-digit", minute:"2-digit"});
-events.push({ type: type, time: timeStr });
-var container = document.getElementById("log-container");
-var empty = document.getElementById("log-empty");
-if (empty) empty.remove();
-var entry = document.createElement("div");
-entry.className = "flex justify-between items-center
-bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-[11px]";
-entry.innerHTML = '<span class="capitalize font-medium
-text-slate-200">' + type + '</span><span class="font-mono
-text-slate-500">' + timeStr + '</span>';
-container.appendChild(entry);
-container.scrollTop = container.scrollHeight;
-updateTimer();
-}
-
-// Vault
-function unlockVault() {
-var input =
-document.getElementById("vault-pin-input").value;
-if (input === "1234") {
-
-document.getElementById("vault-locked-view").classList.add("hidden");
-
-document.getElementById("vault-unlocked-view").classList.remove("hidden");
-document.getElementById("vault-badge").textContent =
-"UNLOCKED";
-document.getElementById("vault-badge").className =
-"text-[10px] px-2 py-0.5 bg-emerald-950 text-emerald-400 border
-border-emerald-800 rounded-full";
-
-document.getElementById("pin-error").classList.add("hidden");
-} else {
-
-document.getElementById("pin-error").classList.remove("hidden");
-}
-}
-
-function lockVault() {
-document.getElementById("vault-pin-input").value = "";
-
-document.getElementById("vault-locked-view").classList.remove("hidden");
-
-document.getElementById("vault-unlocked-view").classList.add("hidden");
-document.getElementById("vault-badge").textContent =
-"LOCKED";
-document.getElementById("vault-badge").className =
-"text-[10px] px-2 py-0.5 bg-red-950 text-red-400 border border-red-800
-rounded-full";
-}
-
-function toggleCardMask(id, realNum) {
-var el = document.getElementById(id);
-if (el.textContent.indexOf("••••") !== -1) {
-el.textContent = realNum;
-} else {
-el.textContent = "•••• •••• •••• " + realNum.slice(-4);
-}
-}
-</script>
-</body>
-</html>
+<!-- Unlocked -->
+<div id="vault-unlocked-view" class="hidden space-y-4">
+<div class="flex justify-between items-center
+border-b border-slate-800/60 pb-2.5">
+<span class="text-[10px
