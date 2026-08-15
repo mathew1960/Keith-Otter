@@ -24,8 +24,7 @@ TIMEZONE = "America/Los_Angeles"
 ICAL_URL = os.environ.get("GCAL_ICAL_URL")
 
 if not ICAL_URL:
-raise RuntimeError("Missing required environment variable:
-GCAL_ICAL_URL")
+raise RuntimeError("GCAL_ICAL_URL missing")
 
 
 tz = pytz.timezone(TIMEZONE)
@@ -40,9 +39,7 @@ microsecond=0
 
 end = start + datetime.timedelta(days=1)
 
-
 print(f"Fetching calendar for {now.strftime('%A, %B %d, %Y')} ...")
-
 
 response = requests.get(
 ICAL_URL,
@@ -53,12 +50,10 @@ response.raise_for_status()
 
 calendar = Calendar.from_ical(response.content)
 
-
 raw_events = recurring_ical_events.of(calendar).between(
 start,
 end
 )
-
 
 events = []
 
@@ -78,7 +73,6 @@ time_str = dtstart.strftime("%I:%M %p")
 else:
 time_str = "All Day"
 
-
 summary = str(
 event.get("SUMMARY", "No title")
 )
@@ -90,7 +84,6 @@ event.get("LOCATION", "")
 description = str(
 event.get("DESCRIPTION", "")
 )
-
 
 events.append({
 "time": time_str,
@@ -112,7 +105,6 @@ events.sort(
 key=sort_key
 )
 
-
 with open(
 OUTPUT_FILE,
 "w",
@@ -125,7 +117,6 @@ f,
 indent=2,
 ensure_ascii=False
 )
-
 
 print(f"Found {len(events)} event(s)")
 print(f"Calendar events written to {OUTPUT_FILE}")
