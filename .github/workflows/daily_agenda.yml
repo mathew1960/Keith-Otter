@@ -11,10 +11,6 @@ description: 'Who triggered this? (claude, chatgpt, manual)'
 required: false
 default: 'manual'
 
-repository_dispatch:
-types:
-- run-daily-agenda
-
 jobs:
 build-agenda:
 runs-on: ubuntu-latest
@@ -33,12 +29,8 @@ python-version: '3.11'
 
 - name: Install dependencies
 run: |
-pip install --quiet \
-requests \
-icalendar \
-recurring-ical-events \
-feedparser \
-pytz
+pip install --quiet requests icalendar recurring-ical-events
+feedparser pytz
 
 - name: Fetch Google Calendar events
 env:
@@ -51,30 +43,11 @@ run: python scripts/fetch_rss.py
 - name: Combine into daily agenda file
 run: python scripts/build_agenda.py
 
-- name: Commit and push agenda file
+- name: Commit agenda
 run: |
 git config user.name "Daily Agenda Bot"
 git config user.email "actions@github.com"
 git add agenda/daily_agenda.txt
 git diff --cached --quiet || git commit -m "Daily agenda
-update: $(date +'%Y-%m-%d')"
+update"
 git push
-
-- name: Notify n8n MCP on completion
-if: always()
-env:
-N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
-run: |
-curl -s -X POST "$N8N_WEBHOOK_URL" \
--H "Content-Type: application/json" \
--d "{
-\"workflow\": \"daily_agenda\",
-\"status\": \"${{ job.status }}\",
-\"triggered_by\": \"${{ github.event.inputs.triggered_by
-|| github.event_name }}\",
-\"date\": \"$(date +'%Y-%m-%d')\",
-\"repo\": \"${{ github.repository }}\",
-\"agenda_url\": \"https://github.com/${{ github.repository
-}}/blob/main/agenda/daily_agenda.txt\"
-}" || echo "n8n notification skipped - webhook not
-configured"
