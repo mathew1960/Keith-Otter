@@ -44,6 +44,16 @@ color: #94a3b8;
 margin-top: 5px;
 }
 
+.clock {
+font-family: 'Courier New', monospace;
+font-size: 30px;
+font-weight: 800;
+color: #38bdf8;
+letter-spacing: 2px;
+margin-top: 8px;
+text-shadow: 0 0 14px rgba(56,189,248,.55);
+}
+
 .status {
 background: #16372b;
 color: #86efac;
@@ -62,10 +72,19 @@ gap: 18px;
 .card {
 background: rgba(15,23,42,.82);
 border: 1px solid rgba(148,163,184,.2);
+border-left: 4px solid #64748b;
 border-radius: 18px;
 padding: 20px;
 box-shadow: 0 12px 30px rgba(0,0,0,.25);
 }
+
+.card.c-amber { border-left-color: #fbbf24; }
+.card.c-blue { border-left-color: #38bdf8; }
+.card.c-green { border-left-color: #34d399; }
+.card.c-purple { border-left-color: #a78bfa; }
+.card.c-red { border-left-color: #f87171; }
+.card.c-teal { border-left-color: #2dd4bf; }
+.card.c-pink { border-left-color: #f472b6; }
 
 .card h2 {
 margin: 0 0 14px;
@@ -192,6 +211,7 @@ padding: 8px 6px;
 .full { grid-column: auto; }
 h1 { font-size: 26px; }
 header { align-items: flex-start; }
+.clock { font-size: 24px; }
 }
 </style>
 </head>
@@ -206,6 +226,7 @@ header { align-items: flex-start; }
 <div class="sub">
 <span id="date"></span> • La Quinta, California
 </div>
+<div class="clock" id="digitalClock">--:--:--</div>
 </div>
 
 <div class="status">● ONLINE</div>
@@ -222,7 +243,7 @@ header { align-items: flex-start; }
 
 <main class="grid">
 
-<section class="card full" id="weather">
+<section class="card c-amber full" id="weather">
 <h2>☀️ Desert Weather</h2>
 <div class="big-temp" id="w-temp">--°F</div>
 <div>La Quinta • ZIP 92253</div>
@@ -236,7 +257,7 @@ header { align-items: flex-start; }
 <div id="w-daily" style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:8px;"></div>
 </section>
 
-<section class="card" id="brief">
+<section class="card c-blue" id="brief">
 <h2>🌅 Morning Brief</h2>
 <div class="brief" id="briefText">Good morning, Keith.
 
@@ -246,7 +267,7 @@ Weather • News • Email Watch • Personal Focus • Reminder Notes • AI
 Personal Block</div>
 </section>
 
-<section class="card" id="tasks">
+<section class="card c-green" id="tasks">
 <h2>✅ Today's Tasks</h2>
 
 <div class="task-row">
@@ -257,7 +278,7 @@ Personal Block</div>
 <div id="taskList"></div>
 </section>
 
-<section class="card" id="email">
+<section class="card c-purple" id="email">
 <h2>📧 Email Watch</h2>
 <div class="item">Important personal email only</div>
 <div class="item">Security • Finance • Travel • Appointments •
@@ -265,7 +286,7 @@ Family</div>
 <div class="muted">No promotions or newsletter clutter.</div>
 </section>
 
-<section class="card" id="news">
+<section class="card c-red" id="news">
 <h2>📰 News Worth Knowing</h2>
 <div id="news-list">
 <div class="item">📈 Markets / Economy</div>
@@ -274,7 +295,7 @@ Family</div>
 </div>
 </section>
 
-<section class="card">
+<section class="card c-teal">
 <h2>📅 Calendar</h2>
 <div class="item">Today's personal events will appear here.</div>
 <button onclick="window.open('https://calendar.google.com','_blank')">
@@ -282,7 +303,7 @@ Open Google Calendar
 </button>
 </section>
 
-<section class="card" id="ai">
+<section class="card c-pink" id="ai">
 <h2>🤖 AI Corner</h2>
 <div class="item"><strong>Personal note:</strong><br>One useful idea
 for today.</div>
@@ -411,6 +432,18 @@ month: "long",
 day: "numeric",
 year: "numeric"
 });
+
+function updateClock() {
+document.getElementById("digitalClock").textContent =
+new Date().toLocaleTimeString("en-US", {
+hour: "2-digit",
+minute: "2-digit",
+second: "2-digit"
+});
+}
+
+updateClock();
+setInterval(updateClock, 1000);
 
 function jump(id) {
 const section = document.getElementById(id);
