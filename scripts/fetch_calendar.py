@@ -1,81 +1,131 @@
 """
 fetch_calendar.py
-Fetches today's events from Google Calendar using a service account.
+
+Fetches today's Google Calendar events from a private iCal URL.
 Outputs scripts/calendar_events.json for use by build_agenda.py.
 
-Required environment variables:
-  GCAL_CALENDAR_ID  — your Google Calendar ID
-  (service_account.json must be present at scripts/service_account.json)
+Required environment variable:
+GCAL_ICAL_URL
 """
 
-import json
 import os
+import json
 import datetime
+
 import pytz
+import requests
+from icalendar import Calendar
+import recurring_ical_events
 
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
 
-# ── Config ─────────────────────────────────────────────────────────────────────
-SCOPES           = ["https://www.googleapis.com/auth/calendar.readonly"]
-SERVICE_ACCOUNT  = "scripts/service_account.json"
-OUTPUT_FILE      = "scripts/calendar_events.json"
-TIMEZONE         = "America/Los_Angeles"
-CALENDAR_ID      = os.environ.get("GCAL_CALENDAR_ID", "primary")
+OUTPUT_FILE = "scripts/calendar_events.json"
+TIMEZONE = "America/Los_Angeles"
 
-# ── Time window — today only ───────────────────────────────────────────────────
-tz    = pytz.timezone(TIMEZONE)
-now   = datetime.datetime.now(tz)
-start = now.replace(hour=0,  minute=0,  second=0,  microsecond=0)
-end   = now.replace(hour=23, minute=59, second=59, microsecond=0)
+ICAL_URL = os.environ.get("GCAL_ICAL_URL")
 
-time_min = start.isoformat()
-time_max = end.isoformat()
+if not ICAL_URL:
+raise RuntimeError("Missing required environment variable:
+GCAL_ICAL_URL")
 
-# ── Auth ───────────────────────────────────────────────────────────────────────
-credentials = service_account.Credentials.from_service_account_file(
-    SERVICE_ACCOUNT, scopes=SCOPES
+
+tz = pytz.timezone(TIMEZONE)
+now = datetime.datetime.now(tz)
+
+start = now.replace(
+hour=0,
+minute=0,
+second=0,
+microsecond=0
 )
-service = build("calendar", "v3", credentials=credentials)
 
-# ── Fetch events ───────────────────────────────────────────────────────────────
-print(f"Fetching events for {now.strftime('%A, %B %d, %Y')} ...")
-print(f"Calendar ID: {CALENDAR_ID}")
+end = start + datetime.timedelta(days=1)
 
-result = service.events().list(
-    calendarId=CALENDAR_ID,
-    timeMin=time_min,
-    timeMax=time_max,
-    singleEvents=True,
-    orderBy="startTime",
-    maxResults=20
-).execute()
 
-raw_events = result.get("items", [])
-print(f"Found {len(raw_events)} event(s)")
+print(f"Fetching calendar for {now.strftime('%A, %B %d, %Y')} ...")
 
-# ── Format for build_agenda.py ─────────────────────────────────────────────────
+
+response = requests.get(
+ICAL_URL,
+timeout=30
+)
+
+response.raise_for_status()
+
+calendar = Calendar.from_ical(response.content)
+
+
+raw_events = recurring_ical_events.of(calendar).between(
+start,
+end
+)
+
+
 events = []
-for e in raw_events:
-    start_data = e.get("start", {})
 
-    # All-day event vs timed event
-    if "dateTime" in start_data:
-        dt = datetime.datetime.fromisoformat(start_data["dateTime"])
-        dt = dt.astimezone(tz)
-        time_str = dt.strftime("%I:%M %p")
-    else:
-        time_str = "All Day"
+for event in raw_events:
 
-    events.append({
-        "time":        time_str,
-        "summary":     e.get("summary", "No title"),
-        "location":    e.get("location", ""),
-        "description": e.get("description", "")
-    })
+dtstart = event.decoded("DTSTART")
 
-# ── Write output ───────────────────────────────────────────────────────────────
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(events, f, indent=2, ensure_ascii=False)
+if isinstance(dtstart, datetime.datetime):
 
+if dtstart.tzinfo is None:
+dtstart = tz.localize(dtstart)
+else:
+dtstart = dtstart.astimezone(tz)
+
+time_str = dtstart.strftime("%I:%M %p")
+
+else:
+time_str = "All Day"
+
+
+summary = str(
+event.get("SUMMARY", "No title")
+)
+
+location = str(
+event.get("LOCATION", "")
+)
+
+description = str(
+event.get("DESCRIPTION", "")
+)
+
+
+events.append({
+"time": time_str,
+"summary": summary,
+"location": location,
+"description": description
+})
+
+
+def sort_key(item):
+
+if item["time"] == "All Day":
+return "00:00 AM"
+
+return item["time"]
+
+
+events.sort(
+key=sort_key
+)
+
+
+with open(
+OUTPUT_FILE,
+"w",
+encoding="utf-8"
+) as f:
+
+json.dump(
+events,
+f,
+indent=2,
+ensure_ascii=False
+)
+
+
+print(f"Found {len(events)} event(s)")
 print(f"Calendar events written to {OUTPUT_FILE}")
