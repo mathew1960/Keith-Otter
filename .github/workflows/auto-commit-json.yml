@@ -29,9 +29,11 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: pip install requests python-dateutil
+        run: pip install requests python-dateutil feedparser
       - name: Fetch weather
         run: python scripts/fetch_weather.py
+      - name: Fetch news
+        run: python scripts/fetch_rss.py
       - name: Generate JSON data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -58,5 +60,4 @@ jobs:
       - name: Report no changes
         if: steps.json_changes.outputs.changed == 'false'
         run: echo "No JSON changes detected — skipping commit"
-
 
