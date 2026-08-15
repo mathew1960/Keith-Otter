@@ -91,6 +91,15 @@ border-radius: 11px;
 margin: 8px 0;
 }
 
+.item a {
+color: #f8fafc;
+text-decoration: none;
+}
+
+.item a:hover {
+text-decoration: underline;
+}
+
 .task-row {
 display: flex;
 gap: 8px;
@@ -238,9 +247,11 @@ Family</div>
 
 <section class="card" id="news">
 <h2>📰 News Worth Knowing</h2>
+<div id="news-list">
 <div class="item">📈 Markets / Economy</div>
 <div class="item">🤖 AI / Technology</div>
 <div class="item">🌴 La Quinta / California</div>
+</div>
 </section>
 
 <section class="card">
@@ -403,6 +414,20 @@ fetch('output/weather.json')
     document.getElementById('w-cond').textContent = w.conditions;
   })
   .catch(() => console.log('weather.json not available yet'));
+
+
+// NEWS
+
+fetch('scripts/rss_headlines.json')
+  .then(r => r.json())
+  .then(headlines => {
+    if (!headlines || !headlines.length) return;
+    const list = document.getElementById('news-list');
+    list.innerHTML = headlines.slice(0, 5).map(h =>
+      `<div class="item"><a href="${h.link}" target="_blank">${h.title}</a></div>`
+    ).join('');
+  })
+  .catch(() => console.log('rss_headlines.json not available yet'));
 
 
 // NOTES
@@ -718,6 +743,3 @@ renderSleepEvents();
 
 </body>
 </html>
-
-
-
