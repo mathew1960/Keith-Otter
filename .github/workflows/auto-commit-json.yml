@@ -1,5 +1,4 @@
 name: Auto Commit JSON
-
 on:
   push:
     branches: [main]
@@ -14,39 +13,34 @@ on:
   schedule:
     # Daily at 06:00 UTC (matches the daily_agenda.yml pattern)
     - cron: '0 6 * * *'
-
 jobs:
   generate-and-commit:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install dependencies
         run: pip install requests python-dateutil
-
+      - name: Fetch weather
+        run: python scripts/fetch_weather.py
       - name: Generate JSON data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_REASON: ${{ github.event.inputs.run_reason || 'scheduled' }}
         run: python scripts/generate_json.py
-
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Check for JSON changes
         id: json_changes
         run: |
@@ -55,14 +49,14 @@ jobs:
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
-
       - name: Commit and push JSON changes
         if: steps.json_changes.outputs.changed == 'true'
         run: |
           git add '*.json'
           git commit -m "chore: auto-update JSON data [skip ci]"
           git push origin main
-
       - name: Report no changes
         if: steps.json_changes.outputs.changed == 'false'
         run: echo "No JSON changes detected — skipping commit"
+
+
