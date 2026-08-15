@@ -200,10 +200,10 @@ header { align-items: flex-start; }
 
 <section class="card" id="weather">
 <h2>☀️ Desert Weather</h2>
-<div class="big-temp">--°F</div>
+<div class="big-temp" id="w-temp">--°F</div>
 <div>La Quinta • ZIP 92253</div>
-<div class="item">High: --° &nbsp; Low: --°</div>
-<div class="item">Conditions: Ready for weather feed</div>
+<div class="item">High: <span id="w-high">--°</span> &nbsp; Low: <span id="w-low">--°</span></div>
+<div class="item">Conditions: <span id="w-cond">Ready for weather feed</span></div>
 <div class="muted">GitHub/Vercel weather connection comes next.</div>
 </section>
 
@@ -390,6 +390,19 @@ behavior: "smooth"
 });
 }
 }
+
+
+// WEATHER
+
+fetch('output/weather.json')
+  .then(r => r.json())
+  .then(w => {
+    document.getElementById('w-temp').textContent = w.temp + '°F';
+    document.getElementById('w-high').textContent = w.high + '°';
+    document.getElementById('w-low').textContent = w.low + '°';
+    document.getElementById('w-cond').textContent = w.conditions;
+  })
+  .catch(() => console.log('weather.json not available yet'));
 
 
 // NOTES
@@ -705,3 +718,6 @@ renderSleepEvents();
 
 </body>
 </html>
+
+
+
