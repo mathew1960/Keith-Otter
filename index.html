@@ -12,8 +12,7 @@ body {
 margin: 0;
 font-family: Arial, sans-serif;
 background:
-radial-gradient(circle at top right, #5b321d 0, transparent
-30%),
+radial-gradient(circle at top right, #5b321d 0, transparent 30%),
 linear-gradient(135deg, #08111f, #101827 55%, #172033);
 color: #f8fafc;
 min-height: 100vh;
@@ -174,6 +173,7 @@ header { align-items: flex-start; }
 </head>
 
 <body>
+
 <div class="wrap">
 
 <header>
@@ -183,6 +183,7 @@ header { align-items: flex-start; }
 <span id="date"></span> • La Quinta, California
 </div>
 </div>
+
 <div class="status">● ONLINE</div>
 </header>
 
@@ -197,18 +198,15 @@ header { align-items: flex-start; }
 
 <main class="grid">
 
-<!-- WEATHER -->
 <section class="card" id="weather">
 <h2>☀️ Desert Weather</h2>
 <div class="big-temp">--°F</div>
 <div>La Quinta • ZIP 92253</div>
 <div class="item">High: --° &nbsp; Low: --°</div>
 <div class="item">Conditions: Ready for weather feed</div>
-<div class="muted">GitHub/Vercel weather connection comes
-next.</div>
+<div class="muted">GitHub/Vercel weather connection comes next.</div>
 </section>
 
-<!-- MORNING BRIEF -->
 <section class="card" id="brief">
 <h2>🌅 Morning Brief</h2>
 <div class="brief" id="briefText">Good morning, Keith.
@@ -219,20 +217,17 @@ Weather • News • Email Watch • Personal Focus • Reminder Notes • AI
 Personal Block</div>
 </section>
 
-<!-- TASKS -->
 <section class="card" id="tasks">
 <h2>✅ Today's Tasks</h2>
 
 <div class="task-row">
-<input id="taskInput" placeholder="Add something to
-remember...">
+<input id="taskInput" placeholder="Add something to remember...">
 <button onclick="addTask()">ADD</button>
 </div>
 
 <div id="taskList"></div>
 </section>
 
-<!-- EMAIL -->
 <section class="card" id="email">
 <h2>📧 Email Watch</h2>
 <div class="item">Important personal email only</div>
@@ -241,7 +236,6 @@ Family</div>
 <div class="muted">No promotions or newsletter clutter.</div>
 </section>
 
-<!-- NEWS -->
 <section class="card" id="news">
 <h2>📰 News Worth Knowing</h2>
 <div class="item">📈 Markets / Economy</div>
@@ -249,58 +243,67 @@ Family</div>
 <div class="item">🌴 La Quinta / California</div>
 </section>
 
-<!-- CALENDAR -->
 <section class="card">
 <h2>📅 Calendar</h2>
 <div class="item">Today's personal events will appear here.</div>
-<button
-onclick="window.open('https://calendar.google.com','_blank')">
+<button onclick="window.open('https://calendar.google.com','_blank')">
 Open Google Calendar
 </button>
 </section>
 
-<!-- AI -->
 <section class="card" id="ai">
 <h2>🤖 AI Corner</h2>
-<div class="item"><strong>Personal note:</strong><br>One useful
-idea for today.</div>
-<div class="item"><strong>Tool idea:</strong><br>One practical
-ChatGPT tip.</div>
-<div class="item"><strong>Mini workflow:</strong><br>Keep it short
-and useful.</div>
+<div class="item"><strong>Personal note:</strong><br>One useful idea
+for today.</div>
+<div class="item"><strong>Tool idea:</strong><br>One practical ChatGPT
+tip.</div>
+<div class="item"><strong>Mini workflow:</strong><br>Keep it short and
+useful.</div>
 </section>
 
-<!-- NOTES -->
 <section class="card">
 <h2>📝 Keith's Notes</h2>
-<textarea id="notes" rows="9" placeholder="Ideas, reminders,
-errands, things not to forget..."></textarea>
-<div class="muted" style="margin-top:8px;">Notes save
-automatically on this device.</div>
+
+<textarea
+id="notes"
+rows="9"
+placeholder="Ideas, reminders, errands, things not to forget..."
+></textarea>
+
+<div class="muted" style="margin-top:8px;">
+Notes save automatically on this device.
+</div>
 </section>
 
-<!-- HEALTH / SLEEP RECORDER -->
 <section class="card full" id="sleep-recorder">
 <h2>🌙 Sleep Apnea Recorder</h2>
 
 <div class="grid">
+
 <div class="item">
 <strong>Tonight's Event Count</strong><br>
 <span id="sleep-count"
 style="font-size:34px;font-weight:800;">0</span>
-<div class="muted">Tap a button each time you notice or log an
-event.</div>
+<div class="muted">
+Tap a button each time you notice or log an event.
+</div>
 </div>
 
 <div class="item">
 <strong>Quick Sleep Notes</strong><br><br>
-<textarea id="sleep-notes" rows="5"
+
+<textarea
+id="sleep-notes"
+rows="5"
 placeholder="How did you sleep? CPAP notes, dry mouth, headache,
-awakenings, etc..."></textarea>
+awakenings, etc..."
+></textarea>
+
 <div class="muted" style="margin-top:8px;">
 Saves automatically on this device.
 </div>
 </div>
+
 </div>
 
 <div style="margin-top:16px;">
@@ -312,6 +315,7 @@ grid-template-columns:repeat(2,minmax(0,1fr));
 gap:10px;
 margin-top:10px;
 ">
+
 <button onclick="logSleepEvent('Apnea')"
 style="background:#9f1239;">
 Apnea
@@ -331,6 +335,7 @@ Gasping
 style="background:#047857;">
 Awake
 </button>
+
 </div>
 </div>
 
@@ -340,6 +345,7 @@ Awake
 </div>
 
 <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
+
 <button onclick="exportSleepLog()" style="background:#334155;">
 Export Sleep Log
 </button>
@@ -347,24 +353,26 @@ Export Sleep Log
 <button onclick="clearSleepLog()" style="background:#7f1d1d;">
 Clear Tonight
 </button>
+
 </div>
 
 <div class="muted" style="margin-top:12px;">
 Personal logging tool only — not a medical diagnosis or apnea
 detector.
 </div>
+
 </section>
 
 </main>
 
 <footer>
-Keith Dashboard • GitHub + Vercel • No n8n • No Zapier
+Keith Dashboard • GitHub + Vercel
 </footer>
 
 </div>
 
 <script>
-// DATE
+
 document.getElementById("date").textContent =
 new Date().toLocaleDateString("en-US", {
 weekday: "long",
@@ -373,79 +381,125 @@ day: "numeric",
 year: "numeric"
 });
 
-// NAVIGATION
 function jump(id) {
-document.getElementById(id).scrollIntoView({
+const section = document.getElementById(id);
+
+if (section) {
+section.scrollIntoView({
 behavior: "smooth"
 });
 }
+}
+
 
 // NOTES
+
 const notes = document.getElementById("notes");
-notes.value = localStorage.getItem("keith_notes") || "";
+
+notes.value =
+localStorage.getItem("keith_notes") || "";
 
 notes.addEventListener("input", () => {
-localStorage.setItem("keith_notes", notes.value);
+localStorage.setItem(
+"keith_notes",
+notes.value
+);
 });
 
+
 // TASKS
-let tasks = JSON.parse(localStorage.getItem("keith_tasks") || "[]");
+
+let tasks =
+JSON.parse(
+localStorage.getItem("keith_tasks") || "[]"
+);
 
 if (tasks.length === 0) {
 tasks = [
-{text:"Clean kitchen", done:false},
-{text:"EDD", done:false},
-{text:"Finish GitHub repo", done:false},
-{text:"Fix AI To-Do tasks checklist", done:false},
-{text:"Take out trash", done:false},
-{text:"Review 1 pending task", done:false}
+{ text: "Clean kitchen", done: false },
+{ text: "EDD", done: false },
+{ text: "Finish GitHub repo", done: false },
+{ text: "Fix AI To-Do tasks checklist", done: false },
+{ text: "Take out trash", done: false },
+{ text: "Review 1 pending task", done: false }
 ];
 }
 
 function saveTasks() {
-localStorage.setItem("keith_tasks", JSON.stringify(tasks));
+localStorage.setItem(
+"keith_tasks",
+JSON.stringify(tasks)
+);
 }
 
 function renderTasks() {
-const list = document.getElementById("taskList");
+
+const list =
+document.getElementById("taskList");
+
 list.innerHTML = "";
 
 tasks.forEach((task, index) => {
-const row = document.createElement("div");
+
+const row =
+document.createElement("div");
+
 row.className = "item task";
 
-const text = document.createElement("span");
+
+const text =
+document.createElement("span");
+
 text.textContent = task.text;
-if (task.done) text.className = "done";
+
+if (task.done) {
+text.className = "done";
+}
+
 text.style.cursor = "pointer";
 
 text.onclick = () => {
-tasks[index].done = !tasks[index].done;
+
+tasks[index].done =
+!tasks[index].done;
+
 saveTasks();
 renderTasks();
 };
 
-const remove = document.createElement("button");
+
+const remove =
+document.createElement("button");
+
 remove.textContent = "×";
 remove.className = "remove";
 
 remove.onclick = () => {
+
 tasks.splice(index, 1);
+
 saveTasks();
 renderTasks();
 };
 
+
 row.appendChild(text);
 row.appendChild(remove);
+
 list.appendChild(row);
+
 });
 
 saveTasks();
 }
 
 function addTask() {
-const input = document.getElementById("taskInput");
-const value = input.value.trim();
+
+const input =
+document.getElementById("taskInput");
+
+const value =
+input.value.trim();
 
 if (!value) return;
 
@@ -455,35 +509,60 @@ done: false
 });
 
 input.value = "";
+
 saveTasks();
 renderTasks();
 }
 
-document.getElementById("taskInput").addEventListener("keydown", e =>
-{
-if (e.key === "Enter") addTask();
+document
+.getElementById("taskInput")
+.addEventListener("keydown", event => {
+
+if (event.key === "Enter") {
+addTask();
+}
+
 });
 
 renderTasks();
-// SLEEP RECORDER
-let sleepEvents =
-JSON.parse(localStorage.getItem("keith_sleep_events") || "[]");
 
-const sleepNotes = document.getElementById("sleep-notes");
+
+// SLEEP RECORDER
+
+let sleepEvents =
+JSON.parse(
+localStorage.getItem("keith_sleep_events") || "[]"
+);
+
+const sleepNotes =
+document.getElementById("sleep-notes");
+
 if (sleepNotes) {
-sleepNotes.value = localStorage.getItem("keith_sleep_notes") || "";
+
+sleepNotes.value =
+localStorage.getItem("keith_sleep_notes") || "";
 
 sleepNotes.addEventListener("input", () => {
-localStorage.setItem("keith_sleep_notes", sleepNotes.value);
+
+localStorage.setItem(
+"keith_sleep_notes",
+sleepNotes.value
+);
+
 });
 }
 
 function saveSleepEvents() {
-localStorage.setItem("keith_sleep_events",
-JSON.stringify(sleepEvents));
+
+localStorage.setItem(
+"keith_sleep_events",
+JSON.stringify(sleepEvents)
+);
+
 }
 
 function logSleepEvent(type) {
+
 const now = new Date();
 
 sleepEvents.push({
@@ -494,67 +573,134 @@ displayTime: now.toLocaleString()
 
 saveSleepEvents();
 renderSleepEvents();
+
 }
 
 function renderSleepEvents() {
-const count = document.getElementById("sleep-count");
-const history = document.getElementById("sleep-history");
+
+const count =
+document.getElementById("sleep-count");
+
+const history =
+document.getElementById("sleep-history");
 
 if (!count || !history) return;
 
-count.textContent = sleepEvents.length;
+count.textContent =
+sleepEvents.length;
+
 history.innerHTML = "";
 
-history.innerHTML = '<div class="item muted">No sleep events logged yet.</div>';
+if (sleepEvents.length === 0) {
+
+history.innerHTML =
+'<div class="item muted">No sleep events logged yet.</div>';
+
 return;
 }
 
-[...sleepEvents].reverse().forEach(event => {
-const row = document.createElement("div");
+[...sleepEvents]
+.reverse()
+.forEach(event => {
+
+const row =
+document.createElement("div");
+
 row.className = "item";
-row.textContent = event.type + " • " + event.displayTime;
+
+row.textContent =
+event.type +
+" • " +
+event.displayTime;
+
 history.appendChild(row);
+
 });
+
 }
 
 function clearSleepLog() {
-if (!confirm("Clear tonight's sleep event log?")) return;
+
+if (!confirm(
+"Clear tonight's sleep event log?"
+)) {
+return;
+}
 
 sleepEvents = [];
+
 saveSleepEvents();
 renderSleepEvents();
+
 }
 
 function exportSleepLog() {
-const notesText = sleepNotes ? sleepNotes.value : "";
 
-let text = "Keith Sleep Log\n\n";
-text += "Exported: " + new Date().toLocaleString() + "\n\n";
+const notesText =
+sleepNotes
+? sleepNotes.value
+: "";
+
+let text =
+"Keith Sleep Log\n\n";
+
+text +=
+"Exported: " +
+new Date().toLocaleString() +
+"\n\n";
 
 text += "Events:\n";
 
 if (sleepEvents.length === 0) {
-text += "No events logged.\n";
+
+text +=
+"No events logged.\n";
+
 } else {
+
 sleepEvents.forEach(event => {
-text += "- " + event.type + " | " + event.displayTime + "\n";
+
+text +=
+"- " +
+event.type +
+" | " +
+event.displayTime +
+"\n";
+
 });
+
 }
 
-text += "\nSleep Notes:\n" + notesText + "\n";
+text +=
+"\nSleep Notes:\n" +
+notesText +
+"\n";
 
-const blob = new Blob([text], { type: "text/plain" });
-const url = URL.createObjectURL(blob);
+const blob =
+new Blob(
+[text],
+{ type: "text/plain" }
+);
 
-const link = document.createElement("a");
+const url =
+URL.createObjectURL(blob);
+
+const link =
+document.createElement("a");
+
 link.href = url;
-link.download = "keith-sleep-log.txt";
+
+link.download =
+"keith-sleep-log.txt";
+
 link.click();
 
 URL.revokeObjectURL(url);
+
 }
 
 renderSleepEvents();
+
 </script>
 
 </body>
