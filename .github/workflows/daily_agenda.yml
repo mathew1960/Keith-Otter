@@ -1,53 +1,68 @@
-name: Daily Agenda Builder
-
-on:
-schedule:
-- cron: '0 13 * * *'
-
-workflow_dispatch:
-inputs:
-triggered_by:
-description: 'Who triggered this? (claude, chatgpt, manual)'
-required: false
-default: 'manual'
-
-jobs:
-build-agenda:
-runs-on: ubuntu-latest
-
-permissions:
-contents: write
-
-steps:
-- name: Checkout repository
-uses: actions/checkout@v4
-
-- name: Set up Python
-uses: actions/setup-python@v5
-with:
-python-version: '3.11'
-
-- name: Install dependencies
-run: |
-pip install --quiet requests icalendar recurring-ical-events
-feedparser pytz
-
-- name: Fetch Google Calendar events
-env:
-GCAL_ICAL_URL: ${{ secrets.GCAL_ICAL_URL }}
-run: python scripts/fetch_calendar.py
-
-- name: Fetch Fox News headlines
-run: python scripts/fetch_rss.py
-
-- name: Combine into daily agenda file
-run: python scripts/build_agenda.py
-
-- name: Commit agenda
-run: |
-git config user.name "Daily Agenda Bot"
-git config user.email "actions@github.com"
-git add agenda/daily_agenda.txt
-git diff --cached --quiet || git commit -m "Daily agenda
-update"
-git push
+{
+"name": "Daily Agenda Builder",
+"on": {
+"schedule": [
+{
+"cron": "0 13 * * *"
+}
+],
+"workflow_dispatch": {
+"inputs": {
+"triggered_by": {
+"description": "Who triggered this? (claude, chatgpt,
+manual)",
+"required": false,
+"default": "manual"
+}
+}
+}
+},
+"jobs": {
+"build-agenda": {
+"runs-on": "ubuntu-latest",
+"permissions": {
+"contents": "write"
+},
+"steps": [
+{
+"name": "Checkout repository",
+"uses": "actions/checkout@v4"
+},
+{
+"name": "Set up Python",
+"uses": "actions/setup-python@v5",
+"with": {
+"python-version": "3.11"
+}
+},
+{
+"name": "Install dependencies",
+"run": "pip install --quiet requests icalendar
+recurring-ical-events feedparser pytz"
+},
+{
+"name": "Fetch Google Calendar events",
+"env": {
+"GCAL_ICAL_URL": "${{ secrets.GCAL_ICAL_URL }}"
+},
+"run": "python scripts/fetch_calendar.py"
+},
+{
+"name": "Fetch Fox News headlines",
+"run": "python scripts/fetch_rss.py"
+},
+{
+"name": "Combine into daily agenda file",
+"run": "python scripts/build_agenda.py"
+},
+{
+"name": "Commit agenda",
+"run": "git config user.name \"Daily Agenda Bot\"\ngit config
+user.email \"actions@github.com\"\ngit add agenda/daily_agenda.txt\ngit
+diff --cached --quiet || git commit -m \"Daily agenda update\"\ngit
+push"
+}
+]
+}
+}
+}
