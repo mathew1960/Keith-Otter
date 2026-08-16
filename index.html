@@ -95,6 +95,7 @@ text-shadow: 0 2px 6px rgba(0,0,0,.6);
 .card.c-red { border-left-color: #f87171; }
 .card.c-teal { border-left-color: #2dd4bf; }
 .card.c-pink { border-left-color: #f472b6; }
+.card.c-rose { border-left-color: #fb7185; }
 
 .card h2 {
 margin: 0 0 14px;
@@ -244,11 +245,11 @@ header { align-items: flex-start; }
 
 <div class="nav">
 <button onclick="jump('weather')">☀️ Weather</button>
-<button onclick="jump('brief')">🌅 Morning Brief</button>
 <button onclick="jump('tasks')">✅ Tasks</button>
 <button onclick="jump('email')">📧 Email</button>
 <button onclick="jump('news')">📰 News</button>
 <button onclick="jump('ai')">🤖 AI Corner</button>
+<button onclick="jump('health')">💊 Health</button>
 </div>
 
 <main class="grid">
@@ -265,16 +266,6 @@ header { align-items: flex-start; }
 
 <div class="muted" style="margin-top:6px;">5-Day Forecast</div>
 <div id="w-daily" style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:8px;"></div>
-</section>
-
-<section class="card c-blue" id="brief">
-<h2>🌅 Morning Brief</h2>
-<div class="brief" id="briefText">Good morning, Keith.
-
-Your personal morning brief will appear here.
-
-Weather • News • Email Watch • Personal Focus • Reminder Notes • AI
-Personal Block</div>
 </section>
 
 <section class="card c-green" id="tasks">
@@ -323,6 +314,24 @@ for today.</div>
 tip.</div>
 <div class="item" id="ai-workflow"><strong>Mini workflow:</strong><br>Keep it short and
 useful.</div>
+</section>
+
+<section class="card c-rose full" id="health">
+<h2>💊 Health Hub</h2>
+
+<div class="muted" style="margin-bottom:8px;">Medications</div>
+<div id="med-list"></div>
+
+<div class="task-row" style="margin-top:14px;">
+<input id="medInput" placeholder="Add medication (e.g. Lisinopril 10mg, refill Aug 20)...">
+<button onclick="addMed()">ADD</button>
+</div>
+
+<div style="margin-top:22px;">
+<div class="muted" style="margin-bottom:8px;">Doctor's Notes</div>
+<textarea id="health-notes" rows="5" placeholder="Notes for next appointment..."></textarea>
+<div class="muted" style="margin-top:8px;">Saves automatically on this device.</div>
+</div>
 </section>
 
 <section class="card">
@@ -485,16 +494,6 @@ fetch('/api/ai-corner')
   .catch(() => console.log('ai-corner endpoint not available yet'));
 
 
-// MORNING BRIEF (live, via Vercel serverless function + Gemini)
-
-fetch('/api/agenda-brief')
-  .then(r => r.json())
-  .then(data => {
-    document.getElementById('briefText').textContent = data.brief;
-  })
-  .catch(() => console.log('agenda-brief endpoint not available yet'));
-
-
 // WEATHER
 
 fetch('output/weather.json')
@@ -574,6 +573,106 @@ localStorage.setItem(
 notes.value
 );
 });
+
+
+// HEALTH HUB
+
+let meds =
+JSON.parse(
+localStorage.getItem("keith_meds") || "[]"
+);
+
+function saveMeds() {
+localStorage.setItem(
+"keith_meds",
+JSON.stringify(meds)
+);
+}
+
+function renderMeds() {
+
+const list = document.getElementById("med-list");
+
+if (!list) return;
+
+list.innerHTML = "";
+
+if (meds.length === 0) {
+list.innerHTML =
+'<div class="item muted">No medications added yet.</div>';
+return;
+}
+
+meds.forEach((med, index) => {
+
+const row = document.createElement("div");
+row.className = "item task";
+
+const text = document.createElement("span");
+text.textContent = med.text;
+
+const remove = document.createElement("button");
+remove.textContent = "×";
+remove.className = "remove";
+
+remove.onclick = () => {
+meds.splice(index, 1);
+saveMeds();
+renderMeds();
+};
+
+row.appendChild(text);
+row.appendChild(remove);
+
+list.appendChild(row);
+
+});
+
+}
+
+function addMed() {
+
+const input = document.getElementById("medInput");
+const value = input.value.trim();
+
+if (!value) return;
+
+meds.push({ text: value });
+
+input.value = "";
+
+saveMeds();
+renderMeds();
+
+}
+
+const medInputEl = document.getElementById("medInput");
+
+if (medInputEl) {
+medInputEl.addEventListener("keydown", event => {
+if (event.key === "Enter") {
+addMed();
+}
+});
+}
+
+renderMeds();
+
+const healthNotes = document.getElementById("health-notes");
+
+if (healthNotes) {
+
+healthNotes.value =
+localStorage.getItem("keith_health_notes") || "";
+
+healthNotes.addEventListener("input", () => {
+localStorage.setItem(
+"keith_health_notes",
+healthNotes.value
+);
+});
+
+}
 
 
 // TASKS
