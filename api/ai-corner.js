@@ -1,9 +1,4 @@
-// api/ai-corner.js
-// Vercel serverless function — calls Gemini and returns a daily AI
-Corner
-// tip set. Reads GEMINI_API_KEY from Vercel's environment variables.
-
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
 const apiKey = process.env.GEMINI_API_KEY;
 
 if (!apiKey) {
@@ -69,4 +64,4 @@ generated_at: new Date().toISOString(),
 source: 'fallback',
 });
 }
-}
+};
