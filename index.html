@@ -4,565 +4,913 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Keith Dashboard</title>
-<script src="https://accounts.google.com/gsi/client" async defer></script>
+
 <style>
 * { box-sizing: border-box; }
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background:
-    radial-gradient(circle at top right, #5b321d 0, transparent 30%),
-    linear-gradient(135deg, #08111f, #101827 55%, #172033);
-  color: #f8fafc;
-  min-height: 100vh;
+margin: 0;
+font-family: Arial, sans-serif;
+background:
+radial-gradient(circle at top right, #5b321d 0, transparent 30%),
+linear-gradient(135deg, #08111f, #101827 55%, #172033);
+color: #f8fafc;
+min-height: 100vh;
 }
-.wrap { max-width: 1200px; margin: auto; padding: 22px; }
+
+.wrap {
+max-width: 1200px;
+margin: auto;
+padding: 22px;
+}
+
 header {
-  display: flex; justify-content: space-between; align-items: center;
-  gap: 18px; margin-bottom: 22px; border-bottom: 1px solid #334155; padding-bottom: 16px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 18px;
+margin-bottom: 22px;
+border-bottom: 1px solid #334155;
+padding-bottom: 16px;
 }
-h1 { margin: 0; font-size: 32px; }
-.sub { color: #94a3b8; margin-top: 5px; }
-.status { background: #16372b; color: #86efac; padding: 8px 13px; border-radius: 999px; font-size: 12px; font-weight: bold; }
-.grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+
+h1 {
+margin: 0;
+font-size: 32px;
+}
+
+.sub {
+color: #94a3b8;
+margin-top: 5px;
+}
+
+.clock {
+font-family: 'Courier New', monospace;
+font-size: 30px;
+font-weight: 800;
+color: #38bdf8;
+letter-spacing: 2px;
+margin-top: 8px;
+text-shadow: 0 0 14px rgba(56,189,248,.55);
+}
+
+.status {
+background: #16372b;
+color: #86efac;
+padding: 8px 13px;
+border-radius: 999px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(2, minmax(0,1fr));
+gap: 18px;
+}
+
 .card {
-  background: rgba(15,23,42,.82); border: 1px solid rgba(148,163,184,.2);
-  border-radius: 18px; padding: 20px; box-shadow: 0 12px 30px rgba(0,0,0,.25);
+background: rgba(15,23,42,.82);
+border: 1px solid rgba(148,163,184,.2);
+border-left: 4px solid #64748b;
+border-radius: 18px;
+padding: 20px;
+box-shadow: 0 12px 30px rgba(0,0,0,.25);
 }
-.card h2 { margin: 0 0 14px; font-size: 17px; color: #fbbf24; }
-.card h3 { margin: 16px 0 8px; font-size: 13px; color: #94a3b8; text-transform: uppercase; letter-spacing: .04em; }
-.big-temp { font-size: 46px; font-weight: 800; margin: 4px 0; }
-.muted { color: #94a3b8; font-size: 13px; }
-.item { background: rgba(30,41,59,.72); padding: 10px 12px; border-radius: 11px; margin: 8px 0; }
-.task-row { display: flex; gap: 8px; margin-bottom: 10px; }
+
+.card.c-amber {
+border-left-color: #fbbf24;
+background: linear-gradient(180deg, #2f5d8a 0%, #4f83ac 20%, #8db2c9 40%, #cbb994 62%, #a9835a 82%, #6b4f34 100%);
+}
+
+.card.c-amber h2,
+.card.c-amber .big-temp,
+.card.c-amber > div {
+text-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+
+.card.c-blue { border-left-color: #38bdf8; }
+.card.c-green { border-left-color: #34d399; }
+.card.c-purple { border-left-color: #a78bfa; }
+.card.c-red { border-left-color: #f87171; }
+.card.c-teal { border-left-color: #2dd4bf; }
+.card.c-pink { border-left-color: #f472b6; }
+
+.card h2 {
+margin: 0 0 14px;
+font-size: 17px;
+color: #fbbf24;
+}
+
+.big-temp {
+font-size: 46px;
+font-weight: 800;
+margin: 4px 0;
+}
+
+.muted {
+color: #94a3b8;
+font-size: 13px;
+}
+
+.item {
+background: rgba(30,41,59,.72);
+padding: 10px 12px;
+border-radius: 11px;
+margin: 8px 0;
+}
+
+.item a {
+color: #f8fafc;
+text-decoration: none;
+}
+
+.item a:hover {
+text-decoration: underline;
+}
+
+.task-row {
+display: flex;
+gap: 8px;
+margin-bottom: 10px;
+}
+
 input, textarea {
-  width: 100%; color: white; background: #0f172a; border: 1px solid #334155;
-  border-radius: 10px; padding: 10px;
+width: 100%;
+color: white;
+background: #0f172a;
+border: 1px solid #334155;
+border-radius: 10px;
+padding: 10px;
 }
-button { border: 0; border-radius: 10px; padding: 10px 14px; font-weight: bold; cursor: pointer; background: #2563eb; color: white; }
+
+button {
+border: 0;
+border-radius: 10px;
+padding: 10px 14px;
+font-weight: bold;
+cursor: pointer;
+background: #2563eb;
+color: white;
+}
+
 button:hover { opacity: .9; }
-button.secondary { background: #334155; }
-.task { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
-.done { text-decoration: line-through; opacity: .55; }
-.remove { background: #7f1d1d; padding: 5px 9px; }
-.full { grid-column: 1 / -1; }
-.brief { line-height: 1.55; white-space: pre-wrap; }
-.nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
-.nav button { background: #1e293b; border: 1px solid #334155; }
-.live-tag { font-size: 10px; color: #86efac; border: 1px solid #14532d; border-radius: 999px; padding: 2px 8px; margin-left: 6px; }
-.stale-tag { font-size: 10px; color: #fca5a5; border: 1px solid #7f1d1d; border-radius: 999px; padding: 2px 8px; margin-left: 6px; }
-footer { text-align: center; color: #64748b; padding: 25px 0 8px; font-size: 12px; }
+
+.task {
+display: flex;
+justify-content: space-between;
+gap: 10px;
+align-items: center;
+}
+
+.done {
+text-decoration: line-through;
+opacity: .55;
+}
+
+.remove {
+background: #7f1d1d;
+padding: 5px 9px;
+}
+
+.full {
+grid-column: 1 / -1;
+}
+
+.brief {
+line-height: 1.55;
+white-space: pre-wrap;
+}
+
+.nav {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+margin-bottom: 18px;
+}
+
+.nav button {
+background: #1e293b;
+border: 1px solid #334155;
+}
+
+footer {
+text-align: center;
+color: #64748b;
+padding: 25px 0 8px;
+font-size: 12px;
+}
+
+.hour-chip {
+min-width: 70px;
+text-align: center;
+background: rgba(30,41,59,.72);
+border-radius: 10px;
+padding: 8px 6px;
+}
+
+.day-chip {
+text-align: center;
+background: rgba(30,41,59,.72);
+border-radius: 10px;
+padding: 8px 6px;
+}
+
 @media (max-width: 760px) {
-  .grid { grid-template-columns: 1fr; }
-  .full { grid-column: auto; }
-  h1 { font-size: 26px; }
-  header { align-items: flex-start; }
+.grid { grid-template-columns: 1fr; }
+.full { grid-column: auto; }
+h1 { font-size: 26px; }
+header { align-items: flex-start; }
+.clock { font-size: 24px; }
 }
 </style>
 </head>
+
 <body>
+
 <div class="wrap">
+
 <header>
-  <div>
-    <h1>🏆 Keith Dashboard</h1>
-    <div class="sub"><span id="date"></span> • La Quinta, California</div>
-  </div>
-  <div class="status">● ONLINE</div>
+<div>
+<h1>🏆 Keith Dashboard</h1>
+<div class="sub">
+<span id="date"></span> • La Quinta, California
+</div>
+<div class="clock" id="digitalClock">--:--:--</div>
+</div>
+
+<div class="status">● ONLINE</div>
 </header>
 
 <div class="nav">
-  <button onclick="jump('weather')">☀️ Weather</button>
-  <button onclick="jump('brief')">🌅 Morning Brief</button>
-  <button onclick="jump('tasks')">✅ Tasks</button>
-  <button onclick="jump('email')">📧 Email</button>
-  <button onclick="jump('news')">📰 News</button>
-  <button onclick="jump('ai')">🤖 AI Corner</button>
+<button onclick="jump('weather')">☀️ Weather</button>
+<button onclick="jump('brief')">🌅 Morning Brief</button>
+<button onclick="jump('tasks')">✅ Tasks</button>
+<button onclick="jump('email')">📧 Email</button>
+<button onclick="jump('news')">📰 News</button>
+<button onclick="jump('ai')">🤖 AI Corner</button>
 </div>
 
 <main class="grid">
 
-  <section class="card" id="weather">
-    <h2>☀️ Desert Weather <span id="weatherTag" class="stale-tag">loading</span></h2>
-    <div class="big-temp" id="weatherTemp">--°F</div>
-    <div>La Quinta • ZIP 92253</div>
-    <div class="item" id="weatherHiLo">High: --° &nbsp; Low: --°</div>
-    <div class="item" id="weatherCond">Conditions: loading…</div>
-    <div class="muted" id="weatherNote">Fetching from Open-Meteo…</div>
-  </section>
+<section class="card c-amber full" id="weather">
+<h2>☀️ Desert Weather</h2>
+<div class="big-temp" id="w-temp">--°F</div>
+<div>La Quinta • ZIP 92253</div>
+<div class="item">High: <span id="w-high">--°</span> &nbsp; Low: <span id="w-low">--°</span></div>
+<div class="item">Conditions: <span id="w-cond">Ready for weather feed</span></div>
 
-  <section class="card" id="brief">
-    <h2>🌅 Morning Brief <span id="briefTag" class="stale-tag">loading</span></h2>
-    <div class="brief" id="briefText">Loading today's brief…</div>
-  </section>
+<div class="muted" style="margin-top:14px;">Next 12 Hours</div>
+<div id="w-hourly" style="display:flex;gap:10px;overflow-x:auto;padding:10px 0;"></div>
 
-  <section class="card" id="tasks">
-    <h2>✅ Today's Tasks</h2>
-    <div class="task-row">
-      <input id="taskInput" placeholder="Add something to remember...">
-      <button onclick="addTask()">ADD</button>
-    </div>
-    <div id="taskList"></div>
-  </section>
+<div class="muted" style="margin-top:6px;">5-Day Forecast</div>
+<div id="w-daily" style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:8px;"></div>
+</section>
 
-  <section class="card" id="email">
-    <h2>📧 Email Watch</h2>
+<section class="card c-blue" id="brief">
+<h2>🌅 Morning Brief</h2>
+<div class="brief" id="briefText">Good morning, Keith.
 
-    <h3>SmarterMail <span id="smtag" class="stale-tag">loading</span></h3>
-    <div id="smList"></div>
+Your personal morning brief will appear here.
 
-    <h3>Gmail (optional) <span id="emailTag" class="stale-tag">not connected</span></h3>
-    <div id="emailConnectRow">
-      <button class="secondary" onclick="connectGmail()">Connect Gmail</button>
-    </div>
-    <div id="emailList"></div>
+Weather • News • Email Watch • Personal Focus • Reminder Notes • AI
+Personal Block</div>
+</section>
 
-    <div class="muted" style="margin-top:8px;">
-      SmarterMail is the primary source right now. Gmail (client-side OAuth) is available but not fully reliable yet.
-    </div>
-  </section>
+<section class="card c-green" id="tasks">
+<h2>✅ Today's Tasks</h2>
 
-  <section class="card" id="news">
-    <h2>📰 News Worth Knowing</h2>
-    <div class="item">📈 Markets / Economy</div>
-    <div class="item">🤖 AI / Technology</div>
-    <div class="item">🌴 La Quinta / California</div>
-    <div class="muted">Not wired yet.</div>
-  </section>
+<div class="task-row">
+<input id="taskInput" placeholder="Add something to remember...">
+<button onclick="addTask()">ADD</button>
+</div>
 
-  <section class="card">
-    <h2>📅 Calendar</h2>
-    <div class="item">Today's personal events will appear here.</div>
-    <button onclick="window.open('https://calendar.google.com','_blank')">Open Google Calendar</button>
-    <div class="muted" style="margin-top:8px;">fetch_calendar.py is still a stub — writes an empty placeholder instead of pulling your iCal feed.</div>
-  </section>
+<div id="taskList"></div>
+</section>
 
-  <section class="card" id="ai">
-    <h2>🤖 AI Corner <span id="aiTag" class="stale-tag">loading</span></h2>
-    <div class="item"><strong>Personal note:</strong><br><span id="aiPersonalNote">Loading…</span></div>
-    <div class="item"><strong>Tool idea:</strong><br><span id="aiToolIdea">Loading…</span></div>
-    <div class="item"><strong>Mini workflow:</strong><br><span id="aiMiniWorkflow">Loading…</span></div>
-  </section>
+<section class="card c-purple" id="email">
+<h2>📧 Email Watch</h2>
+<div id="email-list">
+<div class="item">Important personal email only</div>
+<div class="item">Security • Finance • Travel • Appointments •
+Family</div>
+</div>
+<div class="muted">No promotions or newsletter clutter.</div>
+</section>
 
-  <section class="card">
-    <h2>📝 Keith's Notes</h2>
-    <textarea id="notes" rows="9" placeholder="Ideas, reminders, errands, things not to forget..."></textarea>
-    <div class="muted" style="margin-top:8px;">Notes save automatically on this device.</div>
-  </section>
+<section class="card c-red" id="news">
+<h2>📰 News Worth Knowing</h2>
+<div id="news-list">
+<div class="item">📈 Markets / Economy</div>
+<div class="item">🤖 AI / Technology</div>
+<div class="item">🌴 La Quinta / California</div>
+</div>
+</section>
 
-  <section class="card full" id="sleep-recorder">
-    <h2>🌙 Sleep Apnea Recorder</h2>
-    <div class="grid">
-      <div class="item">
-        <strong>Tonight's Event Count</strong><br>
-        <span id="sleep-count" style="font-size:34px;font-weight:800;">0</span>
-        <div class="muted">Tap a button each time you notice or log an event.</div>
-      </div>
-      <div class="item">
-        <strong>Quick Sleep Notes</strong><br><br>
-        <textarea id="sleep-notes" rows="5" placeholder="How did you sleep? CPAP notes, dry mouth, headache, awakenings, etc..."></textarea>
-        <div class="muted" style="margin-top:8px;">Saves automatically on this device.</div>
-      </div>
-    </div>
-    <div class="item" id="sleep-summary" style="margin-top:14px;">No events logged yet tonight.</div>
+<section class="card c-teal">
+<h2>📅 Calendar</h2>
+<div class="item">Today's personal events will appear here.</div>
+<button onclick="window.open('https://calendar.google.com','_blank')">
+Open Google Calendar
+</button>
+</section>
 
-    <div style="margin-top:16px;">
-      <strong>Log an event</strong>
-      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:10px;">
-        <button onclick="logSleepEvent('Apnea')" style="background:#9f1239;">Apnea</button>
-        <button onclick="logSleepEvent('Snore')" style="background:#b45309;">Snore</button>
-        <button onclick="logSleepEvent('Gasping')" style="background:#c2410c;">Gasping</button>
-        <button onclick="logSleepEvent('Awake')" style="background:#047857;">Awake</button>
-      </div>
-    </div>
-    <div style="margin-top:18px;">
-      <strong>Event History</strong>
-      <div id="sleep-history" style="margin-top:10px;"></div>
-    </div>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
-      <button onclick="exportSleepLog()" style="background:#334155;">Export Sleep Log</button>
-      <button onclick="clearSleepLog()" style="background:#7f1d1d;">Clear Tonight</button>
-    </div>
-    <div class="muted" style="margin-top:12px;">Personal logging tool only — not a medical diagnosis or apnea detector.</div>
-  </section>
+<section class="card c-pink" id="ai">
+<h2>🤖 AI Corner</h2>
+<div class="item" id="ai-personal"><strong>Personal note:</strong><br>One useful idea
+for today.</div>
+<div class="item" id="ai-tool"><strong>Tool idea:</strong><br>One practical ChatGPT
+tip.</div>
+<div class="item" id="ai-workflow"><strong>Mini workflow:</strong><br>Keep it short and
+useful.</div>
+</section>
+
+<section class="card">
+<h2>📝 Keith's Notes</h2>
+
+<textarea
+id="notes"
+rows="9"
+placeholder="Ideas, reminders, errands, things not to forget..."
+></textarea>
+
+<div class="muted" style="margin-top:8px;">
+Notes save automatically on this device.
+</div>
+</section>
+
+<section class="card full" id="sleep-recorder">
+<h2>🌙 Sleep Apnea Recorder</h2>
+
+<div class="grid">
+
+<div class="item">
+<strong>Tonight's Event Count</strong><br>
+<span id="sleep-count"
+style="font-size:34px;font-weight:800;">0</span>
+<div class="muted">
+Tap a button each time you notice or log an event.
+</div>
+</div>
+
+<div class="item">
+<strong>Quick Sleep Notes</strong><br><br>
+
+<textarea
+id="sleep-notes"
+rows="5"
+placeholder="How did you sleep? CPAP notes, dry mouth, headache,
+awakenings, etc..."
+></textarea>
+
+<div class="muted" style="margin-top:8px;">
+Saves automatically on this device.
+</div>
+</div>
+
+</div>
+
+<div class="item" id="sleep-summary" style="margin-top:16px;font-weight:600;"></div>
+
+<div style="margin-top:16px;">
+<strong>Log an event</strong>
+
+<div style="
+display:grid;
+grid-template-columns:repeat(2,minmax(0,1fr));
+gap:10px;
+margin-top:10px;
+">
+
+<button onclick="logSleepEvent('Apnea')"
+style="background:#9f1239;">
+Apnea
+</button>
+
+<button onclick="logSleepEvent('Snore')"
+style="background:#b45309;">
+Snore
+</button>
+
+<button onclick="logSleepEvent('Gasping')"
+style="background:#c2410c;">
+Gasping
+</button>
+
+<button onclick="logSleepEvent('Awake')"
+style="background:#047857;">
+Awake
+</button>
+
+</div>
+</div>
+
+<div style="margin-top:18px;">
+<strong>Event History</strong>
+<div id="sleep-history" style="margin-top:10px;"></div>
+</div>
+
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
+
+<button onclick="exportSleepLog()" style="background:#334155;">
+Export Sleep Log
+</button>
+
+<button onclick="clearSleepLog()" style="background:#7f1d1d;">
+Clear Tonight
+</button>
+
+</div>
+
+<div class="muted" style="margin-top:12px;">
+Personal logging tool only — not a medical diagnosis or apnea
+detector.
+</div>
+
+</section>
 
 </main>
 
-<footer>Keith Dashboard • GitHub + Vercel</footer>
+<footer>
+Keith Dashboard • GitHub + Vercel
+</footer>
+
 </div>
 
 <script>
-document.getElementById("date").textContent = new Date().toLocaleDateString("en-US", {
-  weekday: "long", month: "long", day: "numeric", year: "numeric"
+
+document.getElementById("date").textContent =
+new Date().toLocaleDateString("en-US", {
+weekday: "long",
+month: "long",
+day: "numeric",
+year: "numeric"
 });
+
+function updateClock() {
+document.getElementById("digitalClock").textContent =
+new Date().toLocaleTimeString("en-US", {
+hour: "2-digit",
+minute: "2-digit",
+second: "2-digit"
+});
+}
+
+updateClock();
+setInterval(updateClock, 1000);
 
 function jump(id) {
-  const section = document.getElementById(id);
-  if (section) section.scrollIntoView({ behavior: "smooth" });
+const section = document.getElementById(id);
+
+if (section) {
+section.scrollIntoView({
+behavior: "smooth"
+});
+}
 }
 
-// ---------- WEATHER (Open-Meteo, no API key needed) ----------
-const WEATHER_CODES = {
-  0: "Clear sky", 1: "Mostly clear", 2: "Partly cloudy", 3: "Overcast",
-  45: "Fog", 48: "Depositing rime fog",
-  51: "Light drizzle", 53: "Drizzle", 55: "Heavy drizzle",
-  61: "Light rain", 63: "Rain", 65: "Heavy rain",
-  71: "Light snow", 73: "Snow", 75: "Heavy snow",
-  80: "Rain showers", 81: "Rain showers", 82: "Violent rain showers",
-  95: "Thunderstorm", 96: "Thunderstorm w/ hail", 99: "Thunderstorm w/ hail"
+
+// AI CORNER (live, via Vercel serverless function + Gemini)
+
+fetch('/api/ai-corner')
+  .then(r => r.json())
+  .then(tip => {
+    document.getElementById('ai-personal').innerHTML =
+      '<strong>Personal note:</strong><br>' + tip.personal;
+    document.getElementById('ai-tool').innerHTML =
+      '<strong>Tool idea:</strong><br>' + tip.tool;
+    document.getElementById('ai-workflow').innerHTML =
+      '<strong>Mini workflow:</strong><br>' + tip.workflow;
+  })
+  .catch(() => console.log('ai-corner endpoint not available yet'));
+
+
+// MORNING BRIEF (live, via Vercel serverless function + Gemini)
+
+fetch('/api/agenda-brief')
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('briefText').textContent = data.brief;
+  })
+  .catch(() => console.log('agenda-brief endpoint not available yet'));
+
+
+// WEATHER
+
+fetch('output/weather.json')
+  .then(r => r.json())
+  .then(w => {
+    document.getElementById('w-temp').textContent = w.temp + '°F';
+    document.getElementById('w-high').textContent = w.high + '°';
+    document.getElementById('w-low').textContent = w.low + '°';
+    document.getElementById('w-cond').textContent = w.conditions;
+
+    const hourlyEl = document.getElementById('w-hourly');
+    if (w.hourly && w.hourly.length) {
+      hourlyEl.innerHTML = w.hourly.map(h => `
+        <div class="hour-chip">
+          <div class="muted" style="font-size:11px;">${h.time}</div>
+          <div style="font-weight:700;margin:4px 0;">${h.temp}°</div>
+          <div class="muted" style="font-size:10px;">${h.conditions}</div>
+        </div>
+      `).join('');
+    }
+
+    const dailyEl = document.getElementById('w-daily');
+    if (w.daily && w.daily.length) {
+      dailyEl.innerHTML = w.daily.map(d => `
+        <div class="day-chip">
+          <div style="font-weight:700;">${d.day}</div>
+          <div class="muted" style="font-size:11px;margin:4px 0;">${d.conditions}</div>
+          <div style="font-size:13px;">${d.high}° / ${d.low}°</div>
+        </div>
+      `).join('');
+    }
+  })
+  .catch(() => console.log('weather.json not available yet'));
+
+
+// NEWS
+
+fetch('scripts/rss_headlines.json')
+  .then(r => r.json())
+  .then(headlines => {
+    if (!headlines || !headlines.length) return;
+    const list = document.getElementById('news-list');
+    list.innerHTML = headlines.slice(0, 5).map(h =>
+      `<div class="item"><a href="${h.link}" target="_blank">${h.title}</a></div>`
+    ).join('');
+  })
+  .catch(() => console.log('rss_headlines.json not available yet'));
+
+
+// EMAIL
+
+fetch('output/email_watch.json')
+  .then(r => r.json())
+  .then(emails => {
+    if (!emails || !emails.length) return;
+    const list = document.getElementById('email-list');
+    list.innerHTML = emails.map(e => `
+      <div class="item">
+        <strong>${e.subject}</strong><br>
+        <span class="muted">${e.from} • ${new Date(e.date).toLocaleString()}</span>
+      </div>
+    `).join('');
+  })
+  .catch(() => console.log('email_watch.json not available yet'));
+
+
+// NOTES
+
+const notes = document.getElementById("notes");
+
+notes.value =
+localStorage.getItem("keith_notes") || "";
+
+notes.addEventListener("input", () => {
+localStorage.setItem(
+"keith_notes",
+notes.value
+);
+});
+
+
+// TASKS
+
+let tasks =
+JSON.parse(
+localStorage.getItem("keith_tasks") || "[]"
+);
+
+if (tasks.length === 0) {
+tasks = [
+{ text: "Clean kitchen", done: false },
+{ text: "EDD", done: false },
+{ text: "Finish GitHub repo", done: false },
+{ text: "Fix AI To-Do tasks checklist", done: false },
+{ text: "Take out trash", done: false },
+{ text: "Review 1 pending task", done: false }
+];
+}
+
+function saveTasks() {
+localStorage.setItem(
+"keith_tasks",
+JSON.stringify(tasks)
+);
+}
+
+function renderTasks() {
+
+const list =
+document.getElementById("taskList");
+
+list.innerHTML = "";
+
+tasks.forEach((task, index) => {
+
+const row =
+document.createElement("div");
+
+row.className = "item task";
+
+
+const text =
+document.createElement("span");
+
+text.textContent = task.text;
+
+if (task.done) {
+text.className = "done";
+}
+
+text.style.cursor = "pointer";
+
+text.onclick = () => {
+
+tasks[index].done =
+!tasks[index].done;
+
+saveTasks();
+renderTasks();
 };
 
-async function loadWeather() {
-  const tag = document.getElementById("weatherTag");
-  try {
-    const url = "https://api.open-meteo.com/v1/forecast" +
-      "?latitude=33.6634&longitude=-116.31" +
-      "&current=temperature_2m,weather_code" +
-      "&daily=temperature_2m_max,temperature_2m_min" +
-      "&temperature_unit=fahrenheit&timezone=America%2FLos_Angeles";
-    const res = await fetch(url);
-    if (!res.ok) throw new Error("Weather API error " + res.status);
-    const data = await res.json();
 
-    const temp = Math.round(data.current.temperature_2m);
-    const hi = Math.round(data.daily.temperature_2m_max[0]);
-    const lo = Math.round(data.daily.temperature_2m_min[0]);
-    const cond = WEATHER_CODES[data.current.weather_code] || "Unknown conditions";
+const remove =
+document.createElement("button");
 
-    document.getElementById("weatherTemp").textContent = temp + "°F";
-    document.getElementById("weatherHiLo").textContent = "High: " + hi + "°   Low: " + lo + "°";
-    document.getElementById("weatherCond").textContent = "Conditions: " + cond;
-    document.getElementById("weatherNote").textContent = "Live from Open-Meteo.";
-    tag.textContent = "live";
-    tag.className = "live-tag";
-  } catch (err) {
-    document.getElementById("weatherCond").textContent = "Conditions: unavailable";
-    document.getElementById("weatherNote").textContent = "Weather fetch failed: " + err.message;
-    tag.textContent = "error";
-    tag.className = "stale-tag";
-  }
-}
+remove.textContent = "×";
+remove.className = "remove";
 
-// ---------- MORNING BRIEF (from GitHub Actions output, via server-side proxy) ----------
-async function loadBrief() {
-  const tag = document.getElementById("briefTag");
-  const el = document.getElementById("briefText");
-  try {
-    const res = await fetch("/api/agenda-brief?_=" + Date.now());
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || ("HTTP " + res.status));
-    const text = (data.text || "").trim();
-    if (!text) throw new Error("File is empty — Action may not have run yet");
-    el.textContent = text;
-    tag.textContent = "live";
-    tag.className = "live-tag";
-  } catch (err) {
-    el.textContent = "Good morning, Keith.\n\nCouldn't load today's agenda file yet (" + err.message + ").\nCheck the Actions tab in the Keith-Otter repo to confirm the Daily Agenda Builder has run.";
-    tag.textContent = "not found";
-    tag.className = "stale-tag";
-  }
-}
+remove.onclick = () => {
 
-// ---------- EMAIL WATCH: SMARTERMAIL (primary, via our own serverless function) ----------
-async function loadSmarterMail() {
-  const tag = document.getElementById("smtag");
-  const list = document.getElementById("smList");
-  list.innerHTML = '<div class="item muted">Loading…</div>';
-  try {
-    const res = await fetch("/api/smartermail-email");
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || ("HTTP " + res.status));
+tasks.splice(index, 1);
 
-    list.innerHTML = "";
-    if (!data.emails || data.emails.length === 0) {
-      list.innerHTML = '<div class="item muted">No priority emails found.</div>';
-    } else {
-      data.emails.forEach((m) => {
-        const row = document.createElement("div");
-        row.className = "item";
-        const subjEl = document.createElement("strong");
-        subjEl.textContent = m.subject;
-        const metaEl = document.createElement("div");
-        metaEl.className = "muted";
-        metaEl.textContent = m.from + (m.snippet ? " • " + m.snippet : "");
-        row.appendChild(subjEl);
-        row.appendChild(metaEl);
-        list.appendChild(row);
-      });
-    }
-    tag.textContent = "live";
-    tag.className = "live-tag";
-  } catch (err) {
-    list.innerHTML = '<div class="item muted">Couldn\'t load SmarterMail: ' + err.message + '</div>';
-    tag.textContent = "error";
-    tag.className = "stale-tag";
-  }
-}
+saveTasks();
+renderTasks();
+};
 
-// ---------- EMAIL WATCH: GMAIL (optional, client-side OAuth — no backend needed) ----------
-// SETUP REQUIRED if you want this working too: paste your own OAuth Client ID below.
-// Get one at console.cloud.google.com -> APIs & Services -> Credentials ->
-// Create Credentials -> OAuth client ID -> Web application ->
-// Authorized JavaScript origins: https://keith-otter.vercel.app
-// Also enable the "Gmail API" under APIs & Services -> Library first.
-const GMAIL_CLIENT_ID = "PASTE_YOUR_GMAIL_OAUTH_CLIENT_ID_HERE.apps.googleusercontent.com";
 
-const EMAIL_PRIORITY_QUERY =
-  'newer_than:2d (from:kgf@comcast.net OR from:vercel.com OR from:github.com OR from:onedrive.com OR from:paymentus.com)';
+row.appendChild(text);
+row.appendChild(remove);
 
-let gmailTokenClient = null;
-let gmailAccessToken = null;
+list.appendChild(row);
 
-function initGmailAuth() {
-  if (!window.google || !google.accounts || !google.accounts.oauth2) {
-    setTimeout(initGmailAuth, 300);
-    return;
-  }
-  gmailTokenClient = google.accounts.oauth2.initTokenClient({
-    client_id: GMAIL_CLIENT_ID,
-    scope: "https://www.googleapis.com/auth/gmail.readonly",
-    callback: (resp) => {
-      const tag = document.getElementById("emailTag");
-      if (resp.error) {
-        tag.textContent = "auth error";
-        tag.className = "stale-tag";
-        return;
-      }
-      gmailAccessToken = resp.access_token;
-      tag.textContent = "live";
-      tag.className = "live-tag";
-      document.getElementById("emailConnectRow").style.display = "none";
-      loadEmailWatch();
-    }
-  });
-}
-
-function connectGmail() {
-  if (GMAIL_CLIENT_ID.indexOf("PASTE_YOUR") === 0) {
-    document.getElementById("emailList").innerHTML =
-      '<div class="item muted">Add your Gmail OAuth Client ID in index.html first (see comment above GMAIL_CLIENT_ID).</div>';
-    return;
-  }
-  if (!gmailTokenClient) { initGmailAuth(); setTimeout(connectGmail, 400); return; }
-  gmailTokenClient.requestAccessToken();
-}
-
-async function loadEmailWatch() {
-  const list = document.getElementById("emailList");
-  list.innerHTML = '<div class="item muted">Loading…</div>';
-  try {
-    const listRes = await fetch(
-      "https://gmail.googleapis.com/gmail/v1/users/me/messages?maxResults=4&q=" +
-        encodeURIComponent(EMAIL_PRIORITY_QUERY),
-      { headers: { Authorization: "Bearer " + gmailAccessToken } }
-    );
-    if (!listRes.ok) throw new Error("Gmail list error " + listRes.status);
-    const listData = await listRes.json();
-    const messages = listData.messages || [];
-
-    list.innerHTML = "";
-    if (messages.length === 0) {
-      list.innerHTML = '<div class="item muted">No priority emails in the last 2 days.</div>';
-      return;
-    }
-
-    for (const m of messages) {
-      const msgRes = await fetch(
-        "https://gmail.googleapis.com/gmail/v1/users/me/messages/" + m.id +
-          "?format=metadata&metadataHeaders=From&metadataHeaders=Subject",
-        { headers: { Authorization: "Bearer " + gmailAccessToken } }
-      );
-      if (!msgRes.ok) continue;
-      const msg = await msgRes.json();
-      const headers = {};
-      (msg.payload.headers || []).forEach(h => { headers[h.name] = h.value; });
-
-      const row = document.createElement("div");
-      row.className = "item";
-      const subjEl = document.createElement("strong");
-      subjEl.textContent = headers.Subject || "(no subject)";
-      const metaEl = document.createElement("div");
-      metaEl.className = "muted";
-      metaEl.textContent = (headers.From || "") + (msg.snippet ? " • " + msg.snippet : "");
-      row.appendChild(subjEl);
-      row.appendChild(metaEl);
-      list.appendChild(row);
-    }
-  } catch (err) {
-    list.innerHTML = '<div class="item muted">Couldn\'t load email: ' + err.message + '</div>';
-  }
-}
-
-// ---------- AI CORNER (Gemini free tier, via server-side proxy) ----------
-async function loadAICorner() {
-  const tag = document.getElementById("aiTag");
-  try {
-    const res = await fetch("/api/ai-corner");
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || ("HTTP " + res.status));
-    document.getElementById("aiPersonalNote").textContent = data.personal_note || "—";
-    document.getElementById("aiToolIdea").textContent = data.tool_idea || "—";
-    document.getElementById("aiMiniWorkflow").textContent = data.mini_workflow || "—";
-    tag.textContent = "live";
-    tag.className = "live-tag";
-  } catch (err) {
-    tag.textContent = "error";
-    tag.className = "stale-tag";
-    document.getElementById("aiPersonalNote").textContent = "Couldn't load: " + err.message;
-    document.getElementById("aiToolIdea").textContent = "—";
-    document.getElementById("aiMiniWorkflow").textContent = "—";
-  }
-}
-
-loadWeather();
-loadBrief();
-loadSmarterMail();
-loadAICorner();
-initGmailAuth();
-
-// ---------- NOTES ----------
-const notes = document.getElementById("notes");
-notes.value = localStorage.getItem("keith_notes") || "";
-notes.addEventListener("input", () => localStorage.setItem("keith_notes", notes.value));
-
-// ---------- TASKS ----------
-let tasks = JSON.parse(localStorage.getItem("keith_tasks") || "[]");
-if (tasks.length === 0) {
-  tasks = [
-    { text: "Clean kitchen", done: false },
-    { text: "EDD", done: false },
-    { text: "Finish GitHub repo", done: false },
-    { text: "Fix AI To-Do tasks checklist", done: false },
-    { text: "Take out trash", done: false },
-    { text: "Review 1 pending task", done: false }
-  ];
-}
-function saveTasks() { localStorage.setItem("keith_tasks", JSON.stringify(tasks)); }
-function renderTasks() {
-  const list = document.getElementById("taskList");
-  list.innerHTML = "";
-  tasks.forEach((task, index) => {
-    const row = document.createElement("div");
-    row.className = "item task";
-    const text = document.createElement("span");
-    text.textContent = task.text;
-    if (task.done) text.className = "done";
-    text.style.cursor = "pointer";
-    text.onclick = () => { tasks[index].done = !tasks[index].done; saveTasks(); renderTasks(); };
-    const remove = document.createElement("button");
-    remove.textContent = "×";
-    remove.className = "remove";
-    remove.onclick = () => { tasks.splice(index, 1); saveTasks(); renderTasks(); };
-    row.appendChild(text);
-    row.appendChild(remove);
-    list.appendChild(row);
-  });
-  saveTasks();
-}
-function addTask() {
-  const input = document.getElementById("taskInput");
-  const value = input.value.trim();
-  if (!value) return;
-  tasks.push({ text: value, done: false });
-  input.value = "";
-  saveTasks();
-  renderTasks();
-}
-document.getElementById("taskInput").addEventListener("keydown", event => {
-  if (event.key === "Enter") addTask();
 });
+
+saveTasks();
+}
+
+function addTask() {
+
+const input =
+document.getElementById("taskInput");
+
+const value =
+input.value.trim();
+
+if (!value) return;
+
+tasks.push({
+text: value,
+done: false
+});
+
+input.value = "";
+
+saveTasks();
+renderTasks();
+}
+
+document
+.getElementById("taskInput")
+.addEventListener("keydown", event => {
+
+if (event.key === "Enter") {
+addTask();
+}
+
+});
+
 renderTasks();
 
-// ---------- SLEEP RECORDER ----------
-let sleepEvents = JSON.parse(localStorage.getItem("keith_sleep_events") || "[]");
-const sleepNotes = document.getElementById("sleep-notes");
+
+// SLEEP RECORDER
+
+let sleepEvents =
+JSON.parse(
+localStorage.getItem("keith_sleep_events") || "[]"
+);
+
+const sleepNotes =
+document.getElementById("sleep-notes");
+
 if (sleepNotes) {
-  sleepNotes.value = localStorage.getItem("keith_sleep_notes") || "";
-  sleepNotes.addEventListener("input", () => localStorage.setItem("keith_sleep_notes", sleepNotes.value));
+
+sleepNotes.value =
+localStorage.getItem("keith_sleep_notes") || "";
+
+sleepNotes.addEventListener("input", () => {
+
+localStorage.setItem(
+"keith_sleep_notes",
+sleepNotes.value
+);
+
+});
 }
-function saveSleepEvents() { localStorage.setItem("keith_sleep_events", JSON.stringify(sleepEvents)); }
+
+function saveSleepEvents() {
+
+localStorage.setItem(
+"keith_sleep_events",
+JSON.stringify(sleepEvents)
+);
+
+}
+
 function logSleepEvent(type) {
-  const now = new Date();
-  sleepEvents.push({ type: type, time: now.toISOString(), displayTime: now.toLocaleString() });
-  saveSleepEvents();
-  renderSleepEvents();
-}
-function renderSleepEvents() {
-  const count = document.getElementById("sleep-count");
-  const history = document.getElementById("sleep-history");
-  if (!count || !history) return;
-  count.textContent = sleepEvents.length;
-  history.innerHTML = "";
-  if (sleepEvents.length === 0) {
-    history.innerHTML = '<div class="item muted">No sleep events logged yet.</div>';
-  } else {
-    [...sleepEvents].reverse().forEach(event => {
-      const row = document.createElement("div");
-      row.className = "item";
-      row.textContent = event.type + " • " + event.displayTime;
-      history.appendChild(row);
-    });
-  }
-  renderSleepSummary();
-}
-function renderSleepSummary() {
-  const el = document.getElementById("sleep-summary");
-  if (!el) return;
-  if (sleepEvents.length === 0) {
-    el.textContent = "No events logged yet tonight.";
-    return;
-  }
-  const counts = {};
-  sleepEvents.forEach((e) => { counts[e.type] = (counts[e.type] || 0) + 1; });
-  const countParts = Object.keys(counts)
-    .map((k) => counts[k] + " " + k)
-    .join(", ");
 
-  const times = sleepEvents.map((e) => new Date(e.time)).sort((a, b) => a - b);
-  const first = times[0];
-  const last = times[times.length - 1];
+const now = new Date();
 
-  let text =
-    sleepEvents.length + (sleepEvents.length === 1 ? " event" : " events") +
-    " logged tonight (" + countParts + ").";
+sleepEvents.push({
+type: type,
+time: now.toISOString(),
+displayTime: now.toLocaleString()
+});
 
-  if (times.length > 1) {
-    const spanMin = Math.round((last - first) / 60000);
-    text +=
-      " First at " + first.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) +
-      ", most recent at " + last.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) +
-      " — spanning about " + spanMin + " minutes.";
-  } else {
-    text += " Logged at " + first.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) + ".";
-  }
-
-  el.textContent = text;
-}
-function clearSleepLog() {
-  if (!confirm("Clear tonight's sleep event log?")) return;
-  sleepEvents = [];
-  saveSleepEvents();
-  renderSleepEvents();
-}
-function exportSleepLog() {
-  const notesText = sleepNotes ? sleepNotes.value : "";
-  let text = "Keith Sleep Log\n\n";
-  text += "Exported: " + new Date().toLocaleString() + "\n\n";
-  text += "Events:\n";
-  if (sleepEvents.length === 0) {
-    text += "No events logged.\n";
-  } else {
-    sleepEvents.forEach(event => { text += "- " + event.type + " | " + event.displayTime + "\n"; });
-  }
-  text += "\nSleep Notes:\n" + notesText + "\n";
-  const blob = new Blob([text], { type: "text/plain" });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = "keith-sleep-log.txt";
-  link.click();
-  URL.revokeObjectURL(url);
-}
+saveSleepEvents();
 renderSleepEvents();
+
+}
+
+function summarizeSleep(events) {
+
+if (events.length === 0) {
+return "No events logged yet tonight — looking good so far.";
+}
+
+const counts = {};
+
+events.forEach(e => {
+counts[e.type] = (counts[e.type] || 0) + 1;
+});
+
+const total = events.length;
+
+let quality;
+
+if (total <= 2) {
+quality = "A pretty solid night.";
+} else if (total <= 5) {
+quality = "A few rough patches.";
+} else {
+quality = "A rough night — worth mentioning at your next appointment.";
+}
+
+const breakdown = Object.entries(counts)
+.map(([type, n]) => n + " " + type)
+.join(", ");
+
+return quality + " " + total + " event" + (total === 1 ? "" : "s") +
+" logged (" + breakdown + ").";
+
+}
+
+function renderSleepEvents() {
+
+const count =
+document.getElementById("sleep-count");
+
+const history =
+document.getElementById("sleep-history");
+
+const summary =
+document.getElementById("sleep-summary");
+
+if (!count || !history) return;
+
+count.textContent =
+sleepEvents.length;
+
+if (summary) {
+summary.textContent = summarizeSleep(sleepEvents);
+}
+
+history.innerHTML = "";
+
+if (sleepEvents.length === 0) {
+
+history.innerHTML =
+'<div class="item muted">No sleep events logged yet.</div>';
+
+return;
+}
+
+[...sleepEvents]
+.reverse()
+.forEach(event => {
+
+const row =
+document.createElement("div");
+
+row.className = "item";
+
+row.textContent =
+event.type +
+" • " +
+event.displayTime;
+
+history.appendChild(row);
+
+});
+
+}
+
+function clearSleepLog() {
+
+if (!confirm(
+"Clear tonight's sleep event log?"
+)) {
+return;
+}
+
+sleepEvents = [];
+
+saveSleepEvents();
+renderSleepEvents();
+
+}
+
+function exportSleepLog() {
+
+const notesText =
+sleepNotes
+? sleepNotes.value
+: "";
+
+let text =
+"Keith Sleep Log\n\n";
+
+text +=
+"Exported: " +
+new Date().toLocaleString() +
+"\n\n";
+
+text += "Events:\n";
+
+if (sleepEvents.length === 0) {
+
+text +=
+"No events logged.\n";
+
+} else {
+
+sleepEvents.forEach(event => {
+
+text +=
+"- " +
+event.type +
+" | " +
+event.displayTime +
+"\n";
+
+});
+
+}
+
+text +=
+"\nSleep Notes:\n" +
+notesText +
+"\n";
+
+const blob =
+new Blob(
+[text],
+{ type: "text/plain" }
+);
+
+const url =
+URL.createObjectURL(blob);
+
+const link =
+document.createElement("a");
+
+link.href = url;
+
+link.download =
+"keith-sleep-log.txt";
+
+link.click();
+
+URL.revokeObjectURL(url);
+
+}
+
+renderSleepEvents();
+
 </script>
+
 </body>
 </html>
