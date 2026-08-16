@@ -6,6 +6,10 @@ Outputs scripts/calendar_events.json for use by build_agenda.py.
 
 Required environment variable:
 GCAL_ICAL_URL
+
+If the environment variable is missing, this writes an empty
+calendar_events.json instead of failing, so the rest of the
+Daily Agenda Builder pipeline can still run.
 """
 
 import os
@@ -23,100 +27,101 @@ TIMEZONE = "America/Los_Angeles"
 
 ICAL_URL = os.environ.get("GCAL_ICAL_URL")
 
+
+def write_empty(reason):
+    print(f"Skipping calendar fetch: {reason}")
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump([], f, indent=2, ensure_ascii=False)
+    print(f"Wrote empty calendar file to {OUTPUT_FILE}")
+
+
 if not ICAL_URL:
-raise RuntimeError("GCAL_ICAL_URL missing")
-
-
-tz = pytz.timezone(TIMEZONE)
-now = datetime.datetime.now(tz)
-
-start = now.replace(
-hour=0,
-minute=0,
-second=0,
-microsecond=0
-)
-
-end = start + datetime.timedelta(days=1)
-
-print(f"Fetching calendar for {now.strftime('%A, %B %d, %Y')} ...")
-
-response = requests.get(
-ICAL_URL,
-timeout=30
-)
-
-response.raise_for_status()
-
-calendar = Calendar.from_ical(response.content)
-
-raw_events = recurring_ical_events.of(calendar).between(
-start,
-end
-)
-
-events = []
-
-for event in raw_events:
-
-dtstart = event.decoded("DTSTART")
-
-if isinstance(dtstart, datetime.datetime):
-
-if dtstart.tzinfo is None:
-dtstart = tz.localize(dtstart)
+    write_empty("GCAL_ICAL_URL is not set")
 else:
-dtstart = dtstart.astimezone(tz)
+    tz = pytz.timezone(TIMEZONE)
+    now = datetime.datetime.now(tz)
 
-time_str = dtstart.strftime("%I:%M %p")
+    start = now.replace(
+        hour=0,
+        minute=0,
+        second=0,
+        microsecond=0
+    )
 
-else:
-time_str = "All Day"
+    end = start + datetime.timedelta(days=1)
 
-summary = str(
-event.get("SUMMARY", "No title")
-)
+    print(f"Fetching calendar for {now.strftime('%A, %B %d, %Y')} ...")
 
-location = str(
-event.get("LOCATION", "")
-)
+    try:
+        response = requests.get(
+            ICAL_URL,
+            timeout=30
+        )
+        response.raise_for_status()
 
-description = str(
-event.get("DESCRIPTION", "")
-)
+        calendar = Calendar.from_ical(response.content)
 
-events.append({
-"time": time_str,
-"summary": summary,
-"location": location,
-"description": description
-})
+        raw_events = recurring_ical_events.of(calendar).between(
+            start,
+            end
+        )
 
+        events = []
 
-def sort_key(item):
+        for event in raw_events:
 
-if item["time"] == "All Day":
-return "00:00 AM"
+            dtstart = event.decoded("DTSTART")
 
-return item["time"]
+            if isinstance(dtstart, datetime.datetime):
+                if dtstart.tzinfo is None:
+                    dtstart = tz.localize(dtstart)
+                else:
+                    dtstart = dtstart.astimezone(tz)
 
+                time_str = dtstart.strftime("%I:%M %p")
+            else:
+                time_str = "All Day"
 
-events.sort(
-key=sort_key
-)
+            summary = str(
+                event.get("SUMMARY", "No title")
+            )
 
-with open(
-OUTPUT_FILE,
-"w",
-encoding="utf-8"
-) as f:
+            location = str(
+                event.get("LOCATION", "")
+            )
 
-json.dump(
-events,
-f,
-indent=2,
-ensure_ascii=False
-)
+            description = str(
+                event.get("DESCRIPTION", "")
+            )
 
-print(f"Found {len(events)} event(s)")
-print(f"Calendar events written to {OUTPUT_FILE}")
+            events.append({
+                "time": time_str,
+                "summary": summary,
+                "location": location,
+                "description": description
+            })
+
+        def sort_key(item):
+            if item["time"] == "All Day":
+                return "00:00 AM"
+            return item["time"]
+
+        events.sort(key=sort_key)
+
+        with open(
+            OUTPUT_FILE,
+            "w",
+            encoding="utf-8"
+        ) as f:
+            json.dump(
+                events,
+                f,
+                indent=2,
+                ensure_ascii=False
+            )
+
+        print(f"Found {len(events)} event(s)")
+        print(f"Calendar events written to {OUTPUT_FILE}")
+
+    except Exception as e:
+        write_empty(f"fetch failed ({e})")
