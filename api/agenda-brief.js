@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
 const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) {
 return res.status(500).json({ summary: "Missing GEMINI_API_KEY" });
@@ -28,4 +28,4 @@ Date().toISOString() });
 res.status(500).json({ summary: "Good morning, Keith. (Agenda brief
 temporarily unavailable.)" });
 }
-}
+};
