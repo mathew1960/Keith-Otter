@@ -335,14 +335,18 @@ Family</div>
 </div>
 </section>
 
-<section class="card c-teal" id="calendar">
-<h2>📅 Calendar</h2>
-<div id="calendar-list">
-<div class="item muted">Loading today's events...</div>
+<section class="card c-teal" id="nighttime">
+<h2>🌜 Nighttime</h2>
+
+<div class="muted" style="margin-bottom:8px;">Fall-asleep audio</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;">
+<button onclick="window.open('https://www.audible.com','_blank')">Audible</button>
+<button onclick="window.open('https://open.spotify.com','_blank')">Spotify</button>
+<button onclick="window.open('https://podcasts.apple.com','_blank')">Podcasts</button>
 </div>
-<button onclick="window.open('https://calendar.google.com','_blank')">
-Open Google Calendar
-</button>
+
+<div class="muted" style="margin-bottom:8px;">Voice memo</div>
+<button onclick="window.open('https://otter.ai','_blank')">Open Otter</button>
 </section>
 
 <section class="card c-pink" id="ai">
@@ -603,28 +607,6 @@ fetch('scripts/rss_headlines.json')
     ).join('');
   })
   .catch(() => console.log('rss_headlines.json not available yet'));
-
-
-// CALENDAR
-
-fetch('scripts/calendar_events.json')
-  .then(r => r.json())
-  .then(events => {
-    const list = document.getElementById('calendar-list');
-    if (!list) return;
-    if (!events || !events.length) {
-      list.innerHTML = '<div class="item muted">No events today.</div>';
-      return;
-    }
-    list.innerHTML = events.map(e => `
-      <div class="item">
-        <strong>${e.time}</strong> — ${e.summary}
-        ${e.location ? `<br><span class="muted">${e.location}</span>` : ''}
-        ${e.description ? `<br><span class="muted">${e.description}</span>` : ''}
-      </div>
-    `).join('');
-  })
-  .catch(() => console.log('calendar_events.json not available yet'));
 
 
 // EMAIL
