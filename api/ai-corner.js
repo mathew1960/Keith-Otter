@@ -2,11 +2,14 @@
 // Vercel serverless function — calls Gemini and returns a daily AI Corner
 // tip set. Reads GEMINI_API_KEY from Vercel's environment variables.
 //
-// NOTE: gemini-2.5-flash is scheduled to shut down Oct 16, 2026 (Gemini
-// Developer API). Revisit this before then and swap the MODEL constant
-// for whatever the current Gemini Flash model is at that time.
+// NOTE: gemini-2.5-flash was retired for new API keys as of Aug 2026
+// ("no longer available to new users" per Google's error response) —
+// that's why this was stuck on fallback. gemini-3.6-flash is Google's
+// current free-tier default (as of July 2026). If this breaks again,
+// check ai.google.dev/gemini-api/docs/pricing for the current free
+// Flash model name and swap MODEL below.
 
-const MODEL = 'gemini-2.5-flash';
+const MODEL = 'gemini-3.6-flash';
 
 // Used only if the Gemini call fails outright (bad key, quota, network).
 // Multiple sets so a failure doesn't show the exact same text every time.
