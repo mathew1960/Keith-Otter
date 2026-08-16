@@ -67,6 +67,7 @@ font-weight: bold;
 display: grid;
 grid-template-columns: repeat(2, minmax(0,1fr));
 gap: 18px;
+grid-auto-flow: dense;
 }
 
 .card {
@@ -217,6 +218,42 @@ border-radius: 10px;
 padding: 8px 6px;
 }
 
+.health-lock-screen {
+background: rgba(15,23,42,.9);
+border: 1px dashed rgba(251,113,133,.5);
+border-radius: 14px;
+padding: 26px 20px;
+text-align: center;
+}
+
+.health-lock-screen input {
+max-width: 160px;
+margin: 0 auto 12px;
+text-align: center;
+letter-spacing: 4px;
+font-size: 20px;
+}
+
+.health-unlocked-bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 14px;
+flex-wrap: wrap;
+gap: 8px;
+}
+
+.link-btn {
+background: none;
+border: none;
+color: #94a3b8;
+text-decoration: underline;
+cursor: pointer;
+padding: 0;
+font-size: 12px;
+font-weight: normal;
+}
+
 @media (max-width: 760px) {
 .grid { grid-template-columns: 1fr; }
 .full { grid-column: auto; }
@@ -298,9 +335,11 @@ Family</div>
 </div>
 </section>
 
-<section class="card c-teal">
+<section class="card c-teal" id="calendar">
 <h2>📅 Calendar</h2>
-<div class="item">Today's personal events will appear here.</div>
+<div id="calendar-list">
+<div class="item muted">Loading today's events...</div>
+</div>
 <button onclick="window.open('https://calendar.google.com','_blank')">
 Open Google Calendar
 </button>
@@ -319,6 +358,27 @@ useful.</div>
 <section class="card c-rose full" id="health">
 <h2>💊 Health Hub</h2>
 
+<div id="health-lock-screen" class="health-lock-screen">
+<div style="font-size:28px;margin-bottom:8px;">🔒</div>
+<div id="health-lock-message" class="muted" style="margin-bottom:14px;">Enter PIN to view medications and notes.</div>
+<input id="healthPinInput" type="password" inputmode="numeric" placeholder="PIN">
+<div>
+<button onclick="submitHealthPin()">Unlock</button>
+</div>
+<div id="health-pin-error" class="muted" style="color:#f87171;margin-top:8px;"></div>
+</div>
+
+<div id="health-content" style="display:none;">
+
+<div class="health-unlocked-bar">
+<span class="muted">Unlocked for this session</span>
+<div>
+<button class="link-btn" onclick="changeHealthPin()">Change PIN</button>
+&nbsp;•&nbsp;
+<button class="link-btn" onclick="lockHealth()">Lock now</button>
+</div>
+</div>
+
 <div class="muted" style="margin-bottom:8px;">Medications</div>
 <div id="med-list"></div>
 
@@ -331,6 +391,8 @@ useful.</div>
 <div class="muted" style="margin-bottom:8px;">Doctor's Notes</div>
 <textarea id="health-notes" rows="5" placeholder="Notes for next appointment..."></textarea>
 <div class="muted" style="margin-top:8px;">Saves automatically on this device.</div>
+</div>
+
 </div>
 </section>
 
@@ -543,6 +605,28 @@ fetch('scripts/rss_headlines.json')
   .catch(() => console.log('rss_headlines.json not available yet'));
 
 
+// CALENDAR
+
+fetch('scripts/calendar_events.json')
+  .then(r => r.json())
+  .then(events => {
+    const list = document.getElementById('calendar-list');
+    if (!list) return;
+    if (!events || !events.length) {
+      list.innerHTML = '<div class="item muted">No events today.</div>';
+      return;
+    }
+    list.innerHTML = events.map(e => `
+      <div class="item">
+        <strong>${e.time}</strong> — ${e.summary}
+        ${e.location ? `<br><span class="muted">${e.location}</span>` : ''}
+        ${e.description ? `<br><span class="muted">${e.description}</span>` : ''}
+      </div>
+    `).join('');
+  })
+  .catch(() => console.log('calendar_events.json not available yet'));
+
+
 // EMAIL
 
 fetch('/api/smartermail-email')
@@ -675,6 +759,106 @@ healthNotes.value
 }
 
 
+// HEALTH HUB PRIVACY LOCK
+
+const HEALTH_PIN_KEY = "keith_health_pin";
+const HEALTH_SESSION_KEY = "keith_health_unlocked";
+
+function getHealthPin() {
+return localStorage.getItem(HEALTH_PIN_KEY) || "";
+}
+
+function isHealthUnlocked() {
+return sessionStorage.getItem(HEALTH_SESSION_KEY) === "1";
+}
+
+function showHealthLock() {
+document.getElementById("health-lock-screen").style.display = "block";
+document.getElementById("health-content").style.display = "none";
+const savedPin = getHealthPin();
+const msg = document.getElementById("health-lock-message");
+if (!savedPin) {
+msg.textContent = "Set a PIN to protect your medications and notes.";
+} else {
+msg.textContent = "Enter PIN to view medications and notes.";
+}
+}
+
+function showHealthContent() {
+document.getElementById("health-lock-screen").style.display = "none";
+document.getElementById("health-content").style.display = "block";
+}
+
+function submitHealthPin() {
+const input = document.getElementById("healthPinInput");
+const value = input.value.trim();
+const errorEl = document.getElementById("health-pin-error");
+const savedPin = getHealthPin();
+
+if (!value) return;
+
+if (!savedPin) {
+if (value.length < 4) {
+errorEl.textContent = "Use at least 4 digits.";
+return;
+}
+localStorage.setItem(HEALTH_PIN_KEY, value);
+sessionStorage.setItem(HEALTH_SESSION_KEY, "1");
+input.value = "";
+errorEl.textContent = "";
+showHealthContent();
+return;
+}
+
+if (value === savedPin) {
+sessionStorage.setItem(HEALTH_SESSION_KEY, "1");
+input.value = "";
+errorEl.textContent = "";
+showHealthContent();
+} else {
+errorEl.textContent = "Wrong PIN.";
+input.value = "";
+}
+}
+
+function lockHealth() {
+sessionStorage.removeItem(HEALTH_SESSION_KEY);
+showHealthLock();
+}
+
+function changeHealthPin() {
+const current = prompt("Enter your current PIN to change it:");
+if (current === null) return;
+if (current !== getHealthPin()) {
+alert("That PIN doesn't match.");
+return;
+}
+const next = prompt("Enter a new PIN (4+ digits):");
+if (!next) return;
+if (next.trim().length < 4) {
+alert("Use at least 4 digits.");
+return;
+}
+localStorage.setItem(HEALTH_PIN_KEY, next.trim());
+alert("PIN updated.");
+}
+
+const healthPinInputEl = document.getElementById("healthPinInput");
+if (healthPinInputEl) {
+healthPinInputEl.addEventListener("keydown", event => {
+if (event.key === "Enter") {
+submitHealthPin();
+}
+});
+}
+
+if (isHealthUnlocked()) {
+showHealthContent();
+} else {
+showHealthLock();
+}
+
+
 // TASKS
 
 let tasks =
@@ -700,6 +884,8 @@ JSON.stringify(tasks)
 );
 }
 
+let tasksExpanded = false;
+
 function renderTasks() {
 
 const list =
@@ -707,7 +893,13 @@ document.getElementById("taskList");
 
 list.innerHTML = "";
 
-tasks.forEach((task, index) => {
+const ordered = tasks
+.map((task, index) => ({ task, index }))
+.sort((a, b) => (a.task.done === b.task.done) ? 0 : (a.task.done ? 1 : -1));
+
+const visible = tasksExpanded ? ordered : ordered.slice(0, 4);
+
+visible.forEach(({ task, index }) => {
 
 const row =
 document.createElement("div");
@@ -757,6 +949,29 @@ row.appendChild(remove);
 list.appendChild(row);
 
 });
+
+if (ordered.length > 4) {
+
+const toggle =
+document.createElement("div");
+
+toggle.className = "muted";
+toggle.style.cursor = "pointer";
+toggle.style.marginTop = "6px";
+toggle.style.textDecoration = "underline";
+
+toggle.textContent = tasksExpanded
+? "Show top 4 only"
+: `+${ordered.length - 4} more (tap to show all)`;
+
+toggle.onclick = () => {
+tasksExpanded = !tasksExpanded;
+renderTasks();
+};
+
+list.appendChild(toggle);
+
+}
 
 saveTasks();
 }
