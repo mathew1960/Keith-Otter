@@ -32,13 +32,13 @@ A personal single-page dashboard for Keith Otter — weather, tasks, live email,
 
 ```mermaid
 flowchart TD
-    A[GitHub repo<br/>main branch]
-    B[Daily Agenda Builder<br/>4x daily]
-    C[Auto Commit JSON<br/>4x daily]
-    D[Vercel<br/>auto-deploys on push]
-    E[Dashboard<br/>keith-otter.vercel.app]
-    F[/api/ai-corner.js<br/>Gemini chat, live/]
-    G[/api/smartermail-email.js<br/>IMAP fetch, live/]
+    A["GitHub repo<br/>main branch"]
+    B["Daily Agenda Builder<br/>4x daily"]
+    C["Auto Commit JSON<br/>4x daily"]
+    D["Vercel<br/>auto-deploys on push"]
+    E["Dashboard<br/>keith-otter.vercel.app"]
+    F["api/ai-corner.js<br/>Gemini chat, live"]
+    G["api/smartermail-email.js<br/>IMAP fetch, live"]
 
     A --> B
     A --> C
