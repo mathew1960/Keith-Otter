@@ -30,28 +30,33 @@ A personal single-page dashboard for Keith Otter — weather, tasks, live email,
 
 ## Architecture
 
+```mermaid
+flowchart TD
+    A[GitHub repo<br/>main branch]
+    B[Daily Agenda Builder<br/>4x daily]
+    C[Auto Commit JSON<br/>4x daily]
+    D[Vercel<br/>auto-deploys on push]
+    E[Dashboard<br/>keith-otter.vercel.app]
+    F[/api/ai-corner.js<br/>Gemini chat, live/]
+    G[/api/smartermail-email.js<br/>IMAP fetch, live/]
+
+    A --> B
+    A --> C
+    B --> D
+    C --> D
+    D --> E
+    E --> F
+    E --> G
 ```
-GitHub repo (main branch)
-        │
-        ├── Daily Agenda Builder (.github/workflows/daily_agenda.yml)
-        │     4x/day → fetch_calendar.py, fetch_rss.py, build_agenda.py
-        │     → writes scripts/rss_headlines.json (used) + calendar_events.json, agenda/daily_agenda.txt (unused)
-        │
-        └── Auto Commit JSON (.github/workflows/auto-commit-json.yml)
-              4x/day → fetch_weather.py, fetch_rss.py, generate_json.py
-              → writes output/weather.json (used) + scripts/rss_headlines.json (used)
-                        │
-                        ▼
-                Vercel (auto-deploys on push to main)
-                        │
-                        ▼
-                keith-otter.vercel.app (index.html)
-                        │
-          ┌─────────────┴─────────────┐
-          ▼                           ▼
-  /api/ai-corner.js           /api/smartermail-email.js
-  (Gemini chat, live)         (IMAP fetch, live)
-```
+
+Both scheduled workflows write JSON/text files back to the repo, which triggers a Vercel redeploy. The two `/api/` functions are separate — they don't run on a schedule at all, they respond live whenever the dashboard makes a request.
+
+**What each scheduled workflow produces:**
+
+| Workflow | Runs | Scripts | Writes | Actually used by dashboard? |
+|---|---|---|---|---|
+| Daily Agenda Builder | 4x/day | `fetch_calendar.py`, `fetch_rss.py`, `build_agenda.py` | `scripts/rss_headlines.json`, `scripts/calendar_events.json`, `agenda/daily_agenda.txt` | Only `rss_headlines.json` |
+| Auto Commit JSON | 4x/day | `fetch_weather.py`, `fetch_rss.py`, `generate_json.py` | `output/weather.json`, `scripts/rss_headlines.json` | Both |
 
 Both scheduled workflows run at the same four times: **6:30 AM, 11:30 AM, 4:30 PM, 9:30 PM Pacific**. Cron is UTC and does not auto-adjust for daylight saving — the actual local times drift by an hour around the March/November clock changes unless the cron values are manually nudged.
 
