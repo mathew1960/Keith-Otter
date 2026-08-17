@@ -17,7 +17,12 @@ export default async function handler(req, res) {
     'notifications@vercel.com',
     'github.com',
     'onedrive.com',
-    'noreply@paymentus.com'
+    'noreply@paymentus.com',
+    'anthropic.com',
+    'ralphs@e.ralphsemail.com',
+    'store-news@amazon.com',
+    'openai.com',
+    'edd.ca.gov'
   ];
 
   const client = new ImapFlow({
