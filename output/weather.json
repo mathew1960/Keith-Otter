@@ -1,38 +1,13 @@
 {
-  "temp": 93,
-  "high": 114,
+  "temp": 109,
+  "high": 113,
   "low": 91,
   "conditions": "Clear",
-  "updated": "2026-08-17T14:02:26.762758+00:00",
+  "updated": "2026-08-17T19:04:59.143079+00:00",
   "hourly": [
     {
-      "time": "7 AM",
-      "temp": 93,
-      "conditions": "Clear"
-    },
-    {
-      "time": "8 AM",
-      "temp": 97,
-      "conditions": "Clear"
-    },
-    {
-      "time": "9 AM",
-      "temp": 101,
-      "conditions": "Clear"
-    },
-    {
-      "time": "10 AM",
-      "temp": 105,
-      "conditions": "Clear"
-    },
-    {
-      "time": "11 AM",
-      "temp": 108,
-      "conditions": "Clear"
-    },
-    {
       "time": "12 PM",
-      "temp": 110,
+      "temp": 109,
       "conditions": "Clear"
     },
     {
@@ -42,12 +17,12 @@
     },
     {
       "time": "2 PM",
-      "temp": 114,
+      "temp": 113,
       "conditions": "Clear"
     },
     {
       "time": "3 PM",
-      "temp": 114,
+      "temp": 113,
       "conditions": "Clear"
     },
     {
@@ -57,32 +32,57 @@
     },
     {
       "time": "5 PM",
-      "temp": 112,
+      "temp": 113,
       "conditions": "Clear"
     },
     {
       "time": "6 PM",
       "temp": 111,
       "conditions": "Clear"
+    },
+    {
+      "time": "7 PM",
+      "temp": 109,
+      "conditions": "Clear"
+    },
+    {
+      "time": "8 PM",
+      "temp": 102,
+      "conditions": "Clear"
+    },
+    {
+      "time": "9 PM",
+      "temp": 98,
+      "conditions": "Clear"
+    },
+    {
+      "time": "10 PM",
+      "temp": 96,
+      "conditions": "Overcast"
+    },
+    {
+      "time": "11 PM",
+      "temp": 95,
+      "conditions": "Overcast"
     }
   ],
   "daily": [
     {
       "day": "Mon",
-      "high": 114,
+      "high": 113,
       "low": 91,
       "conditions": "Overcast"
     },
     {
       "day": "Tue",
-      "high": 113,
+      "high": 114,
       "low": 92,
       "conditions": "Overcast"
     },
     {
       "day": "Wed",
       "high": 110,
-      "low": 91,
+      "low": 90,
       "conditions": "Overcast"
     },
     {
