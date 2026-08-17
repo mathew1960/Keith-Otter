@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Harvard professor caught using AI to condense Financial Times op-ed trashing Trump tariffs
-      https://www.foxnews.com/media/harvard-professor-caught-using-ai-condense-financial-times-op-ed-trashing-trump-tariffs
+   1. Oprah distances herself from Trump allies Dr Phil and Dr Oz, says they have ‘not one thing to do with me’
+      https://www.foxnews.com/media/oprah-distances-herself-trump-allies-dr-phil-dr-oz-says-they-have-not-one-thing-do-me
 
-   2. Iran deal clock hits zero as Trump demands ‘white flag’ with new pressure campaign looming
-      https://www.foxnews.com/world/iran-deal-clock-hits-zero-trump-demands-white-flag-new-pressure-campaign-looming
+   2. CNN fires back at Trump White House over attacks on reporter, calls them 'beneath the office'
+      https://www.foxnews.com/media/cnn-fires-back-trump-white-house-attacks-reporter-calls-beneath-office
 
-   3. US awards Raytheon $22.9B Tomahawk deal as Trump dismisses weapons stockpile concerns
+   3. Trump meets teen lifeguard and boy saved in viral ocean rescue at Oval Office
+      https://www.foxnews.com/politics/trump-meets-teen-lifeguard-boy-saved-viral-ocean-rescue-oval-office
+
+   4. US awards Raytheon $22.9B Tomahawk deal as Trump dismisses weapons stockpile concerns
       https://www.foxnews.com/politics/us-awards-raytheon-22-9b-tomahawk-deal-trump-dismisses-weapons-stockpile-concerns
 
-   4. Trump blames vandals for dead grass on National Mall where he hosted 4th of July celebration
+   5. Trump blames vandals for dead grass on National Mall where he hosted 4th of July celebration
       https://www.foxnews.com/politics/trump-blames-vandals-dead-grass-national-mall-4th-july-celebration
 
-   5. Trump orders major cut to US-South Korea drills as North Korea ramps up missile tests
+   6. Trump orders major cut to US-South Korea drills as North Korea ramps up missile tests
       https://www.foxnews.com/politics/trump-orders-major-cut-us-south-korea-drills-north-korea-ramps-up-missile-tests
 
-   6. Italy-Spain border feud exposes Europe’s deepening immigration divide
-      https://www.foxnews.com/world/italy-spain-border-feud-exposes-europes-deepening-immigration-divide
+   7. Penn State cocaine bust nets 14 arrests over alleged pledge coke-cutting ‘indoctrination' rituals
+      https://www.foxnews.com/us/penn-state-cocaine-bust-nets-14-arrests-over-alleged-pledge-coke-cutting-indoctrination-rituals
 
-   7. Olympic gold medalist praises Real American Freestyle for 'opportunity' ahead of highly anticipated debut
-      https://www.foxnews.com/media/olympic-gold-medalist-praises-raf-opportunity-ahead-highly-anticipated-debut
+   8. Kushner gives Hamas stark ultimatum: Disarm or Israel gets US backing to ‘finish the job’
+      https://www.foxnews.com/world/kushner-gives-hamas-stark-ultimatum-disarm-israel-gets-us-backing-finish-job
 
-   8. Reporter calls for more men, diversity in WNBA broadcasts: ‘Feels like a girls’ club’
-      https://www.foxnews.com/outkick-sports/reporter-calls-more-men-diversity-wnba-broadcasts-feels-like-girls-club
+   9. Cancer treatment delays surge across US as doctor warns system ‘needs fixing immediately’
+      https://www.foxnews.com/health/cancer-treatment-delays-surge-us-doctor-warns-system-needs-fixing-immediately
 
-   9. Mike Johnson taunts Hakeem Jeffries for losing Dems' civil war 'in his own backyard'
-      https://www.foxnews.com/politics/mike-johnson-taunts-hakeem-jeffries-losing-dems-civil-war-in-his-own-backyard
-
-  10. NBA blasts ESPN report saying no evidence Ballmer funneled money to Kawhi Leonard in Clippers probe
-      https://www.foxnews.com/outkick-sports/nba-blasts-espn-report-saying-no-evidence-ballmer-funneled-money-kawhi-leonard-clippers-probe
+  10. LA gun owners stuck waiting years for concealed carry permits score major DOJ victory
+      https://www.foxnews.com/politics/la-gun-owners-stuck-waiting-years-concealed-carry-permits-score-major-doj-victory
 
 
 ============================================================
-  Generated at 12:06 PM PDT by GitHub Actions
+  Generated at 04:47 PM PDT by GitHub Actions
 ============================================================
