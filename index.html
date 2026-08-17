@@ -350,11 +350,21 @@ Family</div>
 </section>
 
 <section class="card c-pink" id="ai">
-<h2>🤖 AI Corner</h2>
-<div class="item" id="ai-personal"><strong>Personal note:</strong><br>One useful idea
-for today.</div>
-<div class="item" id="ai-tool"><strong>Tool idea:</strong><br>One practical ChatGPT
-tip.</div>
+<h2>🤖 AI Research</h2>
+
+<div id="ai-chat-tabs" style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;"></div>
+
+<div id="ai-chat-list" style="max-height:260px;overflow-y:auto;margin-bottom:12px;"></div>
+
+<div class="task-row">
+<input id="aiChatInput" placeholder="Ask anything...">
+<button onclick="sendAiChat()">ASK</button>
+</div>
+
+<div style="display:flex;gap:16px;margin-top:8px;">
+<button class="link-btn" onclick="newAiChat()">+ New chat</button>
+<button class="link-btn" onclick="clearAiChat()">Delete this chat</button>
+</div>
 </section>
 
 <section class="card c-rose full" id="health">
@@ -543,17 +553,196 @@ behavior: "smooth"
 }
 
 
-// AI CORNER (live, via Vercel serverless function + Gemini)
+// AI RESEARCH CHAT (multiple saved chats)
 
-fetch('/api/ai-corner')
-  .then(r => r.json())
-  .then(tip => {
-    document.getElementById('ai-personal').innerHTML =
-      '<strong>Personal note:</strong><br>' + tip.personal;
-    document.getElementById('ai-tool').innerHTML =
-      '<strong>Tool idea:</strong><br>' + tip.tool;
-  })
-  .catch(() => console.log('ai-corner endpoint not available yet'));
+const AI_CHATS_KEY = "keith_ai_chats";
+const AI_ACTIVE_KEY = "keith_ai_active_chat";
+const AI_CHATS_MAX = 5;
+
+function loadAiChats() {
+const raw = JSON.parse(localStorage.getItem(AI_CHATS_KEY) || "[]");
+if (raw.length === 0) {
+return [{ id: Date.now().toString(), title: "Chat 1", messages: [] }];
+}
+return raw;
+}
+
+let aiChats = loadAiChats();
+let aiActiveChatId = localStorage.getItem(AI_ACTIVE_KEY) || aiChats[0].id;
+
+if (!aiChats.find(c => c.id === aiActiveChatId)) {
+aiActiveChatId = aiChats[0].id;
+}
+
+function saveAiChats() {
+localStorage.setItem(AI_CHATS_KEY, JSON.stringify(aiChats));
+localStorage.setItem(AI_ACTIVE_KEY, aiActiveChatId);
+}
+
+function getActiveChat() {
+return aiChats.find(c => c.id === aiActiveChatId) || aiChats[0];
+}
+
+function renderAiTabs() {
+
+const tabsEl = document.getElementById("ai-chat-tabs");
+
+if (!tabsEl) return;
+
+tabsEl.innerHTML = aiChats.map(chat => `
+<button
+onclick="switchAiChat('${chat.id}')"
+style="
+padding:6px 10px;
+font-size:12px;
+border-radius:8px;
+background:${chat.id === aiActiveChatId ? '#f472b6' : '#1e293b'};
+color:${chat.id === aiActiveChatId ? '#1e293b' : '#f8fafc'};
+"
+>${chat.title}</button>
+`).join('');
+
+}
+
+function renderAiChat() {
+
+renderAiTabs();
+
+const list = document.getElementById("ai-chat-list");
+
+if (!list) return;
+
+const chat = getActiveChat();
+
+if (!chat || chat.messages.length === 0) {
+list.innerHTML =
+'<div class="item muted">Ask a question to get started.</div>';
+return;
+}
+
+list.innerHTML = chat.messages.map(m => `
+<div class="item">
+<strong>${m.role === 'user' ? 'You' : 'AI'}:</strong><br>${m.text}
+</div>
+`).join('');
+
+list.scrollTop = list.scrollHeight;
+
+}
+
+function switchAiChat(id) {
+aiActiveChatId = id;
+saveAiChats();
+renderAiChat();
+}
+
+function newAiChat() {
+
+if (aiChats.length >= AI_CHATS_MAX) {
+alert(`You can keep up to ${AI_CHATS_MAX} chats. Delete one first.`);
+return;
+}
+
+const newChat = {
+id: Date.now().toString(),
+title: "Chat " + (aiChats.length + 1),
+messages: []
+};
+
+aiChats.push(newChat);
+aiActiveChatId = newChat.id;
+
+saveAiChats();
+renderAiChat();
+
+}
+
+async function sendAiChat() {
+
+const input = document.getElementById("aiChatInput");
+const value = input.value.trim();
+
+if (!value) return;
+
+const chat = getActiveChat();
+
+chat.messages.push({ role: 'user', text: value });
+
+if (chat.messages.length === 1) {
+chat.title = value.length > 18 ? value.slice(0, 18) + "…" : value;
+}
+
+saveAiChats();
+renderAiChat();
+
+input.value = "";
+input.disabled = true;
+
+try {
+
+const response = await fetch('/api/ai-corner', {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify({
+message: value,
+history: chat.messages.slice(0, -1)
+})
+});
+
+const data = await response.json();
+
+chat.messages.push({
+role: 'ai',
+text: data.reply || 'No response.'
+});
+
+} catch (err) {
+
+chat.messages.push({
+role: 'ai',
+text: 'Something went wrong reaching the AI.'
+});
+
+}
+
+saveAiChats();
+renderAiChat();
+
+input.disabled = false;
+input.focus();
+
+}
+
+function clearAiChat() {
+
+if (!confirm("Delete this chat?")) {
+return;
+}
+
+aiChats = aiChats.filter(c => c.id !== aiActiveChatId);
+
+if (aiChats.length === 0) {
+aiChats = [{ id: Date.now().toString(), title: "Chat 1", messages: [] }];
+}
+
+aiActiveChatId = aiChats[0].id;
+
+saveAiChats();
+renderAiChat();
+
+}
+
+const aiChatInputEl = document.getElementById("aiChatInput");
+
+if (aiChatInputEl) {
+aiChatInputEl.addEventListener("keydown", event => {
+if (event.key === "Enter") {
+sendAiChat();
+}
+});
+}
+
+renderAiChat();
 
 
 // WEATHER
