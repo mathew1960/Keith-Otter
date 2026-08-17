@@ -43,6 +43,7 @@ export default async function handler(req, res) {
       )) {
         const fromAddr = message.envelope.from?.[0]?.address?.toLowerCase() || '';
         const isPriority = priorityFrom.some(p => fromAddr.includes(p));
+
         results.push({
           subject: message.envelope.subject || '(no subject)',
           from: fromAddr,
@@ -54,12 +55,18 @@ export default async function handler(req, res) {
       lock.release();
     }
 
-    results.sort((a, b) => (b.priority - a.priority) || (new Date(b.date) - new Date(a.date)));
+    // Only show priority senders (keeps promo/newsletter clutter out),
+    // and rank by recency within that group — NOT by priority-first —
+    // so old priority emails can't permanently crowd out newer ones.
+    const priorityOnly = results.filter(m => m.priority);
+    const pool = priorityOnly.length > 0 ? priorityOnly : results;
+
+    pool.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     await client.logout();
 
     res.setHeader('Cache-Control', 's-maxage=600, stale-while-revalidate');
-    return res.status(200).json(results.slice(0, 4));
+    return res.status(200).json(pool.slice(0, 4));
   } catch (err) {
     console.error('SmarterMail fetch failed:', err);
     return res.status(200).json([
