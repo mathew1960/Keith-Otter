@@ -1,56 +1,45 @@
 // api/ai-corner.js
-// Vercel serverless function — calls Gemini and returns a daily AI Corner
-// tip set. Reads GEMINI_API_KEY from Vercel's environment variables.
+// Vercel serverless function — AI Research chat box.
+// Accepts POST { message, history } and returns { reply } from Gemini.
+// Reads GEMINI_API_KEY from Vercel's environment variables.
 //
-// NOTE: gemini-2.5-flash was retired for new API keys as of Aug 2026
-// ("no longer available to new users" per Google's error response) —
-// that's why this was stuck on fallback. gemini-3.6-flash is Google's
-// current free-tier default (as of July 2026). If this breaks again,
-// check ai.google.dev/gemini-api/docs/pricing for the current free
-// Flash model name and swap MODEL below.
+// NOTE: gemini-2.5-flash was retired for new API keys as of Aug 2026.
+// gemini-3.6-flash is Google's current free-tier default (as of July
+// 2026). If this breaks again, check ai.google.dev/gemini-api/docs/pricing
+// for the current free Flash model name and swap MODEL below.
 
 const MODEL = 'gemini-3.6-flash';
-
-// Used only if the Gemini call fails outright (bad key, quota, network).
-// Multiple sets so a failure doesn't show the exact same text every time.
-const FALLBACKS = [
-  {
-    personal: 'Take ten minutes today for one thing that isn\'t on the to-do list.',
-    tool: 'Ask an AI to summarize a long email thread into three bullet points.',
-  },
-  {
-    personal: 'Check in with one person you haven\'t talked to in a while.',
-    tool: 'Have an AI turn a messy handwritten note into a clean typed list.',
-  },
-  {
-    personal: 'Step outside for a few minutes before the day gets busy.',
-    tool: 'Ask an AI to draft a quick reply to an email you\'ve been putting off.',
-  },
-];
-
-function pickFallback() {
-  const dayIndex = new Date().getUTCDate() % FALLBACKS.length;
-  return FALLBACKS[dayIndex];
-}
 
 export default async function handler(req, res) {
   const apiKey = process.env.GEMINI_API_KEY;
 
   if (!apiKey) {
-    return res.status(500).json({ error: 'GEMINI_API_KEY not configured' });
+    return res.status(200).json({ reply: 'GEMINI_API_KEY not configured.' });
   }
 
-  const today = new Date().toLocaleDateString('en-US', {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-  });
+  if (req.method !== 'POST') {
+    return res.status(405).json({ reply: 'This endpoint expects a POST with a message.' });
+  }
 
-  const prompt = `You write a tiny daily "AI Corner" widget for a personal dashboard.
-Today is ${today}. Give exactly 2 short items, each 1 sentence: a practical personal
-tip for today, and a practical idea for using AI tools in everyday life. Be specific
-and concrete, not generic advice. Respond in this exact JSON shape:
-{"personal": "...", "tool": "..."}`;
+  const { message, history } = req.body || {};
+
+  if (!message || typeof message !== 'string') {
+    return res.status(400).json({ reply: 'No message provided.' });
+  }
+
+  const contents = [];
+
+  if (Array.isArray(history)) {
+    history.forEach(m => {
+      if (!m || !m.text) return;
+      contents.push({
+        role: m.role === 'user' ? 'user' : 'model',
+        parts: [{ text: String(m.text) }],
+      });
+    });
+  }
+
+  contents.push({ role: 'user', parts: [{ text: message }] });
 
   try {
     const response = await fetch(
@@ -61,46 +50,26 @@ and concrete, not generic advice. Respond in this exact JSON shape:
           'Content-Type': 'application/json',
           'x-goog-api-key': apiKey,
         },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: {
-            responseMimeType: 'application/json',
-            temperature: 0.9,
-          },
-        }),
+        body: JSON.stringify({ contents }),
       }
     );
 
     if (!response.ok) {
       const errText = await response.text();
       console.error('Gemini API error:', response.status, errText);
-      throw new Error(`Gemini API error: ${response.status}`);
+      return res.status(200).json({
+        reply: 'AI is temporarily unavailable — try again in a bit.',
+      });
     }
 
     const data = await response.json();
-    const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
 
-    if (!rawText) {
-      console.error('Gemini response missing text:', JSON.stringify(data));
-      throw new Error('Empty Gemini response');
-    }
-
-    const tip = JSON.parse(rawText);
-
-    res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate');
-    return res.status(200).json({
-      personal: tip.personal || '',
-      tool: tip.tool || '',
-      generated_at: new Date().toISOString(),
-      source: 'gemini',
-    });
+    return res.status(200).json({ reply: text || 'No response received.' });
   } catch (err) {
-    console.error('AI Corner fetch failed:', err.message);
-    const fallback = pickFallback();
+    console.error('AI chat failed:', err.message);
     return res.status(200).json({
-      ...fallback,
-      generated_at: new Date().toISOString(),
-      source: 'fallback',
+      reply: 'AI is temporarily unavailable — try again in a bit.',
     });
   }
 }
