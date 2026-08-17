@@ -15,19 +15,16 @@ const MODEL = 'gemini-3.6-flash';
 // Multiple sets so a failure doesn't show the exact same text every time.
 const FALLBACKS = [
   {
-    personal: 'Walk the pass 15 minutes before service to check plating consistency.',
-    tool: "Ask an AI to draft a quick 86'd-items list from a photo of your prep sheet.",
-    workflow: 'End-of-night notes → AI turns them into 3 bullets for tomorrow\'s pre-shift.',
+    personal: 'Take ten minutes today for one thing that isn\'t on the to-do list.',
+    tool: 'Ask an AI to summarize a long email thread into three bullet points.',
   },
   {
-    personal: 'Taste one dish from every station before doors open, not just the specials.',
-    tool: 'Photograph your par sheet and ask an AI to flag anything trending low.',
-    workflow: 'Voice-memo service notes on your walk out → turn them into next-day prep list.',
+    personal: 'Check in with one person you haven\'t talked to in a while.',
+    tool: 'Have an AI turn a messy handwritten note into a clean typed list.',
   },
   {
-    personal: 'Check in with your newest hire for two minutes before the rush starts.',
-    tool: 'Have an AI turn a supplier invoice photo into a price-change summary.',
-    workflow: 'Weekly: photograph the whiteboard specials board → archive it as a dated note.',
+    personal: 'Step outside for a few minutes before the day gets busy.',
+    tool: 'Ask an AI to draft a quick reply to an email you\'ve been putting off.',
   },
 ];
 
@@ -49,12 +46,11 @@ export default async function handler(req, res) {
     day: 'numeric',
   });
 
-  const prompt = `You write a tiny daily "AI Corner" widget for a restaurant chef/owner's
-personal dashboard. Today is ${today}. Give exactly 3 short items, each 1 sentence,
-practical and specific to running a restaurant (kitchen ops, menu, wine/cocktails,
-staff, guests). Vary your wording and ideas from typical generic advice — be specific
-and concrete. Respond in this exact JSON shape:
-{"personal": "...", "tool": "...", "workflow": "..."}`;
+  const prompt = `You write a tiny daily "AI Corner" widget for a personal dashboard.
+Today is ${today}. Give exactly 2 short items, each 1 sentence: a practical personal
+tip for today, and a practical idea for using AI tools in everyday life. Be specific
+and concrete, not generic advice. Respond in this exact JSON shape:
+{"personal": "...", "tool": "..."}`;
 
   try {
     const response = await fetch(
@@ -95,7 +91,6 @@ and concrete. Respond in this exact JSON shape:
     return res.status(200).json({
       personal: tip.personal || '',
       tool: tip.tool || '',
-      workflow: tip.workflow || '',
       generated_at: new Date().toISOString(),
       source: 'gemini',
     });
