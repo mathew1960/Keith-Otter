@@ -1,5 +1,4 @@
 import { ImapFlow } from 'imapflow';
-import { simpleParser } from 'mailparser';
 
 export default async function handler(req, res) {
   const user = process.env.SMARTERMAIL_USER;
@@ -7,14 +6,24 @@ export default async function handler(req, res) {
   const host = 'mail.fortunfoods.com';
   const port = 993;
 
-  const uid = req.query.uid;
-  if (!uid) {
-    return res.status(400).json({ error: 'Missing uid parameter' });
+  if (!user || !pass) {
+    return res.status(200).json([
+      { subject: 'SmarterMail not configured', from: 'system', date: new Date().toISOString() }
+    ]);
   }
 
-  if (!user || !pass) {
-    return res.status(200).json({ error: 'SmarterMail not configured' });
-  }
+  const priorityFrom = [
+    'kgf@comcast.net',
+    'notifications@vercel.com',
+    'github.com',
+    'onedrive.com',
+    'noreply@paymentus.com',
+    'anthropic.com',
+    'ralphs@e.ralphsemail.com',
+    'store-news@amazon.com',
+    'openai.com',
+    'edd.ca.gov'
+  ];
 
   const client = new ImapFlow({
     host,
@@ -27,30 +36,47 @@ export default async function handler(req, res) {
   try {
     await client.connect();
     const lock = await client.getMailboxLock('INBOX');
+    let results = [];
 
     try {
-      const { content } = await client.download(uid, undefined, { uid: true });
-      const parsed = await simpleParser(content);
+      const since = new Date();
+      since.setDate(since.getDate() - 1);
 
-      res.setHeader('Cache-Control', 's-maxage=600, stale-while-revalidate');
-      return res.status(200).json({
-        subject: parsed.subject || '(no subject)',
-        from: parsed.from?.text || '',
-        date: parsed.date,
-        text: parsed.text || '',
-        html: parsed.html || null
-      });
+      for await (const message of client.fetch(
+        { since },
+        { envelope: true, uid: true }
+      )) {
+        const fromAddr = message.envelope.from?.[0]?.address?.toLowerCase() || '';
+        const isPriority = priorityFrom.some(p => fromAddr.includes(p));
+
+        results.push({
+          uid: message.uid,
+          subject: message.envelope.subject || '(no subject)',
+          from: fromAddr,
+          date: message.envelope.date,
+          priority: isPriority
+        });
+      }
     } finally {
       lock.release();
     }
+
+    // Only show priority senders (keeps promo/newsletter clutter out),
+    // and rank by recency within that group — NOT by priority-first —
+    // so old priority emails can't permanently crowd out newer ones.
+    const priorityOnly = results.filter(m => m.priority);
+    const pool = priorityOnly.length > 0 ? priorityOnly : results;
+
+    pool.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    await client.logout();
+
+    res.setHeader('Cache-Control', 's-maxage=600, stale-while-revalidate');
+    return res.status(200).json(pool.slice(0, 4));
   } catch (err) {
-    console.error('SmarterMail detail fetch failed:', err);
-    return res.status(500).json({ error: 'Could not load this email' });
-  } finally {
-    try {
-      await client.logout();
-    } catch {
-      // connection may already be closed
-    }
+    console.error('SmarterMail fetch failed:', err);
+    return res.status(200).json([
+      { subject: 'Could not connect to SmarterMail', from: 'system', date: new Date().toISOString() }
+    ]);
   }
 }
