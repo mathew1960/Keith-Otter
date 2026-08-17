@@ -355,8 +355,6 @@ Family</div>
 for today.</div>
 <div class="item" id="ai-tool"><strong>Tool idea:</strong><br>One practical ChatGPT
 tip.</div>
-<div class="item" id="ai-workflow"><strong>Mini workflow:</strong><br>Keep it short and
-useful.</div>
 </section>
 
 <section class="card c-rose full" id="health">
@@ -554,8 +552,6 @@ fetch('/api/ai-corner')
       '<strong>Personal note:</strong><br>' + tip.personal;
     document.getElementById('ai-tool').innerHTML =
       '<strong>Tool idea:</strong><br>' + tip.tool;
-    document.getElementById('ai-workflow').innerHTML =
-      '<strong>Mini workflow:</strong><br>' + tip.workflow;
   })
   .catch(() => console.log('ai-corner endpoint not available yet'));
 
@@ -611,7 +607,7 @@ fetch('scripts/rss_headlines.json')
 
 // EMAIL
 
-fetch('/api/smartermail-email')
+fetch('/api/smartermail-email?t=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
   .then(emails => {
     if (!emails || !emails.length) return;
