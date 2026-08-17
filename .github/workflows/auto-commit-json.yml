@@ -1,4 +1,5 @@
 name: Auto Commit JSON
+
 on:
   push:
     branches: [main]
@@ -11,8 +12,11 @@ on:
         required: false
         default: 'manual'
   schedule:
-    # Daily at 06:00 UTC (matches the daily_agenda.yml pattern)
-    - cron: '0 6 * * *'
+    - cron: '30 13 * * *'   # 6:30 AM Pacific (PDT)
+    - cron: '30 18 * * *'   # 11:30 AM Pacific (PDT)
+    - cron: '30 23 * * *'   # 4:30 PM Pacific (PDT)
+    - cron: '30 4 * * *'    # 9:30 PM Pacific (PDT, lands on next UTC date)
+
 jobs:
   generate-and-commit:
     runs-on: ubuntu-latest
@@ -60,4 +64,3 @@ jobs:
       - name: Report no changes
         if: steps.json_changes.outputs.changed == 'false'
         run: echo "No JSON changes detected — skipping commit"
-
