@@ -896,7 +896,7 @@ bodyEl.textContent = 'Loading…';
 
 overlay.classList.add('open');
 
-fetch('/api/smartermail-email-detail?uid=' + uid, { cache: 'no-store' })
+fetch('/api/smartermail-email?uid=' + uid, { cache: 'no-store' })
   .then(r => r.json())
   .then(data => {
 
