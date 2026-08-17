@@ -1,140 +1,127 @@
-# Daily Agenda Workflow — Setup Guide
+# Keith Dashboard — Setup Guide
 
-This guide walks you through every step required to get the hands-free daily briefing running in your GitHub repository. Once complete, the workflow fires at **6:00 AM Pacific time** every morning with no interaction needed from you.
-
----
-
-## What the workflow does
-
-1. Connects to Google Calendar with a service account key you generate once
-2. Pulls all events scheduled for today
-3. Pulls the top 10 headlines from the Fox News RSS feed
-4. Combines them into a formatted text file at `agenda/daily_agenda.txt`
-5. Auto-commits and pushes that file back to your repo
+How to stand this dashboard up from scratch, or recreate it in a new repo. Covers both scheduled GitHub Actions and the two live Vercel API endpoints.
 
 ---
 
-## Step 1 — Enable the Google Calendar API
+## What you're building
 
-1. Go to [https://console.cloud.google.com/](https://console.cloud.google.com/) and sign in with the Google account that owns your calendar.
-2. Click **Select a project** at the top, then **New Project**. Name it something like `daily-agenda-bot` and click **Create**.
-3. From the left menu, go to **APIs & Services → Library**.
-4. Search for **Google Calendar API** and click on it, then click **Enable**.
-
----
-
-## Step 2 — Create a Service Account
-
-A service account lets GitHub Actions authenticate to Google without ever asking for a password.
-
-1. Go to **APIs & Services → Credentials**.
-2. Click **Create Credentials → Service Account**.
-3. Give it any name (e.g., `agenda-reader`) and click **Create and Continue**.
-4. For the role, select **Viewer** (or skip the role — it isn't needed for calendar access via sharing). Click **Done**.
-5. On the Credentials page, click the service account email you just created.
-6. Go to the **Keys** tab → **Add Key → Create new key → JSON**.
-7. A `.json` file will download to your computer. **Keep this file safe — it's the only copy.**
+- A static `index.html` dashboard hosted on Vercel
+- Two GitHub Actions workflows that run **4x/day** (6:30 AM, 11:30 AM, 4:30 PM, 9:30 PM Pacific) and commit fresh JSON data back to the repo, which Vercel then redeploys
+- Two Vercel serverless functions that respond live, on every page load — not on the schedule above
 
 ---
 
-## Step 3 — Share your Google Calendar with the Service Account
+## Step 1 — Fork or create the repo
 
-The service account needs to be explicitly invited to see your calendar events.
-
-1. Open [Google Calendar](https://calendar.google.com) in your browser.
-2. In the left sidebar, hover over the calendar you want to share, click the three dots **⋮**, and select **Settings and sharing**.
-3. Scroll down to **Share with specific people or groups** and click **Add people**.
-4. Paste the service account email (looks like `agenda-reader@your-project-id.iam.gserviceaccount.com`) and set the permission to **See all event details**.
-5. Click **Send**.
-
-> **Your Calendar ID** is shown on that same Settings page under **Integrate calendar**. It looks like `yourname@gmail.com` for your primary calendar, or a long string like `abc123@group.calendar.google.com` for other calendars. Copy it — you'll need it in the next step.
-
----
-
-## Step 4 — Add GitHub Secrets
-
-GitHub Secrets store sensitive values so they never appear in your code.
-
-1. Go to your repository on GitHub: `https://github.com/kmo1960-beep/Keith-Otter`
-2. Click **Settings → Secrets and variables → Actions → New repository secret**.
-
-Add these two secrets:
-
-| Secret name | Value |
-|---|---|
-| `GCAL_SERVICE_ACCOUNT_JSON` | The **entire contents** of the `.json` key file you downloaded in Step 2. Open the file in a text editor, select all, and paste it here. |
-| `GCAL_CALENDAR_ID` | Your Calendar ID from Step 3 (e.g., `yourname@gmail.com`) |
-
----
-
-## Step 5 — Add the workflow files to your repository
-
-Copy the following files from this package into your `Keith-Otter` repository, preserving the folder structure:
+Repo needs this structure:
 
 ```
-Keith-Otter/
-├── .github/
-│   └── workflows/
-│       └── daily_agenda.yml      ← the workflow
+your-repo/
+├── .github/workflows/
+│   ├── daily_agenda.yml
+│   └── auto-commit-json.yml
+├── api/
+│   ├── ai-corner.js
+│   └── smartermail-email.js
 ├── scripts/
-│   ├── fetch_calendar.py         ← Google Calendar fetcher
-│   ├── fetch_rss.py              ← Fox News RSS fetcher
-│   └── build_agenda.py           ← combines both into the output file
-└── agenda/
-    └── .gitkeep                  ← keeps the folder tracked by git
+│   ├── fetch_calendar.py
+│   ├── fetch_rss.py
+│   ├── fetch_weather.py
+│   ├── build_agenda.py
+│   └── generate_json.py
+├── agenda/.gitkeep
+├── output/.gitkeep
+└── index.html
 ```
-
-Commit and push these files to your `main` branch.
 
 ---
 
-## Step 6 — Verify it works
+## Step 2 — Deploy to Vercel
 
-### Run it manually first
-1. Go to your repo on GitHub → **Actions** tab.
-2. Click **Daily Agenda Builder** in the left sidebar.
-3. Click **Run workflow → Run workflow**.
-4. Watch the run complete (takes ~30 seconds).
-5. Check the `agenda/daily_agenda.txt` file in your repo — it should contain today's events and headlines.
+1. Go to vercel.com, sign in, **Add New → Project**, import the repo.
+2. Leave build settings default (this is a static `index.html` + serverless `api/` functions — Vercel detects both automatically).
+3. Deploy. Note the resulting domain (e.g. `your-project.vercel.app`).
 
-### Automatic schedule
-After the manual test passes, the workflow will run automatically every day at **6:00 AM Pacific (1:00 PM UTC)**. You can verify the next scheduled run in the Actions tab.
+**Watch out for duplicate projects** — if you ever re-import the same repo under a slightly different name, Vercel will happily run two live "Production" deployments side by side from the same code. That's confusing to debug later (one may be missing env vars the other has). If it happens, delete the extra one in Project Settings → scroll to bottom → Delete Project.
+
+---
+
+## Step 3 — Set Vercel environment variables
+
+Vercel project → **Settings → Environment Variables**. These are separate from GitHub Actions secrets (Step 5) — don't mix them up.
+
+| Variable | Value |
+|---|---|
+| `SMARTERMAIL_USER` | Your SmarterMail inbox username |
+| `SMARTERMAIL_PASS` | Your SmarterMail inbox password |
+| `GEMINI_API_KEY` | From [aistudio.google.com](https://aistudio.google.com) → Get API key |
+
+After adding these, trigger a redeploy (any new commit, or Vercel's "Redeploy" button) so the functions pick them up.
+
+### About the Gemini model
+
+`api/ai-corner.js` currently targets `gemini-3.6-flash`. Google periodically retires free-tier Flash model names — if AI Research starts responding with `"source": "fallback"` instead of `"source": "gemini"`, check the actual response at `your-domain.vercel.app/api/ai-corner` (a plain GET shows the raw JSON), then check Vercel's function logs for that request for the exact error. A `404` with a message like *"model no longer available to new users"* means it's time to swap the `MODEL` constant for whatever's current at [ai.google.dev/gemini-api/docs/pricing](https://ai.google.dev/gemini-api/docs/pricing).
+
+---
+
+## Step 4 — Get a Google Calendar iCal URL (optional)
+
+Only needed if you want `fetch_calendar.py` doing anything — note the dashboard's Calendar card isn't currently wired up to display this data, so this step is optional infrastructure, not something you'll see on screen yet.
+
+1. Open [Google Calendar](https://calendar.google.com), hover the calendar in the sidebar → **⋮ → Settings and sharing**.
+2. Scroll to **Integrate calendar** → copy **Secret address in iCal format**.
+3. That URL is what goes in the GitHub secret below. Treat it like a password — anyone with it can read your calendar.
+
+---
+
+## Step 5 — Add GitHub Actions secrets
+
+Repo → **Settings → Secrets and variables → Actions → New repository secret**.
+
+| Secret | Value |
+|---|---|
+| `GCAL_ICAL_URL` | The iCal URL from Step 4 |
+
+`fetch_calendar.py` fails soft — if this secret is missing, it writes an empty calendar file instead of crashing the workflow, so the rest of the pipeline (news, weather) still runs fine either way.
+
+---
+
+## Step 6 — Verify each workflow manually
+
+1. Repo → **Actions** tab → click **Daily Agenda Builder** → **Run workflow**.
+2. Watch it finish (green checkmark, ~10-15s). If it fails, click the red step to see the exact error.
+3. Repeat for **Auto Commit JSON**.
+4. Check that `output/weather.json` and `scripts/rss_headlines.json` now have real content, not placeholders.
+
+Once both pass manually, they'll run automatically at the four scheduled times going forward.
+
+---
+
+## Customizing the schedule
+
+Both workflow files use the same four cron lines:
+
+```yaml
+schedule:
+  - cron: '30 13 * * *'   # 6:30 AM Pacific (PDT)
+  - cron: '30 18 * * *'   # 11:30 AM Pacific (PDT)
+  - cron: '30 23 * * *'   # 4:30 PM Pacific (PDT)
+  - cron: '30 4 * * *'    # 9:30 PM Pacific (PDT, lands on next UTC date)
+```
+
+Cron runs in UTC only and does not know about daylight saving. Use [crontab.guru](https://crontab.guru) to work out new UTC times, and expect to manually adjust these twice a year (~March and ~November) if you want the local times to stay fixed.
 
 ---
 
 ## Troubleshooting
 
-| Problem | Fix |
+| Problem | Likely cause / fix |
 |---|---|
-| `google.auth.exceptions.DefaultCredentialsError` | The `GCAL_SERVICE_ACCOUNT_JSON` secret is empty or malformed — re-paste the full JSON content |
-| Calendar returns 0 events (but you have some) | Double-check you shared the calendar with the exact service account email; wait a few minutes for Google to sync |
-| `403 Forbidden` on the Calendar API | The Google Calendar API may not be enabled in your project — re-check Step 1 |
-| RSS headlines are empty | Fox News occasionally changes their feed URL — check `fetch_rss.py` and update the URL if needed |
-| Workflow doesn't run at 6 AM | GitHub Actions scheduled workflows can run up to ~15 min late during high load; this is normal |
-
----
-
-## Customization
-
-### Change the time zone or run time
-Edit the `cron` line in `.github/workflows/daily_agenda.yml`:
-```yaml
-- cron: '0 13 * * *'   # 1:00 PM UTC = 6:00 AM PDT
-```
-Use [crontab.guru](https://crontab.guru) to calculate the UTC equivalent of your desired local time. Remember to also update `TIMEZONE` in `fetch_calendar.py` and `build_agenda.py`.
-
-### Add more news sources
-In `fetch_rss.py`, add any RSS feed URL to the `RSS_FEEDS` list:
-```python
-RSS_FEEDS = [
-    "https://moxie.foxnews.com/google-publisher/latest.xml",
-    "https://feeds.foxnews.com/foxnews/latest",
-    "https://your-other-feed.com/rss",   # ← add here
-]
-```
-
-### Change the number of headlines
-Edit `MAX_ARTICLES` in `scripts/fetch_rss.py` (default is 10).
-
-### Add multiple calendars
-In `fetch_calendar.py`, you can loop over multiple calendar IDs by modifying the fetch section to call `service.events().list()` for each calendar ID and merge the results before writing the JSON file.
+| AI Research always shows `"source": "fallback"` | Model name retired — see "About the Gemini model" above |
+| Email Watch shows "SmarterMail not configured" | Check you're on the real Vercel domain, not a duplicate project missing env vars |
+| Email Watch only shows old bot notifications | Add real senders to the `priorityFrom` array in `api/smartermail-email.js` — only listed senders show up at all |
+| Workflow fails with a Python `IndentationError` | A script got pasted/edited with its indentation stripped — re-check the file's whitespace carefully, Python is whitespace-sensitive |
+| Inbox flooded with GitHub Action failure emails | github.com/settings/notifications → Actions → turn off email, or per-repo via the "Watch" dropdown → Custom → uncheck Actions |
+| Weather/news look stale all day | These only update at the 4 scheduled times, not on page load — check the workflow's last successful run time in the Actions tab |
+| Health Hub / Tasks / Notes empty on a different device | Expected — all three are localStorage-only, per-device, never synced |
