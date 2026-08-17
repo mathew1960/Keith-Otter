@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "imapflow": "^1.0.155"
+    "imapflow": "^1.0.155",
+    "mailparser": "^3.6.5"
   }
 }
