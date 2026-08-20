@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Wednesday, August 19, 2026
+  DAILY BRIEFING — Thursday, August 20, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump threatens 'unprecedented' economic consequences for any nation aiding Iran
+   1. Judge hands Trump, GOP major redistricting win ahead of midterm elections and more top headlines
+      https://www.foxnews.com/us/judge-hands-trump-gop-major-redistricting-win-ahead-midterm-elections-more-top-headlines
+
+   2. Trump urged to stop targeting fellow Republicans as GOP fights to keep majority
+      https://www.foxnews.com/politics/trump-urged-stop-targeting-fellow-republicans-gop-fights-keep-majority
+
+   3. Trump reveals exact number of North Korea's nuclear weapons
+      https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons
+
+   4. Missouri judge hands Trump, GOP major redistricting win ahead of midterm elections
+      https://www.foxnews.com/politics/missouri-judge-hands-trump-gop-major-redistricting-win-ahead-midterm-elections
+
+   5. Trump threatens 'unprecedented' economic consequences for any nation aiding Iran
       https://www.foxnews.com/politics/trump-threatens-unprecedented-economic-consequences-any-nation-aiding-iran
 
-   2. Jon Ossoff's controversial Trump jab sparks media feeding frenzy over White House aide Natalie Harp
-      https://www.foxnews.com/media/jon-ossoffs-controversial-trump-jab-sparks-media-feeding-frenzy-over-white-house-aide-natalie-harp
-
-   3. Trump's approval rating plummets to new low ahead of critical midterms: 'More work to do'
+   6. Trump's approval rating plummets to new low ahead of critical midterms: 'More work to do'
       https://www.foxnews.com/politics/trump-approval-rating-plummets-new-low-ahead-critical-midterms
 
-   4. Ex-counterterrorism chief advocates for Trump to 'walk away from' Iran war, yank troops out of Middle East
+   7. Ex-counterterrorism chief advocates for Trump to 'walk away from' Iran war, yank troops out of Middle East
       https://www.foxnews.com/politics/ex-counterterrorism-chief-advocates-trump-walk-away-iran-war-yank-troops-middle-east
 
-   5. Tim Walz accused of risking national security to defy Trump
+   8. Tim Walz accused of risking national security to defy Trump
       https://www.foxnews.com/politics/walz-defies-trump-key-minerals-gop-warns-china-stands-benefit
 
-   6. Scandals, socialists and Trump roil primaries, send incumbents packing at near-record pace
+   9. Scandals, socialists and Trump roil primaries, send incumbents packing at near-record pace
       https://www.foxnews.com/politics/incumbents-ousted-primary-bloodbath-hits-congress-biggest-non-redistricting-wipeout-decades
 
-   7. ‘Stripper’ Venmo ‘scandal’ makes Dems the punchline as Trump candidate flips script on viral DNC post
-      https://www.foxnews.com/politics/stripper-venmo-scandal-makes-dems-punchline-trump-candidate-flips-script-viral-dnc-post
-
-   8. Trump to nominate Dr Heidi Overton as next FDA commissioner
-      https://www.foxnews.com/politics/trump-nominate-dr-heidi-overton-next-fda-commissioner
-
-   9. Trump teases potential Kim Jong Un meeting later this year
-      https://www.foxnews.com/politics/trump-teases-potential-kim-jong-un-meeting-later-year
-
-  10. Iran loses key economic lifeline in Middle East that Trump's sanctions couldn't reach as deadlock persists
-      https://www.foxnews.com/politics/iran-loses-key-economic-lifeline-in-middle-east-that-trumps-sanctions-couldnt-reach-as-deadlock-persists
+  10. New judge has days to decide whether Karmelo Anthony's conviction and 35-year sentence survive
+      https://www.foxnews.com/us/new-judge-days-decide-whether-carmelo-anthony-conviction-35-year-sentence-survive
 
 
 ============================================================
-  Generated at 04:47 PM PDT by GitHub Actions
+  Generated at 07:06 AM PDT by GitHub Actions
 ============================================================
