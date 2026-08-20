@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Judge hands Trump, GOP major redistricting win ahead of midterm elections and more top headlines
-      https://www.foxnews.com/us/judge-hands-trump-gop-major-redistricting-win-ahead-midterm-elections-more-top-headlines
+   1. Rubio designates US citizen held in China as wrongfully detained as Trump prepares to host Xi at White House
+      https://www.foxnews.com/politics/rubio-designates-us-citizen-held-china-wrongfully-detained-trump-prepares-host-xi-white-house
 
-   2. Trump urged to stop targeting fellow Republicans as GOP fights to keep majority
+   2. Former bitter enemies Trump and Michael Cohen reunite for radio interview
+      https://www.foxnews.com/media/former-bitter-enemies-trump-michael-cohen-reunite-radio-interview
+
+   3. Sherrill escalates Trump fight over voter fiasco day after Mullin praises NJ cooperation
+      https://www.foxnews.com/politics/sherrill-escalates-trump-fight-voter-fiasco-day-after-mullin-praises-nj-cooperation
+
+   4. Trump could face impeachment if Democrats seize House majority, GOP leader warns
+      https://www.foxnews.com/politics/trump-could-face-impeachment-democrats-seize-house-majority-gop-leader-warns
+
+   5. Trump urged to stop targeting fellow Republicans as GOP fights to keep majority
       https://www.foxnews.com/politics/trump-urged-stop-targeting-fellow-republicans-gop-fights-keep-majority
 
-   3. Trump reveals exact number of North Korea's nuclear weapons
+   6. Trump reveals exact number of North Korea's nuclear weapons
       https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons
 
-   4. Missouri judge hands Trump, GOP major redistricting win ahead of midterm elections
+   7. Missouri judge hands Trump, GOP major redistricting win ahead of midterm elections
       https://www.foxnews.com/politics/missouri-judge-hands-trump-gop-major-redistricting-win-ahead-midterm-elections
 
-   5. Trump threatens 'unprecedented' economic consequences for any nation aiding Iran
+   8. Trump threatens 'unprecedented' economic consequences for any nation aiding Iran
       https://www.foxnews.com/politics/trump-threatens-unprecedented-economic-consequences-any-nation-aiding-iran
 
-   6. Trump's approval rating plummets to new low ahead of critical midterms: 'More work to do'
-      https://www.foxnews.com/politics/trump-approval-rating-plummets-new-low-ahead-critical-midterms
+   9. Moskowitz rejects Rick Scott claims he's 'scared to death' of socialists, beholden to Hasan Piker
+      https://www.foxnews.com/media/moskowitz-rejects-rick-scott-claim-scared-death-socialists-beholden-hasan-piker
 
-   7. Ex-counterterrorism chief advocates for Trump to 'walk away from' Iran war, yank troops out of Middle East
-      https://www.foxnews.com/politics/ex-counterterrorism-chief-advocates-trump-walk-away-iran-war-yank-troops-middle-east
-
-   8. Tim Walz accused of risking national security to defy Trump
-      https://www.foxnews.com/politics/walz-defies-trump-key-minerals-gop-warns-china-stands-benefit
-
-   9. Scandals, socialists and Trump roil primaries, send incumbents packing at near-record pace
-      https://www.foxnews.com/politics/incumbents-ousted-primary-bloodbath-hits-congress-biggest-non-redistricting-wipeout-decades
-
-  10. New judge has days to decide whether Karmelo Anthony's conviction and 35-year sentence survive
-      https://www.foxnews.com/us/new-judge-days-decide-whether-carmelo-anthony-conviction-35-year-sentence-survive
+  10. Dem mayor torches DNC in scathing letter for 'abandoning' Black voters after convention snub
+      https://www.foxnews.com/politics/dem-mayor-torches-dnc-scathing-letter-abandoning-black-voters-2028-convention-snub
 
 
 ============================================================
-  Generated at 07:06 AM PDT by GitHub Actions
+  Generated at 12:09 PM PDT by GitHub Actions
 ============================================================
