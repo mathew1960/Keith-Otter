@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Fentanyl deaths plummet as White House points to Trump's sweeping crackdown and more top headlines
-      https://www.foxnews.com/us/fentanyl-deaths-plummet-white-house-points-trumps-sweeping-crackdown-more-top-headlines
+   1. Trump to transform spaceflight from spectacle to status quo targeting 3 launches per day
+      https://www.foxnews.com/politics/trump-transform-spaceflight-spectacle-status-quo-targeting-3-launches-per-day
 
-   2. EXCLUSIVE: Fentanyl deaths plunge 22% as Trump White House touts crackdown on deadly drug crisis
+   2. Surprise election upset shows hating Trump is no longer enough as Democratic voters turn to new playbook
+      https://www.foxnews.com/politics/surprise-election-upset-shows-hating-trump-no-longer-enough-democratic-voters-turn-new-playbook
+
+   3. EXCLUSIVE: Fentanyl deaths plunge 22% as Trump White House touts crackdown on deadly drug crisis
       https://www.foxnews.com/politics/exclusive-fentanyl-deaths-plunge-22-trump-white-house-touts-crackdown-deadly-drug-crisis
-
-   3. IndyCar star Alex Palou reflects on White House, Oval Office visit with Trump: 'incredible experience'
-      https://www.foxnews.com/outkick-sports/indycar-star-alex-palou-reflects-white-house-oval-office-visit-trump-incredible-experience
 
    4. Obama strategist turns on rising Dem star over viral Trump attack: 'Gratuitous and unnecessary'
       https://www.foxnews.com/politics/obama-strategist-turns-rising-dem-star-over-viral-trump-attack-gratuitous-unnecessary
 
-   5. Rubio designates US citizen held in China as wrongfully detained as Trump prepares to host Xi at White House
-      https://www.foxnews.com/politics/rubio-designates-us-citizen-held-china-wrongfully-detained-trump-prepares-host-xi-white-house
+   5. Americans warned of kidnapping, extortion as violent crime grips parts of tourist spot
+      https://www.foxnews.com/travel/americans-warned-kidnapping-extortion-violent-crime-grips-parts-tourist-spot
 
-   6. Sherrill escalates Trump fight over voter fiasco day after Mullin praises NJ cooperation
-      https://www.foxnews.com/politics/sherrill-escalates-trump-fight-voter-fiasco-day-after-mullin-praises-nj-cooperation
+   6. Cambridge professor's death after resignation sparking dangerous calls for media censorship, scholar warns
+      https://www.foxnews.com/media/cambridge-professors-death-after-resignation-sparking-dangerous-calls-media-censorship-scholar-warns
 
-   7. AOC endorses Sen Ed Markey as incumbent faces Dem US Senate primary challenge from Rep Seth Moulton
-      https://www.foxnews.com/politics/aoc-endorses-sen-ed-markey-incumbent-faces-dem-us-senate-primary-challenge-rep-seth-moulton
+   7. Top 5 most heated moments as progressives spar over who is farther to the left in final Dem Senate debate
+      https://www.foxnews.com/politics/top-5-most-heated-moments-progressives-spar-over-who-farther-left-final-dem-senate-debate
 
-   8. Videos show three suspects in shooting death of Tucson police recruit Carlos Ramirez
-      https://www.foxnews.com/us/videos-show-three-suspects-shooting-death-tucson-police-recruit-carlos-ramirez
+   8. Southern California hits ICE with 'dumbfounding' roadblock as top lawmaker rips 'reckless' hypocrisy
+      https://www.foxnews.com/politics/southern-california-hits-ice-dumbfounding-roadblock-top-lawmaker-rips-reckless-hypocrisy
 
-   9. NFL to NCAA? Courtroom chaos Is giving pro athletes a bizarre path back to college, and it's only just begun
-      https://www.foxnews.com/outkick-sports/nfl-ncaa-courtroom-chaos-giving-pro-athletes-bizarre-path-back-college
+   9. Hasan Piker calls Hamas 'far more moderate,' dismisses terror group’s brutal rule in Gaza
+      https://www.foxnews.com/media/hasan-piker-calls-hamas-far-more-moderate-dismisses-terror-group-brutal-rule-gaza
 
-  10. AT&T star Milana Vayntrub shows off her arm during first pitch at Mets game, WNBA flying object & LLWS grass
-      https://www.foxnews.com/outkick-sports/att-star-milana-vayntrub-shows-off-arm-first-pitch-mets-game-wnba-flying-object-llws-grass
+  10. 10 comfortable walking shoes on sale at DSW, starting at $55
+      https://www.foxnews.com/deals/dsw-comfortable-shoes
 
 
 ============================================================
-  Generated at 07:04 AM PDT by GitHub Actions
+  Generated at 12:05 PM PDT by GitHub Actions
 ============================================================
