@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump to transform spaceflight from spectacle to status quo targeting 3 launches per day
+   1. Trump-appointed judge blocks blue state's crackdown on ICE detention center
+      https://www.foxnews.com/politics/trump-appointed-judge-blocks-blue-states-crackdown-ice-detention-center
+
+   2. Supreme Court allows Trump’s White House ballroom construction to continue for now
+      https://www.foxnews.com/politics/supreme-court-allows-trumps-white-house-ballroom-construction-continue
+
+   3. Trump to transform spaceflight from spectacle to status quo targeting 3 launches per day
       https://www.foxnews.com/politics/trump-transform-spaceflight-spectacle-status-quo-targeting-3-launches-per-day
 
-   2. Surprise election upset shows hating Trump is no longer enough as Democratic voters turn to new playbook
+   4. Surprise election upset shows hating Trump is no longer enough as Democratic voters turn to new playbook
       https://www.foxnews.com/politics/surprise-election-upset-shows-hating-trump-no-longer-enough-democratic-voters-turn-new-playbook
 
-   3. EXCLUSIVE: Fentanyl deaths plunge 22% as Trump White House touts crackdown on deadly drug crisis
+   5. EXCLUSIVE: Fentanyl deaths plunge 22% as Trump White House touts crackdown on deadly drug crisis
       https://www.foxnews.com/politics/exclusive-fentanyl-deaths-plunge-22-trump-white-house-touts-crackdown-deadly-drug-crisis
 
-   4. Obama strategist turns on rising Dem star over viral Trump attack: 'Gratuitous and unnecessary'
-      https://www.foxnews.com/politics/obama-strategist-turns-rising-dem-star-over-viral-trump-attack-gratuitous-unnecessary
+   6. Here are 5 drivers to keep an eye on as IndyCar hits the streets of Washington for Freedom 250 Grand Prix
+      https://www.foxnews.com/outkick-sports/5-drivers-keep-eye-indycar-hits-streets-washington-freedom-250-grand-prix
 
-   5. Americans warned of kidnapping, extortion as violent crime grips parts of tourist spot
-      https://www.foxnews.com/travel/americans-warned-kidnapping-extortion-violent-crime-grips-parts-tourist-spot
+   7. Far-left Florida Democrat Angie Nixon claims GOP is ‘literally trying to kill’ Black Americans
+      https://www.foxnews.com/media/far-left-florida-democrat-angie-nixon-claims-gop-literally-trying-kill-black-americans
 
-   6. Cambridge professor's death after resignation sparking dangerous calls for media censorship, scholar warns
-      https://www.foxnews.com/media/cambridge-professors-death-after-resignation-sparking-dangerous-calls-media-censorship-scholar-warns
+   8. Late-night bull run ends with a little cowboy know-how on busy California highway
+      https://www.foxnews.com/us/late-night-bull-run-ends-little-cowboy-know-how-busy-california-highway
 
-   7. Top 5 most heated moments as progressives spar over who is farther to the left in final Dem Senate debate
-      https://www.foxnews.com/politics/top-5-most-heated-moments-progressives-spar-over-who-farther-left-final-dem-senate-debate
+   9. New Jersey mother allegedly drunk when boat hit channel marker on Memorial Day, killing her son
+      https://www.foxnews.com/us/new-jersey-mother-allegedly-drunk-boat-hit-channel-marker-memorial-day-killing-son
 
-   8. Southern California hits ICE with 'dumbfounding' roadblock as top lawmaker rips 'reckless' hypocrisy
-      https://www.foxnews.com/politics/southern-california-hits-ice-dumbfounding-roadblock-top-lawmaker-rips-reckless-hypocrisy
-
-   9. Hasan Piker calls Hamas 'far more moderate,' dismisses terror group’s brutal rule in Gaza
-      https://www.foxnews.com/media/hasan-piker-calls-hamas-far-more-moderate-dismisses-terror-group-brutal-rule-gaza
-
-  10. 10 comfortable walking shoes on sale at DSW, starting at $55
-      https://www.foxnews.com/deals/dsw-comfortable-shoes
+  10. ADF sends letter to WNBA after controversies over treatment of Sophie Cunningham supporters
+      https://www.foxnews.com/outkick-sports/adf-sends-letter-wnba-controversies-treatment-sophie-cunningham-supporters
 
 
 ============================================================
-  Generated at 12:05 PM PDT by GitHub Actions
+  Generated at 04:49 PM PDT by GitHub Actions
 ============================================================
