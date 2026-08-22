@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump trade chief warns Canada walked away from 'the best deal' to trigger 50% U.S. tariffs
+   1. Trump plan taps US firms to fight foreign cybercrime
+      https://www.foxnews.com/tech/trump-plan-taps-us-firms-fight-foreign-cybercrime
+
+   2. Trump trade chief warns Canada walked away from 'the best deal' to trigger 50% U.S. tariffs
       https://www.foxnews.com/media/trump-trade-chief-warns-canada-walked-away-best-deal-trigger-50-percent-us-tariffs
 
-   2. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
+   3. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
       https://www.foxnews.com/politics/will-100-trumps-save-america-act-sidelined-senate-unanimously-agreed-august-exit
 
-   3. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
+   4. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
       https://www.foxnews.com/politics/trump-honor-artemis-ii-astronauts-traveled-farther-earth-humans-history
 
-   4. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
+   5. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
       https://www.foxnews.com/politics/trump-fires-back-protester-interrupts-myrtle-beach-rally-graham-mom-voting-us
 
-   5. Trump-appointed judge blocks blue state's crackdown on ICE detention center
+   6. Trump-appointed judge blocks blue state's crackdown on ICE detention center
       https://www.foxnews.com/politics/trump-appointed-judge-blocks-blue-states-crackdown-ice-detention-center
 
-   6. Supreme Court allows Trump’s White House ballroom construction to continue for now
+   7. Supreme Court allows Trump’s White House ballroom construction to continue for now
       https://www.foxnews.com/politics/supreme-court-allows-trumps-white-house-ballroom-construction-continue
 
-   7. Trump to transform spaceflight from spectacle to status quo targeting 3 launches per day
-      https://www.foxnews.com/politics/trump-transform-spaceflight-spectacle-status-quo-targeting-3-launches-per-day
+   8. Sydney Sweeney sizzles in Wonder Woman corset costume as she soaks up summer romance with Scooter Braun
+      https://www.foxnews.com/entertainment/sydney-sweeney-sizzles-wonder-woman-corset-costume-soaks-summer-romance-scooter-braun
 
-   8. MLW's Doc Gallows 'proud' of winning tag team championship with teammate Karl Anderson
-      https://www.foxnews.com/outkick-sports/mlw-doc-gallows-proud-winning-tag-team-championship-teammate-karl-anderson
+   9. Alex Palou takes pole for the Freedom 250 Grand Prix with a chance to lock up the championship
+      https://www.foxnews.com/outkick-sports/alex-palou-takes-pole-freedom-250-grand-prix-chance-lock-championship
 
-   9. Bill Maher blasts Democratic Party, says it is fine with religion 'as long as that faith isn’t Jewish'
-      https://www.foxnews.com/media/bill-maher-blasts-democratic-party-says-fine-religion-as-long-faith-isnt-jewish
-
-  10. Israeli October 7 survivors conquer trauma alongside legendary rock icons in powerful new documentary
-      https://www.foxnews.com/media/israeli-october-7-survivors-conquer-trauma-alongside-legendary-rock-icons-powerful-new-documentary
+  10. Massachusetts fishermen land 1,260-pound blue marlin, just short of world record
+      https://www.foxnews.com/lifestyle/massachusetts-fishermen-land-1260-pound-blue-marlin-short-world-record
 
 
 ============================================================
-  Generated at 11:56 AM PDT by GitHub Actions
+  Generated at 04:45 PM PDT by GitHub Actions
 ============================================================
