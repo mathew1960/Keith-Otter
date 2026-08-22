@@ -1,43 +1,53 @@
 {
-  "temp": 113,
+  "temp": 100,
   "high": 114,
   "low": 86,
-  "conditions": "Clear",
-  "updated": "2026-08-21T23:50:50.678989+00:00",
+  "conditions": "Overcast",
+  "updated": "2026-08-22T05:00:40.577168+00:00",
   "hourly": [
     {
+      "time": "10 PM",
+      "temp": 100,
+      "conditions": "Overcast"
+    },
+    {
+      "time": "11 PM",
+      "temp": 97,
+      "conditions": "Clear"
+    },
+    {
       "time": "12 AM",
-      "temp": 98,
+      "temp": 95,
       "conditions": "Clear"
     },
     {
       "time": "1 AM",
-      "temp": 93,
+      "temp": 94,
       "conditions": "Clear"
     },
     {
       "time": "2 AM",
-      "temp": 92,
+      "temp": 93,
       "conditions": "Clear"
     },
     {
       "time": "3 AM",
-      "temp": 91,
+      "temp": 93,
       "conditions": "Clear"
     },
     {
       "time": "4 AM",
-      "temp": 91,
+      "temp": 93,
       "conditions": "Clear"
     },
     {
       "time": "5 AM",
-      "temp": 88,
+      "temp": 92,
       "conditions": "Clear"
     },
     {
       "time": "6 AM",
-      "temp": 86,
+      "temp": 92,
       "conditions": "Clear"
     },
     {
@@ -47,22 +57,12 @@
     },
     {
       "time": "8 AM",
-      "temp": 96,
+      "temp": 98,
       "conditions": "Clear"
     },
     {
       "time": "9 AM",
-      "temp": 100,
-      "conditions": "Clear"
-    },
-    {
-      "time": "10 AM",
       "temp": 103,
-      "conditions": "Clear"
-    },
-    {
-      "time": "11 AM",
-      "temp": 106,
       "conditions": "Clear"
     }
   ],
@@ -76,13 +76,13 @@
     {
       "day": "Sat",
       "high": 116,
-      "low": 91,
+      "low": 92,
       "conditions": "Overcast"
     },
     {
       "day": "Sun",
-      "high": 115,
-      "low": 90,
+      "high": 114,
+      "low": 88,
       "conditions": "Overcast"
     },
     {
