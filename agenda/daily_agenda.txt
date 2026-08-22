@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump’s welfare reforms are a major victory. Bureaucrats could still wreck them
-      https://www.foxnews.com/opinion/trumps-welfare-reforms-major-victory-bureaucrats-could-still-wreck-them
+   1. Trump trade chief warns Canada walked away from 'the best deal' to trigger 50% U.S. tariffs
+      https://www.foxnews.com/media/trump-trade-chief-warns-canada-walked-away-best-deal-trigger-50-percent-us-tariffs
 
-   2. AMB GORDON SONDLAND: Our allies enjoyed a free ride trading with Iran. Trump is shutting that down
-      https://www.foxnews.com/opinion/amb-gordon-sondland-allies-enjoyed-free-ride-trading-iran-trump-shutting-down
+   2. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
+      https://www.foxnews.com/politics/will-100-trumps-save-america-act-sidelined-senate-unanimously-agreed-august-exit
 
    3. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
       https://www.foxnews.com/politics/trump-honor-artemis-ii-astronauts-traveled-farther-earth-humans-history
@@ -29,16 +29,16 @@
    7. Trump to transform spaceflight from spectacle to status quo targeting 3 launches per day
       https://www.foxnews.com/politics/trump-transform-spaceflight-spectacle-status-quo-targeting-3-launches-per-day
 
-   8. Surprise election upset shows hating Trump is no longer enough as Democratic voters turn to new playbook
-      https://www.foxnews.com/politics/surprise-election-upset-shows-hating-trump-no-longer-enough-democratic-voters-turn-new-playbook
+   8. MLW's Doc Gallows 'proud' of winning tag team championship with teammate Karl Anderson
+      https://www.foxnews.com/outkick-sports/mlw-doc-gallows-proud-winning-tag-team-championship-teammate-karl-anderson
 
-   9. Navy veterans reunite after 30 years for 'grueling' cross-country bike challenge honoring 9/11
-      https://www.foxnews.com/health/navy-veterans-reunite-30-years-grueling-cross-country-bike-challenge-honoring-911
+   9. Bill Maher blasts Democratic Party, says it is fine with religion 'as long as that faith isn’t Jewish'
+      https://www.foxnews.com/media/bill-maher-blasts-democratic-party-says-fine-religion-as-long-faith-isnt-jewish
 
-  10. Teacher who battled union fears she’s being targeted after shirt complaint: 'I'm afraid'
-      https://www.foxnews.com/politics/teacher-battled-union-fears-targeted-shirt-complaint-afraid
+  10. Israeli October 7 survivors conquer trauma alongside legendary rock icons in powerful new documentary
+      https://www.foxnews.com/media/israeli-october-7-survivors-conquer-trauma-alongside-legendary-rock-icons-powerful-new-documentary
 
 
 ============================================================
-  Generated at 06:48 AM PDT by GitHub Actions
+  Generated at 11:56 AM PDT by GitHub Actions
 ============================================================
