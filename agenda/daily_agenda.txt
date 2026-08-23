@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump takes honorary lap around IndyCar track in Washington ahead of Freedom 250 Grand Prix
-      https://www.foxnews.com/outkick-sports/trump-takes-honorary-lap-indycar-track-washington-freedom-250-grand-prix
-
-   2. El-Sayed under fire online after taking aim at Usha Vance, female Trump aide in weekend social media posts
+   1. El-Sayed under fire online after taking aim at Usha Vance, female Trump aide in weekend social media posts
       https://www.foxnews.com/politics/el-sayed-fire-online-taking-aim-usha-vance-female-trump-aide-weekend-social-media-posts
 
-   3. Trump plays nuclear poker with Kim Jong Un — but who holds the cards?
+   2. Trump plays nuclear poker with Kim Jong Un — but who holds the cards?
       https://www.foxnews.com/politics/trump-plays-nuclear-poker-kim-jong-un-who-holds-cards
 
-   4. Fetterman aligns with Trump on AI push, warns China benefits from US 'overreaction'
+   3. Fetterman aligns with Trump on AI push, warns China benefits from US 'overreaction'
       https://www.foxnews.com/politics/fetterman-aligns-trump-ai-push-warns-china-benefits-us-overreaction
 
-   5. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
+   4. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
       https://www.foxnews.com/politics/will-100-trumps-save-america-act-sidelined-senate-unanimously-agreed-august-exit
 
-   6. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
+   5. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
       https://www.foxnews.com/politics/trump-honor-artemis-ii-astronauts-traveled-farther-earth-humans-history
 
-   7. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
+   6. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
       https://www.foxnews.com/politics/trump-fires-back-protester-interrupts-myrtle-beach-rally-graham-mom-voting-us
 
-   8. IndyCar drivers David Malukas, Sting Ray Robb involved in scary crash in Freedom 250 Grand Prix
-      https://www.foxnews.com/outkick-sports/indycar-drivers-david-malukas-sting-ray-robb-involved-scary-crash-freedom-250-grand-prix
+   7. Tom Homan fires back at Florida Democrat over 'ridiculous' ICE racial profiling claim
+      https://www.foxnews.com/media/tom-homan-fires-back-florida-democrat-ridiculous-ice-racial-profiling-claim
 
-   9. Oregon coach Dan Lanning lays out multiple reasons why NFL players returning to college football is 'unfair'
-      https://www.foxnews.com/outkick-sports/oregon-coach-dan-lanning-lays-out-multiple-reasons-why-nfl-players-returning-college-football-unfair
+   8. Nationals outfielder does his best Spider-Man impression for one of baseball's best catches of the year
+      https://www.foxnews.com/outkick-sports/nationals-outfielder-spider-man-impression-one-baseballs-best-catches-year
 
-  10. Paulina Porizkova, Halle Berry and Elizabeth Hurley prove age is just a number in bikini photos
-      https://www.foxnews.com/entertainment/paulina-porizkova-halle-berry-elizabeth-hurley-prove-age-just-number-bikini-photos
+   9. 'Office' star says James Talarico's religious beliefs 'achingly close' to Jesus Christ
+      https://www.foxnews.com/media/office-star-says-james-talarico-religious-beliefs-achingly-close-jesus-christ
+
+  10. Disneyland fans beg for return of beloved '60s attraction shuttered decades ago
+      https://www.foxnews.com/travel/disneyland-fans-beg-return-beloved-60s-attraction-shuttered-decades-ago
 
 
 ============================================================
-  Generated at 11:55 AM PDT by GitHub Actions
+  Generated at 04:46 PM PDT by GitHub Actions
 ============================================================
