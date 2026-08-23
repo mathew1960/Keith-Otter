@@ -11,34 +11,34 @@
    1. Trump plan taps US firms to fight foreign cybercrime
       https://www.foxnews.com/tech/trump-plan-taps-us-firms-fight-foreign-cybercrime
 
-   2. Trump trade chief warns Canada walked away from 'the best deal' to trigger 50% U.S. tariffs
-      https://www.foxnews.com/media/trump-trade-chief-warns-canada-walked-away-best-deal-trigger-50-percent-us-tariffs
-
-   3. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
+   2. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
       https://www.foxnews.com/politics/will-100-trumps-save-america-act-sidelined-senate-unanimously-agreed-august-exit
 
-   4. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
+   3. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
       https://www.foxnews.com/politics/trump-honor-artemis-ii-astronauts-traveled-farther-earth-humans-history
 
-   5. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
+   4. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
       https://www.foxnews.com/politics/trump-fires-back-protester-interrupts-myrtle-beach-rally-graham-mom-voting-us
 
-   6. Trump-appointed judge blocks blue state's crackdown on ICE detention center
+   5. Trump-appointed judge blocks blue state's crackdown on ICE detention center
       https://www.foxnews.com/politics/trump-appointed-judge-blocks-blue-states-crackdown-ice-detention-center
 
-   7. Supreme Court allows Trump’s White House ballroom construction to continue for now
+   6. Supreme Court allows Trump’s White House ballroom construction to continue for now
       https://www.foxnews.com/politics/supreme-court-allows-trumps-white-house-ballroom-construction-continue
 
-   8. Sydney Sweeney sizzles in Wonder Woman corset costume as she soaks up summer romance with Scooter Braun
-      https://www.foxnews.com/entertainment/sydney-sweeney-sizzles-wonder-woman-corset-costume-soaks-summer-romance-scooter-braun
+   7. Bear crashes couple's anniversary getaway, rummages through Tennessee tea shop before jumping on counter
+      https://www.foxnews.com/us/bear-crashes-couples-anniversary-getaway-rummages-tennessee-tea-shop-jumping-counter
 
-   9. Alex Palou takes pole for the Freedom 250 Grand Prix with a chance to lock up the championship
-      https://www.foxnews.com/outkick-sports/alex-palou-takes-pole-freedom-250-grand-prix-chance-lock-championship
+   8. Caitlin Clark, Aliyah Boston and Kelsey Mitchell combine for big nights as Fever fall short against Liberty
+      https://www.foxnews.com/outkick-sports/caitlin-clark-aliyah-boston-kelsey-mitchell-combine-big-nights-fever-fall-short-liberty
 
-  10. Massachusetts fishermen land 1,260-pound blue marlin, just short of world record
-      https://www.foxnews.com/lifestyle/massachusetts-fishermen-land-1260-pound-blue-marlin-short-world-record
+   9. Police make arrest after gunfire during California high school football game leaves 1 dead
+      https://www.foxnews.com/us/police-arrest-gunfire-california-high-school-football-game-1-dead
+
+  10. Bandido, Athena put on a show at Ring of Honor's Death Before Dishonor in Philadelphia
+      https://www.foxnews.com/outkick-sports/bandido-athena-show-ring-honor-death-before-dishonor-philadelphia
 
 
 ============================================================
-  Generated at 04:45 PM PDT by GitHub Actions
+  Generated at 10:03 PM PDT by GitHub Actions
 ============================================================
