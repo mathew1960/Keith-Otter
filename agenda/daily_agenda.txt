@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. STEPHEN MOORE: Don't let the FTC tarnish Trump's golden age of capitalism
-      https://www.foxnews.com/opinion/stephen-moore-dont-let-ftc-tarnish-trumps-golden-age-capitalism
+   1. Trump takes honorary lap around IndyCar track in Washington ahead of Freedom 250 Grand Prix
+      https://www.foxnews.com/outkick-sports/trump-takes-honorary-lap-indycar-track-washington-freedom-250-grand-prix
 
-   2. Trump plays nuclear poker with Kim Jong Un — but who holds the cards?
+   2. El-Sayed under fire online after taking aim at Usha Vance, female Trump aide in weekend social media posts
+      https://www.foxnews.com/politics/el-sayed-fire-online-taking-aim-usha-vance-female-trump-aide-weekend-social-media-posts
+
+   3. Trump plays nuclear poker with Kim Jong Un — but who holds the cards?
       https://www.foxnews.com/politics/trump-plays-nuclear-poker-kim-jong-un-who-holds-cards
 
-   3. Fetterman aligns with Trump on AI push, warns China benefits from US 'overreaction'
+   4. Fetterman aligns with Trump on AI push, warns China benefits from US 'overreaction'
       https://www.foxnews.com/politics/fetterman-aligns-trump-ai-push-warns-china-benefits-us-overreaction
 
-   4. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
+   5. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
       https://www.foxnews.com/politics/will-100-trumps-save-america-act-sidelined-senate-unanimously-agreed-august-exit
 
-   5. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
+   6. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
       https://www.foxnews.com/politics/trump-honor-artemis-ii-astronauts-traveled-farther-earth-humans-history
 
-   6. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
+   7. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
       https://www.foxnews.com/politics/trump-fires-back-protester-interrupts-myrtle-beach-rally-graham-mom-voting-us
 
-   7. WNBA has 'no idea what they're about to face,' Enes Kanter Freedom says as league takes on trans athlete issue
-      https://www.foxnews.com/outkick-sports/wnba-no-idea-what-theyre-about-face-enes-kanter-freedom-says-league-takes-trans-athlete-issue
+   8. IndyCar drivers David Malukas, Sting Ray Robb involved in scary crash in Freedom 250 Grand Prix
+      https://www.foxnews.com/outkick-sports/indycar-drivers-david-malukas-sting-ray-robb-involved-scary-crash-freedom-250-grand-prix
 
-   8. Men face new pressure to stay ‘hot’ as they age — and it’s not just about living longer
-      https://www.foxnews.com/health/men-face-new-pressure-stay-hot-age-not-just-living-longer
+   9. Oregon coach Dan Lanning lays out multiple reasons why NFL players returning to college football is 'unfair'
+      https://www.foxnews.com/outkick-sports/oregon-coach-dan-lanning-lays-out-multiple-reasons-why-nfl-players-returning-college-football-unfair
 
-   9. Virginia Dem admits system ‘failure’ after illegal immigrant accused in landlord killing escapes to Tajikistan
-      https://www.foxnews.com/politics/virginia-dem-admits-system-failure-illegal-immigrant-accused-landlord-killing-escapes-tajikistan
-
-  10. 'Double Lives of Suburban Wives' star says secret adult-content side hustle got her fired from corporate job
-      https://www.foxnews.com/entertainment/double-lives-suburban-wives-star-says-secret-adult-content-side-hustle-got-her-fired-corporate-job
+  10. Paulina Porizkova, Halle Berry and Elizabeth Hurley prove age is just a number in bikini photos
+      https://www.foxnews.com/entertainment/paulina-porizkova-halle-berry-elizabeth-hurley-prove-age-just-number-bikini-photos
 
 
 ============================================================
-  Generated at 06:50 AM PDT by GitHub Actions
+  Generated at 11:55 AM PDT by GitHub Actions
 ============================================================
