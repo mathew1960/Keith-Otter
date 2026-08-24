@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump wants cheaper beef. Republicans in key races warn his plan goes too far
+   1. Trump scores Supreme Court win on mail-in voting restrictions before midterms
+      https://www.foxnews.com/politics/trump-scores-supreme-court-win-mail-in-voting-restrictions-before-midterms
+
+   2. Trump administration touts ‘hard reset’ for American schools, vows to put parents ‘back in charge’
+      https://www.foxnews.com/politics/trump-administration-touts-hard-reset-american-schools-vows-put-parents-back-charge
+
+   3. Trump inauguration pastor says Dearborn Christians 'afraid' to speak out in Muslim-majority city
+      https://www.foxnews.com/media/trump-inauguration-pastor-says-dearborn-christians-afraid-speak-out-muslim-majority-city
+
+   4. Schiff attack on Trump’s DC IndyCar race backfires after driver points out contradiction
+      https://www.foxnews.com/politics/schiff-attack-trumps-dc-indycar-race-backfires-driver-points-contradiction
+
+   5. Trump wants cheaper beef. Republicans in key races warn his plan goes too far
       https://www.foxnews.com/politics/trump-wants-cheaper-beef-republicans-key-races-warn-his-plan-goes-too-far
 
-   2. Jeffries' reported meeting with Kushner about possible Trump cooperation draws left-wing backlash
+   6. Jeffries' reported meeting with Kushner about possible Trump cooperation draws left-wing backlash
       https://www.foxnews.com/politics/jeffries-reported-meeting-kushner-possible-trump-cooperation-draws-left-wing-backlash
 
-   3. Vulnerable GOP senator breaks with Trump on 2 key issues as Vance makes stop without her
+   7. Vulnerable GOP senator breaks with Trump on 2 key issues as Vance makes stop without her
       https://www.foxnews.com/politics/vulnerable-gop-senator-breaks-trump-2-key-issues-vance-makes-stop-without-her
 
-   4. Trump's Bedminster turf could make or break his last two years in the White House
-      https://www.foxnews.com/politics/trumps-bedminster-turf-could-make-break-his-last-two-years-white-house
+   8. Sydney Sweeney tells Tom Cruise to 'watch out' after strapping herself to top of airplane
+      https://www.foxnews.com/entertainment/sydney-sweeney-tells-tom-cruise-watch-out-strapping-herself-top-airplane
 
-   5. El-Sayed under fire online after taking aim at Usha Vance, female Trump aide in weekend social media posts
-      https://www.foxnews.com/politics/el-sayed-fire-online-taking-aim-usha-vance-female-trump-aide-weekend-social-media-posts
+   9. Teen hiker's disappearance ends in tragedy at national park with key question remaining
+      https://www.foxnews.com/travel/teen-hiker-disappearance-ends-tragedy-national-park-key-question-remaining
 
-   6. Clarence Thomas scorches racial litmus tests policing thought: ‘Stay Black and die’
-      https://www.foxnews.com/politics/clarence-thomas-scorches-racial-litmus-tests-policing-thought-stay-black-die
-
-   7. LSU’s Lane Kiffin fires back at NFL returnee backlash: Blame the NCAA, not us for recruiting pro athletes
-      https://www.foxnews.com/outkick-sports/lsu-lane-kiffin-fires-back-nfl-returnee-backlash-blame-ncaa-recruiting-pro-athletes
-
-   8. Terror threat looms over coastal destination as US warns attacks could strike without notice
-      https://www.foxnews.com/travel/terror-threat-looms-coastal-destination-us-warns-attacks-could-strike-without-notice
-
-   9. El-Sayed distances himself from Hasan Piker after disturbing remarks about Jewish Americans
-      https://www.foxnews.com/politics/el-sayed-distances-himself-from-hasan-piker-after-controversial-remarks-about-jewish-americans
-
-  10. Anti-aging supplements taken by millions may undermine cancer treatment, study warns
-      https://www.foxnews.com/health/anti-aging-supplements-taken-millions-may-undermine-cancer-treatment-study-warns
+  10. Ole Miss had FBI agent sweep football facility for bugs after Lane Kiffin left for LSU
+      https://www.foxnews.com/outkick-sports/ole-miss-fbi-agent-sweep-football-facility-bugs-lane-kiffin-left-lsu
 
 
 ============================================================
-  Generated at 12:09 PM PDT by GitHub Actions
+  Generated at 04:47 PM PDT by GitHub Actions
 ============================================================
