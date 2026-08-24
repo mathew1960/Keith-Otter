@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. El-Sayed under fire online after taking aim at Usha Vance, female Trump aide in weekend social media posts
+   1. Trump shrugs off assassination attempts, remarking 'only consequential presidents get shot'
+      https://www.foxnews.com/media/trump-shrugs-off-assassination-attempts-remarking-only-consequential-presidents-get-shot
+
+   2. El-Sayed under fire online after taking aim at Usha Vance, female Trump aide in weekend social media posts
       https://www.foxnews.com/politics/el-sayed-fire-online-taking-aim-usha-vance-female-trump-aide-weekend-social-media-posts
 
-   2. Trump plays nuclear poker with Kim Jong Un — but who holds the cards?
+   3. Trump plays nuclear poker with Kim Jong Un — but who holds the cards?
       https://www.foxnews.com/politics/trump-plays-nuclear-poker-kim-jong-un-who-holds-cards
 
-   3. Fetterman aligns with Trump on AI push, warns China benefits from US 'overreaction'
+   4. Fetterman aligns with Trump on AI push, warns China benefits from US 'overreaction'
       https://www.foxnews.com/politics/fetterman-aligns-trump-ai-push-warns-china-benefits-us-overreaction
 
-   4. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
+   5. The Will of 100: Trump’s SAVE America Act sidelined after Senate unanimously agreed to August exit
       https://www.foxnews.com/politics/will-100-trumps-save-america-act-sidelined-senate-unanimously-agreed-august-exit
 
-   5. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
+   6. Trump to honor Artemis II astronauts who traveled farther from Earth than any humans in history
       https://www.foxnews.com/politics/trump-honor-artemis-ii-astronauts-traveled-farther-earth-humans-history
 
-   6. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
+   7. Trump fires back after protester interrupts Myrtle Beach rally for Graham: 'Mom is voting for us'
       https://www.foxnews.com/politics/trump-fires-back-protester-interrupts-myrtle-beach-rally-graham-mom-voting-us
 
-   7. Tom Homan fires back at Florida Democrat over 'ridiculous' ICE racial profiling claim
-      https://www.foxnews.com/media/tom-homan-fires-back-florida-democrat-ridiculous-ice-racial-profiling-claim
+   8. Suspect in deaths of 5 found dead after cops uncover grim scene at rural property outside Portland
+      https://www.foxnews.com/us/suspect-deaths-5-found-dead-cops-uncover-grim-scene-rural-property-outside-portland
 
-   8. Nationals outfielder does his best Spider-Man impression for one of baseball's best catches of the year
-      https://www.foxnews.com/outkick-sports/nationals-outfielder-spider-man-impression-one-baseballs-best-catches-year
+   9. Lindsay Clancy's three child victims forgotten amid crowds of support: mother of six
+      https://www.foxnews.com/us/lindsay-clancy-three-child-victims-forgotten-amid-crowds-support-mother-six
 
-   9. 'Office' star says James Talarico's religious beliefs 'achingly close' to Jesus Christ
-      https://www.foxnews.com/media/office-star-says-james-talarico-religious-beliefs-achingly-close-jesus-christ
-
-  10. Disneyland fans beg for return of beloved '60s attraction shuttered decades ago
-      https://www.foxnews.com/travel/disneyland-fans-beg-return-beloved-60s-attraction-shuttered-decades-ago
+  10. WNBA player Natasha Cloud fires off pro-trans message following altercation with Enes Kanter Freedom
+      https://www.foxnews.com/outkick-sports/wnba-player-natasha-cloud-fires-pro-trans-message-following-altercation-enes-kanter-freedom
 
 
 ============================================================
-  Generated at 04:46 PM PDT by GitHub Actions
+  Generated at 10:20 PM PDT by GitHub Actions
 ============================================================
