@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Pro-life CEO predicts Trump FDA nominee could bring renewed scrutiny to abortion drug risks
+   1. Newsom promises new legal fight after Trump gets Supreme Court victory on mail-in voting
+      https://www.foxnews.com/politics/newsom-promises-legal-fight-trump-supreme-court-victory-mail-in-voting
+
+   2. Secret Service aware of Iranian video threat targeting Barron Trump, agency says
+      https://www.foxnews.com/politics/secret-service-aware-iranian-video-threat-targeting-barron-trump-agency-says
+
+   3. Trump mourns Dolly Parton, orders US flags lowered nationwide after country music icon dies
+      https://www.foxnews.com/politics/trump-mourns-dolly-parton-orders-us-flags-lowered-nationwide-country-music-icon-dies
+
+   4. Pro-life CEO predicts Trump FDA nominee could bring renewed scrutiny to abortion drug risks
       https://www.foxnews.com/politics/pro-life-ceo-predicts-trump-fda-nominee-could-bring-renewed-scrutiny-abortion-drug-risks
 
-   2. CNN, MS NOW have mentioned Trump aide Natalie Harp hundreds of times since Ossoff's viral jab
-      https://www.foxnews.com/media/cnn-msnbc-mentioned-trump-aide-natalie-harp-hundreds-times-ossoff-viral-jab
-
-   3. Jeffries brags about Dem obstruction against Trump as he defends Kushner meeting
+   5. Jeffries brags about Dem obstruction against Trump as he defends Kushner meeting
       https://www.foxnews.com/politics/jeffries-brags-dem-obstruction-against-trump-defends-kushner-meeting
 
-   4. Jackson rips into Supreme Court colleagues' 'serious legal error' on Trump mail-in voting order
+   6. Jackson rips into Supreme Court colleagues' 'serious legal error' on Trump mail-in voting order
       https://www.foxnews.com/politics/jackson-rips-supreme-court-colleagues-serious-legal-error-trump-mail-in-voting-order
 
-   5. Ohio man charged over graphic threats to kill Trump, behead GOP lawmaker
+   7. Ohio man charged over graphic threats to kill Trump, behead GOP lawmaker
       https://www.foxnews.com/politics/ohio-man-charged-over-graphic-threats-kill-trump-behead-gop-lawmaker
 
-   6. Outgoing House Democrat Al Green files another impeachment resolution targeting President Donald Trump
+   8. Outgoing House Democrat Al Green files another impeachment resolution targeting President Donald Trump
       https://www.foxnews.com/politics/outgoing-house-democrat-al-green-files-impeachment-resolution-targeting-president-donald-trump
 
-   7. Trump taunts Canada on renaming Lake Ontario the 'Lake America' amid rising border trade rift
+   9. Trump taunts Canada on renaming Lake Ontario the 'Lake America' amid rising border trade rift
       https://www.foxnews.com/politics/trump-taunts-canada-renaming-lake-ontario-lake-america-amid-rising-border-trade-rift
 
-   8. Trump administration proposes six-figure price tag for new H-1B visas
-      https://www.foxnews.com/politics/trump-administration-proposes-six-figure-price-tag-new-h-1b-visas
-
-   9. Trump admin eyes historic mass visa revocation targeting up to 200K asylum seekers: report
-      https://www.foxnews.com/politics/trump-admin-eyes-historic-mass-visa-revocation-targeting-200k-asylum-seekers
-
-  10. NYC mom survives neck-slash attack on hiking trip in Arizona: 'I can’t die like this'
-      https://www.foxnews.com/us/nyc-mom-survives-neck-slash-attack-hiking-trip-arizona-cant-die-like-this
+  10. Former news anchor pleads guilty to stabbing mother to death on Halloween
+      https://www.foxnews.com/us/former-news-anchor-pleads-guilty-stabbing-mother-death-halloween
 
 
 ============================================================
-  Generated at 12:07 PM PDT by GitHub Actions
+  Generated at 04:49 PM PDT by GitHub Actions
 ============================================================
