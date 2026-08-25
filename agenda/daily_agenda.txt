@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Monday, August 24, 2026
+  DAILY BRIEFING — Tuesday, August 25, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump scores Supreme Court win on mail-in voting restrictions before midterms
+   1. Ohio man charged over graphic threats to kill Trump, behead GOP lawmaker
+      https://www.foxnews.com/politics/ohio-man-charged-over-graphic-threats-kill-trump-behead-gop-lawmaker
+
+   2. Outgoing House Democrat Al Green files another impeachment resolution targeting President Donald Trump
+      https://www.foxnews.com/politics/outgoing-house-democrat-al-green-files-impeachment-resolution-targeting-president-donald-trump
+
+   3. Trump taunts Canada on renaming Lake Ontario the 'Lake America' amid rising border trade rift
+      https://www.foxnews.com/politics/trump-taunts-canada-renaming-lake-ontario-lake-america-amid-rising-border-trade-rift
+
+   4. Trump administration proposes six-figure price tag for new H-1B visas
+      https://www.foxnews.com/politics/trump-administration-proposes-six-figure-price-tag-new-h-1b-visas
+
+   5. Trump admin eyes historic mass visa revocation targeting up to 200K asylum seekers: report
+      https://www.foxnews.com/politics/trump-admin-eyes-historic-mass-visa-revocation-targeting-200k-asylum-seekers
+
+   6. Trump scores Supreme Court win on mail-in voting restrictions before midterms
       https://www.foxnews.com/politics/trump-scores-supreme-court-win-mail-in-voting-restrictions-before-midterms
 
-   2. Trump administration touts ‘hard reset’ for American schools, vows to put parents ‘back in charge’
+   7. Trump administration touts ‘hard reset’ for American schools, vows to put parents ‘back in charge’
       https://www.foxnews.com/politics/trump-administration-touts-hard-reset-american-schools-vows-put-parents-back-charge
 
-   3. Trump inauguration pastor says Dearborn Christians 'afraid' to speak out in Muslim-majority city
-      https://www.foxnews.com/media/trump-inauguration-pastor-says-dearborn-christians-afraid-speak-out-muslim-majority-city
-
-   4. Schiff attack on Trump’s DC IndyCar race backfires after driver points out contradiction
+   8. Schiff attack on Trump’s DC IndyCar race backfires after driver points out contradiction
       https://www.foxnews.com/politics/schiff-attack-trumps-dc-indycar-race-backfires-driver-points-contradiction
 
-   5. Trump wants cheaper beef. Republicans in key races warn his plan goes too far
-      https://www.foxnews.com/politics/trump-wants-cheaper-beef-republicans-key-races-warn-his-plan-goes-too-far
+   9. I feared AI would leave my community behind. Now I see a path to prosperity
+      https://www.foxnews.com/opinion/feared-ai-would-leave-community-behind-now-see-path-prosperity
 
-   6. Jeffries' reported meeting with Kushner about possible Trump cooperation draws left-wing backlash
-      https://www.foxnews.com/politics/jeffries-reported-meeting-kushner-possible-trump-cooperation-draws-left-wing-backlash
-
-   7. Vulnerable GOP senator breaks with Trump on 2 key issues as Vance makes stop without her
-      https://www.foxnews.com/politics/vulnerable-gop-senator-breaks-trump-2-key-issues-vance-makes-stop-without-her
-
-   8. Sydney Sweeney tells Tom Cruise to 'watch out' after strapping herself to top of airplane
-      https://www.foxnews.com/entertainment/sydney-sweeney-tells-tom-cruise-watch-out-strapping-herself-top-airplane
-
-   9. Teen hiker's disappearance ends in tragedy at national park with key question remaining
-      https://www.foxnews.com/travel/teen-hiker-disappearance-ends-tragedy-national-park-key-question-remaining
-
-  10. Ole Miss had FBI agent sweep football facility for bugs after Lane Kiffin left for LSU
-      https://www.foxnews.com/outkick-sports/ole-miss-fbi-agent-sweep-football-facility-bugs-lane-kiffin-left-lsu
+  10. 'Lioness' latest episode leaves fans reeling after brutal and violent execution scene
+      https://www.foxnews.com/outkick-culture/lioness-latest-episode-leaves-fans-reeling-brutal-violent-execution-scene
 
 
 ============================================================
-  Generated at 04:47 PM PDT by GitHub Actions
+  Generated at 07:11 AM PDT by GitHub Actions
 ============================================================
