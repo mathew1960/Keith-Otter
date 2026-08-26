@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Newsom promises new legal fight after Trump gets Supreme Court victory on mail-in voting
+   1. Trump-endorsed candidate clears key hurdle in red state gubernatorial race
+      https://www.foxnews.com/politics/trump-endorsed-candidate-clears-key-hurdle-red-state-gubernatorial-race
+
+   2. Trump endorsement boosts sister of late Lindsey Graham to historic runoff victory
+      https://www.foxnews.com/politics/trump-endorsement-boosts-sister-late-lindsey-graham-historic-runoff-win
+
+   3. Democratic newcomer scores runoff upset in Oklahoma, vows to impeach Trump if elected
+      https://www.foxnews.com/politics/democratic-newcomer-scores-runoff-upset-oklahoma-vows-impeach-trump-elected
+
+   4. Newsom promises new legal fight after Trump gets Supreme Court victory on mail-in voting
       https://www.foxnews.com/politics/newsom-promises-legal-fight-trump-supreme-court-victory-mail-in-voting
 
-   2. Secret Service aware of Iranian video threat targeting Barron Trump, agency says
+   5. Secret Service aware of Iranian video threat targeting Barron Trump, agency says
       https://www.foxnews.com/politics/secret-service-aware-iranian-video-threat-targeting-barron-trump-agency-says
 
-   3. Trump mourns Dolly Parton, orders US flags lowered nationwide after country music icon dies
+   6. Trump mourns Dolly Parton, orders US flags lowered nationwide after country music icon dies
       https://www.foxnews.com/politics/trump-mourns-dolly-parton-orders-us-flags-lowered-nationwide-country-music-icon-dies
 
-   4. Pro-life CEO predicts Trump FDA nominee could bring renewed scrutiny to abortion drug risks
+   7. Pro-life CEO predicts Trump FDA nominee could bring renewed scrutiny to abortion drug risks
       https://www.foxnews.com/politics/pro-life-ceo-predicts-trump-fda-nominee-could-bring-renewed-scrutiny-abortion-drug-risks
 
-   5. Jeffries brags about Dem obstruction against Trump as he defends Kushner meeting
+   8. Jeffries brags about Dem obstruction against Trump as he defends Kushner meeting
       https://www.foxnews.com/politics/jeffries-brags-dem-obstruction-against-trump-defends-kushner-meeting
 
-   6. Jackson rips into Supreme Court colleagues' 'serious legal error' on Trump mail-in voting order
-      https://www.foxnews.com/politics/jackson-rips-supreme-court-colleagues-serious-legal-error-trump-mail-in-voting-order
+   9. Prosecutor in infamous killer mom case says women on Lindsay Clancy jury may bring ‘strange twist’ to verdict
+      https://www.foxnews.com/us/prosecutor-infamous-killer-mom-case-says-women-lindsay-clancy-jury-may-bring-strange-twist-verdict
 
-   7. Ohio man charged over graphic threats to kill Trump, behead GOP lawmaker
-      https://www.foxnews.com/politics/ohio-man-charged-over-graphic-threats-kill-trump-behead-gop-lawmaker
-
-   8. Outgoing House Democrat Al Green files another impeachment resolution targeting President Donald Trump
-      https://www.foxnews.com/politics/outgoing-house-democrat-al-green-files-impeachment-resolution-targeting-president-donald-trump
-
-   9. Trump taunts Canada on renaming Lake Ontario the 'Lake America' amid rising border trade rift
-      https://www.foxnews.com/politics/trump-taunts-canada-renaming-lake-ontario-lake-america-amid-rising-border-trade-rift
-
-  10. Former news anchor pleads guilty to stabbing mother to death on Halloween
-      https://www.foxnews.com/us/former-news-anchor-pleads-guilty-stabbing-mother-death-halloween
+  10. NYC manhunt underway for suspect accused of deadly shootings across 2 boroughs days apart
+      https://www.foxnews.com/us/nyc-manhunt-underway-suspect-accused-deadly-shootings-across-2-boroughs-days-apart
 
 
 ============================================================
-  Generated at 04:49 PM PDT by GitHub Actions
+  Generated at 10:07 PM PDT by GitHub Actions
 ============================================================
