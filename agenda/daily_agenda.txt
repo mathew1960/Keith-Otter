@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump helicopter’s radio warnings went unheard before close call with passenger jet, report says
+   1. Trump admin urges returning education to states, citing $3 trillion of taxes spent and poor proficiency scores
+      https://www.foxnews.com/media/trump-admin-urges-returning-education-states-citing-3-trillion-taxes-spent-poor-proficiency-scores
+
+   2. Gov Shapiro sues Trump administration over ‘lifesaving reproductive care’ in escalating abortion battle
+      https://www.foxnews.com/politics/gov-shapiro-sues-trump-administration-lifesaving-reproductive-care-escalating-abortion-battle
+
+   3. Trump helicopter’s radio warnings went unheard before close call with passenger jet, report says
       https://www.foxnews.com/politics/trump-helicopters-radio-warnings-went-unheard-before-close-call-passenger-jet-report-says
 
-   2. Trump keeps winning Republican primaries; his losses may be more revealing
+   4. Trump keeps winning Republican primaries; his losses may be more revealing
       https://www.foxnews.com/politics/trump-keeps-winning-republican-primaries-his-losses-may-more-revealing
 
-   3. Trump floats renaming the Atlantic and Pacific oceans after rebranding historic lake
+   5. Trump floats renaming the Atlantic and Pacific oceans after rebranding historic lake
       https://www.foxnews.com/politics/trump-floats-renaming-atlantic-pacific-oceans-after-rebranding-historic-lake
 
-   4. Trump administration designates three far-left groups as violent terrorist networks under new sanctions
+   6. Trump administration designates three far-left groups as violent terrorist networks under new sanctions
       https://www.foxnews.com/politics/trump-administration-designates-three-far-left-groups-violent-terrorist-networks-new-sanctions
 
-   5. Trump renames Lake Ontario ‘Lake America’ amid intensifying US-Canada trade dispute
+   7. Trump renames Lake Ontario ‘Lake America’ amid intensifying US-Canada trade dispute
       https://www.foxnews.com/politics/trump-renames-lake-ontario-lake-america-amid-intensifying-us-canada-trade-dispute
 
-   6. DHS fires 3 more FEMA workers after IG report finds crew skipped homes with pro-Trump signs
+   8. DHS fires 3 more FEMA workers after IG report finds crew skipped homes with pro-Trump signs
       https://www.foxnews.com/politics/dhs-fires-fema-workers-ig-report-crew-skipped-homes-pro-trump-signs
 
-   7. Democrats hand Trump one power they spent years fighting
+   9. Democrats hand Trump one power they spent years fighting
       https://www.foxnews.com/politics/democrats-hand-trump-one-power-spent-years-fighting
 
-   8. One unexpected price surge most Americans don’t see is raising the stakes for Trump before November
-      https://www.foxnews.com/politics/unexpected-price-surge-americans-dont-see-raising-stakes-trump-november
-
-   9. Predicting each Power 4 conference champion ahead of the 2026 college football season
-      https://www.foxnews.com/outkick-sports/predicting-each-power-4-conference-champion-ahead-2026-college-football-season
-
-  10. Abbott taunts far-left AG with fiery warning over ICE extradition fight: 'Such bad lawyers'
-      https://www.foxnews.com/politics/abbott-taunts-far-left-ag-fiery-warning-ice-extradition-fight-bad-lawyers
+  10. Maine meteorologist suffers giggle attack on live TV after prank backfires spectacularly
+      https://www.foxnews.com/us/maine-meteorologist-suffers-giggle-attack-live-tv-after-prank-backfires-spectacularly
 
 
 ============================================================
-  Generated at 03:59 PM PDT by GitHub Actions
+  Generated at 07:14 PM PDT by GitHub Actions
 ============================================================
