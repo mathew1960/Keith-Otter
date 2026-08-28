@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Thursday, August 27, 2026
+  DAILY BRIEFING — Friday, August 28, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump admin urges returning education to states, citing $3 trillion of taxes spent and poor proficiency scores
+   1. Federal judge again blocks Trump's mail ballot order just before midterms
+      https://www.foxnews.com/politics/federal-judge-blocks-trump-mail-ballot-order-midterms
+
+   2. New York Gov Hochul rejects Trump's 'Lake America' renaming with blunt message
+      https://www.foxnews.com/politics/new-york-gov-hochul-rejects-trumps-lake-america-renaming-blunt-message
+
+   3. Old Al Michaels stumbles through awkward Lake America-Trump jab during Thursday Night Football broadcast
+      https://www.foxnews.com/outkick-sports/al-michaels-stumbles-awkward-lake-america-trump-jab-thursday-night-football-broadcast
+
+   4. Trump admin urges returning education to states, citing $3 trillion of taxes spent and poor proficiency scores
       https://www.foxnews.com/media/trump-admin-urges-returning-education-states-citing-3-trillion-taxes-spent-poor-proficiency-scores
 
-   2. Gov Shapiro sues Trump administration over ‘lifesaving reproductive care’ in escalating abortion battle
+   5. Gov Shapiro sues Trump administration over ‘lifesaving reproductive care’ in escalating abortion battle
       https://www.foxnews.com/politics/gov-shapiro-sues-trump-administration-lifesaving-reproductive-care-escalating-abortion-battle
 
-   3. Trump helicopter’s radio warnings went unheard before close call with passenger jet, report says
+   6. Trump helicopter’s radio warnings went unheard before close call with passenger jet, report says
       https://www.foxnews.com/politics/trump-helicopters-radio-warnings-went-unheard-before-close-call-passenger-jet-report-says
 
-   4. Trump keeps winning Republican primaries; his losses may be more revealing
+   7. Trump keeps winning Republican primaries; his losses may be more revealing
       https://www.foxnews.com/politics/trump-keeps-winning-republican-primaries-his-losses-may-more-revealing
 
-   5. Trump floats renaming the Atlantic and Pacific oceans after rebranding historic lake
+   8. Trump floats renaming the Atlantic and Pacific oceans after rebranding historic lake
       https://www.foxnews.com/politics/trump-floats-renaming-atlantic-pacific-oceans-after-rebranding-historic-lake
 
-   6. Trump administration designates three far-left groups as violent terrorist networks under new sanctions
+   9. Trump administration designates three far-left groups as violent terrorist networks under new sanctions
       https://www.foxnews.com/politics/trump-administration-designates-three-far-left-groups-violent-terrorist-networks-new-sanctions
 
-   7. Trump renames Lake Ontario ‘Lake America’ amid intensifying US-Canada trade dispute
+  10. Trump renames Lake Ontario ‘Lake America’ amid intensifying US-Canada trade dispute
       https://www.foxnews.com/politics/trump-renames-lake-ontario-lake-america-amid-intensifying-us-canada-trade-dispute
-
-   8. DHS fires 3 more FEMA workers after IG report finds crew skipped homes with pro-Trump signs
-      https://www.foxnews.com/politics/dhs-fires-fema-workers-ig-report-crew-skipped-homes-pro-trump-signs
-
-   9. Democrats hand Trump one power they spent years fighting
-      https://www.foxnews.com/politics/democrats-hand-trump-one-power-spent-years-fighting
-
-  10. Maine meteorologist suffers giggle attack on live TV after prank backfires spectacularly
-      https://www.foxnews.com/us/maine-meteorologist-suffers-giggle-attack-live-tv-after-prank-backfires-spectacularly
 
 
 ============================================================
-  Generated at 07:14 PM PDT by GitHub Actions
+  Generated at 12:00 AM PDT by GitHub Actions
 ============================================================
