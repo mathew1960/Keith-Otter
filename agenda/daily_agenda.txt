@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Friday, August 28, 2026
+  DAILY BRIEFING — Saturday, August 29, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
+   1. Tech investor mocks Vance’s call to hire Americans as 'DEI', gets blasted by Trump officials in H-1B firestorm
+      https://www.foxnews.com/media/tech-investor-mocks-vance-call-hire-americans-dei-gets-blasted-trump-officials-h1b-firestorm
+
+   2. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
+      https://www.foxnews.com/politics/trump-confirms-pentagon-plans-25th-anniversary-9-11-attacks-disputes-report-ground-zero-absence
+
+   3. Trump’s tougher round-two birthright citizenship strategy hinges on key legal distinction, experts say
+      https://www.foxnews.com/politics/solid-ground-conservative-legal-minds-optimistic-new-targeted-birthright-citizenship-restrictions
+
+   4. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
       https://www.foxnews.com/politics/trump-calls-iss-crew-from-houston-praise-space-pioneers-offer-oval-office-time
 
-   2. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
+   5. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
       https://www.foxnews.com/politics/illegal-immigrant-tuition-perks-put-4-states-trump-doj-crosshairs
 
-   3. El-Sayed dragged over ‘weird’ fixation on ‘talking about other people’s wives’ after latest Trump attack
+   6. El-Sayed dragged over ‘weird’ fixation on ‘talking about other people’s wives’ after latest Trump attack
       https://www.foxnews.com/politics/el-sayed-dragged-weird-fixation-talking-other-peoples-wives-latest-trump-attack
 
-   4. Trump election fraud crackdown lands first arrest, putting longtime critics in White House crosshairs
+   7. Trump election fraud crackdown lands first arrest, putting longtime critics in White House crosshairs
       https://www.foxnews.com/politics/election-fraud-arrests-begin-wh-takes-victory-lap-around-doubting-critics
 
-   5. Trump border wall construction kicks off in Arizona amid clash with Native American tribe
+   8. Trump border wall construction kicks off in Arizona amid clash with Native American tribe
       https://www.foxnews.com/politics/trump-border-wall-construction-kicks-off-arizona-clash-native-american-tribe
 
-   6. Trump signs order creating new Space Academy akin to West Point; its location will be determined
+   9. Trump signs order creating new Space Academy akin to West Point; its location will be determined
       https://www.foxnews.com/politics/trump-signs-order-creating-new-space-academy-akin-west-point-location-determined
 
-   7. Newsom targets major affordability squeeze in ‘striking’ convergence with Trump
+  10. Newsom targets major affordability squeeze in ‘striking’ convergence with Trump
       https://www.foxnews.com/politics/newsom-targets-major-affordability-squeeze-striking-convergence-trump
-
-   8. Trump admin blocks more than $1.6B in potentially improper Medicare lab payments, agency says
-      https://www.foxnews.com/politics/trump-admin-blocks-1-6b-potentially-improper-medicare-lab-payments-agency-says
-
-   9. House Dem's 'Lake Natalie' jab at Trump aide sets social media ablaze: 'Stay classy'
-      https://www.foxnews.com/politics/house-dems-lake-natalie-jab-trump-aide-sets-social-media-ablaze-stay-classy
-
-  10. Biden-honored Iraqi official lands on US terror watchlist as Trump State Dept revokes visa
-      https://www.foxnews.com/politics/biden-honored-iraqi-official-lands-us-terror-watchlist-trump-state-dept-revokes-visa
 
 
 ============================================================
-  Generated at 09:16 PM PDT by GitHub Actions
+  Generated at 10:15 AM PDT by GitHub Actions
 ============================================================
