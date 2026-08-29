@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. NASCAR WAG holds on for dear life with her watermelon farmer boyfriend, Kirk's dog is back & Al vs Trump!
-      https://www.foxnews.com/outkick-sports/nascar-wag-holds-dear-life-watermelon-farmer-boyfriend-kirks-dog-back-al-vs-trump
-
-   2. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
+   1. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
       https://www.foxnews.com/politics/trump-calls-iss-crew-from-houston-praise-space-pioneers-offer-oval-office-time
 
-   3. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
+   2. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
       https://www.foxnews.com/politics/illegal-immigrant-tuition-perks-put-4-states-trump-doj-crosshairs
 
-   4. El-Sayed dragged over ‘weird’ fixation on ‘talking about other people’s wives’ after latest Trump attack
+   3. El-Sayed dragged over ‘weird’ fixation on ‘talking about other people’s wives’ after latest Trump attack
       https://www.foxnews.com/politics/el-sayed-dragged-weird-fixation-talking-other-peoples-wives-latest-trump-attack
 
-   5. Trump election fraud crackdown lands first arrest, putting longtime critics in White House crosshairs
+   4. Trump election fraud crackdown lands first arrest, putting longtime critics in White House crosshairs
       https://www.foxnews.com/politics/election-fraud-arrests-begin-wh-takes-victory-lap-around-doubting-critics
 
-   6. Trump border wall construction kicks off in Arizona amid clash with Native American tribe
+   5. Trump border wall construction kicks off in Arizona amid clash with Native American tribe
       https://www.foxnews.com/politics/trump-border-wall-construction-kicks-off-arizona-clash-native-american-tribe
 
-   7. Trump signs order creating new Space Academy akin to West Point; its location will be determined
+   6. Trump signs order creating new Space Academy akin to West Point; its location will be determined
       https://www.foxnews.com/politics/trump-signs-order-creating-new-space-academy-akin-west-point-location-determined
 
-   8. Newsom targets major affordability squeeze in ‘striking’ convergence with Trump
+   7. Newsom targets major affordability squeeze in ‘striking’ convergence with Trump
       https://www.foxnews.com/politics/newsom-targets-major-affordability-squeeze-striking-convergence-trump
 
-   9. Trump admin blocks more than $1.6B in potentially improper Medicare lab payments, agency says
+   8. Trump admin blocks more than $1.6B in potentially improper Medicare lab payments, agency says
       https://www.foxnews.com/politics/trump-admin-blocks-1-6b-potentially-improper-medicare-lab-payments-agency-says
 
-  10. House Dem's 'Lake Natalie' jab at Trump aide sets social media ablaze: 'Stay classy'
+   9. House Dem's 'Lake Natalie' jab at Trump aide sets social media ablaze: 'Stay classy'
       https://www.foxnews.com/politics/house-dems-lake-natalie-jab-trump-aide-sets-social-media-ablaze-stay-classy
+
+  10. Biden-honored Iraqi official lands on US terror watchlist as Trump State Dept revokes visa
+      https://www.foxnews.com/politics/biden-honored-iraqi-official-lands-us-terror-watchlist-trump-state-dept-revokes-visa
 
 
 ============================================================
-  Generated at 04:06 PM PDT by GitHub Actions
+  Generated at 06:48 PM PDT by GitHub Actions
 ============================================================
