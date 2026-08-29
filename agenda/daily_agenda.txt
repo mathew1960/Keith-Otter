@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Tech investor mocks Vance’s call to hire Americans as 'DEI', gets blasted by Trump officials in H-1B firestorm
-      https://www.foxnews.com/media/tech-investor-mocks-vance-call-hire-americans-dei-gets-blasted-trump-officials-h1b-firestorm
+   1. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
+      https://www.foxnews.com/politics/seneca-nation-leader-calls-trumps-lake-america-renaming-unpresidential-demands-reversal
 
-   2. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
+   2. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
+      https://www.foxnews.com/politics/trump-touts-access-65-billion-barrels-venezuelan-oil-deal-he-says-slash-gas-prices
+
+   3. Top energy trader hails Trump's Venezuela oil deal as a 'generational win' for gas prices
+      https://www.foxnews.com/media/top-energy-trader-hails-trumps-venezuela-oil-deal-generational-win-gas-prices
+
+   4. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
       https://www.foxnews.com/politics/trump-confirms-pentagon-plans-25th-anniversary-9-11-attacks-disputes-report-ground-zero-absence
 
-   3. Trump’s tougher round-two birthright citizenship strategy hinges on key legal distinction, experts say
+   5. Trump’s tougher round-two birthright citizenship strategy hinges on key legal distinction, experts say
       https://www.foxnews.com/politics/solid-ground-conservative-legal-minds-optimistic-new-targeted-birthright-citizenship-restrictions
 
-   4. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
+   6. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
       https://www.foxnews.com/politics/trump-calls-iss-crew-from-houston-praise-space-pioneers-offer-oval-office-time
 
-   5. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
+   7. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
       https://www.foxnews.com/politics/illegal-immigrant-tuition-perks-put-4-states-trump-doj-crosshairs
 
-   6. El-Sayed dragged over ‘weird’ fixation on ‘talking about other people’s wives’ after latest Trump attack
+   8. El-Sayed dragged over ‘weird’ fixation on ‘talking about other people’s wives’ after latest Trump attack
       https://www.foxnews.com/politics/el-sayed-dragged-weird-fixation-talking-other-peoples-wives-latest-trump-attack
 
-   7. Trump election fraud crackdown lands first arrest, putting longtime critics in White House crosshairs
+   9. Trump election fraud crackdown lands first arrest, putting longtime critics in White House crosshairs
       https://www.foxnews.com/politics/election-fraud-arrests-begin-wh-takes-victory-lap-around-doubting-critics
 
-   8. Trump border wall construction kicks off in Arizona amid clash with Native American tribe
+  10. Trump border wall construction kicks off in Arizona amid clash with Native American tribe
       https://www.foxnews.com/politics/trump-border-wall-construction-kicks-off-arizona-clash-native-american-tribe
-
-   9. Trump signs order creating new Space Academy akin to West Point; its location will be determined
-      https://www.foxnews.com/politics/trump-signs-order-creating-new-space-academy-akin-west-point-location-determined
-
-  10. Newsom targets major affordability squeeze in ‘striking’ convergence with Trump
-      https://www.foxnews.com/politics/newsom-targets-major-affordability-squeeze-striking-convergence-trump
 
 
 ============================================================
-  Generated at 10:15 AM PDT by GitHub Actions
+  Generated at 02:02 PM PDT by GitHub Actions
 ============================================================
