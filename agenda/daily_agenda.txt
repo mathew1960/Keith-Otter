@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, August 29, 2026
+  DAILY BRIEFING — Sunday, August 30, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Drug institute warns that Trump-shaped ecstasy pills contain potentially fatal ingredient
+   1. Newsom hit with lawsuit threat as whistleblower begs Trump for help with ‘monumental’ fraud scandal
+      https://www.foxnews.com/politics/newsom-hit-lawsuit-threat-whistleblower-begs-trump-help-monumental-fraud-scandal
+
+   2. Iceland votes on resuming EU membership talks as Trump's push for neighboring Greenland looms over debate
+      https://www.foxnews.com/politics/iceland-votes-resuming-eu-membership-talks-trump-push-neighboring-greenland-looms-debate
+
+   3. PGA Tour taps Donald Trump to reprise honorary chairman role for Presidents Cup, White House confirms
+      https://www.foxnews.com/outkick-sports/pga-tour-taps-donald-trump-reprise-honorary-chairman-role-presidents-cup-white-house-confirms
+
+   4. Drug institute warns that Trump-shaped ecstasy pills contain potentially fatal ingredient
       https://www.foxnews.com/health/drug-institute-warns-trump-shaped-ecstasy-pills-contain-potentially-fatal-ingredient
 
-   2. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
+   5. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
       https://www.foxnews.com/politics/seneca-nation-leader-calls-trumps-lake-america-renaming-unpresidential-demands-reversal
 
-   3. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
+   6. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
       https://www.foxnews.com/politics/trump-touts-access-65-billion-barrels-venezuelan-oil-deal-he-says-slash-gas-prices
 
-   4. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
+   7. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
       https://www.foxnews.com/politics/trump-confirms-pentagon-plans-25th-anniversary-9-11-attacks-disputes-report-ground-zero-absence
 
-   5. Trump’s tougher round-two birthright citizenship strategy hinges on key legal distinction, experts say
+   8. Trump’s tougher round-two birthright citizenship strategy hinges on key legal distinction, experts say
       https://www.foxnews.com/politics/solid-ground-conservative-legal-minds-optimistic-new-targeted-birthright-citizenship-restrictions
 
-   6. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
+   9. Trump calls ISS crew from Houston to praise space pioneers and offer 'Oval Office time'
       https://www.foxnews.com/politics/trump-calls-iss-crew-from-houston-praise-space-pioneers-offer-oval-office-time
 
-   7. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
-      https://www.foxnews.com/politics/illegal-immigrant-tuition-perks-put-4-states-trump-doj-crosshairs
-
-   8. Country duo Dan + Shay nearly broke up at height of success when their communication faltered
-      https://www.foxnews.com/entertainment/country-duo-dan-shay-nearly-broke-height-success-communication-faltered
-
-   9. Division-II running back pronounced dead after medical emergency in team's season opener
-      https://www.foxnews.com/outkick-sports/division-ii-running-back-pronounced-dead-after-medical-emergency-teams-season-opener
-
-  10. Mississippi mayor argues against lowering flag for Dolly Parton after her death
-      https://www.foxnews.com/politics/mississippi-mayor-argues-lowering-flag-dolly-parton-her-death
+  10. American Culture Quiz: Test yourself on football futures and dessert drama
+      https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-football-futures-dessert-drama
 
 
 ============================================================
-  Generated at 06:28 PM PDT by GitHub Actions
+  Generated at 03:04 AM PDT by GitHub Actions
 ============================================================
