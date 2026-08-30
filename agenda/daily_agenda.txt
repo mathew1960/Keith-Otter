@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump surprises NASA officials with call after Roman Space Telescope launch
+   1. Ivanka Trump takes surfing lesson in Costa Rica during latest family beach vacation getaway
+      https://www.foxnews.com/entertainment/ivanka-trump-takes-surfing-lesson-costa-rica-family-beach-vacation-getaway
+
+   2. Trump vows to report NBC anchor Kristen Welker to FCC over 'purposeful inaccuracy' on endorsements
+      https://www.foxnews.com/media/trump-vows-report-nbc-anchor-kristen-welker-fcc-over-purposeful-inaccuracy-endorsements
+
+   3. Trump surprises NASA officials with call after Roman Space Telescope launch
       https://www.foxnews.com/media/trump-surprises-nasa-officials-call-after-roman-space-telescope-launch
 
-   2. Trump indicates support for Christian-backed plan to help Canadian Jews escape antisemitism
+   4. Trump indicates support for Christian-backed plan to help Canadian Jews escape antisemitism
       https://www.foxnews.com/politics/trump-indicates-support-christian-backed-plan-help-canadian-jews-escape-antisemitism
 
-   3. Trump just brokered a deal with the country sitting atop the world’s largest oil reserves
+   5. Trump just brokered a deal with the country sitting atop the world’s largest oil reserves
       https://www.foxnews.com/politics/trump-just-brokered-deal-country-sitting-atop-worlds-largest-oil-reserves
 
-   4. Newsom hit with lawsuit threat as whistleblower begs Trump for help with ‘monumental’ fraud scandal
+   6. Newsom hit with lawsuit threat as whistleblower begs Trump for help with ‘monumental’ fraud scandal
       https://www.foxnews.com/politics/newsom-hit-lawsuit-threat-whistleblower-begs-trump-help-monumental-fraud-scandal
 
-   5. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
+   7. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
       https://www.foxnews.com/politics/seneca-nation-leader-calls-trumps-lake-america-renaming-unpresidential-demands-reversal
 
-   6. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
+   8. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
       https://www.foxnews.com/politics/trump-touts-access-65-billion-barrels-venezuelan-oil-deal-he-says-slash-gas-prices
 
-   7. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
+   9. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
       https://www.foxnews.com/politics/trump-confirms-pentagon-plans-25th-anniversary-9-11-attacks-disputes-report-ground-zero-absence
 
-   8. Trump’s tougher round-two birthright citizenship strategy hinges on key legal distinction, experts say
+  10. Trump’s tougher round-two birthright citizenship strategy hinges on key legal distinction, experts say
       https://www.foxnews.com/politics/solid-ground-conservative-legal-minds-optimistic-new-targeted-birthright-citizenship-restrictions
-
-   9. Four foods you should never store in the freezer and where to keep them instead
-      https://www.foxnews.com/food-drink/four-foods-you-should-never-store-freezer-where-keep-them-instead
-
-  10. Tuskegee University president defends dress code amid criticism: ‘Raise the bar, students will reach it’
-      https://www.foxnews.com/us/tuskegee-university-president-defends-dress-code-amid-criticism-raise-bar-students-will-reach-it
 
 
 ============================================================
-  Generated at 10:38 AM PDT by GitHub Actions
+  Generated at 02:19 PM PDT by GitHub Actions
 ============================================================
