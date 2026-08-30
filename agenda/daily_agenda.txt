@@ -8,14 +8,14 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
+   1. Drug institute warns that Trump-shaped ecstasy pills contain potentially fatal ingredient
+      https://www.foxnews.com/health/drug-institute-warns-trump-shaped-ecstasy-pills-contain-potentially-fatal-ingredient
+
+   2. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
       https://www.foxnews.com/politics/seneca-nation-leader-calls-trumps-lake-america-renaming-unpresidential-demands-reversal
 
-   2. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
+   3. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
       https://www.foxnews.com/politics/trump-touts-access-65-billion-barrels-venezuelan-oil-deal-he-says-slash-gas-prices
-
-   3. Top energy trader hails Trump's Venezuela oil deal as a 'generational win' for gas prices
-      https://www.foxnews.com/media/top-energy-trader-hails-trumps-venezuela-oil-deal-generational-win-gas-prices
 
    4. Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence
       https://www.foxnews.com/politics/trump-confirms-pentagon-plans-25th-anniversary-9-11-attacks-disputes-report-ground-zero-absence
@@ -29,16 +29,16 @@
    7. Illegal immigrant tuition perks put 4 states in Trump DOJ crosshairs
       https://www.foxnews.com/politics/illegal-immigrant-tuition-perks-put-4-states-trump-doj-crosshairs
 
-   8. El-Sayed dragged over ‘weird’ fixation on ‘talking about other people’s wives’ after latest Trump attack
-      https://www.foxnews.com/politics/el-sayed-dragged-weird-fixation-talking-other-peoples-wives-latest-trump-attack
+   8. Country duo Dan + Shay nearly broke up at height of success when their communication faltered
+      https://www.foxnews.com/entertainment/country-duo-dan-shay-nearly-broke-height-success-communication-faltered
 
-   9. Trump election fraud crackdown lands first arrest, putting longtime critics in White House crosshairs
-      https://www.foxnews.com/politics/election-fraud-arrests-begin-wh-takes-victory-lap-around-doubting-critics
+   9. Division-II running back pronounced dead after medical emergency in team's season opener
+      https://www.foxnews.com/outkick-sports/division-ii-running-back-pronounced-dead-after-medical-emergency-teams-season-opener
 
-  10. Trump border wall construction kicks off in Arizona amid clash with Native American tribe
-      https://www.foxnews.com/politics/trump-border-wall-construction-kicks-off-arizona-clash-native-american-tribe
+  10. Mississippi mayor argues against lowering flag for Dolly Parton after her death
+      https://www.foxnews.com/politics/mississippi-mayor-argues-lowering-flag-dolly-parton-her-death
 
 
 ============================================================
-  Generated at 02:02 PM PDT by GitHub Actions
+  Generated at 06:28 PM PDT by GitHub Actions
 ============================================================
