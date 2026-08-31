@@ -1,9 +1,9 @@
 {
-  "temp": 102,
+  "temp": 104,
   "high": 105,
   "low": 84,
   "conditions": "Clear",
-  "updated": "2026-08-31T19:34:05.864690+00:00",
+  "updated": "2026-08-31T22:56:21.571458+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -75,14 +75,14 @@
     },
     {
       "day": "Tue",
-      "high": 104,
-      "low": 81,
+      "high": 105,
+      "low": 80,
       "conditions": "Mostly clear"
     },
     {
       "day": "Wed",
       "high": 102,
-      "low": 76,
+      "low": 75,
       "conditions": "Clear"
     },
     {
