@@ -1,9 +1,9 @@
 {
-  "temp": 106,
-  "high": 107,
-  "low": 89,
-  "conditions": "Clear",
-  "updated": "2026-08-30T21:16:06.825036+00:00",
+  "temp": 104,
+  "high": 110,
+  "low": 90,
+  "conditions": "Partly cloudy",
+  "updated": "2026-08-31T01:31:49.827008+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -69,8 +69,8 @@
   "daily": [
     {
       "day": "Sun",
-      "high": 107,
-      "low": 89,
+      "high": 110,
+      "low": 90,
       "conditions": "Overcast"
     },
     {
@@ -81,20 +81,20 @@
     },
     {
       "day": "Tue",
-      "high": 103,
+      "high": 102,
       "low": 78,
       "conditions": "Clear"
     },
     {
       "day": "Wed",
-      "high": 105,
-      "low": 82,
+      "high": 104,
+      "low": 79,
       "conditions": "Clear"
     },
     {
       "day": "Thu",
-      "high": 104,
-      "low": 78,
+      "high": 101,
+      "low": 76,
       "conditions": "Clear"
     }
   ]
