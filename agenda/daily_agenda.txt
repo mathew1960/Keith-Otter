@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump indicates support for Christian-backed plan to help Canadian Jews escape antisemitism
+   1. Trump admin revives ‘Apprentice’-era energy with $1M business battle in DC
+      https://www.foxnews.com/politics/trump-admin-revives-apprentice-era-energy-1m-business-battle-dc
+
+   2. ‘Backwards and poor’: Trump issues dire warning to communities blocking critical technology
+      https://www.foxnews.com/politics/backwards-poor-trump-issues-dire-warning-communities-blocking-critical-technology
+
+   3. Trump indicates support for Christian-backed plan to help Canadian Jews escape antisemitism
       https://www.foxnews.com/politics/trump-indicates-support-christian-backed-plan-help-canadian-jews-escape-antisemitism
 
-   2. Trump just brokered a deal with the country sitting atop the world’s largest oil reserves
+   4. Trump just brokered a deal with the country sitting atop the world’s largest oil reserves
       https://www.foxnews.com/politics/trump-just-brokered-deal-country-sitting-atop-worlds-largest-oil-reserves
 
-   3. Newsom hit with lawsuit threat as whistleblower begs Trump for help with ‘monumental’ fraud scandal
-      https://www.foxnews.com/politics/newsom-hit-lawsuit-threat-whistleblower-begs-trump-help-monumental-fraud-scandal
+   5. Stephen A Smith reveals Barack Obama privately called him after Biden criticism ahead of 2024 election
+      https://www.foxnews.com/media/stephen-smith-reveals-barack-obama-privately-called-him-after-biden-criticism-ahead-2024-election
 
-   4. Seneca Nation leader calls Trump's Lake America renaming 'unpresidential,' demands reversal
-      https://www.foxnews.com/politics/seneca-nation-leader-calls-trumps-lake-america-renaming-unpresidential-demands-reversal
+   6. Steve Sarkisian gives embarrassing explanation for Texas' College Football Playoff loss: 'We were tired'
+      https://www.foxnews.com/outkick-sports/steve-sarkisian-embarrassing-explanation-texas-college-football-playoff-loss-tired
 
-   5. Trump touts access to 65 billion barrels of Venezuelan oil in deal he says will slash gas prices
-      https://www.foxnews.com/politics/trump-touts-access-65-billion-barrels-venezuelan-oil-deal-he-says-slash-gas-prices
+   7. DSA leader's working-class image takes hit as public records pile up contradictions
+      https://www.foxnews.com/politics/dsa-leaders-working-class-image-takes-hit-public-records-pile-up-contradictions
 
-   6. SEN CHUCK GRASSLEY: Republicans are making America safer by restoring law and order
-      https://www.foxnews.com/opinion/sen-chuck-grassley-republicans-making-america-safer-restoring-law-order
+   8. Bon Jovi gives fans their money back after health issue forced early end to Madison Square Garden show
+      https://www.foxnews.com/entertainment/bon-jovi-gives-fans-money-back-after-health-issue-forced-early-end-madison-square-garden-show
 
-   7. Dietitian reveals simple eating strategy for better sleep — and one habit to avoid
-      https://www.foxnews.com/health/dietitian-reveals-simple-eating-strategy-better-sleep-habit-avoid
+   9. Maine lighthouse proved to be no match for man dancing in the buff who was armed with a golf club
+      https://www.foxnews.com/outkick-culture/maine-lighthouse-proved-no-match-man-dancing-buff-armed-golf-club
 
-   8. Trey McKinney becomes youngest Bassmaster Angler of the Year at 21, breaking Kevin VanDam's record
-      https://www.foxnews.com/outkick-sports/trey-mckinney-youngest-bassmaster-angler-year-21-breaking-kevin-vandams-record
-
-   9. Caitlin Clark and Angel Reese must now work together at Women's World Cup as WNBA takes a high-stakes break
-      https://www.foxnews.com/outkick-sports/caitlin-clark-angel-reese-work-together-womens-world-cup-wnba-takes-high-stakes-break
-
-  10. Amazon makes Alexa+ free on compatible Fire TVs
-      https://www.foxnews.com/tech/amazon-makes-alexa-free-compatible-fire-tvs
+  10. Popular artificial sweetener linked to potentially dangerous heart risk
+      https://www.foxnews.com/health/popular-artificial-sweetener-linked-potentially-dangerous-heart-risk
 
 
 ============================================================
-  Generated at 04:04 AM PDT by GitHub Actions
+  Generated at 12:32 PM PDT by GitHub Actions
 ============================================================
