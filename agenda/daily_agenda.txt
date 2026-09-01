@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Majority of Americans reject Trump’s renaming of Lake Ontario to Lake America, poll finds
+   1. Spanberger fact-checked after Trump mail-voting warning raises military ballot fears
+      https://www.foxnews.com/politics/spanberger-fact-checked-after-trump-mail-voting-warning-raises-military-ballot-fears
+
+   2. Democrats blink in shutdown fight, hand Trump and GOP win before midterms
+      https://www.foxnews.com/politics/democrats-blink-shutdown-fight-hand-trump-gop-win-before-midterms
+
+   3. NY Gov Kathy Hochul accuses Trump of 'defunding the police,' says DHS is 'withholding' counterterror funds
+      https://www.foxnews.com/politics/ny-gov-kathy-hochul-accuses-trump-defunding-police-dhs-withholding-counterterror-funds
+
+   4. Majority of Americans reject Trump’s renaming of Lake Ontario to Lake America, poll finds
       https://www.foxnews.com/politics/majority-americans-reject-trumps-renaming-lake-ontario-lake-america-poll-finds
 
-   2. Progressive Florida Democrat insists Trump was pushing 'communism' with Venezuela deal
-      https://www.foxnews.com/media/progressive-florida-democrat-insists-trump-pushing-communism-venezuela-deal
-
-   3. Trump, Schiff forge unlikely alliance as Hollywood bleeds jobs
+   5. Trump, Schiff forge unlikely alliance as Hollywood bleeds jobs
       https://www.foxnews.com/politics/politics-trump-finds-unlikely-ally-longtime-arch-nemesis-hollywood-bleeds-jobs
 
-   4. Army Secretary Dan Driscoll submits resignation to Trump
-      https://www.foxnews.com/politics/army-secretary-dan-driscoll-submits-resignation-trump
+   6. Ex-Indiana deputy charged with felony for allegedly using Flock cameras to stalk girlfriend
+      https://www.foxnews.com/us/ex-indiana-deputy-charged-felony-allegedly-using-flock-cameras-stalk-girlfriend
 
-   5. Trump's White House ballroom construction gets another lifeline from SCOTUS amid heated legal fight
-      https://www.foxnews.com/politics/white-house-ballroom-construction-lifeline-scotus-heated-legal-fight
+   7. Glen Powell reveals wild night with country stars ended with beer pong at Jelly Roll’s Nashville bar
+      https://www.foxnews.com/entertainment/glen-powell-reveals-wild-night-country-stars-ended-beer-pong-jelly-rolls-nashville-bar
 
-   6. Trump's Canada tariff fight reaches critical point as House GOP summons trade chief
-      https://www.foxnews.com/politics/trumps-canada-tariff-fight-reaches-critical-point-house-gop-summons-trade-chief
+   8. Ex-NFL star believes Odell Beckham Jr 'still better than most of the receivers' in NFL as he returns to Giants
+      https://www.foxnews.com/outkick-sports/ex-nfl-star-believes-odell-beckham-jr-still-better-than-most-receivers-nfl-returns-giants
 
-   7. Trump admin revives ‘Apprentice’-era energy with $1M business battle in DC
-      https://www.foxnews.com/politics/trump-admin-revives-apprentice-era-energy-1m-business-battle-dc
+   9. UN pushes nations to consider slavery reparations but legal group says idea 'not going to fly in the US'
+      https://www.foxnews.com/media/un-pushes-nations-consider-slavery-reparations-legal-group-says-idea-not-going-fly-us
 
-   8. ‘Backwards and poor’: Trump issues dire warning to communities blocking critical technology
-      https://www.foxnews.com/politics/backwards-poor-trump-issues-dire-warning-communities-blocking-critical-technology
-
-   9. Man allegedly brandishes edged weapon at Harvard-area coffee shop, prompting campus shelter-in-place
-      https://www.foxnews.com/us/shelter-in-place-issued-harvard-police-arrest-man-armed-edged-weapon
-
-  10. WATCH: FBI agents confront Swalwell at airport in new footage as viewers zero in and pile on
-      https://www.foxnews.com/politics/watch-fbi-agents-confront-swalwell-airport-new-footage-viewers-zero-pile
+  10. LOVB owner defends WNBA’s Caitlin Clark handling, sees women’s sports as investment opportunity
+      https://www.foxnews.com/outkick-sports/lovb-owner-defends-wnbas-caitlin-clark-handling-sees-womens-sports-investment-opportunity
 
 
 ============================================================
-  Generated at 10:21 AM PDT by GitHub Actions
+  Generated at 02:10 PM PDT by GitHub Actions
 ============================================================
