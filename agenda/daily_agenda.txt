@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump revives Iran regime change speculation with cryptic call for people to ‘rise up'
-      https://www.foxnews.com/world/trump-revives-iran-regime-change-speculation-cryptic-call-people-rise-up
+   1. Republicans fail to ease one of Trump's greatest fears as Supreme Court measure collapses
+      https://www.foxnews.com/politics/republicans-fail-ease-one-trumps-greatest-fears-supreme-court-measure-collapses
 
-   2. Vanessa Trump joins Tiger Woods at Florida courthouse as he strikes plea agreement in rollover crash case
-      https://www.foxnews.com/outkick-sports/vanessa-trump-joins-tiger-woods-florida-courthouse-strikes-plea-agreement-rollover-crash-case
+   2. DAVID MARCUS: Canada sees Trump trade war as ‘life and death’ while Americans barely notice
+      https://www.foxnews.com/opinion/david-marcus-canada-sees-trump-trade-war-life-death-americans-barely-notice
 
-   3. Should Trump build a White House ballroom? Americans weigh in
+   3. Obama-appointed judge ripped for blocking Trump mail-ballot rule: 'Run out the clock'
+      https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock
+
+   4. Kai Trump reveals emotional college transition, claims she 'hasn't eaten in like three days'
+      https://www.foxnews.com/health/kai-trump-reveals-emotional-college-transition-claims-hasnt-eaten-like-three-days
+
+   5. Trump reacts to Tiger Woods' plea deal in Florida rollover crash case
+      https://www.foxnews.com/outkick-sports/trump-reacts-tiger-woods-plea-deal-florida-rollover-crash-case
+
+   6. Deleted email details alleged Trump-targeting push inside Letitia James’ office: ‘Find and pursue crimes’
+      https://www.foxnews.com/politics/deleted-email-details-alleged-trump-targeting-push-inside-letitia-james-office-find-pursue-crimes
+
+   7. Should Trump build a White House ballroom? Americans weigh in
       https://www.foxnews.com/politics/should-trump-build-white-house-ballroom-americans-weigh
 
-   4. Bessent warns Iran's outside backers to 'stay away' as Trump seeks to 'asphyxiate' Tehran's economy
-      https://www.foxnews.com/media/bessent-warns-irans-outside-backers-stay-away-trump-seeks-asphyxiate-tehrans-economy
-
-   5. Canadian PM tells Trump to 'stop trying to be tough' in trade fight
+   8. Canadian PM tells Trump to 'stop trying to be tough' in trade fight
       https://www.foxnews.com/politics/canadian-pm-tells-trump-stop-trying-be-tough-trade-fight
 
-   6. FIRST ON FOX: Trump’s 9/11 tribute to feature massive piece of Ground Zero history at White House
+   9. FIRST ON FOX: Trump’s 9/11 tribute to feature massive piece of Ground Zero history at White House
       https://www.foxnews.com/politics/first-fox-trumps-9-11-tribute-feature-massive-piece-ground-zero-history-white-house
 
-   7. Trump taps ‘true warrior’ Hung Cao as Navy secretary after 4 months as acting leader
-      https://www.foxnews.com/politics/trump-taps-true-warrior-hung-cao-navy-secretary-after-4-months-acting-leader
-
-   8. NFL to commemorate 25th anniversary of 9/11 terrorist attacks across all its stadiums and even in Australia
-      https://www.foxnews.com/outkick-sports/nfl-commemorate-25th-anniversary-9-11-terrorist-attacks-across-stadiums-australia
-
-   9. Rescuers use ziplines to transport trapped citizens after devastating Nepal floods decimate country's bridges
-      https://www.foxnews.com/world/rescuers-ziplines-transport-trapped-citizens-devastating-nepal-floods-decimate-countrys-bridges
-
-  10. Parents arrested after South Carolina search for autistic daughter, 5, ends in tragedy near coastal getaway
-      https://www.foxnews.com/us/parents-arrested-south-carolina-search-autistic-daughter-5-ends-tragedy-coastal-getaway
+  10. ESPN puts 20th ranked Tennessee on upset alert, and you'll never guess who they're playing
+      https://www.foxnews.com/outkick-sports/espn-puts-20th-ranked-tennessee-upset-alert-never-guess-whos-playing
 
 
 ============================================================
-  Generated at 10:13 AM PDT by GitHub Actions
+  Generated at 02:10 PM PDT by GitHub Actions
 ============================================================
