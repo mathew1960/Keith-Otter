@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. ‘Why would he do this to us?’: Trump's foreign beef push is hurting his base, Republicans warn
-      https://www.foxnews.com/politics/why-would-he-do-us-trumps-foreign-beef-push-hurting-his-base-republicans-warn
+   1. Smithsonian showdown intensifies as Trump administration issues a stark new warning
+      https://www.foxnews.com/politics/smithsonian-showdown-intensifies-trump-administration-issues-stark-new-warning
 
-   2. Trump’s Army secretary hunt takes shape as insiders float potential picks
+   2. White House rips ‘activist’ Biden judge who upended Trump birthright citizenship order
+      https://www.foxnews.com/politics/white-house-rips-activist-biden-judge-upended-trump-birthright-citizenship-order
+
+   3. MIKE DAVIS: Cheers to David Warrington, Trump’s outgoing White House counsel
+      https://www.foxnews.com/opinion/mike-davis-cheers-david-warrington-trumps-outgoing-white-house-counsel
+
+   4. OpenAI's ChatGPT pivots after previously putting Trump alongside Putin as top threats to democracy
+      https://www.foxnews.com/media/openais-chatgpt-pivots-after-previously-putting-trump-alongside-putin-as-top-threats-to-democracy
+
+   5. Feds bust LGBT podcaster, former Christian reality TV star for alleged threats to kill Trump
+      https://www.foxnews.com/politics/feds-bust-lgbt-podcaster-former-christian-reality-tv-star-alleged-threats-kill-trump
+
+   6. GOP Sen Thom Tillis urges Trump to replace Pete Hegseth, blasts Pentagon leadership
+      https://www.foxnews.com/politics/gop-sen-thom-tillis-urges-trump-replace-pete-hegseth-blasts-pentagon-leadership
+
+   7. 'Why would he do this to us?': One crucial Trump decision is hurting his base, Republicans warn
+      https://www.foxnews.com/politics/one-crucial-trump-decision-is-hurting-his-base-republicans-warn
+
+   8. Trump’s Army secretary hunt takes shape as insiders float potential picks
       https://www.foxnews.com/politics/trumps-army-secretary-hunt-takes-shape-insiders-float-potential-picks
 
-   3. MAGA begins to crack as 2026 GOP roster backs away from Trump's tech vision
-      https://www.foxnews.com/politics/maga-begins-crack-2026-gop-roster-backs-away-from-trumps-tech-vision
+   9. Reality star's son, 15, indicted on 7 counts stemming from alleged sexual battery
+      https://www.foxnews.com/entertainment/reality-stars-son-15-indicted-7-counts-stemming-from-alleged-sexual-battery
 
-   4. FAA seeks permanent airspace restrictions near Trump’s Mar-a-Lago as expert warns rules are ‘not good enough’
-      https://www.foxnews.com/politics/faa-seeks-permanent-airspace-restrictions-trump-mar-a-lago-expert-warns-rules-not-good-enough
-
-   5. Stephen A Smith explains why he regrets voting for Harris, says her loyalty to Biden 'usurped everything else'
-      https://www.foxnews.com/media/stephen-smith-explains-why-he-regrets-voting-harris-says-her-loyalty-biden-usurped-everything-else
-
-   6. Dem Senate nominee changes tune on ICE after vowing not 'one more dime' for agency
-      https://www.foxnews.com/politics/dem-senate-nominee-changes-tune-ice-after-vowing-not-one-more-dime-agency
-
-   7. Three new companies face Josh Hawley's investigation into AI surveillance and vehicle tracking
-      https://www.foxnews.com/politics/three-new-companies-face-josh-hawley-investigation-ai-surveillance-vehicle-tracking
-
-   8. Fox News ‘Antisemitism Exposed’ Newsletter: Jewish AG's chilling message to voters
-      https://www.foxnews.com/us/fox-news-antisemitism-exposed-newsletter-jewish-ags-chilling-message-voters
-
-   9. Florida woman, 70, opens fire inside Port Orange police department lobby, chief says
-      https://www.foxnews.com/us/florida-woman-70-opens-fire-port-orange-police-department-lobby-chief-says
-
-  10. Rep Ralph Norman affirms that he'll 'support' ex-rival Sen Darline Graham in election
-      https://www.foxnews.com/politics/rep-ralph-norman-affirms-support-ex-rival-sen-lindsey-graham-election
+  10. Apple AirTags just dropped to $24 on Amazon — one of the best times to stock up
+      https://www.foxnews.com/deals/airtag-amazon-deal
 
 
 ============================================================
-  Generated at 10:05 AM PDT by GitHub Actions
+  Generated at 02:11 PM PDT by GitHub Actions
 ============================================================
