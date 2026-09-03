@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Republicans fail to ease one of Trump's greatest fears as Supreme Court measure collapses
-      https://www.foxnews.com/politics/republicans-fail-ease-one-trumps-greatest-fears-supreme-court-measure-collapses
+   1. Trump says Harry and Meghan treated royals with ‘great disrespect’: ‘I wouldn’t have taken them back’
+      https://www.foxnews.com/entertainment/trump-says-harry-meghan-treated-royals-great-disrespect-wouldnt-taken-back
 
-   2. DAVID MARCUS: Canada sees Trump trade war as ‘life and death’ while Americans barely notice
-      https://www.foxnews.com/opinion/david-marcus-canada-sees-trump-trade-war-life-death-americans-barely-notice
+   2. Republicans fail to ease one of Trump's greatest fears as Supreme Court measure collapses
+      https://www.foxnews.com/politics/republicans-fail-ease-one-trumps-greatest-fears-supreme-court-measure-collapses
 
    3. Obama-appointed judge ripped for blocking Trump mail-ballot rule: 'Run out the clock'
       https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock
 
-   4. Kai Trump reveals emotional college transition, claims she 'hasn't eaten in like three days'
-      https://www.foxnews.com/health/kai-trump-reveals-emotional-college-transition-claims-hasnt-eaten-like-three-days
-
-   5. Trump reacts to Tiger Woods' plea deal in Florida rollover crash case
-      https://www.foxnews.com/outkick-sports/trump-reacts-tiger-woods-plea-deal-florida-rollover-crash-case
-
-   6. Deleted email details alleged Trump-targeting push inside Letitia James’ office: ‘Find and pursue crimes’
+   4. Deleted email details alleged Trump-targeting push inside Letitia James’ office: ‘Find and pursue crimes’
       https://www.foxnews.com/politics/deleted-email-details-alleged-trump-targeting-push-inside-letitia-james-office-find-pursue-crimes
 
-   7. Should Trump build a White House ballroom? Americans weigh in
+   5. Should Trump build a White House ballroom? Americans weigh in
       https://www.foxnews.com/politics/should-trump-build-white-house-ballroom-americans-weigh
 
-   8. Canadian PM tells Trump to 'stop trying to be tough' in trade fight
+   6. Canadian PM tells Trump to 'stop trying to be tough' in trade fight
       https://www.foxnews.com/politics/canadian-pm-tells-trump-stop-trying-be-tough-trade-fight
 
-   9. FIRST ON FOX: Trump’s 9/11 tribute to feature massive piece of Ground Zero history at White House
+   7. FIRST ON FOX: Trump’s 9/11 tribute to feature massive piece of Ground Zero history at White House
       https://www.foxnews.com/politics/first-fox-trumps-9-11-tribute-feature-massive-piece-ground-zero-history-white-house
 
-  10. ESPN puts 20th ranked Tennessee on upset alert, and you'll never guess who they're playing
-      https://www.foxnews.com/outkick-sports/espn-puts-20th-ranked-tennessee-upset-alert-never-guess-whos-playing
+   8. Justin Tucker looks to make NFL comeback after spa allegations, works out with the Jets
+      https://www.foxnews.com/outkick-sports/justin-tucker-nfl-comeback-spa-allegations-works-jets
+
+   9. 'We need to return immediately,' flight crew warns as pilot health emergency unfolds
+      https://www.foxnews.com/travel/we-need-return-immediately-flight-crew-warns-pilot-health-emergency-unfolds
+
+  10. 'Wheel of Fortune' announcer Jim Thornton's attorney speaks out after game show suspension
+      https://www.foxnews.com/entertainment/wheel-of-fortune-announcer-jim-thornton-attorney-speaks-game-show-suspension
 
 
 ============================================================
-  Generated at 02:10 PM PDT by GitHub Actions
+  Generated at 06:18 PM PDT by GitHub Actions
 ============================================================
