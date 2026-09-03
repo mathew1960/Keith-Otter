@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. MAGA begins to crack as 2026 GOP roster backs away from Trump's tech vision
+   1. ‘Why would he do this to us?’: Trump's foreign beef push is hurting his base, Republicans warn
+      https://www.foxnews.com/politics/why-would-he-do-us-trumps-foreign-beef-push-hurting-his-base-republicans-warn
+
+   2. Trump’s Army secretary hunt takes shape as insiders float potential picks
+      https://www.foxnews.com/politics/trumps-army-secretary-hunt-takes-shape-insiders-float-potential-picks
+
+   3. MAGA begins to crack as 2026 GOP roster backs away from Trump's tech vision
       https://www.foxnews.com/politics/maga-begins-crack-2026-gop-roster-backs-away-from-trumps-tech-vision
 
-   2. FAA seeks permanent airspace restrictions near Trump’s Mar-a-Lago as expert warns rules are ‘not good enough’
+   4. FAA seeks permanent airspace restrictions near Trump’s Mar-a-Lago as expert warns rules are ‘not good enough’
       https://www.foxnews.com/politics/faa-seeks-permanent-airspace-restrictions-trump-mar-a-lago-expert-warns-rules-not-good-enough
 
-   3. Republicans fail to ease one of Trump's greatest fears as Supreme Court measure collapses
-      https://www.foxnews.com/politics/republicans-fail-ease-one-trumps-greatest-fears-supreme-court-measure-collapses
+   5. Stephen A Smith explains why he regrets voting for Harris, says her loyalty to Biden 'usurped everything else'
+      https://www.foxnews.com/media/stephen-smith-explains-why-he-regrets-voting-harris-says-her-loyalty-biden-usurped-everything-else
 
-   4. Obama-appointed judge ripped for blocking Trump mail-ballot rule: 'Run out the clock'
-      https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock
+   6. Dem Senate nominee changes tune on ICE after vowing not 'one more dime' for agency
+      https://www.foxnews.com/politics/dem-senate-nominee-changes-tune-ice-after-vowing-not-one-more-dime-agency
 
-   5. Deleted email details alleged Trump-targeting push inside Letitia James’ office: ‘Find and pursue crimes’
-      https://www.foxnews.com/politics/deleted-email-details-alleged-trump-targeting-push-inside-letitia-james-office-find-pursue-crimes
+   7. Three new companies face Josh Hawley's investigation into AI surveillance and vehicle tracking
+      https://www.foxnews.com/politics/three-new-companies-face-josh-hawley-investigation-ai-surveillance-vehicle-tracking
 
-   6. Should Trump build a White House ballroom? Americans weigh in
-      https://www.foxnews.com/politics/should-trump-build-white-house-ballroom-americans-weigh
+   8. Fox News ‘Antisemitism Exposed’ Newsletter: Jewish AG's chilling message to voters
+      https://www.foxnews.com/us/fox-news-antisemitism-exposed-newsletter-jewish-ags-chilling-message-voters
 
-   7. Canadian PM tells Trump to 'stop trying to be tough' in trade fight
-      https://www.foxnews.com/politics/canadian-pm-tells-trump-stop-trying-be-tough-trade-fight
+   9. Florida woman, 70, opens fire inside Port Orange police department lobby, chief says
+      https://www.foxnews.com/us/florida-woman-70-opens-fire-port-orange-police-department-lobby-chief-says
 
-   8. FIRST ON FOX: Trump’s 9/11 tribute to feature massive piece of Ground Zero history at White House
-      https://www.foxnews.com/politics/first-fox-trumps-9-11-tribute-feature-massive-piece-ground-zero-history-white-house
-
-   9. Johnson downplays GOP's midterm woes as Democrats eye House takeover: 'I am very bullish'
-      https://www.foxnews.com/politics/johnson-downplays-gops-midterm-woes-democrats-eye-house-takeover
-
-  10. MORNING GLORY: 'Blue Blight' is spreading fast and only voters can stop it
-      https://www.foxnews.com/opinion/morning-glory-blue-blight-spreading-fast-only-voters-can-stop-it
+  10. Rep Ralph Norman affirms that he'll 'support' ex-rival Sen Darline Graham in election
+      https://www.foxnews.com/politics/rep-ralph-norman-affirms-support-ex-rival-sen-lindsey-graham-election
 
 
 ============================================================
-  Generated at 02:06 AM PDT by GitHub Actions
+  Generated at 10:05 AM PDT by GitHub Actions
 ============================================================
