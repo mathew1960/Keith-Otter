@@ -1,9 +1,9 @@
 {
-  "temp": 78,
-  "high": 103,
-  "low": 76,
+  "temp": 88,
+  "high": 102,
+  "low": 72,
   "conditions": "Clear",
-  "updated": "2026-09-04T08:59:22.838618+00:00",
+  "updated": "2026-09-04T16:57:19.413014+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -17,17 +17,17 @@
     },
     {
       "time": "2 AM",
-      "temp": 78,
+      "temp": 80,
       "conditions": "Clear"
     },
     {
       "time": "3 AM",
-      "temp": 77,
+      "temp": 79,
       "conditions": "Clear"
     },
     {
       "time": "4 AM",
-      "temp": 77,
+      "temp": 79,
       "conditions": "Clear"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "time": "6 AM",
-      "temp": 76,
+      "temp": 72,
       "conditions": "Clear"
     },
     {
@@ -47,12 +47,12 @@
     },
     {
       "time": "8 AM",
-      "temp": 81,
+      "temp": 79,
       "conditions": "Clear"
     },
     {
       "time": "9 AM",
-      "temp": 85,
+      "temp": 84,
       "conditions": "Clear"
     },
     {
@@ -69,25 +69,25 @@
   "daily": [
     {
       "day": "Fri",
-      "high": 103,
-      "low": 76,
+      "high": 102,
+      "low": 72,
       "conditions": "Partly cloudy"
     },
     {
       "day": "Sat",
-      "high": 97,
+      "high": 96,
       "low": 78,
       "conditions": "Overcast"
     },
     {
       "day": "Sun",
       "high": 92,
-      "low": 82,
+      "low": 80,
       "conditions": "Light drizzle"
     },
     {
       "day": "Mon",
-      "high": 102,
+      "high": 105,
       "low": 83,
       "conditions": "Overcast"
     },
