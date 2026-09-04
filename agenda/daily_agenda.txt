@@ -8,17 +8,17 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Smithsonian showdown intensifies as Trump administration issues a stark new warning
+   1. Trump names Adam Telle acting secretary of the Army following Dan Driscoll's resignation
+      https://www.foxnews.com/us/trump-names-adam-telle-acting-secretary-army-following-dan-driscoll-resignation
+
+   2. Excavation set to begin on Trump administration's 250-foot triumphal arch amid legal battle
+      https://www.foxnews.com/politics/excavation-begin-trump-administration-250-foot-triumphal-arch-amid-legal-battle
+
+   3. Smithsonian showdown intensifies as Trump administration issues a stark new warning
       https://www.foxnews.com/politics/smithsonian-showdown-intensifies-trump-administration-issues-stark-new-warning
 
-   2. White House rips ‘activist’ Biden judge who upended Trump birthright citizenship order
+   4. White House rips ‘activist’ Biden judge who upended Trump birthright citizenship order
       https://www.foxnews.com/politics/white-house-rips-activist-biden-judge-upended-trump-birthright-citizenship-order
-
-   3. MIKE DAVIS: Cheers to David Warrington, Trump’s outgoing White House counsel
-      https://www.foxnews.com/opinion/mike-davis-cheers-david-warrington-trumps-outgoing-white-house-counsel
-
-   4. OpenAI's ChatGPT pivots after previously putting Trump alongside Putin as top threats to democracy
-      https://www.foxnews.com/media/openais-chatgpt-pivots-after-previously-putting-trump-alongside-putin-as-top-threats-to-democracy
 
    5. Feds bust LGBT podcaster, former Christian reality TV star for alleged threats to kill Trump
       https://www.foxnews.com/politics/feds-bust-lgbt-podcaster-former-christian-reality-tv-star-alleged-threats-kill-trump
@@ -29,16 +29,16 @@
    7. 'Why would he do this to us?': One crucial Trump decision is hurting his base, Republicans warn
       https://www.foxnews.com/politics/one-crucial-trump-decision-is-hurting-his-base-republicans-warn
 
-   8. Trump’s Army secretary hunt takes shape as insiders float potential picks
-      https://www.foxnews.com/politics/trumps-army-secretary-hunt-takes-shape-insiders-float-potential-picks
+   8. New HBO superhero show faces 'woke' criticism for reframing classic hero lore around racial privilege
+      https://www.foxnews.com/media/hbo-superhero-show-faces-woke-criticism-reframing-classic-hero-lore-racial-privilege
 
-   9. Reality star's son, 15, indicted on 7 counts stemming from alleged sexual battery
-      https://www.foxnews.com/entertainment/reality-stars-son-15-indicted-7-counts-stemming-from-alleged-sexual-battery
+   9. Popular pantry staple could get you stopped at airport security under little-known TSA rule
+      https://www.foxnews.com/travel/popular-pantry-staple-could-get-you-stopped-airport-security-under-little-known-tsa-rule
 
-  10. Apple AirTags just dropped to $24 on Amazon — one of the best times to stock up
-      https://www.foxnews.com/deals/airtag-amazon-deal
+  10. GOP candidate gets busted allegedly trying to plant drugs on his political rival
+      https://www.foxnews.com/politics/gop-candidate-gets-busted-trying-plant-drugs-his-political-rival
 
 
 ============================================================
-  Generated at 02:11 PM PDT by GitHub Actions
+  Generated at 06:10 PM PDT by GitHub Actions
 ============================================================
