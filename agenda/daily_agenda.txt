@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump pardons Jay-Z associate Emory Jones after federal drug conviction
-      https://www.foxnews.com/entertainment/trump-pardons-jay-z-associate-emory-jones-after-federal-drug-conviction
+   1. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
+      https://www.foxnews.com/politics/trump-weighs-lindsay-clancy-murder-trial-dubbed-kangaroo-court-gop-leaders
 
-   2. Trump negotiators Witkoff, Kushner arrive in Moscow as US pushes for end to Russia-Ukraine war
-      https://www.foxnews.com/world/trump-negotiators-witkoff-kushner-arrive-moscow-us-pushes-end-russia-ukraine-war
-
-   3. MIKE DAVIS: The Trump DOJ should withdraw its statement of interest in the OpenAI lawsuit
-      https://www.foxnews.com/opinion/mike-davis-trump-doj-withdraw-statement-interest-openai-lawsuit
-
-   4. Trump’s Pentagon shake-up revives a presidential power play with a long history
+   2. Trump’s Pentagon shake-up revives a presidential power play with a long history
       https://www.foxnews.com/politics/trumps-pentagon-shake-up-revives-presidential-power-play-long-history
 
-   5. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
+   3. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
       https://www.foxnews.com/politics/missouri-ag-files-petition-asking-supreme-court-revive-trump-backed-redistricting-map
 
-   6. Trump lawyers target what Letitia James won’t say about evidence in $450M case
+   4. Trump lawyers target what Letitia James won’t say about evidence in $450M case
       https://www.foxnews.com/politics/trump-lawyers-zero-letitia-james-wont-say-evidence-450m-case
 
-   7. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
+   5. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
       https://www.foxnews.com/politics/pelosi-omar-join-trump-schiff-unlikely-alliance-pushes-onshore-key-industry
 
-   8. Trump commutes sentence for former Philadelphia union official, attorney says
+   6. Trump commutes sentence for former Philadelphia union official, attorney says
       https://www.foxnews.com/politics/trump-commutes-sentence-former-philadelphia-union-official-attorney-says
 
-   9. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
+   7. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
       https://www.foxnews.com/politics/former-trump-cabinet-official-inappropriately-close-relationship-bodyguard-ig-finds
 
-  10. Trump administration proposes stripping tax-exempt status from schools using race-based programs
+   8. Trump administration proposes stripping tax-exempt status from schools using race-based programs
       https://www.foxnews.com/politics/trump-administration-proposes-stripping-tax-exempt-status-schools-using-race-based-programs
+
+   9. Father of Patrick Mahomes asks court to attend son's games amid probation for driving while intoxicated
+      https://www.foxnews.com/outkick-sports/father-patrick-mahomes-asks-court-attend-son-games-probation-driving-intoxicated
+
+  10. Fighter jet crashes at air show, killing 2 pilots with thousands of spectators watching
+      https://www.foxnews.com/world/fighter-jet-crashes-air-show-killing-2-pilots-thousands-spectators-watching
 
 
 ============================================================
-  Generated at 09:08 AM PDT by GitHub Actions
+  Generated at 01:32 PM PDT by GitHub Actions
 ============================================================
