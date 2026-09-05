@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump lawyers target what Letitia James won’t say about evidence in $450M case
+   1. Trump pardons Jay-Z associate Emory Jones after federal drug conviction
+      https://www.foxnews.com/entertainment/trump-pardons-jay-z-associate-emory-jones-after-federal-drug-conviction
+
+   2. Trump negotiators Witkoff, Kushner arrive in Moscow as US pushes for end to Russia-Ukraine war
+      https://www.foxnews.com/world/trump-negotiators-witkoff-kushner-arrive-moscow-us-pushes-end-russia-ukraine-war
+
+   3. MIKE DAVIS: The Trump DOJ should withdraw its statement of interest in the OpenAI lawsuit
+      https://www.foxnews.com/opinion/mike-davis-trump-doj-withdraw-statement-interest-openai-lawsuit
+
+   4. Trump’s Pentagon shake-up revives a presidential power play with a long history
+      https://www.foxnews.com/politics/trumps-pentagon-shake-up-revives-presidential-power-play-long-history
+
+   5. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
+      https://www.foxnews.com/politics/missouri-ag-files-petition-asking-supreme-court-revive-trump-backed-redistricting-map
+
+   6. Trump lawyers target what Letitia James won’t say about evidence in $450M case
       https://www.foxnews.com/politics/trump-lawyers-zero-letitia-james-wont-say-evidence-450m-case
 
-   2. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
+   7. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
       https://www.foxnews.com/politics/pelosi-omar-join-trump-schiff-unlikely-alliance-pushes-onshore-key-industry
 
-   3. Trump commutes sentence for former Philadelphia union official, attorney says
+   8. Trump commutes sentence for former Philadelphia union official, attorney says
       https://www.foxnews.com/politics/trump-commutes-sentence-former-philadelphia-union-official-attorney-says
 
-   4. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
+   9. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
       https://www.foxnews.com/politics/former-trump-cabinet-official-inappropriately-close-relationship-bodyguard-ig-finds
 
-   5. Trump administration proposes stripping tax-exempt status from schools using race-based programs
+  10. Trump administration proposes stripping tax-exempt status from schools using race-based programs
       https://www.foxnews.com/politics/trump-administration-proposes-stripping-tax-exempt-status-schools-using-race-based-programs
-
-   6. Missouri high court blocks GOP-backed congressional maps ahead of midterms; Trump blasts 'ridiculous' ruling
-      https://www.foxnews.com/politics/missouri-high-court-blocks-gop-backed-congressional-maps-ahead-midterms-trump-blasts-ridiculous-ruling
-
-   7. Excavation set to begin on Trump administration's 250-foot triumphal arch amid legal battle
-      https://www.foxnews.com/politics/excavation-begin-trump-administration-250-foot-triumphal-arch-amid-legal-battle
-
-   8. Smithsonian showdown intensifies as Trump administration issues a stark new warning
-      https://www.foxnews.com/politics/smithsonian-showdown-intensifies-trump-administration-issues-stark-new-warning
-
-   9. White House rips ‘activist’ Biden judge who upended Trump birthright citizenship order
-      https://www.foxnews.com/politics/white-house-rips-activist-biden-judge-upended-trump-birthright-citizenship-order
-
-  10. LSU holds off on adding players with NFL ties as SEC lawsuit looms over program, Lane Kiffin
-      https://www.foxnews.com/outkick-sports/lsu-holds-off-adding-players-nfl-ties-sec-lawsuit-looms-program-lane-kiffin
 
 
 ============================================================
-  Generated at 01:31 AM PDT by GitHub Actions
+  Generated at 09:08 AM PDT by GitHub Actions
 ============================================================
