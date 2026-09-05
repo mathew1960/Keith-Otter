@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
+   1. Trump lawyers target what Letitia James won’t say about evidence in $450M case
+      https://www.foxnews.com/politics/trump-lawyers-zero-letitia-james-wont-say-evidence-450m-case
+
+   2. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
       https://www.foxnews.com/politics/pelosi-omar-join-trump-schiff-unlikely-alliance-pushes-onshore-key-industry
 
-   2. Trump commutes sentence for former Philadelphia union official, attorney says
+   3. Trump commutes sentence for former Philadelphia union official, attorney says
       https://www.foxnews.com/politics/trump-commutes-sentence-former-philadelphia-union-official-attorney-says
 
-   3. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
+   4. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
       https://www.foxnews.com/politics/former-trump-cabinet-official-inappropriately-close-relationship-bodyguard-ig-finds
 
-   4. Trump administration proposes stripping tax-exempt status from schools using race-based programs
+   5. Trump administration proposes stripping tax-exempt status from schools using race-based programs
       https://www.foxnews.com/politics/trump-administration-proposes-stripping-tax-exempt-status-schools-using-race-based-programs
 
-   5. Missouri high court blocks GOP-backed congressional maps ahead of midterms; Trump blasts 'ridiculous' ruling
+   6. Missouri high court blocks GOP-backed congressional maps ahead of midterms; Trump blasts 'ridiculous' ruling
       https://www.foxnews.com/politics/missouri-high-court-blocks-gop-backed-congressional-maps-ahead-midterms-trump-blasts-ridiculous-ruling
 
-   6. Excavation set to begin on Trump administration's 250-foot triumphal arch amid legal battle
+   7. Excavation set to begin on Trump administration's 250-foot triumphal arch amid legal battle
       https://www.foxnews.com/politics/excavation-begin-trump-administration-250-foot-triumphal-arch-amid-legal-battle
 
-   7. Smithsonian showdown intensifies as Trump administration issues a stark new warning
+   8. Smithsonian showdown intensifies as Trump administration issues a stark new warning
       https://www.foxnews.com/politics/smithsonian-showdown-intensifies-trump-administration-issues-stark-new-warning
 
-   8. White House rips ‘activist’ Biden judge who upended Trump birthright citizenship order
+   9. White House rips ‘activist’ Biden judge who upended Trump birthright citizenship order
       https://www.foxnews.com/politics/white-house-rips-activist-biden-judge-upended-trump-birthright-citizenship-order
 
-   9. ICE officer pleads not guilty to lying about Minneapolis shooting involving Venezuelan man
-      https://www.foxnews.com/us/ice-officer-pleads-not-guilty-lying-minneapolis-shooting-involving-venezuelan-man
-
-  10. Robot dog could deliver your next package and an ad
-      https://www.foxnews.com/tech/robot-dog-deliver-next-package-ad
+  10. TCU does an about-face after stripping local newspaper's credentials days before football season
+      https://www.foxnews.com/outkick-sports/tcu-about-face-stripping-local-newspaper-credentials-days-before-football-season
 
 
 ============================================================
-  Generated at 01:53 PM PDT by GitHub Actions
+  Generated at 06:15 PM PDT by GitHub Actions
 ============================================================
