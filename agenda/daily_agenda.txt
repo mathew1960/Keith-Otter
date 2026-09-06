@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, September 05, 2026
+  DAILY BRIEFING — Sunday, September 06, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico
+   1. House Dems plot Trump investigation blitz if they seize majority
+      https://www.foxnews.com/politics/house-dems-plot-trump-investigation-blitz-seize-majority
+
+   2. Kennedy Center ceiling partially collapses as Trump-led board pushes for 2-year closure
+      https://www.foxnews.com/politics/kennedy-center-ceiling-partially-collapses-trump-led-board-pushes-2-year-closure
+
+   3. Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico
       https://www.foxnews.com/politics/trump-linked-maga-inc-pours-10m-ken-paxton-texas-senate-race-james-talarico
 
-   2. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
+   4. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
       https://www.foxnews.com/politics/trump-weighs-lindsay-clancy-murder-trial-dubbed-kangaroo-court-gop-leaders
 
-   3. Trump’s Pentagon shake-up revives a presidential power play with a long history
+   5. Trump’s Pentagon shake-up revives a presidential power play with a long history
       https://www.foxnews.com/politics/trumps-pentagon-shake-up-revives-presidential-power-play-long-history
 
-   4. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
+   6. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
       https://www.foxnews.com/politics/missouri-ag-files-petition-asking-supreme-court-revive-trump-backed-redistricting-map
 
-   5. Trump lawyers target what Letitia James won’t say about evidence in $450M case
+   7. Trump lawyers target what Letitia James won’t say about evidence in $450M case
       https://www.foxnews.com/politics/trump-lawyers-zero-letitia-james-wont-say-evidence-450m-case
 
-   6. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
-      https://www.foxnews.com/politics/pelosi-omar-join-trump-schiff-unlikely-alliance-pushes-onshore-key-industry
+   8. West Virginia angler lands 72.75-pound blue catfish to set new state record on the Ohio River
+      https://www.foxnews.com/outkick-culture/west-virginia-angler-lands-72-75-pound-blue-catfish-set-new-state-record-ohio-river
 
-   7. Trump commutes sentence for former Philadelphia union official, attorney says
-      https://www.foxnews.com/politics/trump-commutes-sentence-former-philadelphia-union-official-attorney-says
+   9. Mamdani under fire after symbolic 9/11 pen goes to former al Qaeda defense lawyer
+      https://www.foxnews.com/politics/mamdani-fire-symbolic-911-pen-goes-former-al-qaeda-defense-lawyer
 
-   8. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
-      https://www.foxnews.com/politics/former-trump-cabinet-official-inappropriately-close-relationship-bodyguard-ig-finds
-
-   9. Tennessee Volunteers fans pay incredible tribute to Dolly Parton during season opener
-      https://www.foxnews.com/outkick-sports/tennessee-volunteers-fans-pay-incredible-tribute-dolly-parton-season-opener
-
-  10. Steelers' Aaron Rodgers hopes to be 'supporting my pregnant wife' by next year after final NFL season
-      https://www.foxnews.com/outkick-sports/steelers-aaron-rodgers-hopes-supporting-pregnant-wife-next-year-final-nfl-season
+  10. Ladies at the US Open were caught on camera taking notice of a shirtless Carlos Alcaraz
+      https://www.foxnews.com/outkick-sports/ladies-us-open-caught-camera-taking-notice-shirtless-carlos-alcaraz
 
 
 ============================================================
-  Generated at 06:13 PM PDT by GitHub Actions
+  Generated at 09:20 AM PDT by GitHub Actions
 ============================================================
