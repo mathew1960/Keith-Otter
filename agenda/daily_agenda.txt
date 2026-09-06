@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. House Dems plot Trump investigation blitz if they seize majority
+   1. After 'Lake America,' Trump suggests a new name for the state of New Mexico
+      https://www.foxnews.com/politics/lake-america-trump-suggests-new-name-state-new-mexico
+
+   2. Trump admin’s mail-in ballot fight lands back at Supreme Court
+      https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court
+
+   3. House Dems plot Trump investigation blitz if they seize majority
       https://www.foxnews.com/politics/house-dems-plot-trump-investigation-blitz-seize-majority
 
-   2. Kennedy Center ceiling partially collapses as Trump-led board pushes for 2-year closure
+   4. Kennedy Center ceiling partially collapses as Trump-led board pushes for 2-year closure
       https://www.foxnews.com/politics/kennedy-center-ceiling-partially-collapses-trump-led-board-pushes-2-year-closure
 
-   3. Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico
+   5. Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico
       https://www.foxnews.com/politics/trump-linked-maga-inc-pours-10m-ken-paxton-texas-senate-race-james-talarico
 
-   4. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
+   6. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
       https://www.foxnews.com/politics/trump-weighs-lindsay-clancy-murder-trial-dubbed-kangaroo-court-gop-leaders
 
-   5. Trump’s Pentagon shake-up revives a presidential power play with a long history
+   7. Trump’s Pentagon shake-up revives a presidential power play with a long history
       https://www.foxnews.com/politics/trumps-pentagon-shake-up-revives-presidential-power-play-long-history
 
-   6. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
+   8. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
       https://www.foxnews.com/politics/missouri-ag-files-petition-asking-supreme-court-revive-trump-backed-redistricting-map
 
-   7. Trump lawyers target what Letitia James won’t say about evidence in $450M case
-      https://www.foxnews.com/politics/trump-lawyers-zero-letitia-james-wont-say-evidence-450m-case
+   9. DAVID MARCUS: Congress set to protect AM radio and American discourse
+      https://www.foxnews.com/opinion/david-marcus-congress-set-protect-am-radio-american-discourse
 
-   8. West Virginia angler lands 72.75-pound blue catfish to set new state record on the Ohio River
-      https://www.foxnews.com/outkick-culture/west-virginia-angler-lands-72-75-pound-blue-catfish-set-new-state-record-ohio-river
-
-   9. Mamdani under fire after symbolic 9/11 pen goes to former al Qaeda defense lawyer
-      https://www.foxnews.com/politics/mamdani-fire-symbolic-911-pen-goes-former-al-qaeda-defense-lawyer
-
-  10. Ladies at the US Open were caught on camera taking notice of a shirtless Carlos Alcaraz
-      https://www.foxnews.com/outkick-sports/ladies-us-open-caught-camera-taking-notice-shirtless-carlos-alcaraz
+  10. WWE star Cody Rhodes, others hunt for John Cena in Clash of Clans, recalls why legend was booted from group
+      https://www.foxnews.com/outkick-sports/wwe-star-cody-rhodes-others-hunt-john-cena-clash-clans-recalls-why-legend-booted-group
 
 
 ============================================================
-  Generated at 09:20 AM PDT by GitHub Actions
+  Generated at 01:35 PM PDT by GitHub Actions
 ============================================================
