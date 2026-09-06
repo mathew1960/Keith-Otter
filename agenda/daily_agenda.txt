@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
+   1. Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico
+      https://www.foxnews.com/politics/trump-linked-maga-inc-pours-10m-ken-paxton-texas-senate-race-james-talarico
+
+   2. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
       https://www.foxnews.com/politics/trump-weighs-lindsay-clancy-murder-trial-dubbed-kangaroo-court-gop-leaders
 
-   2. Trump’s Pentagon shake-up revives a presidential power play with a long history
+   3. Trump’s Pentagon shake-up revives a presidential power play with a long history
       https://www.foxnews.com/politics/trumps-pentagon-shake-up-revives-presidential-power-play-long-history
 
-   3. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
+   4. Missouri AG files petition asking Supreme Court to revive Trump-backed redistricting map
       https://www.foxnews.com/politics/missouri-ag-files-petition-asking-supreme-court-revive-trump-backed-redistricting-map
 
-   4. Trump lawyers target what Letitia James won’t say about evidence in $450M case
+   5. Trump lawyers target what Letitia James won’t say about evidence in $450M case
       https://www.foxnews.com/politics/trump-lawyers-zero-letitia-james-wont-say-evidence-450m-case
 
-   5. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
+   6. Pelosi, Omar join Trump and Schiff as unlikely alliance pushes to onshore key industry
       https://www.foxnews.com/politics/pelosi-omar-join-trump-schiff-unlikely-alliance-pushes-onshore-key-industry
 
-   6. Trump commutes sentence for former Philadelphia union official, attorney says
+   7. Trump commutes sentence for former Philadelphia union official, attorney says
       https://www.foxnews.com/politics/trump-commutes-sentence-former-philadelphia-union-official-attorney-says
 
-   7. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
+   8. Former Trump Cabinet official had 'inappropriately close' relationship with bodyguard, IG finds
       https://www.foxnews.com/politics/former-trump-cabinet-official-inappropriately-close-relationship-bodyguard-ig-finds
 
-   8. Trump administration proposes stripping tax-exempt status from schools using race-based programs
-      https://www.foxnews.com/politics/trump-administration-proposes-stripping-tax-exempt-status-schools-using-race-based-programs
+   9. Tennessee Volunteers fans pay incredible tribute to Dolly Parton during season opener
+      https://www.foxnews.com/outkick-sports/tennessee-volunteers-fans-pay-incredible-tribute-dolly-parton-season-opener
 
-   9. Father of Patrick Mahomes asks court to attend son's games amid probation for driving while intoxicated
-      https://www.foxnews.com/outkick-sports/father-patrick-mahomes-asks-court-attend-son-games-probation-driving-intoxicated
-
-  10. Fighter jet crashes at air show, killing 2 pilots with thousands of spectators watching
-      https://www.foxnews.com/world/fighter-jet-crashes-air-show-killing-2-pilots-thousands-spectators-watching
+  10. Steelers' Aaron Rodgers hopes to be 'supporting my pregnant wife' by next year after final NFL season
+      https://www.foxnews.com/outkick-sports/steelers-aaron-rodgers-hopes-supporting-pregnant-wife-next-year-final-nfl-season
 
 
 ============================================================
-  Generated at 01:32 PM PDT by GitHub Actions
+  Generated at 06:13 PM PDT by GitHub Actions
 ============================================================
