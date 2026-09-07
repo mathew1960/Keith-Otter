@@ -1,9 +1,9 @@
 {
-  "temp": 81,
-  "high": 107,
+  "temp": 97,
+  "high": 101,
   "low": 81,
-  "conditions": "Clear",
-  "updated": "2026-09-07T09:36:28.875496+00:00",
+  "conditions": "Overcast",
+  "updated": "2026-09-07T18:19:37.626869+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -22,28 +22,28 @@
     },
     {
       "time": "3 AM",
-      "temp": 82,
+      "temp": 83,
       "conditions": "Clear"
     },
     {
       "time": "4 AM",
-      "temp": 82,
-      "conditions": "Overcast"
+      "temp": 84,
+      "conditions": "Clear"
     },
     {
       "time": "5 AM",
-      "temp": 82,
-      "conditions": "Overcast"
+      "temp": 84,
+      "conditions": "Clear"
     },
     {
       "time": "6 AM",
-      "temp": 82,
-      "conditions": "Overcast"
+      "temp": 85,
+      "conditions": "Mostly clear"
     },
     {
       "time": "7 AM",
-      "temp": 82,
-      "conditions": "Overcast"
+      "temp": 84,
+      "conditions": "Clear"
     },
     {
       "time": "8 AM",
@@ -52,26 +52,26 @@
     },
     {
       "time": "9 AM",
-      "temp": 89,
+      "temp": 90,
       "conditions": "Overcast"
     },
     {
       "time": "10 AM",
-      "temp": 94,
-      "conditions": "Clear"
+      "temp": 93,
+      "conditions": "Overcast"
     },
     {
       "time": "11 AM",
-      "temp": 97,
-      "conditions": "Clear"
+      "temp": 96,
+      "conditions": "Overcast"
     }
   ],
   "daily": [
     {
       "day": "Mon",
-      "high": 107,
+      "high": 101,
       "low": 81,
-      "conditions": "Overcast"
+      "conditions": "Unknown"
     },
     {
       "day": "Tue",
@@ -81,21 +81,21 @@
     },
     {
       "day": "Wed",
-      "high": 110,
-      "low": 93,
-      "conditions": "Unknown"
+      "high": 111,
+      "low": 89,
+      "conditions": "Clear"
     },
     {
       "day": "Thu",
-      "high": 111,
+      "high": 110,
       "low": 91,
       "conditions": "Light drizzle"
     },
     {
       "day": "Fri",
-      "high": 104,
-      "low": 86,
-      "conditions": "Light drizzle"
+      "high": 105,
+      "low": 90,
+      "conditions": "Partly cloudy"
     }
   ]
 }
