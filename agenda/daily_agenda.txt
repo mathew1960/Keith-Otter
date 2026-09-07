@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Sunday, September 06, 2026
+  DAILY BRIEFING — Monday, September 07, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -32,13 +32,13 @@
    8. Trump’s Pentagon shake-up revives a presidential power play with a long history
       https://www.foxnews.com/politics/trumps-pentagon-shake-up-revives-presidential-power-play-long-history
 
-   9. Rome ramps up security around Colosseum with new ‘red zone’ targeting criminals
-      https://www.foxnews.com/world/rome-ramps-security-colosseum-red-zone-targeting-criminals
+   9. It’s Labor Day, not Union Day. American workers deserve freedom of choice
+      https://www.foxnews.com/opinion/labor-day-not-union-day-american-workers-deserve-freedom-choice
 
-  10. MLB tells umpire Doug Eddings he made a mistake in demanding Cardinals pitcher straighten his hat
-      https://www.foxnews.com/outkick-sports/mlb-tells-umpire-doug-eddings-he-made-mistake-demanding-cardinals-pitcher-straighten-hat
+  10. America’s massive labor crisis started in the classroom, not the workplace
+      https://www.foxnews.com/opinion/americas-massive-labor-crisis-started-classroom-not-workplace
 
 
 ============================================================
-  Generated at 06:12 PM PDT by GitHub Actions
+  Generated at 02:36 AM PDT by GitHub Actions
 ============================================================
