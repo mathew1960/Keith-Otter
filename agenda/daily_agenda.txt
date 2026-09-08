@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Monday, September 07, 2026
+  DAILY BRIEFING — Tuesday, September 08, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump appears to debut darker hair, sparking online buzz
+   1. UK moves to sanction Israeli settlements as PM Burnham risks clash with Trump: report
+      https://www.foxnews.com/world/uk-moves-sanction-israeli-settlements-pm-burnham-risks-clash-trump-report
+
+   2. Trump appears to debut darker hair, sparking online buzz
       https://www.foxnews.com/politics/trump-appears-debut-darker-hair-sparking-online-buzz
 
-   2. After 'Lake America,' Trump suggests a new name for the state of New Mexico
+   3. After 'Lake America,' Trump suggests a new name for the state of New Mexico
       https://www.foxnews.com/politics/lake-america-trump-suggests-new-name-state-new-mexico
 
-   3. Trump admin’s mail-in ballot fight lands back at Supreme Court
+   4. Trump admin’s mail-in ballot fight lands back at Supreme Court
       https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court
 
-   4. House Dems plot Trump investigation blitz if they seize majority
+   5. House Dems plot Trump investigation blitz if they seize majority
       https://www.foxnews.com/politics/house-dems-plot-trump-investigation-blitz-seize-majority
 
-   5. Kennedy Center ceiling partially collapses as Trump-led board pushes for 2-year closure
+   6. Kennedy Center ceiling partially collapses as Trump-led board pushes for 2-year closure
       https://www.foxnews.com/politics/kennedy-center-ceiling-partially-collapses-trump-led-board-pushes-2-year-closure
 
-   6. Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico
+   7. Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico
       https://www.foxnews.com/politics/trump-linked-maga-inc-pours-10m-ken-paxton-texas-senate-race-james-talarico
 
-   7. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
+   8. Trump weighs in on Lindsay Clancy murder trial dubbed 'kangaroo court' by GOP leaders
       https://www.foxnews.com/politics/trump-weighs-lindsay-clancy-murder-trial-dubbed-kangaroo-court-gop-leaders
 
-   8. Aaron Judge returns to Yankees after 83 games missed with rib injury ahead of postseason push
-      https://www.foxnews.com/outkick-sports/aaron-judge-returns-yankees-83-games-missed-rib-injury-postseason-push
+   9. Texas education board approves controversial curriculum changes tying 'radical Islam' to 9/11 attacks
+      https://www.foxnews.com/us/texas-education-board-approves-controversial-curriculum-changes-tying-radical-islam-9-11-attacks
 
-   9. Ex-MLB southpaw Thomas Pannone dominates for Nashville Sounds with 94-pitch Triple-A perfect game
-      https://www.foxnews.com/outkick-sports/ex-mlb-southpaw-thomas-pannone-dominates-nashville-sounds-94-pitch-triple-a-perfect-game
-
-  10. Giants shockingly release longest-tenured player Darius Slayton as John Harbaugh era begins
-      https://www.foxnews.com/outkick-sports/giants-shockingly-release-longest-tenured-player-darius-slayton-john-harbaugh-era-begins
+  10. Russian strikes continue following visit by Witkoff and Kushner to Kyiv
+      https://www.foxnews.com/world/russian-strikes-continue-following-visit-witkoff-kushner-kyiv
 
 
 ============================================================
-  Generated at 06:18 PM PDT by GitHub Actions
+  Generated at 02:00 AM PDT by GitHub Actions
 ============================================================
