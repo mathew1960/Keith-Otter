@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump-backed candidate wins high-stakes GOP primary for New Hampshire battleground district
-      https://www.foxnews.com/politics/trump-backed-candidate-wins-high-stakes-gop-primary-new-hampshire-battleground-district
+   1. Rory McIlroy not bothered by Trump's expected appearance at Irish Open: 'Who are we to say no?'
+      https://www.foxnews.com/outkick-sports/rory-mcilroy-not-bothered-trump-expected-appearance-irish-open-who-are-we-say-no
 
-   2. Incumbent GOP governor rolls to primary victory after keeping Trump at a distance
-      https://www.foxnews.com/politics/incumbent-gop-governor-rolls-primary-victory-keeping-trump-distance
+   2. Fmr Biden ambassador blames Trump for Canada playing 'footsie' with China
+      https://www.foxnews.com/politics/fmr-biden-ambassador-blames-trump-canada-playing-footsie-china
 
-   3. Can the 'best showman in politics' deliver again? GOP bets on Trump at historic midterm convention
+   3. Trump’s pressure campaign has Iran reeling. America can’t hesitate now
+      https://www.foxnews.com/opinion/trumps-pressure-campaign-iran-reeling-america-cant-hesitate-now
+
+   4. Obama judge's peculiar Trump rebuke ignites fury over 'unprofessional' language: 'Embarrassment'
+      https://www.foxnews.com/politics/obama-judges-peculiar-trump-rebuke-ignites-fury-over-unprofessional-language-embarrassment
+
+   5. Trump hails 'really big night' for populists in German election after historic victory
+      https://www.foxnews.com/politics/trump-hails-really-big-night-populists-german-election-historic-victory
+
+   6. Supreme Court chief justice praises outgoing Smithsonian leader who was under pressure from Trump admin
+      https://www.foxnews.com/politics/supreme-court-chief-justice-praises-outgoing-smithsonian-leader-pressure-trump-admin
+
+   7. Can the 'best showman in politics' deliver again? GOP bets on Trump at historic midterm convention
       https://www.foxnews.com/politics/best-showman-politics-deliver-gop-bets-trump-historic-midterm-convention
 
-   4. Trump's unusual role at midterm convention revealed as schedule goes public
-      https://www.foxnews.com/politics/trumps-unusual-role-midterm-convention
+   8. Trump-backed candidate wins high-stakes GOP primary for New Hampshire battleground district
+      https://www.foxnews.com/politics/trump-backed-candidate-wins-high-stakes-gop-primary-new-hampshire-battleground-district
 
-   5. Trump posthumously awards Medal of Freedom to 9/11's 'man in red bandana'
-      https://www.foxnews.com/politics/trump-posthumously-awards-medal-freedom-9-11s-man-red-bandana
+   9. Incumbent GOP governor rolls to primary victory after keeping Trump at a distance
+      https://www.foxnews.com/politics/incumbent-gop-governor-rolls-primary-victory-keeping-trump-distance
 
-   6. Appeals court upholds order blocking IRS from sharing taxpayer data with ICE
-      https://www.foxnews.com/politics/appeals-court-upholds-order-blocking-irs-sharing-taxpayer-data-ice
-
-   7. Senator's daughter wins Democratic nod in closely watched race to replace outgoing Dem incumbent
-      https://www.foxnews.com/politics/senators-daughter-wins-democratic-nod-closely-watched-race-replace-outgoing-dem
-
-   8. State of play: Retiring Dem senator’s daughter holds slight lead in closely watched race
-      https://www.foxnews.com/politics/retiring-dem-senators-daughter-holds-slight-lead-closely-watched-race
-
-   9. Data shows Amazon jet’s key braking systems did not deploy during deadly Miami crash: NTSB
-      https://www.foxnews.com/us/data-shows-amazon-jets-key-braking-systems-did-not-deploy-deadly-miami-crash-ntsb
-
-  10. LSU leaves former pro-athletes off final roster, one night before SEC takes Lane Kiffin and Tigers to court
-      https://www.foxnews.com/outkick-sports/lsu-leaves-former-pro-athletes-off-final-roster-one-night-before-sec-takes-lane-kiffin-tigers-court
+  10. Fiery San Diego plane crash kills 2
+      https://www.foxnews.com/us/fiery-san-diego-plane-crash-kills-2
 
 
 ============================================================
-  Generated at 02:06 AM PDT by GitHub Actions
+  Generated at 10:11 AM PDT by GitHub Actions
 ============================================================
