@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Tuesday, September 08, 2026
+  DAILY BRIEFING — Wednesday, September 09, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,14 +8,14 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Incumbent GOP governor rolls to primary victory after keeping Trump at a distance
+   1. Trump-backed candidate wins high-stakes GOP primary for New Hampshire battleground district
+      https://www.foxnews.com/politics/trump-backed-candidate-wins-high-stakes-gop-primary-new-hampshire-battleground-district
+
+   2. Incumbent GOP governor rolls to primary victory after keeping Trump at a distance
       https://www.foxnews.com/politics/incumbent-gop-governor-rolls-primary-victory-keeping-trump-distance
 
-   2. South Park creators mock Trump's Lake Ontario rename and company compliance in mock statement
-      https://www.foxnews.com/media/south-park-creators-mock-trump-lake-ontario-rename-company-compliance-mock-statement
-
-   3. Trump-backed candidate wins high-stakes GOP primary for New Hampshire battleground district
-      https://www.foxnews.com/politics/trump-backed-candidate-wins-high-stakes-gop-primary-new-hampshire-battleground-district
+   3. Can the 'best showman in politics' deliver again? GOP bets on Trump at historic midterm convention
+      https://www.foxnews.com/politics/best-showman-politics-deliver-gop-bets-trump-historic-midterm-convention
 
    4. Trump's unusual role at midterm convention revealed as schedule goes public
       https://www.foxnews.com/politics/trumps-unusual-role-midterm-convention
@@ -23,22 +23,22 @@
    5. Trump posthumously awards Medal of Freedom to 9/11's 'man in red bandana'
       https://www.foxnews.com/politics/trump-posthumously-awards-medal-freedom-9-11s-man-red-bandana
 
-   6. Massive alligator attacks young swimmer in nature preserve despite posted warning
-      https://www.foxnews.com/travel/massive-alligator-attacks-young-swimmer-nature-preserve-despite-posted-warning
+   6. Appeals court upholds order blocking IRS from sharing taxpayer data with ICE
+      https://www.foxnews.com/politics/appeals-court-upholds-order-blocking-irs-sharing-taxpayer-data-ice
 
-   7. Wife of top ex-Biden advisor easily advances to House showdown in November
-      https://www.foxnews.com/politics/wife-top-ex-biden-advisor-easily-advances-house-showdown-november
+   7. Senator's daughter wins Democratic nod in closely watched race to replace outgoing Dem incumbent
+      https://www.foxnews.com/politics/senators-daughter-wins-democratic-nod-closely-watched-race-replace-outgoing-dem
 
-   8. Ex-NFL star believes Mike McDaniel's 'best decision of his career' was joining Chargers with Justin Herbert
-      https://www.foxnews.com/outkick-sports/ex-nfl-star-believes-mike-mcdaniels-best-decision-career-joining-chargers-justin-herbert
+   8. State of play: Retiring Dem senator’s daughter holds slight lead in closely watched race
+      https://www.foxnews.com/politics/retiring-dem-senators-daughter-holds-slight-lead-closely-watched-race
 
-   9. Cold case takes grim turn after remains identified as runaway teen; homicide investigation underway
-      https://www.foxnews.com/us/cold-case-takes-grim-turn-after-remains-identified-runaway-teen-homicide-investigation-underway
+   9. Data shows Amazon jet’s key braking systems did not deploy during deadly Miami crash: NTSB
+      https://www.foxnews.com/us/data-shows-amazon-jets-key-braking-systems-did-not-deploy-deadly-miami-crash-ntsb
 
-  10. Establishment Dem defeats socialist challenger in crucial battleground Senate primary
-      https://www.foxnews.com/politics/establishment-dem-defeats-socialist-challenger-crucial-battleground-senate-primary
+  10. LSU leaves former pro-athletes off final roster, one night before SEC takes Lane Kiffin and Tigers to court
+      https://www.foxnews.com/outkick-sports/lsu-leaves-former-pro-athletes-off-final-roster-one-night-before-sec-takes-lane-kiffin-tigers-court
 
 
 ============================================================
-  Generated at 06:22 PM PDT by GitHub Actions
+  Generated at 02:06 AM PDT by GitHub Actions
 ============================================================
