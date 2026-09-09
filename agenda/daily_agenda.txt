@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Former Obama aides joke about Trump being stopped by heart disease or old age
-      https://www.foxnews.com/media/former-obama-aides-joke-about-trump-being-stopped-heart-disease-old-age
+   1. Incumbent GOP governor rolls to primary victory after keeping Trump at a distance
+      https://www.foxnews.com/politics/incumbent-gop-governor-rolls-primary-victory-keeping-trump-distance
 
-   2. 'The View' co-host demands 25th Amendment be used against Trump, suggests Cabinet could do it after midterms
-      https://www.foxnews.com/media/the-view-co-host-demands-25th-amendment-used-against-trump-suggests-cabinet-could-do-it-after-midterms
+   2. South Park creators mock Trump's Lake Ontario rename and company compliance in mock statement
+      https://www.foxnews.com/media/south-park-creators-mock-trump-lake-ontario-rename-company-compliance-mock-statement
 
-   3. Trump's unusual role at midterm convention revealed as schedule goes public
+   3. Trump-backed candidate wins high-stakes GOP primary for New Hampshire battleground district
+      https://www.foxnews.com/politics/trump-backed-candidate-wins-high-stakes-gop-primary-new-hampshire-battleground-district
+
+   4. Trump's unusual role at midterm convention revealed as schedule goes public
       https://www.foxnews.com/politics/trumps-unusual-role-midterm-convention
 
-   4. Trump posthumously awards Medal of Freedom to 9/11's 'man in red bandana'
+   5. Trump posthumously awards Medal of Freedom to 9/11's 'man in red bandana'
       https://www.foxnews.com/politics/trump-posthumously-awards-medal-freedom-9-11s-man-red-bandana
 
-   5. Trump appears to debut darker hair, sparking online buzz
-      https://www.foxnews.com/politics/trump-appears-debut-darker-hair-sparking-online-buzz
+   6. Massive alligator attacks young swimmer in nature preserve despite posted warning
+      https://www.foxnews.com/travel/massive-alligator-attacks-young-swimmer-nature-preserve-despite-posted-warning
 
-   6. After 'Lake America,' Trump suggests a new name for the state of New Mexico
-      https://www.foxnews.com/politics/lake-america-trump-suggests-new-name-state-new-mexico
+   7. Wife of top ex-Biden advisor easily advances to House showdown in November
+      https://www.foxnews.com/politics/wife-top-ex-biden-advisor-easily-advances-house-showdown-november
 
-   7. Lindsay Clancy juror admitted 'reasonable doubt' but still refused insanity verdict, foreperson says
-      https://www.foxnews.com/us/lindsay-clancy-juror-admitted-reasonable-doubt-still-refused-insanity-verdict-foreperson-says
+   8. Ex-NFL star believes Mike McDaniel's 'best decision of his career' was joining Chargers with Justin Herbert
+      https://www.foxnews.com/outkick-sports/ex-nfl-star-believes-mike-mcdaniels-best-decision-career-joining-chargers-justin-herbert
 
-   8. Aaron Rodgers clears air on 'racy' Drew Allar DM rumors on Cam Heyward podcast: 'It's not true'
-      https://www.foxnews.com/outkick-sports/aaron-rodgers-clears-air-racy-drew-allar-dm-rumors-cam-heyward-podcast-not-true
+   9. Cold case takes grim turn after remains identified as runaway teen; homicide investigation underway
+      https://www.foxnews.com/us/cold-case-takes-grim-turn-after-remains-identified-runaway-teen-homicide-investigation-underway
 
-   9. 7 compression socks to try if you sit or stand all day, according to the experts
-      https://www.foxnews.com/deals/compression-socks
-
-  10. Mamdani drops massive 9/11 records trove as old claims about Ground Zero come under fire
-      https://www.foxnews.com/politics/mamdani-drops-massive-9-11-records-trove-old-claims-about-ground-zero-come-under-fire
+  10. Establishment Dem defeats socialist challenger in crucial battleground Senate primary
+      https://www.foxnews.com/politics/establishment-dem-defeats-socialist-challenger-crucial-battleground-senate-primary
 
 
 ============================================================
-  Generated at 02:17 PM PDT by GitHub Actions
+  Generated at 06:22 PM PDT by GitHub Actions
 ============================================================
