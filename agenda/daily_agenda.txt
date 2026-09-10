@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump makes stunning first-of-its-kind cash promise in bid to rally GOP voters at Dallas midterm convention
+   1. Supreme Court again blocks Missouri from using Trump-backed congressional maps
+      https://www.foxnews.com/politics/supreme-court-again-blocks-missouri-from-using-trump-backed-congressional-maps
+
+   2. Trump dangles $5,000 checks as debt surges — but only if GOP can clear major midterm hurdle
+      https://www.foxnews.com/politics/trump-dangles-5000-checks-us-debt-surges-gop-clear-major-midterm-hurdle
+
+   3. Presidential flip? GOP insider predicts Trump change of mind on key AI policy ahead of midterms
+      https://www.foxnews.com/politics/presidential-flip-gop-insider-predicts-trump-change-mind-key-ai-policy-ahead-midterms
+
+   4. Trump puts himself back on the ballot: 5 takeaways from GOP midterm convention night one
+      https://www.foxnews.com/politics/trump-puts-himself-back-ballot-5-takeaways-from-gop-midterm-convention-night-one
+
+   5. Trump makes stunning first-of-its-kind cash promise in bid to rally GOP voters at Dallas midterm convention
       https://www.foxnews.com/politics/trump-makes-stunning-first-of-its-kind-cash-promise-bid-rally-gop-voters-dallas-midterm-convention
 
-   2. Potential Dem presidential contender crashes GOP convention, tries to snatch spotlight from Trump
-      https://www.foxnews.com/politics/potential-dem-presidential-contender-crashes-trumpalooza-tries-snatch-spotlight-trump
+   6. MLB great Roger Clemens recalls George W Bush's iconic 9/11 World Series first pitch: 'A perfect strike'
+      https://www.foxnews.com/outkick-sports/mlb-great-roger-clemens-recalls-george-w-bush-iconic-911-world-series-first-pitch-perfect-strike
 
-   3. Beauty school moms caught in accreditation crossfire as Trump administration weighs consequential decision
-      https://www.foxnews.com/politics/beauty-school-moms-caught-accreditation-crossfire-trump-admin-weighs-consequential-decision
+   7. Texas Rangers vs Seattle Mariners betting preview as Wild Card race heats up in final weeks
+      https://www.foxnews.com/outkick-sports/texas-rangers-vs-seattle-mariners-betting-preview-wild-card-race-heats-final-weeks
 
-   4. Radical leftist podcaster viciously attacks Melania Trump in graphic curse-laden rant
-      https://www.foxnews.com/politics/radical-leftist-podcaster-viciously-attacks-melania-trump-graphic-curse-laden-rant
+   8. Fire aboard cargo ship undergoing repairs at busy Chinese port leaves 25 people dead, five more injured
+      https://www.foxnews.com/world/fire-aboard-cargo-ship-undergoing-repairs-busy-chinese-port-leaves-25-people-dead-five-more-injured
 
-   5. Emergency slide sparks questions on Trump’s new Air Force One before president reveals why
-      https://www.foxnews.com/politics/emergency-slide-sparks-questions-trumps-new-air-force-one-before-president-reveals-why
+   9. Republican sounds alarm on rising Dem star: 'This guy’s going to be a problem'
+      https://www.foxnews.com/politics/republican-sounds-alarm-rising-dem-star-this-guys-going-problem
 
-   6. Fmr Biden ambassador blames Trump for Canada playing 'footsie' with China
-      https://www.foxnews.com/politics/fmr-biden-ambassador-blames-trump-canada-playing-footsie-china
-
-   7. Teen boater found clinging to capsized vessel after 3 go missing; 2 bodies recovered
-      https://www.foxnews.com/us/teen-boater-found-clinging-capsized-vessel-after-3-go-missing-2-bodies-recovered
-
-   8. Ex-NFL cheerleader battles former gubernatorial aide in tight GOP primary race
-      https://www.foxnews.com/politics/ex-nfl-cheerleader-battles-former-governor-aide-too-close-to-call-gop-primary
-
-   9. Drake Maye's terrible decision gifts Seahawks opening night win as Patriots left stunned to start NFL season
-      https://www.foxnews.com/outkick-sports/drake-maye-terrible-decision-gifts-seahawks-opening-night-win-patriots-left-stunned-start-nfl-season
-
-  10. Patriots' AJ Brown exits NFL season opener against Seahawks, ruled out with ankle injury
-      https://www.foxnews.com/outkick-sports/patriots-aj-brown-exits-nfl-season-opener-against-seahawks-ruled-out-ankle-injury
+  10. How a podcast community helped restore the controversial 'Gator Bait' chant for Florida football team
+      https://www.foxnews.com/outkick-sports/podcast-community-helped-restore-controversial-gator-bait-chant-florida-football-team
 
 
 ============================================================
-  Generated at 02:05 AM PDT by GitHub Actions
+  Generated at 10:02 AM PDT by GitHub Actions
 ============================================================
