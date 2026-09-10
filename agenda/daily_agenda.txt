@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Supreme Court again blocks Missouri from using Trump-backed congressional maps
+   1. Trump faces reckoning as GOP figures label $5K promise a 'socialist vote-buying scheme'
+      https://www.foxnews.com/politics/trump-faces-reckoning-gop-figures-label-5k-promise-socialist-vote-buying-scheme
+
+   2. Trump's $5,000 dividend checks would come with a major catch under GOP senator's plan
+      https://www.foxnews.com/politics/trumps-5000-dividend-checks-would-come-major-catch-under-gop-senators-plan
+
+   3. Hillary Clinton: 'I hate' Trump and Netanyahu's governments but love America and Israel
+      https://www.foxnews.com/media/hillary-clinton-hate-trump-netanyahu-governments-love-america-israel
+
+   4. Donald Trump had no interest in watching the horrible NFL opener, ESPN's Taylor McGregor is a star & Danica!
+      https://www.foxnews.com/outkick-sports/donald-trump-no-interest-watching-horrible-nfl-opener-espn-taylor-mcgregor-star-danica
+
+   5. Trump defends $5,000 dividend proposal, praises 'beautiful' tariffs on 'Ingraham Angle'
+      https://www.foxnews.com/media/trump-defends-waiting-5000-checks-praises-beautiful-tariffs-ingraham-angle
+
+   6. Trump administration proposes ending 60-day grace period after job loss for H-1B, other visa holders
+      https://www.foxnews.com/politics/trump-admin-proposes-ending-60-day-grace-period-job-loss-h-1b-visa-holders
+
+   7. Supreme Court again blocks Missouri from using Trump-backed congressional maps
       https://www.foxnews.com/politics/supreme-court-again-blocks-missouri-from-using-trump-backed-congressional-maps
 
-   2. Trump dangles $5,000 checks as debt surges — but only if GOP can clear major midterm hurdle
+   8. Trump dangles $5,000 checks as debt surges — but only if GOP can clear major midterm hurdle
       https://www.foxnews.com/politics/trump-dangles-5000-checks-us-debt-surges-gop-clear-major-midterm-hurdle
 
-   3. Presidential flip? GOP insider predicts Trump change of mind on key AI policy ahead of midterms
+   9. Presidential flip? GOP insider predicts Trump change of mind on key AI policy ahead of midterms
       https://www.foxnews.com/politics/presidential-flip-gop-insider-predicts-trump-change-mind-key-ai-policy-ahead-midterms
 
-   4. Trump puts himself back on the ballot: 5 takeaways from GOP midterm convention night one
+  10. Trump puts himself back on the ballot: 5 takeaways from GOP midterm convention night one
       https://www.foxnews.com/politics/trump-puts-himself-back-ballot-5-takeaways-from-gop-midterm-convention-night-one
-
-   5. Trump makes stunning first-of-its-kind cash promise in bid to rally GOP voters at Dallas midterm convention
-      https://www.foxnews.com/politics/trump-makes-stunning-first-of-its-kind-cash-promise-bid-rally-gop-voters-dallas-midterm-convention
-
-   6. MLB great Roger Clemens recalls George W Bush's iconic 9/11 World Series first pitch: 'A perfect strike'
-      https://www.foxnews.com/outkick-sports/mlb-great-roger-clemens-recalls-george-w-bush-iconic-911-world-series-first-pitch-perfect-strike
-
-   7. Texas Rangers vs Seattle Mariners betting preview as Wild Card race heats up in final weeks
-      https://www.foxnews.com/outkick-sports/texas-rangers-vs-seattle-mariners-betting-preview-wild-card-race-heats-final-weeks
-
-   8. Fire aboard cargo ship undergoing repairs at busy Chinese port leaves 25 people dead, five more injured
-      https://www.foxnews.com/world/fire-aboard-cargo-ship-undergoing-repairs-busy-chinese-port-leaves-25-people-dead-five-more-injured
-
-   9. Republican sounds alarm on rising Dem star: 'This guy’s going to be a problem'
-      https://www.foxnews.com/politics/republican-sounds-alarm-rising-dem-star-this-guys-going-problem
-
-  10. How a podcast community helped restore the controversial 'Gator Bait' chant for Florida football team
-      https://www.foxnews.com/outkick-sports/podcast-community-helped-restore-controversial-gator-bait-chant-florida-football-team
 
 
 ============================================================
-  Generated at 10:02 AM PDT by GitHub Actions
+  Generated at 02:01 PM PDT by GitHub Actions
 ============================================================
