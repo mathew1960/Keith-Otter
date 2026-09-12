@@ -1,58 +1,58 @@
 {
-  "temp": 105,
-  "high": 108,
-  "low": 87,
+  "temp": 88,
+  "high": 106,
+  "low": 84,
   "conditions": "Clear",
-  "updated": "2026-09-12T01:25:49.599373+00:00",
+  "updated": "2026-09-12T08:46:30.780879+00:00",
   "hourly": [
     {
       "time": "12 AM",
-      "temp": 95,
+      "temp": 98,
       "conditions": "Clear"
     },
     {
       "time": "1 AM",
-      "temp": 95,
+      "temp": 90,
       "conditions": "Clear"
     },
     {
       "time": "2 AM",
-      "temp": 94,
+      "temp": 88,
       "conditions": "Clear"
     },
     {
       "time": "3 AM",
-      "temp": 93,
+      "temp": 87,
       "conditions": "Clear"
     },
     {
       "time": "4 AM",
-      "temp": 91,
+      "temp": 87,
       "conditions": "Clear"
     },
     {
       "time": "5 AM",
-      "temp": 92,
-      "conditions": "Partly cloudy"
+      "temp": 86,
+      "conditions": "Clear"
     },
     {
       "time": "6 AM",
-      "temp": 87,
-      "conditions": "Mostly clear"
+      "temp": 84,
+      "conditions": "Clear"
     },
     {
       "time": "7 AM",
-      "temp": 87,
+      "temp": 84,
       "conditions": "Clear"
     },
     {
       "time": "8 AM",
-      "temp": 91,
+      "temp": 89,
       "conditions": "Clear"
     },
     {
       "time": "9 AM",
-      "temp": 94,
+      "temp": 92,
       "conditions": "Clear"
     },
     {
@@ -62,28 +62,22 @@
     },
     {
       "time": "11 AM",
-      "temp": 98,
+      "temp": 100,
       "conditions": "Clear"
     }
   ],
   "daily": [
     {
-      "day": "Fri",
-      "high": 108,
-      "low": 87,
-      "conditions": "Partly cloudy"
-    },
-    {
       "day": "Sat",
       "high": 106,
-      "low": 82,
-      "conditions": "Overcast"
+      "low": 84,
+      "conditions": "Clear"
     },
     {
       "day": "Sun",
-      "high": 103,
-      "low": 79,
-      "conditions": "Overcast"
+      "high": 106,
+      "low": 81,
+      "conditions": "Clear"
     },
     {
       "day": "Mon",
@@ -95,6 +89,12 @@
       "day": "Tue",
       "high": 100,
       "low": 80,
+      "conditions": "Clear"
+    },
+    {
+      "day": "Wed",
+      "high": 101,
+      "low": 79,
       "conditions": "Clear"
     }
   ]
