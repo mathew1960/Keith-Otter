@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump says he would 'love' to see Ireland unified as one nation
+   1. Art Garfunkel joins growing list of celebrities considering a move abroad over Trump presidency
+      https://www.foxnews.com/media/art-garfunkel-joins-growing-list-celebrities-considering-move-abroad-over-trump-presidency
+
+   2. Trump says he would 'love' to see Ireland unified as one nation
       https://www.foxnews.com/politics/trump-says-he-would-love-see-ireland-unified-one-nation
 
-   2. Pennsylvania lawmaker suggests Trump should rename Lake Erie to 'Lake Pennsylvania'
+   3. Pennsylvania lawmaker suggests Trump should rename Lake Erie to 'Lake Pennsylvania'
       https://www.foxnews.com/politics/pennsylvania-lawmaker-suggests-trump-should-rename-lake-erie-lake-pennsylvania
 
-   3. Inside Trump’s intimate meeting with nation’s bravest soldiers during whirlwind Texas trip
+   4. Inside Trump’s intimate meeting with nation’s bravest soldiers during whirlwind Texas trip
       https://www.foxnews.com/politics/inside-trumps-intimate-meeting-nations-bravest-soldiers-whirlwind-texas-trip
 
-   4. At Ground Zero, 9/11 families turn to Trump as Obama’s old decision resurfaces
+   5. At Ground Zero, 9/11 families turn to Trump as Obama’s old decision resurfaces
       https://www.foxnews.com/politics/ground-zero-9-11-families-turn-trump-obamas-old-decision-resurfaces
 
-   5. 9/11 victim’s daughter reveals Trump’s response to families’ urgent plea: ‘It felt personal’
+   6. 9/11 victim’s daughter reveals Trump’s response to families’ urgent plea: ‘It felt personal’
       https://www.foxnews.com/politics/feels-like-yesterday-9-11-victims-daughter-says-families-fighting-justice-25-years-later
 
-   6. ‘Trump-level’ smackdown earns Vance roaring praise as 2028 buzz builds at GOP convention
+   7. ‘Trump-level’ smackdown earns Vance roaring praise as 2028 buzz builds at GOP convention
       https://www.foxnews.com/politics/trump-level-smackdown-earns-vance-roaring-praise-2028-buzz-builds-gop-convention
 
-   7. Trump admin’s fraud crackdown targets foreigners accused of infiltrating US federal programs
+   8. Trump admin’s fraud crackdown targets foreigners accused of infiltrating US federal programs
       https://www.foxnews.com/politics/trump-admins-fraud-crackdown-targets-foreigners-accused-infiltrating-u-s-federal-programs
 
-   8. Sami Zayn captures Undisputed WWE Championship in chaotic 'Friday Night SmackDown' finale vs CM Punk
-      https://www.foxnews.com/outkick-sports/sami-zayn-captures-undisputed-wwe-championship-chaotic-friday-night-smackdown-finale-vs-cm-punk
+   9. World-record bluefin tuna caught off the coast of San Diego on rod and reel by sport fisherman
+      https://www.foxnews.com/outkick-culture/world-record-bluefin-tuna-caught-coast-san-diego-rod-reel-sport-fisherman
 
-   9. Mackenzie Phillips shocks with 15-year celibacy confession as Sharon Stone, Teri Hatcher rethink romance
-      https://www.foxnews.com/entertainment/mackenzie-phillips-shocks-15-year-celibacy-confession-sharon-stone-teri-hatcher-rethink-romance
-
-  10. Iowa supervisor slams ban on guaranteed income programs as state ‘waging ideological wars’
-      https://www.foxnews.com/media/iowa-supervisor-slams-ban-guaranteed-income-programs-state-waging-ideological-wars
+  10. Star from 'The Breakfast Club' looks unrecognizable with long beard and hair in rare public sighting
+      https://www.foxnews.com/entertainment/star-from-breakfast-club-looks-unrecognizable-long-beard-hair-rare-public-sighting
 
 
 ============================================================
-  Generated at 09:23 AM PDT by GitHub Actions
+  Generated at 01:44 PM PDT by GitHub Actions
 ============================================================
