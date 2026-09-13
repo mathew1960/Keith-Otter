@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, September 12, 2026
+  DAILY BRIEFING — Sunday, September 13, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Art Garfunkel joins growing list of celebrities considering a move abroad over Trump presidency
-      https://www.foxnews.com/media/art-garfunkel-joins-growing-list-celebrities-considering-move-abroad-over-trump-presidency
+   1. Trump gives Smithsonian days to replace 'strange modernist sculpture' with Founding Father
+      https://www.foxnews.com/politics/trump-gives-smithsonian-days-replace-strange-modernist-sculpture-founding-father
 
-   2. Trump says he would 'love' to see Ireland unified as one nation
+   2. Vulnerable House Republicans embrace Trump as GOP bets on defying midterm history
+      https://www.foxnews.com/politics/vulnerable-house-republicans-embrace-trump-gop-bets-defying-midterm-history
+
+   3. GOP rising star reveals how Republicans can lock down minority voters without Trump on ballot
+      https://www.foxnews.com/politics/gop-rising-star-reveals-how-republicans-lock-down-minority-voters-without-trump-ballot
+
+   4. Trump says he would 'love' to see Ireland unified as one nation
       https://www.foxnews.com/politics/trump-says-he-would-love-see-ireland-unified-one-nation
 
-   3. Pennsylvania lawmaker suggests Trump should rename Lake Erie to 'Lake Pennsylvania'
+   5. Pennsylvania lawmaker suggests Trump should rename Lake Erie to 'Lake Pennsylvania'
       https://www.foxnews.com/politics/pennsylvania-lawmaker-suggests-trump-should-rename-lake-erie-lake-pennsylvania
 
-   4. Inside Trump’s intimate meeting with nation’s bravest soldiers during whirlwind Texas trip
+   6. Inside Trump’s intimate meeting with nation’s bravest soldiers during whirlwind Texas trip
       https://www.foxnews.com/politics/inside-trumps-intimate-meeting-nations-bravest-soldiers-whirlwind-texas-trip
 
-   5. At Ground Zero, 9/11 families turn to Trump as Obama’s old decision resurfaces
+   7. At Ground Zero, 9/11 families turn to Trump as Obama’s old decision resurfaces
       https://www.foxnews.com/politics/ground-zero-9-11-families-turn-trump-obamas-old-decision-resurfaces
 
-   6. 9/11 victim’s daughter reveals Trump’s response to families’ urgent plea: ‘It felt personal’
-      https://www.foxnews.com/politics/feels-like-yesterday-9-11-victims-daughter-says-families-fighting-justice-25-years-later
+   8. Cruise passengers erupt over 'rude' luggage habit that sharply divides travelers
+      https://www.foxnews.com/travel/cruise-passengers-erupt-rude-luggage-habit-sharply-divides-travelers
 
-   7. ‘Trump-level’ smackdown earns Vance roaring praise as 2028 buzz builds at GOP convention
-      https://www.foxnews.com/politics/trump-level-smackdown-earns-vance-roaring-praise-2028-buzz-builds-gop-convention
+   9. Election chaos in this red state just got even stranger for Republicans after Supreme Court ruling
+      https://www.foxnews.com/politics/election-chaos-red-state-stranger-republicans-supreme-court-ruling
 
-   8. Uninvited woman enters Kamala Harris' Malibu property prompting sheriff response: reports
-      https://www.foxnews.com/politics/uninvited-woman-enters-kamala-harris-malibu-property-prompting-sheriff-response
-
-   9. 'Reacher' star Alan Ritchson and wife Catherine splitting up after 2 decades of marriage
-      https://www.foxnews.com/entertainment/reacher-star-alan-ritchson-wife-catherine-splitting-2-decades-marriage
-
-  10. Son of notorious Somali dictator reportedly living in Ohio decades after brutal regime's collapse
-      https://www.foxnews.com/us/son-notorious-somali-dictator-reportedly-living-ohio-decades-after-brutal-regimes-collapse
+  10. FIBA Secretary General Andreas Zagklis speaks out on Caitlin Clark's impact on growth of World Cup
+      https://www.foxnews.com/outkick-sports/fiba-secretary-general-andreas-zagklis-speaks-caitlin-clark-impact-growth-world-cup
 
 
 ============================================================
-  Generated at 06:18 PM PDT by GitHub Actions
+  Generated at 09:59 AM PDT by GitHub Actions
 ============================================================
