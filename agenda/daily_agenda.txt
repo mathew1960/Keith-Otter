@@ -8,23 +8,23 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Far-left attack backfires spectacularly as radical online personality whines after attacking female Trump aide
+   1. Democrat Al Green to force House-wide vote on impeaching Trump
+      https://www.foxnews.com/politics/democrat-al-green-force-house-wide-vote-impeaching-trump
+
+   2. Far-left attack backfires spectacularly as radical online personality whines after attacking female Trump aide
       https://www.foxnews.com/politics/far-left-attack-backfires-spectacularly-radical-online-personality-whines-attacking-female-trump-aide
 
-   2. Inside House Republicans' plan to end run Dem opposition and pass Trump-backed voter ID
+   3. Inside House Republicans' plan to end run Dem opposition and pass Trump-backed voter ID
       https://www.foxnews.com/politics/inside-house-republicans-plan-end-run-dem-opposition-pass-trump-backed-voter-id
 
-   3. Former CIA Director Brennan subpoenaed to testify in federal Trump conspiracy case
+   4. Former CIA Director Brennan subpoenaed to testify in federal Trump conspiracy case
       https://www.foxnews.com/politics/former-cia-director-brennan-subpoenaed-testify-federal-trump-conspiracy-case
 
-   4. Trump unloads on tech titans pushing for slowdown on emerging industry: ‘WHOEVER WINS AI, WINS!’
+   5. Trump unloads on tech titans pushing for slowdown on emerging industry: ‘WHOEVER WINS AI, WINS!’
       https://www.foxnews.com/politics/trump-unloads-tech-titans-pushing-slowdown-emerging-industry-whoever-wins-ai-wins
 
-   5. Mamdani, Letitia James sue to block Trump admin from refusing immigrants over welfare status
+   6. Mamdani, Letitia James sue to block Trump admin from refusing immigrants over welfare status
       https://www.foxnews.com/politics/mamdani-letitia-james-sue-block-trump-admin-from-refusing-immigrants-over-welfare-status
-
-   6. AP's refusal to give Trump rights to Butler photo helped fuel Oval Office ban, report claims
-      https://www.foxnews.com/media/ap-refusal-give-trump-rights-butler-photo-helped-fuel-oval-office-ban-report-claims
 
    7. Trump touts White House renovations, says building was in ‘very bad condition’
       https://www.foxnews.com/politics/trump-touts-white-house-renovations-says-building-very-bad-condition
@@ -40,5 +40,5 @@
 
 
 ============================================================
-  Generated at 11:45 AM PDT by GitHub Actions
+  Generated at 02:55 PM PDT by GitHub Actions
 ============================================================
