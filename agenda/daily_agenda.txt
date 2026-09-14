@@ -8,14 +8,14 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump says Lindsay Clancy case is a ‘state situation' following attorney's pardon plea
+   1. Trump unloads on AOC, Mamdani for laughing during sacred 9/11 ceremony at Ground Zero
+      https://www.foxnews.com/politics/trump-unloads-aoc-mamdani-laughing-during-sacred-9-11-ceremony-ground-zero
+
+   2. Trump says Lindsay Clancy case is a ‘state situation' following attorney's pardon plea
       https://www.foxnews.com/politics/trump-says-lindsay-clancy-case-state-situation-following-attorneys-pardon-plea
 
-   2. Trump tells Zelenskyy to stop doing 'one thing' during attacks on Russia
+   3. Trump tells Zelenskyy to stop doing 'one thing' during attacks on Russia
       https://www.foxnews.com/politics/trump-tells-zelenskyy-stop-doing-one-thing-during-attacks-russia
-
-   3. Trump team unloads on liberal journalist over Natalie Harp posts: ‘Sick, deluded freak’
-      https://www.foxnews.com/media/trump-team-unloads-liberal-journalist-natalie-harp-posts-sick-deluded-freak
 
    4. Trump gives Smithsonian days to replace 'strange modernist sculpture' with Founding Father
       https://www.foxnews.com/politics/trump-gives-smithsonian-days-replace-strange-modernist-sculpture-founding-father
@@ -35,10 +35,10 @@
    9. Inside Trump’s intimate meeting with nation’s bravest soldiers during whirlwind Texas trip
       https://www.foxnews.com/politics/inside-trumps-intimate-meeting-nations-bravest-soldiers-whirlwind-texas-trip
 
-  10. At Ground Zero, 9/11 families turn to Trump as Obama’s old decision resurfaces
-      https://www.foxnews.com/politics/ground-zero-9-11-families-turn-trump-obamas-old-decision-resurfaces
+  10. Mustachioed Red Sox rookie Payton Tolle opens game with immaculate inning, leaves Royals helpless
+      https://www.foxnews.com/outkick-sports/mustachioed-red-sox-rookie-payton-tolle-opens-game-immaculate-inning-leaves-royals-helpless
 
 
 ============================================================
-  Generated at 01:59 PM PDT by GitHub Actions
+  Generated at 06:23 PM PDT by GitHub Actions
 ============================================================
