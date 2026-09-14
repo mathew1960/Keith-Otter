@@ -1,18 +1,33 @@
 {
-  "temp": 83,
+  "temp": 100,
   "high": 105,
   "low": 79,
   "conditions": "Clear",
-  "updated": "2026-09-14T10:04:22.456311+00:00",
+  "updated": "2026-09-14T18:48:55.453579+00:00",
   "hourly": [
     {
+      "time": "12 AM",
+      "temp": 86,
+      "conditions": "Clear"
+    },
+    {
+      "time": "1 AM",
+      "temp": 84,
+      "conditions": "Clear"
+    },
+    {
+      "time": "2 AM",
+      "temp": 85,
+      "conditions": "Clear"
+    },
+    {
       "time": "3 AM",
-      "temp": 83,
+      "temp": 84,
       "conditions": "Clear"
     },
     {
       "time": "4 AM",
-      "temp": 80,
+      "temp": 81,
       "conditions": "Clear"
     },
     {
@@ -27,42 +42,27 @@
     },
     {
       "time": "7 AM",
-      "temp": 80,
+      "temp": 79,
       "conditions": "Clear"
     },
     {
       "time": "8 AM",
-      "temp": 86,
+      "temp": 87,
       "conditions": "Clear"
     },
     {
       "time": "9 AM",
-      "temp": 89,
+      "temp": 88,
       "conditions": "Clear"
     },
     {
       "time": "10 AM",
-      "temp": 94,
+      "temp": 93,
       "conditions": "Clear"
     },
     {
       "time": "11 AM",
-      "temp": 97,
-      "conditions": "Clear"
-    },
-    {
-      "time": "12 PM",
-      "temp": 101,
-      "conditions": "Clear"
-    },
-    {
-      "time": "1 PM",
-      "temp": 103,
-      "conditions": "Clear"
-    },
-    {
-      "time": "2 PM",
-      "temp": 104,
+      "temp": 98,
       "conditions": "Clear"
     }
   ],
@@ -76,25 +76,25 @@
     {
       "day": "Tue",
       "high": 102,
-      "low": 73,
+      "low": 75,
       "conditions": "Clear"
     },
     {
       "day": "Wed",
       "high": 100,
-      "low": 77,
-      "conditions": "Overcast"
+      "low": 76,
+      "conditions": "Partly cloudy"
     },
     {
       "day": "Thu",
       "high": 100,
-      "low": 78,
-      "conditions": "Overcast"
+      "low": 76,
+      "conditions": "Clear"
     },
     {
       "day": "Fri",
-      "high": 102,
-      "low": 80,
+      "high": 101,
+      "low": 78,
       "conditions": "Clear"
     }
   ]
