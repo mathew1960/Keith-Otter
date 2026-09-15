@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Monday, September 14, 2026
+  DAILY BRIEFING — Tuesday, September 15, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. UK breakup push escalates amid historic pact after Trump backs reunification of Ireland
-      https://www.foxnews.com/world/uk-breakup-push-escalates-historic-pact-trump-backs-reunification-ireland
+   1. Colbert wins Emmy after show's cancellation but avoids discussing Trump
+      https://www.foxnews.com/media/colbert-wins-emmy-after-shows-cancellation-avoids-discussing-trump
 
-   2. House Dems face Trump tariff dilemma as major Russia sanctions bill heads to floor
+   2. Joe Manchin calls on Trump to freeze AI IPOs, claims president has 'power to save humanity'
+      https://www.foxnews.com/media/joe-manchin-calls-trump-freeze-ai-ipos-claims-president-power-save-humanity
+
+   3. ‘Still waiting on the DOGE check’: Battleground state voters cast doubt on Trump’s new $5K promise
+      https://www.foxnews.com/politics/still-waiting-doge-check-battleground-state-voters-cast-doubt-trumps-new-5k-promise
+
+   4. Trump blasts Supreme Court 'disaster' after justices rule against him on mail-in voting
+      https://www.foxnews.com/politics/trump-blasts-supreme-court-disaster-justices-rule-against-mail-voting
+
+   5. Newt Gingrich reflects on what sets Trump apart from other leaders at GOP midterm convention
+      https://www.foxnews.com/media/newt-gingrich-reflects-sets-trump-apart-other-leaders-gop-midterm-convention
+
+   6. Trump admin moves to gut Biden's signature environmental rules
+      https://www.foxnews.com/politics/trump-admin-moves-gut-bidens-signature-environmental-rules
+
+   7. Trump’s law-and-order blitz marks one year with eye-popping haul of suspects, guns in blue city
+      https://www.foxnews.com/politics/trumps-law-and-order-blitz-marks-one-year-eye-popping-haul-suspects-guns-blue-city
+
+   8. Trump’s data center push fractures Congress as local anger explodes: 'Grasping at straws'
+      https://www.foxnews.com/politics/trumps-data-center-push-fractures-congress-local-anger-explodes-grasping-straws
+
+   9. Voters have a blunt message for Trump about his idea to dole out $5,000 checks
+      https://www.foxnews.com/politics/voters-blunt-message-trump-idea-dole-5000-checks
+
+  10. House Dems face Trump tariff dilemma as major Russia sanctions bill heads to floor
       https://www.foxnews.com/politics/house-democrats-face-trump-tariff-dilemma-major-russia-sanctions-bill-heads-floor
-
-   3. Supreme Court rejects Trump bid to revive strict mail-ballot rules before midterms
-      https://www.foxnews.com/politics/supreme-court-rejects-trump-bid-revive-strict-mail-ballot-rules-before-midterms
-
-   4. White House denies Trump influenced by 'pardon brokers' after '60 Minutes' investigation
-      https://www.foxnews.com/media/white-house-denies-trump-influenced-pardon-brokers-after-60-minutes-investigation
-
-   5. Kaepernick tells 'The View' that NFL owners kept him out over politics and power, claims they donate to Trump
-      https://www.foxnews.com/media/kaepernick-tells-view-nfl-owners-kept-him-out-over-politics-power-claims-they-donate-trump
-
-   6. Obama, Biden judges draw fresh fire as Trump’s immigration court clashes heat up: ‘Almost impossible’
-      https://www.foxnews.com/politics/obama-biden-judges-draw-fresh-fire-trumps-immigration-court-clashes-heat-up-almost-impossible
-
-   7. Democrat Al Green to force House-wide vote on impeaching Trump
-      https://www.foxnews.com/politics/democrat-al-green-force-house-wide-vote-impeaching-trump
-
-   8. Far-left attack backfires spectacularly as radical online personality whines after attacking female Trump aide
-      https://www.foxnews.com/politics/far-left-attack-backfires-spectacularly-radical-online-personality-whines-attacking-female-trump-aide
-
-   9. Inside House Republicans' plan to end run Dem opposition and pass Trump-backed voter ID
-      https://www.foxnews.com/politics/inside-house-republicans-plan-end-run-dem-opposition-pass-trump-backed-voter-id
-
-  10. Former CIA Director Brennan subpoenaed to testify in federal Trump conspiracy case
-      https://www.foxnews.com/politics/former-cia-director-brennan-subpoenaed-testify-federal-trump-conspiracy-case
 
 
 ============================================================
-  Generated at 06:43 PM PDT by GitHub Actions
+  Generated at 10:42 AM PDT by GitHub Actions
 ============================================================
