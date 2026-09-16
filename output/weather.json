@@ -1,9 +1,9 @@
 {
-  "temp": 100,
-  "high": 101,
+  "temp": 96,
+  "high": 103,
   "low": 80,
   "conditions": "Clear",
-  "updated": "2026-09-15T21:32:17.636765+00:00",
+  "updated": "2026-09-16T01:34:19.465087+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -69,7 +69,7 @@
   "daily": [
     {
       "day": "Tue",
-      "high": 101,
+      "high": 103,
       "low": 80,
       "conditions": "Clear"
     },
