@@ -1,33 +1,13 @@
 {
-  "temp": 90,
+  "temp": 100,
   "high": 101,
   "low": 74,
   "conditions": "Clear",
-  "updated": "2026-09-18T17:09:24.915761+00:00",
+  "updated": "2026-09-18T21:01:51.007367+00:00",
   "hourly": [
     {
-      "time": "10 AM",
-      "temp": 90,
-      "conditions": "Clear"
-    },
-    {
-      "time": "11 AM",
-      "temp": 94,
-      "conditions": "Clear"
-    },
-    {
-      "time": "12 PM",
-      "temp": 97,
-      "conditions": "Clear"
-    },
-    {
-      "time": "1 PM",
-      "temp": 99,
-      "conditions": "Clear"
-    },
-    {
       "time": "2 PM",
-      "temp": 101,
+      "temp": 100,
       "conditions": "Clear"
     },
     {
@@ -37,12 +17,12 @@
     },
     {
       "time": "4 PM",
-      "temp": 101,
+      "temp": 100,
       "conditions": "Clear"
     },
     {
       "time": "5 PM",
-      "temp": 100,
+      "temp": 99,
       "conditions": "Clear"
     },
     {
@@ -52,17 +32,37 @@
     },
     {
       "time": "7 PM",
-      "temp": 89,
+      "temp": 88,
       "conditions": "Clear"
     },
     {
       "time": "8 PM",
-      "temp": 83,
+      "temp": 84,
       "conditions": "Clear"
     },
     {
       "time": "9 PM",
       "temp": 82,
+      "conditions": "Clear"
+    },
+    {
+      "time": "10 PM",
+      "temp": 79,
+      "conditions": "Clear"
+    },
+    {
+      "time": "11 PM",
+      "temp": 79,
+      "conditions": "Clear"
+    },
+    {
+      "time": "12 AM",
+      "temp": 78,
+      "conditions": "Clear"
+    },
+    {
+      "time": "1 AM",
+      "temp": 78,
       "conditions": "Clear"
     }
   ],
@@ -81,20 +81,20 @@
     },
     {
       "day": "Sun",
-      "high": 102,
+      "high": 101,
       "low": 81,
       "conditions": "Overcast"
     },
     {
       "day": "Mon",
-      "high": 99,
-      "low": 79,
-      "conditions": "Partly cloudy"
+      "high": 98,
+      "low": 78,
+      "conditions": "Overcast"
     },
     {
       "day": "Tue",
-      "high": 99,
-      "low": 78,
+      "high": 100,
+      "low": 80,
       "conditions": "Clear"
     }
   ]
