@@ -8,20 +8,20 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump is 'unfettered' and more comfortable with power in his second term, journalists say
+   1. Trump announces White House ban against three media outlets
+      https://www.foxnews.com/media/trump-announces-white-house-ban-three-media-outlets
+
+   2. Trump declares victory in historic deal with Greenland as he secures 'permanent' US military rights
+      https://www.foxnews.com/politics/trump-declares-victory-historic-deal-greenland-secures-permanent-us-military-rights
+
+   3. Trump is 'unfettered' and more comfortable with power in his second term, journalists say
       https://www.foxnews.com/media/trump-unfettered-comfortable-power-second-term-journalists-say
 
-   2. Fox News Campus Radicals Newsletter: Trump bashing, chilled speech and a major saga renewed
+   4. Fox News Campus Radicals Newsletter: Trump bashing, chilled speech and a major saga renewed
       https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-trump-bashing-chilled-speech-major-saga-renewed
 
-   3. 'The View' co-hosts challenge Joy Behar after she says Trump's health gets less media scrutiny than Biden's
-      https://www.foxnews.com/media/view-co-hosts-challenge-joy-behar-trump-health-gets-less-media-scrutiny-bidens
-
-   4. Judge says issues in Trump administration anti-weaponization case 'alive and kicking' despite DOJ push
+   5. Judge says issues in Trump administration anti-weaponization case 'alive and kicking' despite DOJ push
       https://www.foxnews.com/politics/judge-says-issues-trump-administration-anti-weaponization-case-alive-kicking-despite-doj-push
-
-   5. Robert De Niro gets emotional as Amy Poehler praises him for speaking 'truth to power' as regular Trump critic
-      https://www.foxnews.com/media/robert-de-niro-emotional-amy-poehler-praises-speaking-truth-power-regular-trump-critic
 
    6. Powerful Cold War-era tool Trump could use in an AI emergency is set to expire in December
       https://www.foxnews.com/politics/powerful-cold-war-era-tool-trump-could-use-ai-emergency-set-expire-december
@@ -32,13 +32,13 @@
    8. Trump's EPA reforms are a huge boost to manufacturers, but there's more red tape to cut: expert
       https://www.foxnews.com/politics/trumps-epa-reforms-huge-boost-manufacturers-more-red-tape-cut-expert
 
-   9. House GOP lawmaker under fire by fellow Republicans after ad bashing Trump on immigration
-      https://www.foxnews.com/politics/house-gop-lawmaker-under-fire-fellow-republicans-after-ad-bashing-trump-immigration
+   9. Sorority alumnae take legal fight to federal court after being 'given a brother' instead of sisterhood
+      https://www.foxnews.com/media/sorority-alumnae-legal-fight-federal-court-given-brother-instead-sisterhood
 
-  10. 'Gone too far:' GOP candidate runs to Trump’s left on signature issue in deep red district
-      https://www.foxnews.com/politics/gone-too-far-gop-candidate-runs-trumps-left-signature-issue-deep-red-area
+  10. Cuba plunges into total blackout as electrical grid collapses again, US Embassy warns
+      https://www.foxnews.com/world/cuba-plunges-total-blackout-electrical-grid-collapses-us-embassy-warns
 
 
 ============================================================
-  Generated at 02:04 PM PDT by GitHub Actions
+  Generated at 06:24 PM PDT by GitHub Actions
 ============================================================
