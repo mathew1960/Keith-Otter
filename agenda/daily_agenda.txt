@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump announces White House ban against three media outlets
-      https://www.foxnews.com/media/trump-announces-white-house-ban-three-media-outlets
+   1. Lawyer says 250-foot Trump arch disrupts historic sightlines cherished by veterans seeking burial at Arlington
+      https://www.foxnews.com/politics/lawyer-says-250-foot-trump-arch-disrupts-historic-sightlines-cherished-veterans-seeking-burial-arlington
 
    2. Trump declares victory in historic deal with Greenland as he secures 'permanent' US military rights
       https://www.foxnews.com/politics/trump-declares-victory-historic-deal-greenland-secures-permanent-us-military-rights
 
-   3. Trump is 'unfettered' and more comfortable with power in his second term, journalists say
-      https://www.foxnews.com/media/trump-unfettered-comfortable-power-second-term-journalists-say
-
-   4. Fox News Campus Radicals Newsletter: Trump bashing, chilled speech and a major saga renewed
-      https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-trump-bashing-chilled-speech-major-saga-renewed
-
-   5. Judge says issues in Trump administration anti-weaponization case 'alive and kicking' despite DOJ push
+   3. Judge says issues in Trump administration anti-weaponization case 'alive and kicking' despite DOJ push
       https://www.foxnews.com/politics/judge-says-issues-trump-administration-anti-weaponization-case-alive-kicking-despite-doj-push
 
-   6. Powerful Cold War-era tool Trump could use in an AI emergency is set to expire in December
+   4. Powerful Cold War-era tool Trump could use in an AI emergency is set to expire in December
       https://www.foxnews.com/politics/powerful-cold-war-era-tool-trump-could-use-ai-emergency-set-expire-december
 
-   7. ‘Unprecedented’: Judges reveal behind-the-scenes coordination on Trump immigration cases
-      https://www.foxnews.com/politics/unprecedented-judges-reveal-behind-the-scenes-coordination-trump-immigration-cases
+   5. Miami QB Darian Mensah continues to set records, but could soft schedule cost him a Heisman?
+      https://www.foxnews.com/outkick-sports/miami-qb-darian-mensah-continues-set-records-soft-schedule-cost-heisman
 
-   8. Trump's EPA reforms are a huge boost to manufacturers, but there's more red tape to cut: expert
-      https://www.foxnews.com/politics/trumps-epa-reforms-huge-boost-manufacturers-more-red-tape-cut-expert
+   6. Bill Maher hammers Macklemore over Gaza remarks, highlights rapper's controversial 'Jew' costume from 2014
+      https://www.foxnews.com/media/bill-maher-hammers-macklemore-over-gaza-remarks-highlights-rappers-controversial-jew-costume-from-2014
 
-   9. Caitlin Clark returns after FIBA title as Kelsey Mitchell sets WNBA scoring mark in Fever victory over Tempo
-      https://www.foxnews.com/outkick-sports/caitlin-clark-returns-fiba-title-kelsey-mitchell-sets-wnba-scoring-mark-fever-victory-tempo
+   7. History-making Miss USA reveals how she got swimsuit-ready while raising 2 young kids
+      https://www.foxnews.com/entertainment/history-making-miss-usa-reveals-swimsuit-ready-raising-2-young-kids
 
-  10. Mountain lion caught on camera evading capture in San Francisco before being tranquilized, released
-      https://www.foxnews.com/lifestyle/mountain-lion-caught-camera-evading-capture-san-francisco-tranquilized-released
+   8. Costco brings back a fan-favorite food court treat after years off the menu
+      https://www.foxnews.com/food-drink/costco-brings-back-fan-favorite-food-court-treat-years-off-menu
+
+   9. Test your pop culture: From Hollywood to the Heartland
+      https://www.foxnews.com/entertainment/test-your-pop-culture-from-hollywood-heartland-24
+
+  10. Tropical disease spread by mosquitoes claims first recorded death in southern US state
+      https://www.foxnews.com/health/tropical-disease-spread-mosquitoes-claims-first-recorded-death-popular-us-state
 
 
 ============================================================
-  Generated at 01:55 AM PDT by GitHub Actions
+  Generated at 09:36 AM PDT by GitHub Actions
 ============================================================
