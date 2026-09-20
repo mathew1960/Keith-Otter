@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump announces new 'AI Force,' vows to protect industry as AI czar announcement nears
-      https://www.foxnews.com/politics/trump-announces-new-ai-force-vows-protect-industry-ai-czar-announcement-nears
+   1. NORAD F-16 intercepts aircraft that violated restricted airspace over Camp David with Trump present: officials
+      https://www.foxnews.com/politics/norad-f-16-intercepts-aircraft-violated-restricted-airspace-over-camp-david-trump-present-officials
 
-   2. Security expert hails Trump's Greenland pact as a 'big deal' on par with Alaska purchase
-      https://www.foxnews.com/media/security-expert-hails-trumps-greenland-pact-big-deal-par-alaska-purchase
+   2. Trump announces new 'AI Force,' vows to protect industry as AI czar announcement nears
+      https://www.foxnews.com/politics/trump-announces-new-ai-force-vows-protect-industry-ai-czar-announcement-nears
 
    3. Lawyer says 250-foot Trump arch disrupts historic sightlines cherished by veterans seeking burial at Arlington
       https://www.foxnews.com/politics/lawyer-says-250-foot-trump-arch-disrupts-historic-sightlines-cherished-veterans-seeking-burial-arlington
@@ -26,19 +26,19 @@
    6. Powerful Cold War-era tool Trump could use in an AI emergency is set to expire in December
       https://www.foxnews.com/politics/powerful-cold-war-era-tool-trump-could-use-ai-emergency-set-expire-december
 
-   7. Arkansas campus resembles a ghost town as no one shows up to watch Razorbacks get beaten down by Georgia
-      https://www.foxnews.com/outkick-sports/arkansas-campus-resembles-ghost-town-no-one-shows-razorbacks-beaten-georgia
+   7. Three Cowboys players fined more than $33,000 combined after season-opening loss to Giants
+      https://www.foxnews.com/outkick-sports/three-cowboys-players-fined-more-than-33000-combined-after-season-opening-loss-giants
 
-   8. Hasan Piker says he’d ‘absolutely’ campaign for AOC in 2028 as El-Sayed distances himself
-      https://www.foxnews.com/media/hasan-piker-says-hed-absolutely-campaign-aoc-2028-el-sayed-distances-himself
+   8. Engelbert Humperdinck reveals how an untied shoelace saved his life during British Army service
+      https://www.foxnews.com/entertainment/engelbert-humperdinck-reveals-untied-shoelace-saved-life-british-army-service
 
-   9. SPAM's newest flavor embraces buzzy trend but divides fans: 'Absolutely NOT'
-      https://www.foxnews.com/food-drink/spams-newest-flavor-embraces-buzzy-trend-divides-fans-absolutely-not
+   9. Vanderbilt pulled off the most improbable last-second victory you'll ever see in college football
+      https://www.foxnews.com/outkick-sports/vanderbilt-pulled-off-most-improbable-last-second-victory-youll-ever-see-college-football
 
-  10. Wendy's revives nostalgic yellow packaging after it spent decades away
-      https://www.foxnews.com/food-drink/wendys-revives-nostalgic-yellow-packaging-decades-away
+  10. Melanie Griffith stuns in black swimsuit during wellness retreat: 'Healing and renewal'
+      https://www.foxnews.com/entertainment/melanie-griffith-stuns-black-swimsuit-during-wellness-retreat-healing-renewal
 
 
 ============================================================
-  Generated at 01:52 PM PDT by GitHub Actions
+  Generated at 06:24 PM PDT by GitHub Actions
 ============================================================
