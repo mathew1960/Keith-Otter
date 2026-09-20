@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Obama criticizes Trump on approach to AI, escalates warning for stronger regulation
+   1. Trump, Iranian president converge on NYC for ‘dramatic’ UN showdown as Tehran faces tight restrictions
+      https://www.foxnews.com/world/trump-iranian-president-converge-nyc-dramatic-un-showdown-tehran-faces-tight-restrictions
+
+   2. Trump to meet with Mamdani in New York amid high-stakes midterm push
+      https://www.foxnews.com/politics/trump-meet-mamdani-new-york-amid-high-stakes-midterm-push
+
+   3. Nicki Minaj offers career advice to young Americans, delivers blunt response to Trump critics
+      https://www.foxnews.com/media/nicki-minaj-offers-career-advice-young-americans-delivers-blunt-response-trump-critics
+
+   4. Why Trump zeroed in on Greenland, the world’s largest island, mostly covered in ice — in 3 charts
+      https://www.foxnews.com/politics/why-trump-zeroed-greenland-worlds-largest-island-mostly-covered-ice-3-charts
+
+   5. Obama criticizes Trump on approach to AI, escalates warning for stronger regulation
       https://www.foxnews.com/media/obama-criticizes-trump-approach-ai-escalates-warning-stronger-regulation
 
-   2. Trump says new arch will also deploy drones, position snipers and store ammo
+   6. Trump says new arch will also deploy drones, position snipers and store ammo
       https://www.foxnews.com/politics/trump-says-new-arch-will-also-deploy-drones-position-snipers-store-ammo
 
-   3. ‘Not a slam dunk’: Trump’s 2028 mail-vote push hinges on one big legal question
+   7. ‘Not a slam dunk’: Trump’s 2028 mail-vote push hinges on one big legal question
       https://www.foxnews.com/politics/not-slam-dunk-trumps-2028-mail-vote-push-hinges-one-big-legal-question
 
-   4. NORAD F-16 intercepts aircraft that violated restricted airspace over Camp David with Trump present: officials
+   8. NORAD F-16 intercepts aircraft that violated restricted airspace over Camp David with Trump present: officials
       https://www.foxnews.com/politics/norad-f-16-intercepts-aircraft-violated-restricted-airspace-over-camp-david-trump-present-officials
 
-   5. Trump announces new 'AI Force,' vows to protect industry as AI czar announcement nears
+   9. Trump announces new 'AI Force,' vows to protect industry as AI czar announcement nears
       https://www.foxnews.com/politics/trump-announces-new-ai-force-vows-protect-industry-ai-czar-announcement-nears
 
-   6. Lawyer says 250-foot Trump arch disrupts historic sightlines cherished by veterans seeking burial at Arlington
+  10. Lawyer says 250-foot Trump arch disrupts historic sightlines cherished by veterans seeking burial at Arlington
       https://www.foxnews.com/politics/lawyer-says-250-foot-trump-arch-disrupts-historic-sightlines-cherished-veterans-seeking-burial-arlington
-
-   7. Christine Taylor’s ‘Hey Dude’ salary was far lower than castmates remembered
-      https://www.foxnews.com/entertainment/christine-taylor-hey-dude-salary-far-lower-castmates-remembered
-
-   8. California animal rescue operator charged with felonies for alleged 'inhumane and unsanitary conditions'
-      https://www.foxnews.com/us/california-animal-rescue-operator-charged-felonies-alleged-inhumane-unsanitary-conditions
-
-   9. Rutgers' Greg Schiano crashes out on official after costly penalty in tough loss to USC
-      https://www.foxnews.com/outkick-sports/rutgers-greg-schiano-crashes-out-official-costly-penalty-tough-loss-usc
-
-  10. Mississippi gov trolls Lane Kiffin, LSU after Ole Miss defeats Tigers in coach's return to Oxford
-      https://www.foxnews.com/outkick-sports/mississippi-gov-trolls-lane-kiffin-lsu-ole-miss-defeats-tigers-coachs-return-oxford
 
 
 ============================================================
-  Generated at 09:53 AM PDT by GitHub Actions
+  Generated at 01:57 PM PDT by GitHub Actions
 ============================================================
