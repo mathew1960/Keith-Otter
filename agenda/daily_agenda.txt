@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump’s massive Greenland deal makes clear who controls the Arctic’s strategic future
-      https://www.foxnews.com/opinion/trumps-massive-greenland-deal-makes-clear-who-controls-arctics-strategic-future
+   1. Trump's Greenland fixation revealed as wars expose why the Arctic island matters now more than ever
+      https://www.foxnews.com/politics/trumps-greenland-fixation-revealed-wars-expose-why-arctic-island-matters-now-more-than-ever
 
-   2. Trump should press Xi on China’s persecution of believers at home and abroad
-      https://www.foxnews.com/opinion/trump-press-xi-chinas-persecution-believers-home-abroad
+   2. AOC joins Macklemore frenzy in bizarre fundraising memo targeting pro-Trump billionaire
+      https://www.foxnews.com/politics/aoc-joins-macklemore-frenzy-bizarre-fundraising-memo-targeting-pro-trump-billionaire
 
-   3. Trump to meet with Mamdani in New York amid high-stakes midterm push
+   3. Dem lawmakers scoff at Trump's $5K 'fantasy land' promise: 'Ain't happening'
+      https://www.foxnews.com/politics/dem-lawmakers-scoff-trumps-5k-fantasy-land-promise-aint-happening
+
+   4. Trump, Mamdani set to meet again on mayor’s home turf after months of political whiplash
+      https://www.foxnews.com/politics/trump-mamdani-set-meet-again-mayors-home-turf-after-months-political-whiplash
+
+   5. Trump to meet with Mamdani in New York amid high-stakes midterm push
       https://www.foxnews.com/politics/trump-meet-mamdani-new-york-amid-high-stakes-midterm-push
 
-   4. Why Trump zeroed in on Greenland, the world’s largest island, mostly covered in ice — in 3 charts
+   6. Why Trump zeroed in on Greenland, the world’s largest island, mostly covered in ice — in 3 charts
       https://www.foxnews.com/politics/why-trump-zeroed-greenland-worlds-largest-island-mostly-covered-ice-3-charts
 
-   5. Trump says new arch will also deploy drones, position snipers and store ammo
+   7. Trump says new arch will also deploy drones, position snipers and store ammo
       https://www.foxnews.com/politics/trump-says-new-arch-will-also-deploy-drones-position-snipers-store-ammo
 
-   6. ‘Not a slam dunk’: Trump’s 2028 mail-vote push hinges on one big legal question
+   8. ‘Not a slam dunk’: Trump’s 2028 mail-vote push hinges on one big legal question
       https://www.foxnews.com/politics/not-slam-dunk-trumps-2028-mail-vote-push-hinges-one-big-legal-question
 
-   7. NORAD F-16 intercepts aircraft that violated restricted airspace over Camp David with Trump present: officials
-      https://www.foxnews.com/politics/norad-f-16-intercepts-aircraft-violated-restricted-airspace-over-camp-david-trump-present-officials
+   9. 3 VPN settings to check before your next trip
+      https://www.foxnews.com/tech/vpn-settings-check-before-next-trip
 
-   8. Trump announces new 'AI Force,' vows to protect industry as AI czar announcement nears
-      https://www.foxnews.com/politics/trump-announces-new-ai-force-vows-protect-industry-ai-czar-announcement-nears
-
-   9. Lawyer says 250-foot Trump arch disrupts historic sightlines cherished by veterans seeking burial at Arlington
-      https://www.foxnews.com/politics/lawyer-says-250-foot-trump-arch-disrupts-historic-sightlines-cherished-veterans-seeking-burial-arlington
-
-  10. China ‘wiretapped Red Sea’ with spy hub 6 miles from US base: ex Pentagon official warns
-      https://www.foxnews.com/world/china-wiretapped-red-sea-spy-hub-6-miles-us-base-ex-pentagon-official-warns
+  10. Identity theft can cost you — LifeLock monitors your info for you, with plans starting at about $10 per month
+      https://www.foxnews.com/deals/lifelock-identity-theft-protection
 
 
 ============================================================
-  Generated at 03:09 AM PDT by GitHub Actions
+  Generated at 11:49 AM PDT by GitHub Actions
 ============================================================
