@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Gov Pritzker dodges questions on Hasan Piker, says focus should be on stopping Trump
-      https://www.foxnews.com/media/gov-pritzker-dodges-questions-hasan-piker-says-focus-stopping-trump
+   1. Chris Murphy calls for 'regulating the internet' so people won't fall for a 'demagogue like Donald Trump'
+      https://www.foxnews.com/media/chris-murphy-calls-regulating-internet-people-wont-fall-demagogue-like-donald-trump
 
-   2. White House won't back down as attorney predicts how Trump's latest press tussle will play out in court
+   2. Trumpeter Dr Jesse McGuire belts national anthem after instrument malfunctions in unforgettable MLB moment
+      https://www.foxnews.com/outkick-sports/trumpeter-dr-jesse-mcguire-belts-national-anthem-instrument-malfunctions-unforgettable-mlb-moment
+
+   3. White House won't back down as attorney predicts how Trump's latest press tussle will play out in court
       https://www.foxnews.com/politics/white-house-wont-back-down-attorney-predicts-trump-latest-press-tussle-play-court
 
-   3. Trump's Greenland fixation revealed as wars expose why the Arctic island matters now more than ever
+   4. Trump's Greenland fixation revealed as wars expose why the Arctic island matters now more than ever
       https://www.foxnews.com/politics/trumps-greenland-fixation-revealed-wars-expose-why-arctic-island-matters-now-more-than-ever
 
-   4. AOC joins Macklemore frenzy in bizarre fundraising memo targeting pro-Trump billionaire
+   5. AOC joins Macklemore frenzy in bizarre fundraising memo targeting pro-Trump billionaire
       https://www.foxnews.com/politics/aoc-joins-macklemore-frenzy-bizarre-fundraising-memo-targeting-pro-trump-billionaire
 
-   5. Dem lawmakers scoff at Trump's $5K 'fantasy land' promise: 'Ain't happening'
+   6. Dem lawmakers scoff at Trump's $5K 'fantasy land' promise: 'Ain't happening'
       https://www.foxnews.com/politics/dem-lawmakers-scoff-trumps-5k-fantasy-land-promise-aint-happening
 
-   6. Trump, Mamdani set to meet again on mayor’s home turf after months of political whiplash
+   7. Trump, Mamdani set to meet again on mayor’s home turf after months of political whiplash
       https://www.foxnews.com/politics/trump-mamdani-set-meet-again-mayors-home-turf-after-months-political-whiplash
 
-   7. Trump to meet with Mamdani in New York amid high-stakes midterm push
+   8. Trump to meet with Mamdani in New York amid high-stakes midterm push
       https://www.foxnews.com/politics/trump-meet-mamdani-new-york-amid-high-stakes-midterm-push
 
-   8. Why Trump zeroed in on Greenland, the world’s largest island, mostly covered in ice — in 3 charts
-      https://www.foxnews.com/politics/why-trump-zeroed-greenland-worlds-largest-island-mostly-covered-ice-3-charts
+   9. Maryland hunter's alleged mistake leaves Delaware mother dead
+      https://www.foxnews.com/us/maryland-hunters-alleged-mistake-leaves-delaware-mother-dead
 
-   9. Trump says new arch will also deploy drones, position snipers and store ammo
-      https://www.foxnews.com/politics/trump-says-new-arch-will-also-deploy-drones-position-snipers-store-ammo
-
-  10. 'The View' host Sunny Hostin claims her children experienced racism at private schools
-      https://www.foxnews.com/media/the-view-host-sunny-hostin-claims-children-experienced-racism-private-schools
+  10. Giants quarterback Jaxson Dart suffers knee injury against Rams, possible MCL issue feared
+      https://www.foxnews.com/outkick-sports/giants-quarterback-jaxson-dart-suffers-knee-injury-against-rams-possible-mcl-issue-feared
 
 
 ============================================================
-  Generated at 03:05 PM PDT by GitHub Actions
+  Generated at 06:43 PM PDT by GitHub Actions
 ============================================================
