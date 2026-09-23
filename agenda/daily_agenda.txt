@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump to ask Xi to free wrongfully detained US citizen as wife speaks out
+   1. NATO ally pushes ‘Fort Trump’ US military base as Russian helicopter penetrates airspace
+      https://www.foxnews.com/world/nato-ally-pushes-fort-trump-us-military-base-russian-helicopter-penetrates-airspace
+
+   2. Trump's diesel idea could have unleashed a problem Americans never saw coming
+      https://www.foxnews.com/politics/trumps-diesel-idea-could-unleash-problem-americans-never-saw-coming
+
+   3. EXCLUSIVE: Trump’s CBP axes Biden-era policy allowing private gifts for illegal immigrants in federal custody
+      https://www.foxnews.com/us/exclusive-trumps-cbp-axes-biden-era-policy-allowing-private-gifts-illegal-immigrants-federal-custody
+
+   4. Bipartisan duo wants to remind Congress, Trump of China's 'atrocities' ahead of Xi visit
+      https://www.foxnews.com/politics/bipartisan-duo-wants-remind-congress-trump-chinas-atrocities-ahead-xi-visit
+
+   5. Melania Trump reveals 'the world's biggest untapped economic force' to kick off landmark NYSE summit
+      https://www.foxnews.com/politics/melania-trump-reveals-worlds-biggest-untapped-economic-force-kick-off-landmark-nyse-summit
+
+   6. Trump to ask Xi to free wrongfully detained US citizen as wife speaks out
       https://www.foxnews.com/politics/trump-ask-xi-free-wrongfully-detained-us-citizen-wife-speaks-out
 
-   2. DAVID MARCUS: Minnesota GOP candidates keep Trump at arm's length as they eye a post-Trump party future
-      https://www.foxnews.com/opinion/david-marcus-minnesota-gop-candidates-keep-trump-arms-length-eye-post-trump-party-future
-
-   3. Trump-Xi summit should make sure American strength delivers American results
-      https://www.foxnews.com/opinion/trump-xi-summit-should-make-sure-american-strength-delivers-american-results
-
-   4. GOP cracks widen over Iran war as vulnerable candidates break with Trump, demand its end
+   7. GOP cracks widen over Iran war as vulnerable candidates break with Trump, demand its end
       https://www.foxnews.com/politics/gop-cracks-widen-over-iran-war-vulnerable-candidates-break-trump-demand-its-end
 
-   5. Trans activists inject themselves with hormones in viral stunt protesting Trump's DOJ deal with NYU
+   8. Trans activists inject themselves with hormones in viral stunt protesting Trump's DOJ deal with NYU
       https://www.foxnews.com/politics/trans-activists-inject-hormones-viral-stunt-protesting-trumps-doj-deal-nyu
 
-   6. Trump anti-fraud division's future rests with Senate Dems after bipartisan House win
-      https://www.foxnews.com/politics/trump-anti-fraud-divisions-future-rests-senate-dems-after-bipartisan-house-win
+   9. Hawley zeroes in on Lia Thomas locker room controversy: 'Did they consent?'
+      https://www.foxnews.com/politics/hawley-zeroes-lia-thomas-locker-room-controversy-did-consent
 
-   7. Trump-backed Iowa US Senate hopeful says Iran war must 'be brought to a successful and immediate end'
-      https://www.foxnews.com/politics/trump-backed-iowa-us-senate-hopeful-says-iran-war-must-be-brought-successful-immediate-end
-
-   8. China’s Xi set to arrive in Washington for high-stakes Trump summit as AI supremacy battle looms large
-      https://www.foxnews.com/politics/chinas-xi-arrive-washington-high-stakes-trump-summit-ai-supremacy-battle-looms-large
-
-   9. Trump embraced a socialist he’s told voters to fear. Republicans aren’t thrilled
-      https://www.foxnews.com/politics/trump-embraced-socialist-hes-told-voters-fear-republicans-arent-thrilled
-
-  10. Zelenskyy to seek offramp for yearslong Russia war in UN speech after Trump reveals peace deal is close
-      https://www.foxnews.com/politics/zelenskyy-seek-offramp-years-long-russia-war-un-speech-trump-reveals-peace-deal-close
+  10. Surveillance video shows ICE chase with lights and sirens before Austin migrant shooting
+      https://www.foxnews.com/us/surveillance-video-shows-ice-chase-lights-sirens-austin-migrant-shooting
 
 
 ============================================================
-  Generated at 10:53 AM PDT by GitHub Actions
+  Generated at 02:37 PM PDT by GitHub Actions
 ============================================================
