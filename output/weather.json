@@ -1,9 +1,9 @@
 {
-  "temp": 87,
-  "high": 103,
+  "temp": 91,
+  "high": 98,
   "low": 78,
   "conditions": "Clear",
-  "updated": "2026-09-24T09:27:09.593747+00:00",
+  "updated": "2026-09-24T17:54:48.600602+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -12,27 +12,27 @@
     },
     {
       "time": "1 AM",
-      "temp": 88,
-      "conditions": "Clear"
-    },
-    {
-      "time": "2 AM",
-      "temp": 87,
-      "conditions": "Clear"
-    },
-    {
-      "time": "3 AM",
       "temp": 86,
       "conditions": "Clear"
     },
     {
+      "time": "2 AM",
+      "temp": 86,
+      "conditions": "Clear"
+    },
+    {
+      "time": "3 AM",
+      "temp": 87,
+      "conditions": "Clear"
+    },
+    {
       "time": "4 AM",
-      "temp": 82,
+      "temp": 87,
       "conditions": "Clear"
     },
     {
       "time": "5 AM",
-      "temp": 82,
+      "temp": 85,
       "conditions": "Clear"
     },
     {
@@ -47,54 +47,54 @@
     },
     {
       "time": "8 AM",
-      "temp": 84,
+      "temp": 82,
       "conditions": "Clear"
     },
     {
       "time": "9 AM",
-      "temp": 88,
+      "temp": 85,
       "conditions": "Clear"
     },
     {
       "time": "10 AM",
-      "temp": 92,
+      "temp": 89,
       "conditions": "Clear"
     },
     {
       "time": "11 AM",
-      "temp": 96,
+      "temp": 91,
       "conditions": "Clear"
     }
   ],
   "daily": [
     {
       "day": "Thu",
-      "high": 103,
+      "high": 98,
       "low": 78,
       "conditions": "Overcast"
     },
     {
       "day": "Fri",
-      "high": 103,
-      "low": 84,
+      "high": 102,
+      "low": 77,
       "conditions": "Overcast"
     },
     {
       "day": "Sat",
       "high": 102,
-      "low": 84,
+      "low": 82,
       "conditions": "Overcast"
     },
     {
       "day": "Sun",
       "high": 99,
-      "low": 81,
+      "low": 79,
       "conditions": "Overcast"
     },
     {
       "day": "Mon",
-      "high": 98,
-      "low": 76,
+      "high": 96,
+      "low": 74,
       "conditions": "Clear"
     }
   ]
