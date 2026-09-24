@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. NATO ally pushes ‘Fort Trump’ US military base as Russian helicopter penetrates airspace
-      https://www.foxnews.com/world/nato-ally-pushes-fort-trump-us-military-base-russian-helicopter-penetrates-airspace
+   1. Trump likely ‘smirked’ as 'crass' Iranian president lashed out at US in UN speech: expert
+      https://www.foxnews.com/world/trump-smirked-iranian-president-lashed-us-fiery-un-speech-expert
 
    2. Trump's diesel idea could have unleashed a problem Americans never saw coming
       https://www.foxnews.com/politics/trumps-diesel-idea-could-unleash-problem-americans-never-saw-coming
 
-   3. EXCLUSIVE: Trump’s CBP axes Biden-era policy allowing private gifts for illegal immigrants in federal custody
-      https://www.foxnews.com/us/exclusive-trumps-cbp-axes-biden-era-policy-allowing-private-gifts-illegal-immigrants-federal-custody
-
-   4. Bipartisan duo wants to remind Congress, Trump of China's 'atrocities' ahead of Xi visit
+   3. Bipartisan duo wants to remind Congress, Trump of China's 'atrocities' ahead of Xi visit
       https://www.foxnews.com/politics/bipartisan-duo-wants-remind-congress-trump-chinas-atrocities-ahead-xi-visit
 
-   5. Melania Trump reveals 'the world's biggest untapped economic force' to kick off landmark NYSE summit
+   4. Melania Trump reveals 'the world's biggest untapped economic force' to kick off landmark NYSE summit
       https://www.foxnews.com/politics/melania-trump-reveals-worlds-biggest-untapped-economic-force-kick-off-landmark-nyse-summit
 
-   6. Trump to ask Xi to free wrongfully detained US citizen as wife speaks out
+   5. Trump to ask Xi to free wrongfully detained US citizen as wife speaks out
       https://www.foxnews.com/politics/trump-ask-xi-free-wrongfully-detained-us-citizen-wife-speaks-out
 
-   7. GOP cracks widen over Iran war as vulnerable candidates break with Trump, demand its end
+   6. GOP cracks widen over Iran war as vulnerable candidates break with Trump, demand its end
       https://www.foxnews.com/politics/gop-cracks-widen-over-iran-war-vulnerable-candidates-break-trump-demand-its-end
 
-   8. Trans activists inject themselves with hormones in viral stunt protesting Trump's DOJ deal with NYU
+   7. Trans activists inject themselves with hormones in viral stunt protesting Trump's DOJ deal with NYU
       https://www.foxnews.com/politics/trans-activists-inject-hormones-viral-stunt-protesting-trumps-doj-deal-nyu
 
-   9. Hawley zeroes in on Lia Thomas locker room controversy: 'Did they consent?'
-      https://www.foxnews.com/politics/hawley-zeroes-lia-thomas-locker-room-controversy-did-consent
+   8. Michigan student confronts El-Sayed over Iran stance in tense exchange: ‘Do you stand with us?’
+      https://www.foxnews.com/politics/michigan-student-confronts-el-sayed-over-iran-stance-tense-exchange-do-you-stand-us
 
-  10. Surveillance video shows ICE chase with lights and sirens before Austin migrant shooting
-      https://www.foxnews.com/us/surveillance-video-shows-ice-chase-lights-sirens-austin-migrant-shooting
+   9. NYC kitten rescue defends ‘NO F---ING MAGA’ adoption policy as PETA calls for it to be abolished
+      https://www.foxnews.com/politics/nyc-kitten-rescue-defends-no-f-ing-maga-adoption-policy-peta-calls-abolished
+
+  10. English soccer star Harry Kane wants to play in the MLS and kick in the NFL at the same time
+      https://www.foxnews.com/outkick-sports/english-soccer-star-harry-kane-wants-play-mls-kick-nfl-same-time
 
 
 ============================================================
-  Generated at 02:37 PM PDT by GitHub Actions
+  Generated at 06:35 PM PDT by GitHub Actions
 ============================================================
