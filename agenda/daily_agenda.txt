@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Thursday, September 24, 2026
+  DAILY BRIEFING — Friday, September 25, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. What's on the menu for Trump's state dinner with China's Xi? One American staple is notably missing
+   1. Cut the bull: The real reason beef costs so much — and what Trump is trying to do
+      https://www.foxnews.com/opinion/cut-bull-real-reason-beef-costs-much-what-trump-trying-do
+
+   2. What's on the menu for Trump's state dinner with China's Xi? One American staple is notably missing
       https://www.foxnews.com/politics/whats-menu-trumps-state-dinner-chinas-xi-american-staple-notably-missing
 
-   2. Trump FDA pick repeatedly sidesteps Sanders' universal healthcare demands in heated clash
+   3. Trump FDA pick repeatedly sidesteps Sanders' universal healthcare demands in heated clash
       https://www.foxnews.com/politics/trump-fda-pick-repeatedly-sidesteps-sanders-universal-healthcare-demands-heated-clash
 
-   3. 4 GOP senators rebel against Trump on Iran war, vote with Dems to rein in authority
+   4. 4 GOP senators rebel against Trump on Iran war, vote with Dems to rein in authority
       https://www.foxnews.com/politics/4-gop-senators-rebel-against-trump-iran-war-vote-dems-rein-authority
 
-   4. James Copenhaver, man shot at Trump Butler rally, dies of complications from injuries
+   5. James Copenhaver, man shot at Trump Butler rally, dies of complications from injuries
       https://www.foxnews.com/politics/james-copenhaver-man-shot-trump-butler-rally-dies-complications-from-injuries-report
 
-   5. Canadian PM Carney says he was prepared for Trump ordering invasion
+   6. Canadian PM Carney says he was prepared for Trump ordering invasion
       https://www.foxnews.com/politics/canadian-pm-carney-prepared-trump-ordering-invasion
 
-   6. Biden-appointed judge hands Letitia James setback in latest Trump legal clash
+   7. Biden-appointed judge hands Letitia James setback in latest Trump legal clash
       https://www.foxnews.com/politics/biden-appointed-judge-hands-letitia-james-setback-latest-trump-legal-clash
 
-   7. Top public university’s ‘LGBTQ+ lab’ hit with race-bias complaint amid $700K in Trump-era federal funding
+   8. Top public university’s ‘LGBTQ+ lab’ hit with race-bias complaint amid $700K in Trump-era federal funding
       https://www.foxnews.com/politics/top-public-university-lgbtq-lab-hit-race-bias-complaint-amid-700k-trump-era-federal-funding
 
-   8. Trump administration uncovers $1.2B in suspected COVID contract fraud tied to Biden-era spending
-      https://www.foxnews.com/politics/trump-administration-uncovers-1-2b-suspected-covid-contract-fraud-tied-biden-era-spending
+   9. The worst bet in America isn't Kalshi or Polymarket. It's hiding in plain sight
+      https://www.foxnews.com/opinion/worst-bet-america-isnt-kalshi-polymarket-hiding-plain-sight
 
-   9. Trump-Xi summit could hold key to lower gas prices, GOP chairman says
-      https://www.foxnews.com/politics/trump-xi-summit-could-hold-key-lower-gas-prices-gop-chairman-says
-
-  10. Federal appeals court deals blow to Trump deportation agenda
-      https://www.foxnews.com/politics/federal-appeals-court-deals-blow-trump-deportation-agenda
+  10. Donalds rips opponent’s ‘complete 180’ as Dem’s own 2016 words come back to haunt him in tightening gov race
+      https://www.foxnews.com/politics/donalds-rips-opponents-complete-180-dems-2016-words-haunt-tightening-gov-race
 
 
 ============================================================
-  Generated at 06:44 PM PDT by GitHub Actions
+  Generated at 02:45 AM PDT by GitHub Actions
 ============================================================
