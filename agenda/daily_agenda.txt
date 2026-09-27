@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, September 26, 2026
+  DAILY BRIEFING — Sunday, September 27, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. No. 1 Texas escapes Tennessee with thrilling SEC victory as President Trump watches on from Neyland Stadium
-      https://www.foxnews.com/outkick-sports/texas-defense-rocks-tennessee-freshman-qb-strong-sec-victory-trump-attendance
+   1. Ukraine's attacks on Russia are pushing Putin closer to negotiating table, Trump NATO ambassador says
+      https://www.foxnews.com/media/ukraine-attacks-russia-pushing-putin-closer-negotiating-table-trump-nato-ambassador-says
 
-   2. Trump claims stunning casualty numbers in Russia-Ukraine war
+   2. Trump's Greenland obsession isn’t random. Here’s what’s at stake
+      https://www.foxnews.com/politics/trumps-greenland-obsession-isnt-random-heres-whats-stake
+
+   3. Trump reaffirms ICE arrest policy after confusing guidance sparks alarm among agents
+      https://www.foxnews.com/politics/trump-reaffirms-ice-arrest-policy-confusing-guidance-sparks-alarm-agents
+
+   4. Iran ‘miscalculating’ by betting on midterms after 3-hour talks, Trump officials warn
+      https://www.foxnews.com/politics/iran-miscalculating-betting-midterms-after-3-hour-talks-trump-officials-warn
+
+   5. Massive ICE sweep fuels GOP push to lock Trump immigration crackdown into law
+      https://www.foxnews.com/politics/massive-ice-sweep-fuels-gop-push-lock-trump-immigration-crackdown-law
+
+   6. Nicki Minaj urges young Americans to 'vote red' in 2026 midterms while doubling down on Trump support
+      https://www.foxnews.com/politics/nicki-minaj-urges-young-americans-vote-red-2026-midterms-doubling-down-trump-support
+
+   7. Trump claims stunning casualty numbers in Russia-Ukraine war
       https://www.foxnews.com/politics/trump-reveals-stunning-casualty-numbers-russia-ukraine-war
 
-   3. Trump's home county hits pause on data centers over environment and electric bill concerns
+   8. Trump's home county hits pause on data centers over environment and electric bill concerns
       https://www.foxnews.com/politics/trumps-home-county-hits-pause-data-centers-environment-electric-bill-concerns
 
-   4. US, China strike deal to lower tariffs on $30B in goods after Trump-Xi Washington summit
+   9. US, China strike deal to lower tariffs on $30B in goods after Trump-Xi Washington summit
       https://www.foxnews.com/politics/us-china-strike-deal-lower-tariffs-30b-goods-trump-xi-washington-summit
 
-   5. Trump revives rare budget maneuver to rescind $810M in congressionally approved funds
+  10. Trump revives rare budget maneuver to rescind $810M in congressionally approved funds
       https://www.foxnews.com/politics/trump-revives-rare-budget-maneuver-rescind-810m-congressionally-approved-funds
-
-   6. Trump’s Greenland deal shadows Xi visit after years of Beijing eyeing Arctic influence
-      https://www.foxnews.com/politics/trumps-greenland-deal-shadows-xi-visit-after-years-beijing-eyeing-arctic-influence
-
-   7. Federal illegal voting arrest becomes latest flashpoint in Sherrill's battles with Trump administration
-      https://www.foxnews.com/politics/federal-illegal-voting-arrest-latest-flashpoint-sherrill-battles-trump-administration
-
-   8. Xi praises US state visit 'perfection' as Trump calls meetings 'very productive'
-      https://www.foxnews.com/politics/xi-praises-us-state-visit-perfection-trump-calls-meetings-very-productive
-
-   9. Florida drops impressive offensive performance to pull off massive win over No. 4 Ole Miss
-      https://www.foxnews.com/outkick-sports/florida-drops-impressive-offensive-performance-pull-off-massive-win-no-4-ole-miss
-
-  10. Enes Freedom rips Cheryl Reeve for saying women's sports advocates 'don’t want transgender people to exist'
-      https://www.foxnews.com/outkick-sports/enes-freedom-rips-cheryl-reeve-for-saying-womens-sports-advocates-dont-want-transgender-people-to-exist
 
 
 ============================================================
-  Generated at 06:38 PM PDT by GitHub Actions
+  Generated at 10:51 AM PDT by GitHub Actions
 ============================================================
