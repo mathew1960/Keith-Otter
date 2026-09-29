@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Protester storms DC party, flips off crowd as ‘USA!’ chants erupt amid Trump’s AI push
+   1. Trump CMS faces bipartisan pushback over Medicare proposal tied to Biden-era drug pricing law
+      https://www.foxnews.com/politics/trump-cms-faces-bipartisan-pushback-over-medicare-proposal-tied-biden-era-drug-pricing-law
+
+   2. 'Insulting': Ex-Trump official's 'dishonest' campaign ad triggers conservative revolt
+      https://www.foxnews.com/politics/insulting-ex-trump-officials-dishonest-campaign-ad-triggers-conservative-revolt
+
+   3. Protester storms DC party, flips off crowd as ‘USA!’ chants erupt amid Trump’s AI push
       https://www.foxnews.com/politics/protester-storms-pro-data-center-bash-flips-off-crowd-usa-chants-erupt-amid-trumps-ai-push
 
-   2. Largest-ever US steel plant is coming to a key red state as Trump unveils $15B investment
+   4. Largest-ever US steel plant is coming to a key red state as Trump unveils $15B investment
       https://www.foxnews.com/politics/largest-ever-us-steel-plant-coming-key-red-state-trump-unveils-15b-investment
 
-   3. Far-left legal 'cartel' in the hot seat as Trump admin decides its law school gatekeeper status
+   5. Far-left legal 'cartel' in the hot seat as Trump admin decides its law school gatekeeper status
       https://www.foxnews.com/politics/far-left-legal-cartel-hot-seat-trump-admin-decides-gatekeeper-status
 
-   4. Sen Kennedy says no living politicians should have buildings named after them after Trump's moves
+   6. Sen Kennedy says no living politicians should have buildings named after them after Trump's moves
       https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves
 
-   5. Susie Wiles reveals brutal toll of fighting cancer while running Trump’s White House
+   7. Susie Wiles reveals brutal toll of fighting cancer while running Trump’s White House
       https://www.foxnews.com/politics/susie-wiles-reveals-brutal-toll-fighting-cancer-while-running-trumps-white-house
 
-   6. Trump's Greenland obsession isn’t random. Here’s what’s at stake
+   8. Trump's Greenland obsession isn’t random. Here’s what’s at stake
       https://www.foxnews.com/politics/trumps-greenland-obsession-isnt-random-heres-whats-stake
 
-   7. Trump reaffirms ICE arrest policy after confusing guidance sparks alarm among agents
+   9. Trump reaffirms ICE arrest policy after confusing guidance sparks alarm among agents
       https://www.foxnews.com/politics/trump-reaffirms-ice-arrest-policy-confusing-guidance-sparks-alarm-agents
 
-   8. Iran ‘miscalculating’ by betting on midterms after 3-hour talks, Trump officials warn
-      https://www.foxnews.com/politics/iran-miscalculating-betting-midterms-after-3-hour-talks-trump-officials-warn
-
-   9. Massive ICE sweep fuels GOP push to lock Trump immigration crackdown into law
-      https://www.foxnews.com/politics/massive-ice-sweep-fuels-gop-push-lock-trump-immigration-crackdown-law
-
-  10. Details begin to emerge in death of All Elite Wrestling star Pac
-      https://www.foxnews.com/outkick-sports/details-emerge-death-all-elite-wrestling-star-pac
+  10. Kentucky trooper, father of 3, gunned down during traffic stop as suspect captured after manhunt
+      https://www.foxnews.com/us/kentucky-trooper-father-3-gunned-down-traffic-stop-suspect-captured-manhunt
 
 
 ============================================================
-  Generated at 01:09 PM PDT by GitHub Actions
+  Generated at 07:39 PM PDT by GitHub Actions
 ============================================================
