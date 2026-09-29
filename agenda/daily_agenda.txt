@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Monday, September 28, 2026
+  DAILY BRIEFING — Tuesday, September 29, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump CMS faces bipartisan pushback over Medicare proposal tied to Biden-era drug pricing law
+   1. Trump unveils America.gov as AI-powered hub for passports, Medicare enrollment and more
+      https://www.foxnews.com/politics/trump-unveils-america-gov-ai-powered-hub-passports-medicare-enrollment
+
+   2. Drug cartel kingpin among targets in sweeping Trump crackdown on alleged Mexican corruption network
+      https://www.foxnews.com/politics/drug-cartel-kingpin-targets-sweeping-trump-crackdown-alleged-mexican-corruption-network
+
+   3. Jack Smith's Trump probe swept up Fox News, other media communications as investigation went beyond lawmakers
+      https://www.foxnews.com/politics/jack-smith-probe-swept-up-fox-news-other-media-communications-government-sources
+
+   4. Real winner of Xi summit revealed as Trump looks to usher in new era with China
+      https://www.foxnews.com/politics/real-winner-xi-summit-revealed-trump-looks-usher-new-era-china
+
+   5. Could Trump revoke Ilhan Omar's citizenship for alleged brother marriage? Ex federal prosecutor breaks it down
+      https://www.foxnews.com/politics/could-trump-revoke-ilhan-omars-citizenship-alleged-brother-marriage-ex-federal-prosecutor-breaks-down
+
+   6. Trump CMS faces bipartisan pushback over Medicare proposal tied to Biden-era drug pricing law
       https://www.foxnews.com/politics/trump-cms-faces-bipartisan-pushback-over-medicare-proposal-tied-biden-era-drug-pricing-law
 
-   2. 'Insulting': Ex-Trump official's 'dishonest' campaign ad triggers conservative revolt
+   7. 'Insulting': Ex-Trump official's 'dishonest' campaign ad triggers conservative revolt
       https://www.foxnews.com/politics/insulting-ex-trump-officials-dishonest-campaign-ad-triggers-conservative-revolt
 
-   3. Protester storms DC party, flips off crowd as ‘USA!’ chants erupt amid Trump’s AI push
+   8. Protester storms DC party, flips off crowd as ‘USA!’ chants erupt amid Trump’s AI push
       https://www.foxnews.com/politics/protester-storms-pro-data-center-bash-flips-off-crowd-usa-chants-erupt-amid-trumps-ai-push
 
-   4. Largest-ever US steel plant is coming to a key red state as Trump unveils $15B investment
-      https://www.foxnews.com/politics/largest-ever-us-steel-plant-coming-key-red-state-trump-unveils-15b-investment
+   9. Bombshell report exposes healthcare fraud schemes as taxpayers lose up to $521 billion annually
+      https://www.foxnews.com/politics/bombshell-report-exposes-healthcare-fraud-schemes-taxpayers-lose-521-billion-annually
 
-   5. Far-left legal 'cartel' in the hot seat as Trump admin decides its law school gatekeeper status
-      https://www.foxnews.com/politics/far-left-legal-cartel-hot-seat-trump-admin-decides-gatekeeper-status
-
-   6. Sen Kennedy says no living politicians should have buildings named after them after Trump's moves
-      https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves
-
-   7. Susie Wiles reveals brutal toll of fighting cancer while running Trump’s White House
-      https://www.foxnews.com/politics/susie-wiles-reveals-brutal-toll-fighting-cancer-while-running-trumps-white-house
-
-   8. Trump's Greenland obsession isn’t random. Here’s what’s at stake
-      https://www.foxnews.com/politics/trumps-greenland-obsession-isnt-random-heres-whats-stake
-
-   9. Trump reaffirms ICE arrest policy after confusing guidance sparks alarm among agents
-      https://www.foxnews.com/politics/trump-reaffirms-ice-arrest-policy-confusing-guidance-sparks-alarm-agents
-
-  10. Kentucky trooper, father of 3, gunned down during traffic stop as suspect captured after manhunt
-      https://www.foxnews.com/us/kentucky-trooper-father-3-gunned-down-traffic-stop-suspect-captured-manhunt
+  10. Mike Tomlin's coach criticism makes him better TV analyst but raises question whether he's eyeing Cowboys job
+      https://www.foxnews.com/outkick-sports/mike-tomlin-coach-criticism-makes-better-tv-analyst-raises-question-eyeing-cowboys-job
 
 
 ============================================================
-  Generated at 07:39 PM PDT by GitHub Actions
+  Generated at 11:44 AM PDT by GitHub Actions
 ============================================================
