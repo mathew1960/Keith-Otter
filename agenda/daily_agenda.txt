@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. NCAA responds after Riley Gaines' lawsuit is dismissed, affirms compliance with Trump's executive order
-      https://www.foxnews.com/outkick-sports/ncaa-responds-riley-gaines-lawsuit-dismissed-affirms-compliance-trumps-executive-order
-
-   2. Supreme Court takes up fight over Trump’s third-country illegal alien deportation policy
+   1. Supreme Court takes up fight over Trump’s third-country illegal alien deportation policy
       https://www.foxnews.com/politics/supreme-court-takes-fight-trumps-third-country-illegal-alien-deportation-policy
 
-   3. Dumping stocks after Trump’s 2016 win was ‘stupid,’ NYU professor admits
-      https://www.foxnews.com/media/dumping-stocks-after-trumps-2016-win-stupid-nyu-professor-admits
-
-   4. Trump unveils America.gov as AI-powered hub for passports, Medicare enrollment and more
+   2. Trump unveils America.gov as AI-powered hub for passports, Medicare enrollment and more
       https://www.foxnews.com/politics/trump-unveils-america-gov-ai-powered-hub-passports-medicare-enrollment
 
-   5. Drug cartel kingpin among targets in sweeping Trump crackdown on alleged Mexican corruption network
+   3. Drug cartel kingpin among targets in sweeping Trump crackdown on alleged Mexican corruption network
       https://www.foxnews.com/politics/drug-cartel-kingpin-targets-sweeping-trump-crackdown-alleged-mexican-corruption-network
 
-   6. Jack Smith's Trump probe swept up Fox News, other media communications as investigation went beyond lawmakers
+   4. Jack Smith's Trump probe swept up Fox News, other media communications as investigation went beyond lawmakers
       https://www.foxnews.com/politics/jack-smith-probe-swept-up-fox-news-other-media-communications-government-sources
 
-   7. Real winner of Xi summit revealed as Trump looks to usher in new era with China
+   5. Real winner of Xi summit revealed as Trump looks to usher in new era with China
       https://www.foxnews.com/politics/real-winner-xi-summit-revealed-trump-looks-usher-new-era-china
 
-   8. Could Trump revoke Ilhan Omar's citizenship for alleged brother marriage? Ex federal prosecutor breaks it down
+   6. Could Trump revoke Ilhan Omar's citizenship for alleged brother marriage? Ex federal prosecutor breaks it down
       https://www.foxnews.com/politics/could-trump-revoke-ilhan-omars-citizenship-alleged-brother-marriage-ex-federal-prosecutor-breaks-down
 
-   9. Trump CMS faces bipartisan pushback over Medicare proposal tied to Biden-era drug pricing law
-      https://www.foxnews.com/politics/trump-cms-faces-bipartisan-pushback-over-medicare-proposal-tied-biden-era-drug-pricing-law
+   7. Missouri Sports Betting — Best Sportsbooks and Apps | OutKick
+      https://www.foxnews.com/outkick-betting/missouri-sports-betting
 
-  10. Congressman Joe Wilson praises NHL response to Ovechkin's Putin party ad, urges Capitals to follow suit
-      https://www.foxnews.com/outkick-sports/congressman-joe-wilson-praises-nhl-response-ovechkins-putin-party-ad-urges-capitals-follow-suit
+   8. New York Sports Betting — Best Sportsbooks and Apps | OutKick
+      https://www.foxnews.com/outkick-betting/new-york-sports-betting
+
+   9. Repeat offender with lengthy rap sheet accused of gunning down Kentucky trooper during traffic stop
+      https://www.foxnews.com/us/repeat-offender-lengthy-rap-sheet-accused-gunning-down-kentucky-trooper-during-traffic-stop
+
+  10. North Carolina Sports Betting — Best Sportsbooks and Apps | OutKick
+      https://www.foxnews.com/outkick-betting/north-carolina-sports-betting
 
 
 ============================================================
-  Generated at 03:28 PM PDT by GitHub Actions
+  Generated at 07:17 PM PDT by GitHub Actions
 ============================================================
