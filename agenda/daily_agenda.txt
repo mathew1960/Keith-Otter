@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Tuesday, September 29, 2026
+  DAILY BRIEFING — Wednesday, September 30, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Supreme Court takes up fight over Trump’s third-country illegal alien deportation policy
+   1. Trump admin’s proposed ‘English-only’ Head Start rule draws fire from Los Angeles mayoral candidate
+      https://www.foxnews.com/media/trump-admins-proposed-english-only-head-start-rule-draws-fire-from-los-angeles-mayoral-candidate
+
+   2. Trump DOJ investigating Dem group in Texas after viral undercover video sparks massive uproar
+      https://www.foxnews.com/politics/trump-doj-investigating-dem-group-texas-viral-undercover-video-sparks-massive-uproar
+
+   3. Supreme Court takes up fight over Trump’s third-country illegal alien deportation policy
       https://www.foxnews.com/politics/supreme-court-takes-fight-trumps-third-country-illegal-alien-deportation-policy
 
-   2. Trump unveils America.gov as AI-powered hub for passports, Medicare enrollment and more
-      https://www.foxnews.com/politics/trump-unveils-america-gov-ai-powered-hub-passports-medicare-enrollment
+   4. MIKE DAVIS: The American gun-free zone you didn't know about
+      https://www.foxnews.com/opinion/mike-davis-american-gun-free-zone-didnt-know
 
-   3. Drug cartel kingpin among targets in sweeping Trump crackdown on alleged Mexican corruption network
-      https://www.foxnews.com/politics/drug-cartel-kingpin-targets-sweeping-trump-crackdown-alleged-mexican-corruption-network
+   5. 'Drug-dealing' network shielded by blue states targeted in SCOTUS challenge
+      https://www.foxnews.com/politics/drug-dealing-network-shielded-blue-states-targeted-scotus-challenge
 
-   4. Jack Smith's Trump probe swept up Fox News, other media communications as investigation went beyond lawmakers
-      https://www.foxnews.com/politics/jack-smith-probe-swept-up-fox-news-other-media-communications-government-sources
+   6. Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 on Astros vs White Sox
+      https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-astros-vs-white-sox
 
-   5. Real winner of Xi summit revealed as Trump looks to usher in new era with China
-      https://www.foxnews.com/politics/real-winner-xi-summit-revealed-trump-looks-usher-new-era-china
+   7. Blanche announces charges against 10 permanent residents accused of Minnesota voter fraud
+      https://www.foxnews.com/politics/blanche-announces-charges-against-10-permanent-residents-accused-minnesota-voter-fraud
 
-   6. Could Trump revoke Ilhan Omar's citizenship for alleged brother marriage? Ex federal prosecutor breaks it down
-      https://www.foxnews.com/politics/could-trump-revoke-ilhan-omars-citizenship-alleged-brother-marriage-ex-federal-prosecutor-breaks-down
+   8. Republican glee erupts as White House boasts sharp decline in immigration from Muslim-majority nations
+      https://www.foxnews.com/politics/republican-glee-erupts-white-house-boasts-sharp-decline-immigration-muslim-majority-nations
 
-   7. Missouri Sports Betting — Best Sportsbooks and Apps | OutKick
-      https://www.foxnews.com/outkick-betting/missouri-sports-betting
+   9. Dems kill Republican's chances of lowering Americans' electricity bills in key election flashpoint
+      https://www.foxnews.com/politics/dems-kill-republicans-chances-lowering-americans-electricity-bills-key-election-flashpoint
 
-   8. New York Sports Betting — Best Sportsbooks and Apps | OutKick
-      https://www.foxnews.com/outkick-betting/new-york-sports-betting
-
-   9. Repeat offender with lengthy rap sheet accused of gunning down Kentucky trooper during traffic stop
-      https://www.foxnews.com/us/repeat-offender-lengthy-rap-sheet-accused-gunning-down-kentucky-trooper-during-traffic-stop
-
-  10. North Carolina Sports Betting — Best Sportsbooks and Apps | OutKick
-      https://www.foxnews.com/outkick-betting/north-carolina-sports-betting
+  10. Packers receiver Jayden Reed gets bad news about neck injury after leaving Week 2 game on spine board
+      https://www.foxnews.com/outkick-sports/packers-receiver-jayden-reed-bad-news-neck-injury-leaving-week-2-game-spine-board
 
 
 ============================================================
-  Generated at 07:17 PM PDT by GitHub Actions
+  Generated at 11:29 AM PDT by GitHub Actions
 ============================================================
