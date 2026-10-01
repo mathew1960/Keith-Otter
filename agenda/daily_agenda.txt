@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Netflix chief admits Trump is helping showbiz industry as federal tax credit bill aims to fuel Hollywood jobs
-      https://www.foxnews.com/media/netflix-chief-admits-trump-helping-showbiz-industry-federal-tax-credit-bill-aims-fuel-hollywood-jobs
-
-   2. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
+   1. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
       https://www.foxnews.com/politics/trumps-new-high-tech-government-hub-holds-some-bizarre-surprises-enjoy-finding-them
 
-   3. EXCLUSIVE: Trump’s new security alliance faces first real-world test deep in South America as troops deploy
-      https://www.foxnews.com/world/exclusive-trumps-new-security-alliance-faces-first-real-world-test-deep-south-america-troops-deploy
-
-   4. Trump handing 1 million Americans Obamacare refund checks in 30 states
+   2. Trump handing 1 million Americans Obamacare refund checks in 30 states
       https://www.foxnews.com/politics/trump-handing-1-million-americans-obamacare-refund-checks-30-states
 
-   5. State's largest mosque leader’s deportation fight takes dramatic turn as Trump admin scores major win
+   3. State's largest mosque leader’s deportation fight takes dramatic turn as Trump admin scores major win
       https://www.foxnews.com/politics/wisconsin-mosque-leader-deportation-fight-takes-dramatic-turn-trump-admin-scores-major-win
 
-   6. Iranian negotiators kicked out of US as talks stall, Trump lays out 'possible' timeline for more strikes
+   4. Iranian negotiators kicked out of US as talks stall, Trump lays out 'possible' timeline for more strikes
       https://www.foxnews.com/politics/iranian-negotiators-kicked-out-us-talks-stall-trump-lays-possible-timeline-more-strikes
 
-   7. Supreme Court to scrutinize key pillar of Trump deportation machine in blockbuster case
+   5. Supreme Court to scrutinize key pillar of Trump deportation machine in blockbuster case
       https://www.foxnews.com/politics/supreme-court-hear-challenge-trumps-mass-detention-policy
 
-   8. Pro-life group says mail-order abortion pills violate federal law, urges Trump admin to take action
+   6. Pro-life group says mail-order abortion pills violate federal law, urges Trump admin to take action
       https://www.foxnews.com/politics/pro-life-group-says-mail-order-abortion-pills-violate-federal-law-urges-trump-admin-action
 
-   9. Elon Musk lands new Trump administration role shaping future of American warfare
-      https://www.foxnews.com/politics/elon-musk-lands-new-trump-admin-role-shaping-future-american-warfare
+   7. Le'Veon Bell accuses Pittsburgh Steelers of racial bias in comparing treatment of Black and White draftees
+      https://www.foxnews.com/outkick-sports/leveon-bell-accuses-pittsburgh-steelers-racial-bias-comparing-treatment-black-white-draftees
 
-  10. Trump Pentagon launches competition for America's next great military base
-      https://www.foxnews.com/politics/trump-pentagon-launches-competition-americas-next-great-military-base
+   8. Sleeper Senate race emerges as unexpected headache for Republicans ahead of midterms
+      https://www.foxnews.com/politics/sleeper-senate-race-emerges-unexpected-headache-republicans-ahead-midterms
+
+   9. Norwegian soccer star files lawsuit against airline that photoshopped his hair onto an airplane
+      https://www.foxnews.com/outkick-sports/norwegian-soccer-star-files-lawsuit-airline-photoshopped-hair-airplane
+
+  10. Disney chief Dana Walden dodges when asked about Jimmy Kimmel's future as ABC's late-night host
+      https://www.foxnews.com/media/disney-chief-dana-walden-dodges-asked-jimmy-kimmel-future-abc-late-night-host
 
 
 ============================================================
-  Generated at 11:56 AM PDT by GitHub Actions
+  Generated at 03:48 PM PDT by GitHub Actions
 ============================================================
