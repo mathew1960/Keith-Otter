@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Wednesday, September 30, 2026
+  DAILY BRIEFING — Thursday, October 01, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Elon Musk lands new Trump administration role shaping future of American warfare
+   1. Netflix chief admits Trump is helping showbiz industry as federal tax credit bill aims to fuel Hollywood jobs
+      https://www.foxnews.com/media/netflix-chief-admits-trump-helping-showbiz-industry-federal-tax-credit-bill-aims-fuel-hollywood-jobs
+
+   2. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
+      https://www.foxnews.com/politics/trumps-new-high-tech-government-hub-holds-some-bizarre-surprises-enjoy-finding-them
+
+   3. EXCLUSIVE: Trump’s new security alliance faces first real-world test deep in South America as troops deploy
+      https://www.foxnews.com/world/exclusive-trumps-new-security-alliance-faces-first-real-world-test-deep-south-america-troops-deploy
+
+   4. Trump handing 1 million Americans Obamacare refund checks in 30 states
+      https://www.foxnews.com/politics/trump-handing-1-million-americans-obamacare-refund-checks-30-states
+
+   5. State's largest mosque leader’s deportation fight takes dramatic turn as Trump admin scores major win
+      https://www.foxnews.com/politics/wisconsin-mosque-leader-deportation-fight-takes-dramatic-turn-trump-admin-scores-major-win
+
+   6. Iranian negotiators kicked out of US as talks stall, Trump lays out 'possible' timeline for more strikes
+      https://www.foxnews.com/politics/iranian-negotiators-kicked-out-us-talks-stall-trump-lays-possible-timeline-more-strikes
+
+   7. Supreme Court to scrutinize key pillar of Trump deportation machine in blockbuster case
+      https://www.foxnews.com/politics/supreme-court-hear-challenge-trumps-mass-detention-policy
+
+   8. Pro-life group says mail-order abortion pills violate federal law, urges Trump admin to take action
+      https://www.foxnews.com/politics/pro-life-group-says-mail-order-abortion-pills-violate-federal-law-urges-trump-admin-action
+
+   9. Elon Musk lands new Trump administration role shaping future of American warfare
       https://www.foxnews.com/politics/elon-musk-lands-new-trump-admin-role-shaping-future-american-warfare
 
-   2. Trump Pentagon launches competition for America's next great military base
+  10. Trump Pentagon launches competition for America's next great military base
       https://www.foxnews.com/politics/trump-pentagon-launches-competition-americas-next-great-military-base
-
-   3. Trump DOJ investigating Dem group in Texas after viral undercover video sparks massive uproar
-      https://www.foxnews.com/politics/trump-doj-investigating-dem-group-texas-viral-undercover-video-sparks-massive-uproar
-
-   4. TikTok couple charged with arson after house fire causes $10K in damage
-      https://www.foxnews.com/us/tiktok-couple-charged-arson-house-fire-causes-10k-damage
-
-   5. Actress Monet Mazur's $1.5M Hollywood Hills home targeted by masked suspects in break-in attempt
-      https://www.foxnews.com/entertainment/actress-monet-mazurs-1-5m-hollywood-hills-home-targeted-masked-suspects-break-in-attempt
-
-   6. Patrick McEnroe on U.S. Open weed smell, trans athletes, foreign recruits reshaping college tennis
-      https://www.foxnews.com/outkick-sports/patrick-mcenroe-us-open-weed-smell-trans-athletes-foreign-recruits-reshaping-college-tennis
-
-   7. Hasan Piker speaks to UT Austin students after backlash from Texas lawmakers
-      https://www.foxnews.com/media/hasan-piker-speaks-ut-austin-students-backlash-texas-lawmakers
-
-   8. Suspect arrested after alleged plot to attack Texas Capitol: officials
-      https://www.foxnews.com/us/suspect-arrested-alleged-plot-attack-texas-capitol-officials
-
-   9. Reparations advocates slam cash compensation ‘handout’ label, point to past government remedies
-      https://www.foxnews.com/media/reparations-activists-insist-true-americans-must-pay-direct-cash-compensation-descendants-slaves
-
-  10. AEW airs gripping Jon Moxley promo to start Pac tribute show after wrestler's death
-      https://www.foxnews.com/outkick-sports/aew-airs-gripping-jon-moxley-promo-start-pac-tribute-show-after-wrestler-death
 
 
 ============================================================
-  Generated at 07:17 PM PDT by GitHub Actions
+  Generated at 11:56 AM PDT by GitHub Actions
 ============================================================
