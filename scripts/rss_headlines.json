@@ -1,13 +1,43 @@
 [
   {
+    "title": "Netflix chief admits Trump is helping showbiz industry as federal tax credit bill aims to fuel Hollywood jobs",
+    "link": "https://www.foxnews.com/media/netflix-chief-admits-trump-helping-showbiz-industry-federal-tax-credit-bill-aims-fuel-hollywood-jobs",
+    "summary": "Ted Sarandos praised Donald Trump&apos;s push for a federal film tax credit, saying the president &quot;really cares&quot; about creating entertainment industry jobs in America."
+  },
+  {
+    "title": "Trump\u2019s new high-tech government hub holds some bizarre surprises: \u2018Enjoy finding them\u2019",
+    "link": "https://www.foxnews.com/politics/trumps-new-high-tech-government-hub-holds-some-bizarre-surprises-enjoy-finding-them",
+    "summary": "America.gov developers planted Easter eggs across Trump&apos;s new AI-powered site, including a Minecraft &quot;End Poem&quot; parody and a hot dog search bar."
+  },
+  {
+    "title": "EXCLUSIVE: Trump\u2019s new security alliance faces first real-world test deep in South America as troops deploy",
+    "link": "https://www.foxnews.com/world/exclusive-trumps-new-security-alliance-faces-first-real-world-test-deep-south-america-troops-deploy",
+    "summary": "Donald Trump&apos;s Shield of the Americas faces its first real test as Bolivia deploys forces to strategic routes amid renewed blockade and unrest fears."
+  },
+  {
+    "title": "Trump handing 1 million Americans Obamacare refund checks in 30 states",
+    "link": "https://www.foxnews.com/politics/trump-handing-1-million-americans-obamacare-refund-checks-30-states",
+    "summary": "The White House is sending $500 refund checks with a personal Trump letter to 950,000 Americans across 30 states over Obamacare overcharges."
+  },
+  {
+    "title": "State's largest mosque leader\u2019s deportation fight takes dramatic turn as Trump admin scores major win",
+    "link": "https://www.foxnews.com/politics/wisconsin-mosque-leader-deportation-fight-takes-dramatic-turn-trump-admin-scores-major-win",
+    "summary": "Marco Rubio ordered the deportation of Milwaukee&apos;s largest mosque leader on national security grounds, citing Israeli convictions and alleged terror ties."
+  },
+  {
+    "title": "Iranian negotiators kicked out of US as talks stall, Trump lays out 'possible' timeline for more strikes",
+    "link": "https://www.foxnews.com/politics/iranian-negotiators-kicked-out-us-talks-stall-trump-lays-possible-timeline-more-strikes",
+    "summary": "Marco Rubio ordered Iran&apos;s delegation to leave New York after talks stalled, as President Donald Trump warned ramped-up bombing is &quot;possible.&quot;"
+  },
+  {
+    "title": "Supreme Court to scrutinize key pillar of Trump deportation machine in blockbuster case",
+    "link": "https://www.foxnews.com/politics/supreme-court-hear-challenge-trumps-mass-detention-policy",
+    "summary": "The Supreme Court will hear a major case over whether certain immigrants held in ICE detention must receive bond hearings while awaiting deportation."
+  },
+  {
     "title": "Pro-life group says mail-order abortion pills violate federal law, urges Trump admin to take action",
     "link": "https://www.foxnews.com/politics/pro-life-group-says-mail-order-abortion-pills-violate-federal-law-urges-trump-admin-action",
     "summary": "The Restoration of America Foundation urges Attorney General Todd Blanche to enforce the Comstock Act against mail-order abortion pill shipments."
-  },
-  {
-    "title": "Trump\u2019s special strategy to deport illegals gives him another tool for enforcement",
-    "link": "https://www.foxnews.com/opinion/trumps-special-strategy-deport-illegals-gives-him-another-tool-enforcement",
-    "summary": "The United States has deported some 25,000 illegal aliens to third countries under Trump, which includes targeting criminal aliens convicted of murder and rape."
   },
   {
     "title": "Elon Musk lands new Trump administration role shaping future of American warfare",
@@ -18,35 +48,5 @@
     "title": "Trump Pentagon launches competition for America's next great military base",
     "link": "https://www.foxnews.com/politics/trump-pentagon-launches-competition-americas-next-great-military-base",
     "summary": "The winning state for the base site will be selected through a merit-based competition based on land, housing, schools, community support and regulatory cooperation."
-  },
-  {
-    "title": "Trump DOJ investigating Dem group in Texas after viral undercover video sparks massive uproar",
-    "link": "https://www.foxnews.com/politics/trump-doj-investigating-dem-group-texas-viral-undercover-video-sparks-massive-uproar",
-    "summary": "A viral undercover video showing a Texas Majority PAC employee describing a &quot;Paid Relational Program&quot; has now triggered a DOJ investigation."
-  },
-  {
-    "title": "Piers Morgan questions Princess Diana\u2019s brother\u2019s explosive claims about King Charles after error about him",
-    "link": "https://www.foxnews.com/entertainment/piers-morgan-questions-princess-diana-brother-explosive-claims-king-charles-error",
-    "summary": "Piers Morgan argues that Charles Spencer&apos;s memoir mistake undermines explosive claims about King Charles III&apos;s reaction to Princess Diana&apos;s death."
-  },
-  {
-    "title": "Exclusive: New church campaign says America's family crisis won't be solved by politics, but by pastors",
-    "link": "https://www.foxnews.com/media/exclusive-new-church-campaign-says-americas-family-crisis-wont-solved-politics-pastors",
-    "summary": "Communio&apos;s JP De Gance says unmarried people in their 30s are the loneliest demographic and urges churches to actively encourage marriage now."
-  },
-  {
-    "title": "DAN GAINOR: The AI apocalypse is the media's latest scare campaign. Don't buy it",
-    "link": "https://www.foxnews.com/opinion/dan-gainor-ai-apocalypse-media-latest-scare-campaign-dont-buy-it",
-    "summary": "The Fear Industrial Complex drives AI apocalypse headlines, climate change panic, and activist outrage from Greta Thunberg to legacy media."
-  },
-  {
-    "title": "Surprising culprit tied to 1 in 8 cancer cases worldwide, major study reveals",
-    "link": "https://www.foxnews.com/health/surprising-culprit-tied-1-8-cancer-cases-worldwide-major-study-reveals",
-    "summary": "A new IARC analysis links 2.3 million cancer cases worldwide to 12 infections, with H. pylori, HPV and hepatitis B leading the global burden."
-  },
-  {
-    "title": "FAA breaks controller hiring record after chief warned system was \u2018chronically understaffed\u2019",
-    "link": "https://www.foxnews.com/politics/faa-breaks-controller-hiring-record-after-chief-warned-system-chronically-understaffed",
-    "summary": "The Federal Aviation Administration hired 2,235 air traffic controller trainees this fiscal year, smashing its all-time record amid staffing shortages."
   }
 ]
