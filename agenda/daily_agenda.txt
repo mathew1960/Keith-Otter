@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Obama judge halts Trump firing bid as decades-old legal authority tees up possible major reversal
+   1. Karine Jean-Pierre admits Biden admin failed on economic, age messaging, but claims Trump making same mistake
+      https://www.foxnews.com/media/karine-jean-pierre-admits-biden-admin-failed-economic-age-messaging-claims-trump-making-same-mistake
+
+   2. Seth Meyers, John Oliver tell Jimmy Kimmel he's their 'bulletproof vest' when it comes to Trump
+      https://www.foxnews.com/media/seth-meyers-john-oliver-tell-jimmy-kimmel-hes-bulletproof-vest-when-comes-trump
+
+   3. Obama judge halts Trump firing bid as decades-old legal authority tees up possible major reversal
       https://www.foxnews.com/politics/obama-judge-halts-trump-firing-bid-decades-old-legal-authority-tees-up-possible-major-reversal
 
-   2. Trump campaign insider reveals strategy behind midterm blitz that White House hopes pays off big
+   4. Trump campaign insider reveals strategy behind midterm blitz that White House hopes pays off big
       https://www.foxnews.com/politics/trump-campaign-insider-reveals-strategy-midterm-blitz-white-house-hopes-pays-off-big
 
-   3. Trump’s first-year government overhaul delivers change Washington hasn’t seen since the 1960s
+   5. Trump’s first-year government overhaul delivers change Washington hasn’t seen since the 1960s
       https://www.foxnews.com/politics/trumps-first-year-government-overhaul-delivers-change-washington-hasnt-seen-since-1960s
 
-   4. A must-win midterm state is the real loser of Trump's Canada trade war
+   6. A must-win midterm state is the real loser of Trump's Canada trade war
       https://www.foxnews.com/politics/must-win-midterm-state-real-loser-trumps-canada-trade-war
 
-   5. Trump admin wants to require tax filers to disclose citizenship status to IRS
+   7. Trump admin wants to require tax filers to disclose citizenship status to IRS
       https://www.foxnews.com/politics/trump-admin-wants-require-tax-filers-disclose-citizenship-status-irs
 
-   6. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
+   8. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
       https://www.foxnews.com/politics/trumps-new-high-tech-government-hub-holds-some-bizarre-surprises-enjoy-finding-them
 
-   7. Trump handing 1 million Americans Obamacare refund checks in 30 states
-      https://www.foxnews.com/politics/trump-handing-1-million-americans-obamacare-refund-checks-30-states
+   9. Miami Heat tease release of new 'Vice City' jerseys on the night before 'Grand Theft Auto VI' release
+      https://www.foxnews.com/outkick-sports/miami-heat-tease-release-new-vice-city-jerseys-night-before-grand-theft-auto-vi-release
 
-   8. Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 on Ducks vs Golden Knights
-      https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-ducks-vs-golden-knights
-
-   9. Murdaugh lawyers allege prosecutors withheld witness claim that police chief handled murder weapons: filing
-      https://www.foxnews.com/us/murdaugh-lawyers-allege-prosecutors-withheld-witness-claim-police-chief-handled-murder-weapons-filing
-
-  10. Fox News AI Newsletter: The neighborhood on the edge of America's tech frontier
-      https://www.foxnews.com/tech/fox-news-ai-newsletter-neighborhood-edge-americas-tech-frontier
+  10. 'Piano Man' Billy Joel's prized motorcycle collection hits the auction block
+      https://www.foxnews.com/entertainment/piano-man-billy-joels-prized-motorcycle-collection-hits-auction-block
 
 
 ============================================================
-  Generated at 11:33 AM PDT by GitHub Actions
+  Generated at 03:24 PM PDT by GitHub Actions
 ============================================================
