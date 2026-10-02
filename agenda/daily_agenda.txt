@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Thursday, October 01, 2026
+  DAILY BRIEFING — Friday, October 02, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
+   1. Obama judge halts Trump firing bid as decades-old legal authority tees up possible major reversal
+      https://www.foxnews.com/politics/obama-judge-halts-trump-firing-bid-decades-old-legal-authority-tees-up-possible-major-reversal
+
+   2. Trump campaign insider reveals strategy behind midterm blitz that White House hopes pays off big
+      https://www.foxnews.com/politics/trump-campaign-insider-reveals-strategy-midterm-blitz-white-house-hopes-pays-off-big
+
+   3. Trump’s first-year government overhaul delivers change Washington hasn’t seen since the 1960s
+      https://www.foxnews.com/politics/trumps-first-year-government-overhaul-delivers-change-washington-hasnt-seen-since-1960s
+
+   4. A must-win midterm state is the real loser of Trump's Canada trade war
+      https://www.foxnews.com/politics/must-win-midterm-state-real-loser-trumps-canada-trade-war
+
+   5. Trump admin wants to require tax filers to disclose citizenship status to IRS
+      https://www.foxnews.com/politics/trump-admin-wants-require-tax-filers-disclose-citizenship-status-irs
+
+   6. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
       https://www.foxnews.com/politics/trumps-new-high-tech-government-hub-holds-some-bizarre-surprises-enjoy-finding-them
 
-   2. Trump handing 1 million Americans Obamacare refund checks in 30 states
+   7. Trump handing 1 million Americans Obamacare refund checks in 30 states
       https://www.foxnews.com/politics/trump-handing-1-million-americans-obamacare-refund-checks-30-states
 
-   3. State's largest mosque leader’s deportation fight takes dramatic turn as Trump admin scores major win
-      https://www.foxnews.com/politics/wisconsin-mosque-leader-deportation-fight-takes-dramatic-turn-trump-admin-scores-major-win
+   8. Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 on Ducks vs Golden Knights
+      https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-ducks-vs-golden-knights
 
-   4. Iranian negotiators kicked out of US as talks stall, Trump lays out 'possible' timeline for more strikes
-      https://www.foxnews.com/politics/iranian-negotiators-kicked-out-us-talks-stall-trump-lays-possible-timeline-more-strikes
+   9. Murdaugh lawyers allege prosecutors withheld witness claim that police chief handled murder weapons: filing
+      https://www.foxnews.com/us/murdaugh-lawyers-allege-prosecutors-withheld-witness-claim-police-chief-handled-murder-weapons-filing
 
-   5. Supreme Court to scrutinize key pillar of Trump deportation machine in blockbuster case
-      https://www.foxnews.com/politics/supreme-court-hear-challenge-trumps-mass-detention-policy
-
-   6. Pro-life group says mail-order abortion pills violate federal law, urges Trump admin to take action
-      https://www.foxnews.com/politics/pro-life-group-says-mail-order-abortion-pills-violate-federal-law-urges-trump-admin-action
-
-   7. AOC's dramatic retelling of Cornell rape allegations collides with complaint details
-      https://www.foxnews.com/politics/aocs-dramatic-retelling-cornell-rape-allegations-collides-complaint-details
-
-   8. 'What the f--k, call it!': Aaron Rodgers and Mike McCarthy curse at each other during hot mic moment
-      https://www.foxnews.com/outkick-sports/what-f-k-call-it-aaron-rodgers-mike-mccarthy-curse-each-other-during-hot-mic-moment
-
-   9. Halle Berry's attorney fires back after ex Olivier Martinez accuses actress of abusing their son
-      https://www.foxnews.com/entertainment/halle-berrys-attorney-fires-back-after-ex-olivier-martinez-accuses-actress-abusing-son
-
-  10. Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations
-      https://www.foxnews.com/tech/chinese-ai-model-investigated-researcher-says-provided-instructions-bioweapons-assassinations
+  10. Fox News AI Newsletter: The neighborhood on the edge of America's tech frontier
+      https://www.foxnews.com/tech/fox-news-ai-newsletter-neighborhood-edge-americas-tech-frontier
 
 
 ============================================================
-  Generated at 07:27 PM PDT by GitHub Actions
+  Generated at 11:33 AM PDT by GitHub Actions
 ============================================================
