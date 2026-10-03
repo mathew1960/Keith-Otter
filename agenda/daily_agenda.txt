@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Karine Jean-Pierre admits Biden admin failed on economic, age messaging, but claims Trump making same mistake
-      https://www.foxnews.com/media/karine-jean-pierre-admits-biden-admin-failed-economic-age-messaging-claims-trump-making-same-mistake
+   1. Trump says he will attend Alabama vs Georgia college football game at Bryant-Denny Stadium
+      https://www.foxnews.com/outkick-sports/trump-attend-alabama-vs-georgia-college-football-game-bryant-denny-stadium
 
-   2. Seth Meyers, John Oliver tell Jimmy Kimmel he's their 'bulletproof vest' when it comes to Trump
-      https://www.foxnews.com/media/seth-meyers-john-oliver-tell-jimmy-kimmel-hes-bulletproof-vest-when-comes-trump
+   2. Karine Jean-Pierre admits Biden admin failed on economic, age messaging, but claims Trump making same mistake
+      https://www.foxnews.com/media/karine-jean-pierre-admits-biden-admin-failed-economic-age-messaging-claims-trump-making-same-mistake
 
    3. Obama judge halts Trump firing bid as decades-old legal authority tees up possible major reversal
       https://www.foxnews.com/politics/obama-judge-halts-trump-firing-bid-decades-old-legal-authority-tees-up-possible-major-reversal
@@ -29,16 +29,16 @@
    7. Trump admin wants to require tax filers to disclose citizenship status to IRS
       https://www.foxnews.com/politics/trump-admin-wants-require-tax-filers-disclose-citizenship-status-irs
 
-   8. Trump’s new high-tech government hub holds some bizarre surprises: ‘Enjoy finding them’
-      https://www.foxnews.com/politics/trumps-new-high-tech-government-hub-holds-some-bizarre-surprises-enjoy-finding-them
+   8. Fox News Campus Radicals Newsletter: Christianity rejected, socialist streamer speaks, violence glorified
+      https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-christianity-rejected-far-left-phenom-visits-campus-violence-glorified
 
-   9. Miami Heat tease release of new 'Vice City' jerseys on the night before 'Grand Theft Auto VI' release
-      https://www.foxnews.com/outkick-sports/miami-heat-tease-release-new-vice-city-jerseys-night-before-grand-theft-auto-vi-release
+   9. FBI's first cyber fugitive on Ten Most Wanted list returns to US after capture in Venezuela
+      https://www.foxnews.com/us/fbi-first-cyber-fugitive-ten-most-wanted-list-returns-us-capture-venezuela
 
-  10. 'Piano Man' Billy Joel's prized motorcycle collection hits the auction block
-      https://www.foxnews.com/entertainment/piano-man-billy-joels-prized-motorcycle-collection-hits-auction-block
+  10. Penguins forward Andrei Kuzmenko changes jersey to honor late father killed in bear attack
+      https://www.foxnews.com/outkick-sports/penguins-forward-andrei-kuzmenko-changes-jersey-honor-late-father-killed-bear-attack
 
 
 ============================================================
-  Generated at 03:24 PM PDT by GitHub Actions
+  Generated at 07:13 PM PDT by GitHub Actions
 ============================================================
