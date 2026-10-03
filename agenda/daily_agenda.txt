@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Newsom slaps 25% tax on private detention centers in sweeping pushback against key Trump policy
+   1. Trump drops Republican Senator's phone number in social post over fury on stalled bill
+      https://www.foxnews.com/politics/trump-drops-republican-senators-phone-number-social-post-fury-stalled-bill
+
+   2. Firebrand GOP rep: Democrats side with Iran 'simply because they hate' Trump
+      https://www.foxnews.com/politics/firebrand-gop-rep-democrats-side-iran-simply-because-hate-trump
+
+   3. Trump education official says school choice program will put pressure on Dem-led states
+      https://www.foxnews.com/media/trump-education-official-says-school-choice-program-put-pressure-dem-led-states
+
+   4. Newsom slaps 25% tax on private detention centers in sweeping pushback against key Trump policy
       https://www.foxnews.com/politics/newsom-slaps-25-percent-tax-private-detention-centers-sweeping-pushback-against-trump-immigration-agenda
 
-   2. Trump's attempted assassin sent mysterious texts about 3D printer leading up to Butler, Pa. shooting: report
-      https://www.foxnews.com/us/trumps-attempted-assassin-sent-mysterious-texts-3d-printer-leading-butler-pa-shooting-report
-
-   3. MAGA mom's dire warning over tech guardrails as Trump puts pedal to the metal on race with China
+   5. MAGA mom's dire warning over tech guardrails as Trump puts pedal to the metal on race with China
       https://www.foxnews.com/politics/maga-mom-dire-warning-tech-guardrails-trump-pedal-metal-race-china
 
-   4. Three college students face federal charges over alleged threats against Trump ahead of campus rally
+   6. Three college students face federal charges over alleged threats against Trump ahead of campus rally
       https://www.foxnews.com/politics/three-college-students-face-federal-charges-alleged-threats-trump-campus-rally
 
-   5. Obama judge halts Trump firing bid as decades-old legal authority tees up possible major reversal
+   7. Obama judge halts Trump firing bid as decades-old legal authority tees up possible major reversal
       https://www.foxnews.com/politics/obama-judge-halts-trump-firing-bid-decades-old-legal-authority-tees-up-possible-major-reversal
 
-   6. Trump campaign insider reveals strategy behind midterm blitz that White House hopes pays off big
+   8. Trump campaign insider reveals strategy behind midterm blitz that White House hopes pays off big
       https://www.foxnews.com/politics/trump-campaign-insider-reveals-strategy-midterm-blitz-white-house-hopes-pays-off-big
 
-   7. Trump’s first-year government overhaul delivers change Washington hasn’t seen since the 1960s
+   9. Trump’s first-year government overhaul delivers change Washington hasn’t seen since the 1960s
       https://www.foxnews.com/politics/trumps-first-year-government-overhaul-delivers-change-washington-hasnt-seen-since-1960s
 
-   8. A must-win midterm state is the real loser of Trump's Canada trade war
-      https://www.foxnews.com/politics/must-win-midterm-state-real-loser-trumps-canada-trade-war
-
-   9. Silent heart threat found in adults under 30 with no known cardiovascular disease
-      https://www.foxnews.com/health/silent-heart-threat-found-adults-under-30-no-known-cardiovascular-disease
-
-  10. Fever 2026 timeline: How Caitlin Clark, Sophie Cunningham and rivals likely changed the WNBA forever
-      https://www.foxnews.com/outkick-sports/fever-2026-timeline-how-caitlin-clark-sophie-cunningham-rivals-likely-changed-wnba-forever
+  10. How to Bet on UFC 332 With Caesars, Bet365 and Fanatics
+      https://www.foxnews.com/outkick-betting/how-bet-ufc-332-caesars-bet365-fanatics
 
 
 ============================================================
-  Generated at 10:27 AM PDT by GitHub Actions
+  Generated at 02:35 PM PDT by GitHub Actions
 ============================================================
