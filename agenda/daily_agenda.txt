@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump launching 'Super Intelligence Force' to ensure American dominance
+   1. North Korea missile could put Guam in range as Kim rebuffs Trump outreach: expert
+      https://www.foxnews.com/world/north-korea-missile-could-put-guam-range-kim-rebuffs-trump-outreach-expert
+
+   2. Ivanka Trump reflects on 'incredibly special' family milestone spanning 4 generations
+      https://www.foxnews.com/lifestyle/ivanka-trump-reflects-incredibly-special-family-milestone-spanning-4-generations
+
+   3. Rahm Emanuel urges Dems not to impeach Trump if they win the House
+      https://www.foxnews.com/politics/rahm-emanuel-urges-dems-not-impeach-trump-win-house
+
+   4. Trump launching 'Super Intelligence Force' to ensure American dominance
       https://www.foxnews.com/politics/trump-launching-super-intelligence-force-ensure-american-dominance
 
-   2. GOP rising star helped topple Trump-backed incumbent. Now he's caught leadership's eye
+   5. GOP rising star helped topple Trump-backed incumbent. Now he's caught leadership's eye
       https://www.foxnews.com/politics/gop-rising-star-helped-topple-trump-backed-incumbent-now-hes-caught-leaderships-eye
 
-   3. Trump says polls 'don't account for one thing,' as he pledges to defeat communists 'once and for all'
+   6. Trump says polls 'don't account for one thing,' as he pledges to defeat communists 'once and for all'
       https://www.foxnews.com/politics/trump-says-polls-dont-account-one-thing-pledges-defeat-communists-once-all
 
-   4. Trump touts ‘golden age’ at Ohio rally, urges voters to deliver GOP midterm wins
+   7. Trump touts ‘golden age’ at Ohio rally, urges voters to deliver GOP midterm wins
       https://www.foxnews.com/politics/trump-touts-golden-age-ohio-rally-urges-voters-deliver-gop-midterm-wins
 
-   5. Trump drops Republican Senator's phone number in social post over fury on stalled bill
+   8. Trump drops Republican Senator's phone number in social post over fury on stalled bill
       https://www.foxnews.com/politics/trump-drops-republican-senators-phone-number-social-post-fury-stalled-bill
 
-   6. Firebrand GOP rep: Democrats side with Iran 'simply because they hate' Trump
+   9. Firebrand GOP rep: Democrats side with Iran 'simply because they hate' Trump
       https://www.foxnews.com/politics/firebrand-gop-rep-democrats-side-iran-simply-because-hate-trump
 
-   7. Newsom slaps 25% tax on private detention centers in sweeping pushback against key Trump policy
+  10. Newsom slaps 25% tax on private detention centers in sweeping pushback against key Trump policy
       https://www.foxnews.com/politics/newsom-slaps-25-percent-tax-private-detention-centers-sweeping-pushback-against-trump-immigration-agenda
-
-   8. MAGA mom issues dire warning on tech guardrails as Trump puts pedal to the metal on race with China
-      https://www.foxnews.com/politics/maga-mom-dire-warning-tech-guardrails-trump-pedal-metal-race-china
-
-   9. Jason Kelce calls the Commanders the 'Redskins' during game, immediately apologizes so as to not get canceled
-      https://www.foxnews.com/outkick-sports/jason-kelce-calls-commanders-redskins-during-game-immediately-apologizes-not-get-canceled
-
-  10. Neighborhood backlash collides with America's tech arms race — but is this the plan to fix it?
-      https://www.foxnews.com/politics/neighborhood-backlash-collides-americas-tech-arms-race-plan-fix-it
 
 
 ============================================================
-  Generated at 10:42 AM PDT by GitHub Actions
+  Generated at 02:43 PM PDT by GitHub Actions
 ============================================================
