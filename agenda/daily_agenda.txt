@@ -8,19 +8,19 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump drops Republican Senator's phone number in social post over fury on stalled bill
+   1. Trump touts ‘golden age’ at Ohio rally, urges voters to deliver GOP midterm wins
+      https://www.foxnews.com/politics/trump-touts-golden-age-ohio-rally-urges-voters-deliver-gop-midterm-wins
+
+   2. Trump drops Republican Senator's phone number in social post over fury on stalled bill
       https://www.foxnews.com/politics/trump-drops-republican-senators-phone-number-social-post-fury-stalled-bill
 
-   2. Firebrand GOP rep: Democrats side with Iran 'simply because they hate' Trump
+   3. Firebrand GOP rep: Democrats side with Iran 'simply because they hate' Trump
       https://www.foxnews.com/politics/firebrand-gop-rep-democrats-side-iran-simply-because-hate-trump
-
-   3. Trump education official says school choice program will put pressure on Dem-led states
-      https://www.foxnews.com/media/trump-education-official-says-school-choice-program-put-pressure-dem-led-states
 
    4. Newsom slaps 25% tax on private detention centers in sweeping pushback against key Trump policy
       https://www.foxnews.com/politics/newsom-slaps-25-percent-tax-private-detention-centers-sweeping-pushback-against-trump-immigration-agenda
 
-   5. MAGA mom's dire warning over tech guardrails as Trump puts pedal to the metal on race with China
+   5. MAGA mom issues dire warning on tech guardrails as Trump puts pedal to the metal on race with China
       https://www.foxnews.com/politics/maga-mom-dire-warning-tech-guardrails-trump-pedal-metal-race-china
 
    6. Three college students face federal charges over alleged threats against Trump ahead of campus rally
@@ -32,13 +32,13 @@
    8. Trump campaign insider reveals strategy behind midterm blitz that White House hopes pays off big
       https://www.foxnews.com/politics/trump-campaign-insider-reveals-strategy-midterm-blitz-white-house-hopes-pays-off-big
 
-   9. Trump’s first-year government overhaul delivers change Washington hasn’t seen since the 1960s
-      https://www.foxnews.com/politics/trumps-first-year-government-overhaul-delivers-change-washington-hasnt-seen-since-1960s
+   9. Yankees lose ALDS Game 1 to Rays as Austin Wells is thrown out at third after breaking up no-hitter
+      https://www.foxnews.com/outkick-sports/yankees-lose-alds-game-1-rays-austin-wells-thrown-third-breaking-no-hitter
 
-  10. How to Bet on UFC 332 With Caesars, Bet365 and Fanatics
-      https://www.foxnews.com/outkick-betting/how-bet-ufc-332-caesars-bet365-fanatics
+  10. France’s violent student protests raise warning for America: ‘A cautionary tale’
+      https://www.foxnews.com/world/frances-violent-student-protests-raise-warning-for-america-a-cautionary-tale
 
 
 ============================================================
-  Generated at 02:35 PM PDT by GitHub Actions
+  Generated at 07:48 PM PDT by GitHub Actions
 ============================================================
