@@ -1,9 +1,9 @@
 {
-  "temp": 102,
-  "high": 102,
+  "temp": 92,
+  "high": 103,
   "low": 81,
   "conditions": "Clear",
-  "updated": "2026-10-04T21:41:03.540528+00:00",
+  "updated": "2026-10-05T02:17:45.527923+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -69,31 +69,31 @@
   "daily": [
     {
       "day": "Sun",
-      "high": 102,
+      "high": 103,
       "low": 81,
       "conditions": "Clear"
     },
     {
       "day": "Mon",
       "high": 103,
-      "low": 83,
+      "low": 86,
       "conditions": "Clear"
     },
     {
       "day": "Tue",
-      "high": 103,
-      "low": 77,
+      "high": 104,
+      "low": 78,
       "conditions": "Clear"
     },
     {
       "day": "Wed",
-      "high": 106,
+      "high": 105,
       "low": 86,
       "conditions": "Clear"
     },
     {
       "day": "Thu",
-      "high": 108,
+      "high": 107,
       "low": 89,
       "conditions": "Clear"
     }
