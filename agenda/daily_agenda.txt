@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Monday, October 05, 2026
+  DAILY BRIEFING — Tuesday, October 06, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump clears way for Fort Hood terrorist to face Army firing squad nearly 17 years after massacre
+   1. Russian researcher's mystery death could be ‘far worse’ than the plague, former senior Trump official warns
+      https://www.foxnews.com/politics/russian-researchers-mystery-death-could-be-far-worse-than-plague-former-senior-trump-official-warns
+
+   2. Biden-era FBI’s ‘Nixonian’ Trump family surveillance draws scrutiny from unlikely corner
+      https://www.foxnews.com/politics/biden-era-fbis-nixonian-trump-family-surveillance-draws-scrutiny-from-unlikely-corner
+
+   3. Trump turns to emerging tech giant in multi-billion bid to ramp up US submarine production
+      https://www.foxnews.com/politics/trump-turns-emerging-tech-giant-multi-billion-bid-ramp-us-submarine-production
+
+   4. Trump responds to concerns over suspected plague case in Russia, saying US 'willing to help'
+      https://www.foxnews.com/politics/trump-responds-concerns-suspected-plague-case-russia-saying-us-willing-help
+
+   5. NYT columnist thrashed online for suggesting Trump is to blame for alleged Cornell gang rape
+      https://www.foxnews.com/politics/nyt-columnist-thrashed-online-suggesting-trump-blame-alleged-cornell-gang-rape
+
+   6. Millions saved by blocking dead people payouts as Trump Treasury drops hammer on federal fraud
+      https://www.foxnews.com/politics/millions-saved-blocking-dead-people-payouts-trump-treasury-drops-hammer-federal-fraud
+
+   7. President Trump endorses Wyoming's secretary of state for US House of Representatives
+      https://www.foxnews.com/politics/president-trump-endorses-wyomings-secretary-state-us-house-representatives
+
+   8. Trump clears way for Fort Hood terrorist to face Army firing squad nearly 17 years after massacre
       https://www.foxnews.com/politics/trump-clears-way-fort-hood-terrorist-face-army-firing-squad-nearly-17-years-after-massacre
 
-   2. Debra Messing ditches Democrat for Trump-backed Republican as she sounds alarm over New York
-      https://www.foxnews.com/entertainment/debra-messing-ditches-democrat-trump-backed-republican-sounds-alarm-new-york
-
-   3. Biden-era FBI tracked Trump family travel and Wiles’ calls with lawyers in secret probe: docs
+   9. Biden-era FBI tracked Trump family travel and Wiles’ calls with lawyers in secret probe: docs
       https://www.foxnews.com/politics/biden-era-fbi-tracked-trump-family-travel-wiles-calls-lawyers-secret-probe-docs
 
-   4. Trump DOJ sues university where illegal immigrants can get $15K tuition rate while some Americans pay $42K
-      https://www.foxnews.com/media/trump-doj-sues-university-illegal-immigrants-15k-tuition-rate-americans-pay-42k
-
-   5. Trump rallies in city where alleged MS-13 ‘assassination squad’ leader was busted
-      https://www.foxnews.com/politics/trump-rallies-city-where-alleged-ms-13-assassination-squad-leader-busted
-
-   6. Rahm Emanuel urges Dems not to impeach Trump if they win the House
-      https://www.foxnews.com/politics/rahm-emanuel-urges-dems-not-impeach-trump-win-house
-
-   7. Nobu chef killed after teen driver crashes into parked car in California
-      https://www.foxnews.com/us/nobu-chef-killed-teen-driver-crashes-parked-car-california
-
-   8. White Sox ride another dramatic comeback win to beat Guardians and take commanding 2-0 ALDS lead
-      https://www.foxnews.com/outkick-sports/white-sox-ride-dramatic-comeback-win-beat-guardians-take-commanding-2-0-alds-lead
-
-   9. Dennis Hastert, longest-serving Republican House Speaker and convicted child molester, dies at 84
-      https://www.foxnews.com/politics/dennis-hastert-longest-serving-republican-house-speaker-convicted-child-molester-dies-84
-
-  10. Is the Dodgers dynasty already in jeopardy after brutal game two NLDS loss to Atlanta Braves?
-      https://www.foxnews.com/outkick-sports/dodgers-dynasty-jeopardy-brutal-game-two-nlds-loss-atlanta-braves
+  10. Hazmat crew removes 'glass vials,' vacuum from home linked to missing women in potential serial killer probe
+      https://www.foxnews.com/us/hazmat-crew-removes-glass-vials-vacuum-home-linked-missing-women-potential-serial-killer-probe
 
 
 ============================================================
-  Generated at 08:13 PM PDT by GitHub Actions
+  Generated at 11:57 AM PDT by GitHub Actions
 ============================================================
