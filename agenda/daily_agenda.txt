@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Florida GOP hopeful on backing Trump in Iran: 'This is about ending a long war, not starting a war'
+   1. DNC lawsuit accuses Trump administration of diverting $20M in federal funds for 'propaganda' ads
+      https://www.foxnews.com/politics/dnc-lawsuit-accuses-trump-admin-diverting-20m-federal-funds-propaganda-ads
+
+   2. Florida GOP hopeful on backing Trump in Iran: 'This is about ending a long war, not starting a war'
       https://www.foxnews.com/politics/florida-gop-hopeful-backing-trump-iran-this-ending-long-war-not-starting-war
 
-   2. FIRST ON FOX: Elon Musk heads back to White House as Trump marks prestigious first of presidency
+   3. FIRST ON FOX: Elon Musk heads back to White House as Trump marks prestigious first of presidency
       https://www.foxnews.com/politics/first-fox-elon-musk-heads-back-white-house-trump-marks-prestigious-first-presidency
 
-   3. Trump reveals surprise American taxpayer stake in new $6.6B submarine deal
+   4. Trump reveals surprise American taxpayer stake in new $6.6B submarine deal
       https://www.foxnews.com/politics/trump-reveals-surprise-american-taxpayer-stake-new-6-6b-submarine-deal
 
-   4. Dems’ latest Trump attack backfires as frequent critics refuse to play along
+   5. Dems’ latest Trump attack backfires as frequent critics refuse to play along
       https://www.foxnews.com/politics/dems-latest-trump-attack-backfires-frequent-critics-refuse-play-along
 
-   5. Newsom again calls for Trump’s removal under 25th Amendment, White House hits back
+   6. Newsom again calls for Trump’s removal under 25th Amendment, White House hits back
       https://www.foxnews.com/politics/newsom-calls-trumps-removal-25th-amendment-white-house-hits-back
 
-   6. Ex-Obama spy chief prepped for anti-Trump trial by Biden-era special counsel's team, new records reveal
+   7. Ex-Obama spy chief prepped for anti-Trump trial by Biden-era special counsel's team, new records reveal
       https://www.foxnews.com/politics/ex-obama-spy-chief-prepped-anti-trump-trial-biden-era-special-counsels-team-records-reveal
 
-   7. Federal judge blocks Trump administration fines of up to $1.8M for migrants
-      https://www.foxnews.com/politics/federal-judge-blocks-trump-administration-fines-up-1-8m-migrants
+   8. Pro wrestler Karl Fredericks relishes opportunity to showcase who he truly is at Produce Wrestling's Skoden
+      https://www.foxnews.com/outkick-sports/pro-wrestler-karl-fredericks-relishes-opportunity-showcase-produce-wrestling-skoden
 
-   8. Trump says Putin call coming ‘very soon’ as US tracks suspected plague death in Russia
-      https://www.foxnews.com/politics/trump-says-putin-call-coming-very-soon-us-tracks-suspected-plague-death-russia
+   9. Who's really played the best thus far through the first half of the college football season?
+      https://www.foxnews.com/outkick-sports/whos-really-played-best-first-half-college-football-season
 
-   9. Illinois Sports Betting — Best Sportsbooks and Apps | Outkick
-      https://www.foxnews.com/outkick-betting/illinois-sports-betting
-
-  10. Kentucky Sports Betting — Best Sportsbooks and Apps | Outkick
-      https://www.foxnews.com/outkick-betting/kentucky-sports-betting
+  10. MIKE EMANUEL: I joined an unknown startup called Fox News; it gave me a front-row seat to history
+      https://www.foxnews.com/opinion/mike-emanuel-joined-unknown-startup-called-fox-news-gave-front-row-seat-history
 
 
 ============================================================
-  Generated at 12:24 PM PDT by GitHub Actions
+  Generated at 04:13 PM PDT by GitHub Actions
 ============================================================
