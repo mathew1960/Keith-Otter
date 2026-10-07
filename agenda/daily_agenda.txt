@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. US could play role in united Ireland push after Trump's backing, Irish PM says
-      https://www.foxnews.com/world/us-could-play-role-united-ireland-push-after-trumps-backing-irish-pm-says
+   1. Debra Messing says cost of living, subway violence pushed her to back Trump-endorsed Republican
+      https://www.foxnews.com/entertainment/debra-messing-cost-living-subway-violence-pushed-back-trump-endorsed-republican
 
-   2. Russian researcher's mystery death could be ‘far worse’ than the plague, former senior Trump official warns
+   2. Hurricane Isaias threatens Georgia vs. Alabama SEC showdown as Trump plans Tuscaloosa visit
+      https://www.foxnews.com/outkick-sports/hurricane-isaias-threatens-georgia-vs-alabama-sec-showdown-trump-plans-tuscaloosa-visit
+
+   3. Trump says Putin call coming ‘very soon’ as US tracks suspected plague death in Russia
+      https://www.foxnews.com/politics/trump-says-putin-call-coming-very-soon-us-tracks-suspected-plague-death-russia
+
+   4. Russian researcher's mystery death could be ‘far worse’ than the plague, former senior Trump official warns
       https://www.foxnews.com/politics/russian-researchers-mystery-death-could-be-far-worse-than-plague-former-senior-trump-official-warns
 
-   3. Biden-era FBI’s ‘Nixonian’ Trump family surveillance draws scrutiny from unlikely corner
+   5. Biden-era FBI’s ‘Nixonian’ Trump family surveillance draws scrutiny from unlikely corner
       https://www.foxnews.com/politics/biden-era-fbis-nixonian-trump-family-surveillance-draws-scrutiny-from-unlikely-corner
 
-   4. Trump turns to emerging tech giant in multi-billion bid to ramp up US submarine production
+   6. Trump turns to emerging tech giant in multi-billion bid to ramp up US submarine production
       https://www.foxnews.com/politics/trump-turns-emerging-tech-giant-multi-billion-bid-ramp-us-submarine-production
 
-   5. Trump responds to concerns over suspected plague case in Russia, saying US 'willing to help'
+   7. Trump responds to concerns over suspected plague case in Russia, saying US 'willing to help'
       https://www.foxnews.com/politics/trump-responds-concerns-suspected-plague-case-russia-saying-us-willing-help
 
-   6. NYT columnist thrashed online for suggesting Trump is to blame for alleged Cornell gang rape
+   8. NYT columnist thrashed online for suggesting Trump is to blame for alleged Cornell gang rape
       https://www.foxnews.com/politics/nyt-columnist-thrashed-online-suggesting-trump-blame-alleged-cornell-gang-rape
 
-   7. Millions saved by blocking dead people payouts as Trump Treasury drops hammer on federal fraud
+   9. Millions saved by blocking dead people payouts as Trump Treasury drops hammer on federal fraud
       https://www.foxnews.com/politics/millions-saved-blocking-dead-people-payouts-trump-treasury-drops-hammer-federal-fraud
 
-   8. President Trump endorses Wyoming's secretary of state for US House of Representatives
+  10. President Trump endorses Wyoming's secretary of state for US House of Representatives
       https://www.foxnews.com/politics/president-trump-endorses-wyomings-secretary-state-us-house-representatives
-
-   9. Trump clears way for Fort Hood terrorist to face Army firing squad nearly 17 years after massacre
-      https://www.foxnews.com/politics/trump-clears-way-fort-hood-terrorist-face-army-firing-squad-nearly-17-years-after-massacre
-
-  10. Biden-era FBI tracked Trump family travel and Wiles’ calls with lawyers in secret probe: docs
-      https://www.foxnews.com/politics/biden-era-fbi-tracked-trump-family-travel-wiles-calls-lawyers-secret-probe-docs
 
 
 ============================================================
-  Generated at 03:43 PM PDT by GitHub Actions
+  Generated at 07:36 PM PDT by GitHub Actions
 ============================================================
