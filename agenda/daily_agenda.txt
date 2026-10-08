@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. DNC lawsuit accuses Trump administration of diverting $20M in federal funds for 'propaganda' ads
+   1. Ken Paxton calls out James Talarico's 11-day absence at Trump rally, prompting response from campaign
+      https://www.foxnews.com/politics/ken-paxton-calls-james-talarico-11-day-absence-trump-rally-prompting-response-campaign
+
+   2. Marlon Humphrey says meeting President Trump inspired him to vote in the next election
+      https://www.foxnews.com/outkick-sports/marlon-humphrey-meeting-president-trump-inspired-vote-next-election
+
+   3. DNC lawsuit accuses Trump administration of diverting $20M in federal funds for 'propaganda' ads
       https://www.foxnews.com/politics/dnc-lawsuit-accuses-trump-admin-diverting-20m-federal-funds-propaganda-ads
 
-   2. Florida GOP hopeful on backing Trump in Iran: 'This is about ending a long war, not starting a war'
+   4. Florida GOP hopeful on backing Trump in Iran: 'This is about ending a long war, not starting a war'
       https://www.foxnews.com/politics/florida-gop-hopeful-backing-trump-iran-this-ending-long-war-not-starting-war
 
-   3. FIRST ON FOX: Elon Musk heads back to White House as Trump marks prestigious first of presidency
+   5. FIRST ON FOX: Elon Musk heads back to White House as Trump marks prestigious first of presidency
       https://www.foxnews.com/politics/first-fox-elon-musk-heads-back-white-house-trump-marks-prestigious-first-presidency
 
-   4. Trump reveals surprise American taxpayer stake in new $6.6B submarine deal
+   6. Trump reveals surprise American taxpayer stake in new $6.6B submarine deal
       https://www.foxnews.com/politics/trump-reveals-surprise-american-taxpayer-stake-new-6-6b-submarine-deal
 
-   5. Dems’ latest Trump attack backfires as frequent critics refuse to play along
+   7. Dems’ latest Trump attack backfires as frequent critics refuse to play along
       https://www.foxnews.com/politics/dems-latest-trump-attack-backfires-frequent-critics-refuse-play-along
 
-   6. Newsom again calls for Trump’s removal under 25th Amendment, White House hits back
+   8. Newsom again calls for Trump’s removal under 25th Amendment, White House hits back
       https://www.foxnews.com/politics/newsom-calls-trumps-removal-25th-amendment-white-house-hits-back
 
-   7. Ex-Obama spy chief prepped for anti-Trump trial by Biden-era special counsel's team, new records reveal
-      https://www.foxnews.com/politics/ex-obama-spy-chief-prepped-anti-trump-trial-biden-era-special-counsels-team-records-reveal
+   9. Los Angeles Dodgers are back in the NLCS for third straight season after win over Atlanta Braves
+      https://www.foxnews.com/outkick-sports/los-angeles-dodgers-back-nlcs-third-straight-season-4-1-win-atlanta-braves
 
-   8. Pro wrestler Karl Fredericks relishes opportunity to showcase who he truly is at Produce Wrestling's Skoden
-      https://www.foxnews.com/outkick-sports/pro-wrestler-karl-fredericks-relishes-opportunity-showcase-produce-wrestling-skoden
-
-   9. Who's really played the best thus far through the first half of the college football season?
-      https://www.foxnews.com/outkick-sports/whos-really-played-best-first-half-college-football-season
-
-  10. MIKE EMANUEL: I joined an unknown startup called Fox News; it gave me a front-row seat to history
-      https://www.foxnews.com/opinion/mike-emanuel-joined-unknown-startup-called-fox-news-gave-front-row-seat-history
+  10. FIRST ON FOX: US Coast Guard recruits largest class in nearly 40 years, beats goals for third straight year
+      https://www.foxnews.com/us/us-coast-guard-recruits-largest-class-nearly-40-years-beats-goals-third-straight-year
 
 
 ============================================================
-  Generated at 04:13 PM PDT by GitHub Actions
+  Generated at 07:49 PM PDT by GitHub Actions
 ============================================================
