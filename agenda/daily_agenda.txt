@@ -8,8 +8,8 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. ABC News deletes ‘hit piece’ on Trump sons' Pentagon-linked investments without explanation
-      https://www.foxnews.com/media/abc-news-deletes-hit-piece-trump-sons-pentagon-linked-investments-without-explanation
+   1. Federal grand jury hears evidence in probe of former Trump aide Cassidy Hutchinson's Jan 6 testimony: source
+      https://www.foxnews.com/politics/federal-grand-jury-hears-evidence-probe-former-trump-aide-cassidy-hutchinson-jan-6-testimony
 
    2. Trump calls Democrat he pardoned a 'loser' for not switching parties
       https://www.foxnews.com/politics/trump-calls-democrat-he-pardoned-loser-not-switching-parties
@@ -20,25 +20,25 @@
    4. Hecklers interrupt Trump Texas rally multiple times
       https://www.foxnews.com/politics/hecklers-interrupt-trump-texas-rally-multiple-times
 
-   5. Human vs ChatGPT NFL Week 5 betting picks: AI wins a round, but the human still leads the season
-      https://www.foxnews.com/outkick-sports/human-vs-chatgpt-nfl-week-5-betting-picks-ai-wins-round-human-still-leads-season
+   5. A'ja Wilson wins record fifth MVP as first three-peat in WNBA history strengthens all-time greatness case
+      https://www.foxnews.com/outkick-sports/aja-wilson-wins-record-fifth-wnba-mvp-first-three-peat-wnba-history-strengthens-all-time-greatness-case
 
-   6. Columbia University faces backlash over serving 'October 7th blush sauce' on campus menu
-      https://www.foxnews.com/media/columbia-university-backlash-october-7th-blush-sauce-campus-menu
+   6. Tony Romo got disqualified from his Korn Ferry qualifier the same day he 'parted ways' with CBS Sports
+      https://www.foxnews.com/outkick-sports/tony-romo-disqualified-korn-ferry-qualifier-parted-ways-cbs-sports
 
-   7. Pentagon confirms Fort Hood terrorist's firing squad execution will be livestreamed: 'Details will follow'
-      https://www.foxnews.com/politics/pentagon-confirms-fort-hood-terrorists-firing-squad-execution-livestreamed-details-follow
+   7. Rumbling volcano forces immediate trail closures at popular vacation hot spot
+      https://www.foxnews.com/travel/rumbling-volcano-forces-immediate-trail-closures-popular-vacation-hot-spot
 
-   8. Will Major League Baseball still lock players out after 2026 postseason proves owners wrong?
-      https://www.foxnews.com/outkick-sports/major-league-baseball-lockout-players-2026-postseason-proves-owners-wrong
+   8. 2 foreign nationals breach UK base housing key US, NATO intel hub amid $556M expansion
+      https://www.foxnews.com/world/foreign-nationals-breach-us-nato-intel-hub-uk-military-base-556m-expansion
 
-   9. Intruder breaches airport security, takes stolen tarmac vehicle on reckless rampage
-      https://www.foxnews.com/travel/intruder-breaches-airport-security-takes-stolen-tarmac-vehicle-reckless-rampage
+   9. Luka Dončić says he 'definitely' regrets playing through hamstring injury that ended his season
+      https://www.foxnews.com/outkick-sports/luka-doncic-definitely-regrets-playing-through-hamstring-injury-ended-season
 
-  10. Oklahoma dismisses freshman wide receiver Jahsiear Rogers days before Red River Rivalry
-      https://www.foxnews.com/outkick-sports/oklahoma-dismisses-freshman-wide-receiver-jahsiear-rogers-days-before-red-river-rivalry
+  10. Michigan Senate debate erupts into personal attacks as Rogers, El-Sayed clash over Israel, Iran and more
+      https://www.foxnews.com/politics/michigan-senate-debate-erupts-personal-attacks-rogers-el-sayed-clash-over-israel-iran-more
 
 
 ============================================================
-  Generated at 04:29 PM PDT by GitHub Actions
+  Generated at 08:01 PM PDT by GitHub Actions
 ============================================================
