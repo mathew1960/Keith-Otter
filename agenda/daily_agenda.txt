@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Who is Sally Yates? Cornell rape-review pick was fired by Trump after refusing to defend travel ban
+   1. Trump calls for Ukraine to replace Zelenskyy after clash over Russia diesel deal: 'Get a new president'
+      https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president
+
+   2. Mike Tyson predicts ‘Donald Trump will win’ midterms before joining president for New York rally
+      https://www.foxnews.com/outkick-sports/mike-tyson-predicts-donald-trump-will-win-midterms-joining-president-new-york-rally
+
+   3. President Trump blasts Nobel Peace Prize snub with blistering list of accomplishments: 'WOW!'
+      https://www.foxnews.com/politics/president-trump-blasts-nobel-peace-prize-snub-blistering-list-accomplishments-wow
+
+   4. Judicial Watch's Thomas Fitton slams FBI's 'drip-drip' release for 75,000 pages of Trump-Butler shooting files
+      https://www.foxnews.com/politics/judicial-watch-thomas-fitton-slams-fbi-drip-drip-release-75000-pages-trump-butler-shooting-files
+
+   5. Who is Sally Yates? Cornell rape-review pick was fired by Trump after refusing to defend travel ban
       https://www.foxnews.com/politics/who-sally-yates-cornell-rape-review-pick-fired-trump-refusing-defend-travel-ban
 
-   2. Katie Zacharia hits ground running, promises Trump diesel deal delivers cheaper gas for Americans
-      https://www.foxnews.com/media/incoming-press-chief-hits-ground-running-promises-trump-diesel-deal-delivers-cheaper-gas-americans
-
-   3. ABC News quietly republishes gutted version of story on Trump sons it had deleted without explanation
-      https://www.foxnews.com/media/abc-news-quietly-republishes-gutted-version-story-trump-sons-had-deleted-without-explanation
-
-   4. Key American industry seeing blue-collar jobs boom as Trump's re-shoring policies pay off
+   6. Key American industry seeing blue-collar jobs boom as Trump's re-shoring policies pay off
       https://www.foxnews.com/politics/key-american-industry-seeing-blue-collar-jobs-boom-trump-reshoring-policies-pay
 
-   5. Trump rallies New York crowd for Republican Bruce Blakeman's bid to replace Gov Kathy Hochul
+   7. Trump rallies New York crowd for Republican Bruce Blakeman's bid to replace Gov Kathy Hochul
       https://www.foxnews.com/politics/trump-rallies-new-york-crowd-republican-bruce-blakemans-bid-replace-gov-kathy-hochul
 
-   6. Trump names Leavitt successor after weeks of speculation — and she's no stranger to MAGA
+   8. Trump names Leavitt successor after weeks of speculation — and she's no stranger to MAGA
       https://www.foxnews.com/politics/trump-names-leavitt-successor-weeks-speculation-no-stranger-maga
 
-   7. Dem scrambles to change tune on trans athletes as Trump targets past record: ‘Annie Trannie’
+   9. Dem scrambles to change tune on trans athletes as Trump targets past record: ‘Annie Trannie’
       https://www.foxnews.com/politics/dem-scrambles-change-tune-trans-athletes-trump-targets-past-record-annie-trannie
 
-   8. Trump says Rogers 'completely obliterated' El-Sayed in debate
+  10. Trump says Rogers 'completely obliterated' El-Sayed in debate
       https://www.foxnews.com/politics/trump-says-rogers-completely-obliterated-el-sayed-debate
-
-   9. Trump sets up committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations
-      https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations
-
-  10. Radical anti-Trump language riddles California voter guide on high-stakes ballot measure
-      https://www.foxnews.com/politics/radical-anti-trump-language-riddles-california-voter-guide-high-stakes-ballot-measure
 
 
 ============================================================
-  Generated at 10:55 AM PDT by GitHub Actions
+  Generated at 02:54 PM PDT by GitHub Actions
 ============================================================
