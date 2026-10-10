@@ -8,20 +8,20 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Ohio dog park shooting over Trump argument could end with two self-defense claims, or none: legal expert
-      https://www.foxnews.com/us/ohio-dog-park-shooting-trump-argument-self-defense-claims-legal-expert
+   1. Who is Sally Yates? Cornell rape-review pick was fired by Trump after refusing to defend travel ban
+      https://www.foxnews.com/politics/who-sally-yates-cornell-rape-review-pick-fired-trump-refusing-defend-travel-ban
 
-   2. Trump rallies New York crowd for Republican Bruce Blakeman's bid to replace Gov. Kathy Hochul
+   2. Katie Zacharia hits ground running, promises Trump diesel deal delivers cheaper gas for Americans
+      https://www.foxnews.com/media/incoming-press-chief-hits-ground-running-promises-trump-diesel-deal-delivers-cheaper-gas-americans
+
+   3. ABC News quietly republishes gutted version of story on Trump sons it had deleted without explanation
+      https://www.foxnews.com/media/abc-news-quietly-republishes-gutted-version-story-trump-sons-had-deleted-without-explanation
+
+   4. Key American industry seeing blue-collar jobs boom as Trump's re-shoring policies pay off
+      https://www.foxnews.com/politics/key-american-industry-seeing-blue-collar-jobs-boom-trump-reshoring-policies-pay
+
+   5. Trump rallies New York crowd for Republican Bruce Blakeman's bid to replace Gov Kathy Hochul
       https://www.foxnews.com/politics/trump-rallies-new-york-crowd-republican-bruce-blakemans-bid-replace-gov-kathy-hochul
-
-   3. Trump brings Mike Tyson on stage at Syracuse rally, jokes that he is Bruce Blakeman's personal security
-      https://www.foxnews.com/outkick-sports/trump-brings-mike-tyson-stage-syracuse-rally-jokes-bruce-blakeman-personal-security
-
-   4. Gov Kathy Hochul signs New York onto Trump's school choice program despite teachers union opposition
-      https://www.foxnews.com/media/gov-kathy-hochul-signs-new-york-trump-school-choice-program-despite-teachers-union-opposition
-
-   5. Trump gives raw reaction after finding out about Mike Ditka's death: 'A tough cookie'
-      https://www.foxnews.com/outkick-sports/trump-raw-reaction-mike-ditka-death-tough-cookie
 
    6. Trump names Leavitt successor after weeks of speculation — and she's no stranger to MAGA
       https://www.foxnews.com/politics/trump-names-leavitt-successor-weeks-speculation-no-stranger-maga
@@ -40,5 +40,5 @@
 
 
 ============================================================
-  Generated at 03:45 AM PDT by GitHub Actions
+  Generated at 10:55 AM PDT by GitHub Actions
 ============================================================
