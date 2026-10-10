@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Friday, October 09, 2026
+  DAILY BRIEFING — Saturday, October 10, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump brings Mike Tyson on stage at Syracuse rally, jokes that he is Bruce Blakeman's personal security
+   1. Ohio dog park shooting over Trump argument could end with two self-defense claims, or none: legal expert
+      https://www.foxnews.com/us/ohio-dog-park-shooting-trump-argument-self-defense-claims-legal-expert
+
+   2. Trump rallies New York crowd for Republican Bruce Blakeman's bid to replace Gov. Kathy Hochul
+      https://www.foxnews.com/politics/trump-rallies-new-york-crowd-republican-bruce-blakemans-bid-replace-gov-kathy-hochul
+
+   3. Trump brings Mike Tyson on stage at Syracuse rally, jokes that he is Bruce Blakeman's personal security
       https://www.foxnews.com/outkick-sports/trump-brings-mike-tyson-stage-syracuse-rally-jokes-bruce-blakeman-personal-security
 
-   2. Gov Kathy Hochul signs New York onto Trump's school choice program despite teachers union opposition
+   4. Gov Kathy Hochul signs New York onto Trump's school choice program despite teachers union opposition
       https://www.foxnews.com/media/gov-kathy-hochul-signs-new-york-trump-school-choice-program-despite-teachers-union-opposition
 
-   3. Trump gives raw reaction after finding out about Mike Ditka's death: 'A tough cookie'
+   5. Trump gives raw reaction after finding out about Mike Ditka's death: 'A tough cookie'
       https://www.foxnews.com/outkick-sports/trump-raw-reaction-mike-ditka-death-tough-cookie
 
-   4. Trump names Leavitt successor after weeks of speculation — and she's no stranger to MAGA
+   6. Trump names Leavitt successor after weeks of speculation — and she's no stranger to MAGA
       https://www.foxnews.com/politics/trump-names-leavitt-successor-weeks-speculation-no-stranger-maga
 
-   5. Dem scrambles to change tune on trans athletes as Trump targets past record: ‘Annie Trannie’
+   7. Dem scrambles to change tune on trans athletes as Trump targets past record: ‘Annie Trannie’
       https://www.foxnews.com/politics/dem-scrambles-change-tune-trans-athletes-trump-targets-past-record-annie-trannie
 
-   6. Trump says Rogers 'completely obliterated' El-Sayed in debate
+   8. Trump says Rogers 'completely obliterated' El-Sayed in debate
       https://www.foxnews.com/politics/trump-says-rogers-completely-obliterated-el-sayed-debate
 
-   7. Trump sets up committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations
+   9. Trump sets up committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations
       https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations
 
-   8. Radical anti-Trump language riddles California voter guide on high-stakes ballot measure
+  10. Radical anti-Trump language riddles California voter guide on high-stakes ballot measure
       https://www.foxnews.com/politics/radical-anti-trump-language-riddles-california-voter-guide-high-stakes-ballot-measure
-
-   9. Talarico disappearance has Dem volunteers worrying and Trump asking, 'What is going on?'
-      https://www.foxnews.com/politics/talarico-disappearance-has-dem-volunteers-worrying-trump-asking-what-going-on
-
-  10. Autism providers warn foster kids at risk from unintended consequences of Trump's Medicaid fraud crackdown
-      https://www.foxnews.com/politics/autism-providers-warn-foster-kids-risk-unintended-consequences-trumps-medicaid-fraud-crackdown
 
 
 ============================================================
-  Generated at 07:33 PM PDT by GitHub Actions
+  Generated at 03:45 AM PDT by GitHub Actions
 ============================================================
