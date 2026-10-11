@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump calls for Ukraine to replace Zelenskyy after clash over Russia diesel deal: 'Get a new president'
+   1. President talks 'Trump Ocean,' trades jokes with Tennessee crowd as Kid Rock kicks off sprawling rally
+      https://www.foxnews.com/politics/president-talks-trump-ocean-trades-jokes-tennessee-crowd-kid-rock-kicks-sprawling-rally
+
+   2. Trump calls for Ukraine to replace Zelenskyy after clash over Russia diesel deal: 'Get a new president'
       https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president
 
-   2. Mike Tyson predicts ‘Donald Trump will win’ midterms before joining president for New York rally
+   3. Mike Tyson predicts ‘Donald Trump will win’ midterms before joining president for New York rally
       https://www.foxnews.com/outkick-sports/mike-tyson-predicts-donald-trump-will-win-midterms-joining-president-new-york-rally
 
-   3. President Trump blasts Nobel Peace Prize snub with blistering list of accomplishments: 'WOW!'
+   4. President Trump blasts Nobel Peace Prize snub with blistering list of accomplishments: 'WOW!'
       https://www.foxnews.com/politics/president-trump-blasts-nobel-peace-prize-snub-blistering-list-accomplishments-wow
 
-   4. Judicial Watch's Thomas Fitton slams FBI's 'drip-drip' release for 75,000 pages of Trump-Butler shooting files
+   5. Judicial Watch's Thomas Fitton slams FBI's 'drip-drip' release of 75,000 pages of Trump Butler shooting files
       https://www.foxnews.com/politics/judicial-watch-thomas-fitton-slams-fbi-drip-drip-release-75000-pages-trump-butler-shooting-files
 
-   5. Who is Sally Yates? Cornell rape-review pick was fired by Trump after refusing to defend travel ban
+   6. Who is Sally Yates? Cornell rape-review pick was fired by Trump after refusing to defend travel ban
       https://www.foxnews.com/politics/who-sally-yates-cornell-rape-review-pick-fired-trump-refusing-defend-travel-ban
 
-   6. Key American industry seeing blue-collar jobs boom as Trump's re-shoring policies pay off
+   7. Key American industry seeing blue-collar jobs boom as Trump's reshoring policies pay off
       https://www.foxnews.com/politics/key-american-industry-seeing-blue-collar-jobs-boom-trump-reshoring-policies-pay
 
-   7. Trump rallies New York crowd for Republican Bruce Blakeman's bid to replace Gov Kathy Hochul
+   8. Trump rallies New York crowd for Republican Bruce Blakeman's bid to replace Gov Kathy Hochul
       https://www.foxnews.com/politics/trump-rallies-new-york-crowd-republican-bruce-blakemans-bid-replace-gov-kathy-hochul
 
-   8. Trump names Leavitt successor after weeks of speculation — and she's no stranger to MAGA
+   9. Trump names Leavitt successor after weeks of speculation — and she's no stranger to MAGA
       https://www.foxnews.com/politics/trump-names-leavitt-successor-weeks-speculation-no-stranger-maga
 
-   9. Dem scrambles to change tune on trans athletes as Trump targets past record: ‘Annie Trannie’
+  10. Dem scrambles to change tune on trans athletes as Trump targets past record: ‘Annie Trannie’
       https://www.foxnews.com/politics/dem-scrambles-change-tune-trans-athletes-trump-targets-past-record-annie-trannie
-
-  10. Trump says Rogers 'completely obliterated' El-Sayed in debate
-      https://www.foxnews.com/politics/trump-says-rogers-completely-obliterated-el-sayed-debate
 
 
 ============================================================
-  Generated at 02:54 PM PDT by GitHub Actions
+  Generated at 07:03 PM PDT by GitHub Actions
 ============================================================
