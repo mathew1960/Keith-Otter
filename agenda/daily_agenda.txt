@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism
+   1. JD Vance declines to endorse Netanyahu despite Trump's strong backing
+      https://www.foxnews.com/politics/jd-vance-declines-endorse-netanyahu-despite-trumps-strong-backing
+
+   2. Kansas man mapped rooftops near Trump speech site, threatened to shoot president: DOJ
+      https://www.foxnews.com/us/kansas-man-mapped-rooftops-near-trump-speech-site-threatened-shoot-president-doj
+
+   3. Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism
       https://www.foxnews.com/world/beleaguered-macron-cites-us-iran-war-factor-protests-amid-trump-vance-criticism
 
-   2. Trump renews push to rename New Mexico ‘New America,’ touts higher home values and incomes
+   4. Trump renews push to rename New Mexico ‘New America,’ touts higher home values and incomes
       https://www.foxnews.com/politics/trump-renews-push-rename-new-mexico-new-america-touts-higher-home-values-incomes
 
-   3. Trump takes border crackdown to deep-red state as shock Senate battle threatens GOP stronghold
+   5. Trump takes border crackdown to deep-red state as shock Senate battle threatens GOP stronghold
       https://www.foxnews.com/politics/trump-takes-border-crackdown-deep-red-state-shock-senate-battle-threatens-gop-stronghold
 
-   4. Trump unveils plan to transform historic DC golf course as judge tees off
+   6. Trump unveils plan to transform historic DC golf course as judge tees off
       https://www.foxnews.com/politics/trump-unveils-plan-transform-historic-dc-golf-course-judge-tees-off
 
-   5. Slotkin wants GOP prosecutions to deter young people from Trump administration jobs
+   7. Slotkin wants GOP prosecutions to deter young people from Trump administration jobs
       https://www.foxnews.com/politics/slotkin-wants-gop-prosecutions-deter-young-people-trump-administration-jobs
 
-   6. Trump says Netanyahu needs to be re-elected, or else US will have to 'finish the job’ against Iran alone
+   8. Trump says Netanyahu needs to be re-elected, or else US will have to 'finish the job’ against Iran alone
       https://www.foxnews.com/politics/trump-says-netanyahu-needs-reelected-else-us-finish-job-against-iran-alone
 
-   7. Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement
+   9. Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement
       https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement
 
-   8. Trump tries different approach with Russia to bring Americans relief amid ongoing war with Ukraine
+  10. Trump tries different approach with Russia to bring Americans relief amid ongoing war with Ukraine
       https://www.foxnews.com/politics/trump-tries-different-approach-russia-bring-americans-relief-amid-ongoing-war-ukraine
-
-   9. 'The View' co-hosts defend El Sayed comparing himself to JFK over Muslim Brotherhood scrutiny
-      https://www.foxnews.com/media/view-cohosts-defend-el-sayed-comparing-himself-jfk-muslim-brotherhood-scrutiny
-
-  10. The Eagles owe it to Jalen Hurts to address these serious allegations
-      https://www.foxnews.com/outkick-sports/eagles-owe-jalen-hurts-address-serious-allegations
 
 
 ============================================================
-  Generated at 03:31 PM PDT by GitHub Actions
+  Generated at 06:59 PM PDT by GitHub Actions
 ============================================================
