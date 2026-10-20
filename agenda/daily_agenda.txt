@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Fox News Power Rankings: Trump country at a crossroads
+   1. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
+      https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country
+
+   2. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
+      https://www.foxnews.com/politics/vance-reveals-trump-dilemma-complicate-2028-white-house-ambitions
+
+   3. Fox News Power Rankings: Trump country at a crossroads
       https://www.foxnews.com/politics/fox-news-power-rankings-trump-country-crossroads
 
-   2. Midwest pro-Trump state could hold key to Republicans' midterm hopes
+   4. Midwest pro-Trump state could hold key to Republicans' midterm hopes
       https://www.foxnews.com/politics/midwest-pro-trump-state-could-hold-key-republicans-midterm-hopes
 
-   3. Trump puts fraudsters on notice with $25M whistleblower program offering cash for tips that deliver
+   5. Trump puts fraudsters on notice with $25M whistleblower program offering cash for tips that deliver
       https://www.foxnews.com/politics/trump-puts-fraudsters-notice-25m-whistleblower-program-offering-cash-tips-deliver
 
-   4. Voters prepare to weigh-in on Trump's economy as costs continue to surge
+   6. Voters prepare to weigh-in on Trump's economy as costs continue to surge
       https://www.foxnews.com/politics/voters-prepare-weigh-trumps-economy-costs-continue-surge-2-weeks-before-midterms
 
-   5. Top Trump ally warns Republican Party 'dead' if it loses key voting bloc ahead of midterms
+   7. Top Trump ally warns Republican Party 'dead' if it loses key voting bloc ahead of midterms
       https://www.foxnews.com/politics/top-trump-ally-warns-republican-party-dead-loses-key-voting-bloc-ahead-midterms
 
-   6. JD Vance declines to endorse Netanyahu despite Trump's strong backing
-      https://www.foxnews.com/politics/jd-vance-declines-endorse-netanyahu-despite-trumps-strong-backing
+   8. Washington Post columnist reinstated after being fired over Charlie Kirk posts gloats about receiving back pay
+      https://www.foxnews.com/media/washington-post-columnist-reinstated-after-fired-charlie-kirk-posts-gloats-receiving-back-pay
 
-   7. Trump renews push to rename New Mexico ‘New America,’ touts higher home values and incomes
-      https://www.foxnews.com/politics/trump-renews-push-rename-new-mexico-new-america-touts-higher-home-values-incomes
+   9. NFL VP says league is 'vigilant' about security for France matchup, remains confident in plans
+      https://www.foxnews.com/outkick-sports/nfl-vp-says-league-vigilant-security-france-matchup-remains-confident-plans
 
-   8. Tourist killed in freak accident at landmark designed by one of America's most famous architects
-      https://www.foxnews.com/travel/tourist-killed-freak-accident-landmark-designed-famous-architects
-
-   9. Christian Pulisic showed up on Megan Moroney's lock screen picture after the Victoria's Secret Fashion Show
-      https://www.foxnews.com/outkick-sports/christian-pulisic-showed-megan-moroney-lock-screen-picture-victorias-secret-fashion-show
-
-  10. Sunny Hostin re-visits 'problematic' Kamala Harris answer on 'The View' as hosts question her 2028 potential
-      https://www.foxnews.com/media/sunny-hostin-revisits-problematic-kamala-harris-answer-view-hosts-question-2028-potential
+  10. Jay Z's past political statements won't help perception of NFL politicizing Super Bowl halftime
+      https://www.foxnews.com/outkick-sports/jay-z-past-political-statements-wont-help-perception-nfl-politicizing-super-bowl-halftime
 
 
 ============================================================
-  Generated at 11:02 AM PDT by GitHub Actions
+  Generated at 02:46 PM PDT by GitHub Actions
 ============================================================
