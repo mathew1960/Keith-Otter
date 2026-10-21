@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Tuesday, October 20, 2026
+  DAILY BRIEFING — Wednesday, October 21, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Americans who moved to Europe after Trump win now say they regret leaving
+   1. Trump's MOAB threat could put Iran's deepest bunkers in America's crosshairs
+      https://www.foxnews.com/opinion/trumps-moab-threat-could-put-irans-deepest-bunkers-americas-crosshairs
+
+   2. Americans who moved to Europe after Trump win now say they regret leaving
       https://www.foxnews.com/media/americans-who-moved-europe-after-trump-win-now-say-regret-leaving
 
-   2. Ana Navarro clashes with 'The View' co-hosts, declares there's 'no way in hell' she would meet with Trump
+   3. Ana Navarro clashes with 'The View' co-hosts, declares there's 'no way in hell' she would meet with Trump
       https://www.foxnews.com/media/ana-navarro-clashes-the-view-co-hosts-declares-theres-no-way-hell-she-would-meet-trump
 
-   3. Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3
+   4. Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3
       https://www.foxnews.com/politics/judge-trump-called-lunatic-abruptly-backs-off-demand-showdown-doj-3
 
-   4. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
+   5. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
       https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country
 
-   5. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
+   6. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
       https://www.foxnews.com/politics/vance-reveals-trump-dilemma-complicate-2028-white-house-ambitions
 
-   6. Fox News Power Rankings: Trump country at a crossroads
+   7. Fox News Power Rankings: Trump country at a crossroads
       https://www.foxnews.com/politics/fox-news-power-rankings-trump-country-crossroads
 
-   7. Midwest pro-Trump state could hold key to Republicans' midterm hopes
+   8. Midwest pro-Trump state could hold key to Republicans' midterm hopes
       https://www.foxnews.com/politics/midwest-pro-trump-state-could-hold-key-republicans-midterm-hopes
 
-   8. Trump puts fraudsters on notice with $25M whistleblower program offering cash for tips that deliver
+   9. Trump puts fraudsters on notice with $25M whistleblower program offering cash for tips that deliver
       https://www.foxnews.com/politics/trump-puts-fraudsters-notice-25m-whistleblower-program-offering-cash-tips-deliver
 
-   9. Voters prepare to weigh-in on Trump's economy as costs continue to surge
+  10. Voters prepare to weigh-in on Trump's economy as costs continue to surge
       https://www.foxnews.com/politics/voters-prepare-weigh-trumps-economy-costs-continue-surge-2-weeks-before-midterms
-
-  10. Top Trump ally warns Republican Party 'dead' if it loses key voting bloc ahead of midterms
-      https://www.foxnews.com/politics/top-trump-ally-warns-republican-party-dead-loses-key-voting-bloc-ahead-midterms
 
 
 ============================================================
-  Generated at 06:50 PM PDT by GitHub Actions
+  Generated at 02:30 AM PDT by GitHub Actions
 ============================================================
