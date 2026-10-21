@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump's MOAB threat could put Iran's deepest bunkers in America's crosshairs
-      https://www.foxnews.com/opinion/trumps-moab-threat-could-put-irans-deepest-bunkers-americas-crosshairs
+   1. Newsom spars with Trump-appointed prosecutor over 20,000 suspected noncitizens on voter rolls
+      https://www.foxnews.com/politics/newsom-spars-trump-appointed-prosecutor-20000-suspected-noncitizens-voter-rolls
 
-   2. Americans who moved to Europe after Trump win now say they regret leaving
-      https://www.foxnews.com/media/americans-who-moved-europe-after-trump-win-now-say-regret-leaving
+   2. Ilhan Omar finally emerges after DC raid with video pleading for cash to fight Trump
+      https://www.foxnews.com/politics/ilhan-omar-emerges-dc-raid-video-pleading-cash-fight-trump
 
-   3. Ana Navarro clashes with 'The View' co-hosts, declares there's 'no way in hell' she would meet with Trump
-      https://www.foxnews.com/media/ana-navarro-clashes-the-view-co-hosts-declares-theres-no-way-hell-she-would-meet-trump
+   3. Trump delivers $1 billion to Marines to relieve decades-long suffering of American heroes and their families
+      https://www.foxnews.com/politics/trump-delivers-1-billion-marines-relieve-decades-long-suffering-american-heroes-families
 
-   4. Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3
+   4. How Saudi Arabia's defense vulnerabilities could become Trump's problem amid Houthi onslaught
+      https://www.foxnews.com/politics/saudi-arabia-defense-vulnerabilities-trump-problem-houthi-onslaught
+
+   5. Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3
       https://www.foxnews.com/politics/judge-trump-called-lunatic-abruptly-backs-off-demand-showdown-doj-3
 
-   5. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
+   6. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
       https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country
 
-   6. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
+   7. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
       https://www.foxnews.com/politics/vance-reveals-trump-dilemma-complicate-2028-white-house-ambitions
 
-   7. Fox News Power Rankings: Trump country at a crossroads
-      https://www.foxnews.com/politics/fox-news-power-rankings-trump-country-crossroads
+   8. Zach Bryan admits he drank '15 beers a day' as part of 'perfect routine' before quitting alcohol
+      https://www.foxnews.com/entertainment/zach-bryan-admits-drank-15-beers-day-perfect-routine-quitting-alcohol
 
-   8. Midwest pro-Trump state could hold key to Republicans' midterm hopes
-      https://www.foxnews.com/politics/midwest-pro-trump-state-could-hold-key-republicans-midterm-hopes
+   9. EXCLUSIVE: Secretary of State Marco Rubio gives NFL commissioner assurances that game in France 'will be fine'
+      https://www.foxnews.com/outkick-sports/exclusive-secretary-state-marco-rubio-gives-nfl-commissioner-assurances-game-france-will-be-fine
 
-   9. Trump puts fraudsters on notice with $25M whistleblower program offering cash for tips that deliver
-      https://www.foxnews.com/politics/trump-puts-fraudsters-notice-25m-whistleblower-program-offering-cash-tips-deliver
-
-  10. Voters prepare to weigh-in on Trump's economy as costs continue to surge
-      https://www.foxnews.com/politics/voters-prepare-weigh-trumps-economy-costs-continue-surge-2-weeks-before-midterms
+  10. Iran is trying to ‘create a rot from within’ through ‘information warfare,’ analyst warns
+      https://www.foxnews.com/politics/iran-trying-create-rot-within-information-warfare-analyst-warns
 
 
 ============================================================
-  Generated at 02:30 AM PDT by GitHub Actions
+  Generated at 11:08 AM PDT by GitHub Actions
 ============================================================
