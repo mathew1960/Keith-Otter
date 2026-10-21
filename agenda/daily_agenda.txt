@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Newsom spars with Trump-appointed prosecutor over 20,000 suspected noncitizens on voter rolls
+   1. Natasha Lyonne accused of ‘going full MAGA’ after Trump posts spark backlash
+      https://www.foxnews.com/entertainment/natasha-lyonne-prefer-trump-remark-elon-musk-repost-draw-accusations-going-full-maga
+
+   2. Trump supporters confronted with painful gas prices deliver striking response: ‘I'll take that any day’
+      https://www.foxnews.com/politics/trump-supporters-confronted-painful-gas-prices-deliver-striking-response-ill-take-that-any-day
+
+   3. Newsom spars with Trump-appointed prosecutor over 20,000 suspected noncitizens on voter rolls
       https://www.foxnews.com/politics/newsom-spars-trump-appointed-prosecutor-20000-suspected-noncitizens-voter-rolls
 
-   2. Ilhan Omar finally emerges after DC raid with video pleading for cash to fight Trump
+   4. Ilhan Omar finally emerges after DC raid with video pleading for cash to fight Trump
       https://www.foxnews.com/politics/ilhan-omar-emerges-dc-raid-video-pleading-cash-fight-trump
 
-   3. Trump delivers $1 billion to Marines to relieve decades-long suffering of American heroes and their families
+   5. Trump delivers $1 billion to Marines to relieve decades-long suffering of American heroes and their families
       https://www.foxnews.com/politics/trump-delivers-1-billion-marines-relieve-decades-long-suffering-american-heroes-families
 
-   4. How Saudi Arabia's defense vulnerabilities could become Trump's problem amid Houthi onslaught
+   6. How Saudi Arabia's defense vulnerabilities could become Trump's problem amid Houthi onslaught
       https://www.foxnews.com/politics/saudi-arabia-defense-vulnerabilities-trump-problem-houthi-onslaught
 
-   5. Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3
+   7. Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3
       https://www.foxnews.com/politics/judge-trump-called-lunatic-abruptly-backs-off-demand-showdown-doj-3
 
-   6. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
+   8. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
       https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country
 
-   7. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
+   9. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
       https://www.foxnews.com/politics/vance-reveals-trump-dilemma-complicate-2028-white-house-ambitions
 
-   8. Zach Bryan admits he drank '15 beers a day' as part of 'perfect routine' before quitting alcohol
-      https://www.foxnews.com/entertainment/zach-bryan-admits-drank-15-beers-day-perfect-routine-quitting-alcohol
-
-   9. EXCLUSIVE: Secretary of State Marco Rubio gives NFL commissioner assurances that game in France 'will be fine'
-      https://www.foxnews.com/outkick-sports/exclusive-secretary-state-marco-rubio-gives-nfl-commissioner-assurances-game-france-will-be-fine
-
-  10. Iran is trying to ‘create a rot from within’ through ‘information warfare,’ analyst warns
-      https://www.foxnews.com/politics/iran-trying-create-rot-within-information-warfare-analyst-warns
+  10. Former Patriots linebacker Brandon Spikes says he 'took a paycut' going from Florida to NFL
+      https://www.foxnews.com/outkick-sports/former-patriots-linebacker-brandon-spikes-took-paycut-florida-nfl
 
 
 ============================================================
-  Generated at 11:08 AM PDT by GitHub Actions
+  Generated at 02:52 PM PDT by GitHub Actions
 ============================================================
