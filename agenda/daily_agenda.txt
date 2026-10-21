@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
+   1. Americans who moved to Europe after Trump win now say they regret leaving
+      https://www.foxnews.com/media/americans-who-moved-europe-after-trump-win-now-say-regret-leaving
+
+   2. Ana Navarro clashes with 'The View' co-hosts, declares there's 'no way in hell' she would meet with Trump
+      https://www.foxnews.com/media/ana-navarro-clashes-the-view-co-hosts-declares-theres-no-way-hell-she-would-meet-trump
+
+   3. Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3
+      https://www.foxnews.com/politics/judge-trump-called-lunatic-abruptly-backs-off-demand-showdown-doj-3
+
+   4. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
       https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country
 
-   2. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
+   5. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
       https://www.foxnews.com/politics/vance-reveals-trump-dilemma-complicate-2028-white-house-ambitions
 
-   3. Fox News Power Rankings: Trump country at a crossroads
+   6. Fox News Power Rankings: Trump country at a crossroads
       https://www.foxnews.com/politics/fox-news-power-rankings-trump-country-crossroads
 
-   4. Midwest pro-Trump state could hold key to Republicans' midterm hopes
+   7. Midwest pro-Trump state could hold key to Republicans' midterm hopes
       https://www.foxnews.com/politics/midwest-pro-trump-state-could-hold-key-republicans-midterm-hopes
 
-   5. Trump puts fraudsters on notice with $25M whistleblower program offering cash for tips that deliver
+   8. Trump puts fraudsters on notice with $25M whistleblower program offering cash for tips that deliver
       https://www.foxnews.com/politics/trump-puts-fraudsters-notice-25m-whistleblower-program-offering-cash-tips-deliver
 
-   6. Voters prepare to weigh-in on Trump's economy as costs continue to surge
+   9. Voters prepare to weigh-in on Trump's economy as costs continue to surge
       https://www.foxnews.com/politics/voters-prepare-weigh-trumps-economy-costs-continue-surge-2-weeks-before-midterms
 
-   7. Top Trump ally warns Republican Party 'dead' if it loses key voting bloc ahead of midterms
+  10. Top Trump ally warns Republican Party 'dead' if it loses key voting bloc ahead of midterms
       https://www.foxnews.com/politics/top-trump-ally-warns-republican-party-dead-loses-key-voting-bloc-ahead-midterms
-
-   8. Washington Post columnist reinstated after being fired over Charlie Kirk posts gloats about receiving back pay
-      https://www.foxnews.com/media/washington-post-columnist-reinstated-after-fired-charlie-kirk-posts-gloats-receiving-back-pay
-
-   9. NFL VP says league is 'vigilant' about security for France matchup, remains confident in plans
-      https://www.foxnews.com/outkick-sports/nfl-vp-says-league-vigilant-security-france-matchup-remains-confident-plans
-
-  10. Jay Z's past political statements won't help perception of NFL politicizing Super Bowl halftime
-      https://www.foxnews.com/outkick-sports/jay-z-past-political-statements-wont-help-perception-nfl-politicizing-super-bowl-halftime
 
 
 ============================================================
-  Generated at 02:46 PM PDT by GitHub Actions
+  Generated at 06:50 PM PDT by GitHub Actions
 ============================================================
