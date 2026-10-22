@@ -1,75 +1,75 @@
 {
-  "temp": 81,
-  "high": 82,
+  "temp": 79,
+  "high": 84,
   "low": 63,
-  "conditions": "Clear",
-  "updated": "2026-10-22T18:06:54.190190+00:00",
+  "conditions": "Mostly clear",
+  "updated": "2026-10-22T21:46:21.383946+00:00",
   "hourly": [
     {
-      "time": "11 AM",
-      "temp": 81,
+      "time": "12 AM",
+      "temp": 75,
       "conditions": "Clear"
     },
     {
-      "time": "12 PM",
-      "temp": 81,
+      "time": "1 AM",
+      "temp": 75,
       "conditions": "Clear"
     },
     {
-      "time": "1 PM",
-      "temp": 81,
+      "time": "2 AM",
+      "temp": 75,
+      "conditions": "Mostly clear"
+    },
+    {
+      "time": "3 AM",
+      "temp": 73,
       "conditions": "Clear"
     },
     {
-      "time": "2 PM",
-      "temp": 82,
+      "time": "4 AM",
+      "temp": 73,
       "conditions": "Clear"
     },
     {
-      "time": "3 PM",
-      "temp": 80,
-      "conditions": "Overcast"
-    },
-    {
-      "time": "4 PM",
-      "temp": 78,
-      "conditions": "Partly cloudy"
-    },
-    {
-      "time": "5 PM",
-      "temp": 76,
+      "time": "5 AM",
+      "temp": 74,
       "conditions": "Clear"
     },
     {
-      "time": "6 PM",
+      "time": "6 AM",
+      "temp": 71,
+      "conditions": "Clear"
+    },
+    {
+      "time": "7 AM",
       "temp": 72,
       "conditions": "Clear"
     },
     {
-      "time": "7 PM",
-      "temp": 70,
+      "time": "8 AM",
+      "temp": 74,
       "conditions": "Clear"
     },
     {
-      "time": "8 PM",
-      "temp": 69,
+      "time": "9 AM",
+      "temp": 76,
       "conditions": "Clear"
     },
     {
-      "time": "9 PM",
-      "temp": 67,
+      "time": "10 AM",
+      "temp": 79,
       "conditions": "Clear"
     },
     {
-      "time": "10 PM",
-      "temp": 65,
+      "time": "11 AM",
+      "temp": 81,
       "conditions": "Clear"
     }
   ],
   "daily": [
     {
       "day": "Thu",
-      "high": 82,
+      "high": 84,
       "low": 63,
       "conditions": "Overcast"
     },
@@ -77,12 +77,12 @@
       "day": "Fri",
       "high": 80,
       "low": 60,
-      "conditions": "Overcast"
+      "conditions": "Mostly clear"
     },
     {
       "day": "Sat",
       "high": 84,
-      "low": 69,
+      "low": 71,
       "conditions": "Clear"
     },
     {
