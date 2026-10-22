@@ -8,8 +8,8 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Natasha Lyonne accused of ‘going full MAGA’ after Trump posts spark backlash
-      https://www.foxnews.com/entertainment/natasha-lyonne-prefer-trump-remark-elon-musk-repost-draw-accusations-going-full-maga
+   1. Stephen A Smith defends White House dinner with Trump
+      https://www.foxnews.com/media/stephen-smith-defends-white-house-dinner-trump
 
    2. Trump supporters confronted with painful gas prices deliver striking response: ‘I'll take that any day’
       https://www.foxnews.com/politics/trump-supporters-confronted-painful-gas-prices-deliver-striking-response-ill-take-that-any-day
@@ -32,13 +32,13 @@
    8. Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’
       https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country
 
-   9. Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions
-      https://www.foxnews.com/politics/vance-reveals-trump-dilemma-complicate-2028-white-house-ambitions
+   9. Hillary Clinton scolds Matthew McConaughey for 'unfortunate' video supporting independent candidates
+      https://www.foxnews.com/media/hillary-clinton-scolds-matthew-mcconaughey-unfortunate-video-supporting-independent-candidates
 
-  10. Former Patriots linebacker Brandon Spikes says he 'took a paycut' going from Florida to NFL
-      https://www.foxnews.com/outkick-sports/former-patriots-linebacker-brandon-spikes-took-paycut-florida-nfl
+  10. Police called on two Maryland student reporters covering Mike Locksley's firing outside football complex
+      https://www.foxnews.com/outkick-sports/police-called-two-maryland-student-reporters-covering-mike-lockseys-firing-outside-football-complex
 
 
 ============================================================
-  Generated at 02:52 PM PDT by GitHub Actions
+  Generated at 06:41 PM PDT by GitHub Actions
 ============================================================
