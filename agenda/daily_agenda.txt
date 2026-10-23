@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump says judge is 'desecrating' Charlie Kirk's memory amid fight over assassination trial date
-      https://www.foxnews.com/us/trump-says-judge-desecrating-charlie-kirks-memory-amid-fight-assassination-trial-date
+   1. Robert De Niro ad urges voters to vote early to avoid what Trump might 'pull on Election Day'
+      https://www.foxnews.com/media/robert-de-niro-ad-urges-voters-vote-early-avoid-what-trump-might-pull-election-day
 
-   2. State Department says Trump is 'spot on' with France protests after Macron decries 'stupid' comments
-      https://www.foxnews.com/world/state-department-says-trump-spot-on-france-protests-macron-decries-stupid-comments
+   2. Ilhan Omar calls Trump ‘creep’ as president revives ‘fake name,’ marriage allegations
+      https://www.foxnews.com/politics/ilhan-omar-calls-trump-creep-president-revives-fake-name-marriage-allegations
 
-   3. LeBron James doubles down with sneaky golf hip turns during national anthem after Trump's 'total disgrace' dig
-      https://www.foxnews.com/outkick-sports/lebron-james-doubles-sneaky-golf-hip-turns-national-anthem-trump-total-disgrace-dig
-
-   4. White House blasts Biden border policies ahead of Trump Florida visit, citing brutal hammer killing
+   3. White House blasts Biden border policies ahead of Trump Florida visit, citing brutal hammer killing
       https://www.foxnews.com/politics/white-house-blasts-biden-border-policies-ahead-trump-florida-visit-citing-brutal-hammer-killing
 
-   5. Trump sidelines sweeping Russia sanctions as GOP allies warn pressure on Putin is slipping
+   4. Trump sidelines sweeping Russia sanctions as GOP allies warn pressure on Putin is slipping
       https://www.foxnews.com/politics/trump-sidelines-sweeping-russia-sanctions-gop-allies-warn-pressure-putin-slipping
 
-   6. Trump pushback, Biden 'disaster' and gender surprise: 5 key moments from Kansas Senate debate
+   5. Trump pushback, Biden 'disaster' and gender surprise: 5 key moments from Kansas Senate debate
       https://www.foxnews.com/politics/trump-pushback-biden-disaster-gender-surprise-5-key-moments-from-kansas-senate-debate
 
-   7. Trump's MAGA faithful send warning to Republicans ahead of high-stakes midterm elections
+   6. Trump's MAGA faithful send warning to Republicans ahead of high-stakes midterm elections
       https://www.foxnews.com/politics/trumps-maga-faithful-send-warning-republicans-ahead-high-stakes-midterm-elections
 
-   8. NYC votes to end nearly 170-year-old horse carriage tradition as Trump blasts ban, drivers threaten lawsuit
+   7. NYC votes to end nearly 170-year-old horse carriage tradition as Trump blasts ban, drivers threaten lawsuit
       https://www.foxnews.com/politics/nyc-votes-end-nearly-170-year-old-horse-carriage-tradition-trump-blasts-ban-drivers-threaten-lawsuit
 
-   9. DOJ opens investigation into Trump ally Corey Lewandowski
+   8. DOJ opens investigation into Trump ally Corey Lewandowski
       https://www.foxnews.com/politics/doj-opens-investigation-trump-ally-corey-lewandowski
 
-  10. Trump rally exposes surprising cracks in MAGA base as Republicans face midterm test
+   9. Trump rally exposes surprising cracks in MAGA base as Republicans face midterm test
       https://www.foxnews.com/politics/trump-rally-exposes-surprising-cracks-maga-base-republicans-face-midterm-test
+
+  10. Hegseth unleashes Trump's 'Arsenal of Freedom' with warning to defense giants
+      https://www.foxnews.com/politics/hegseth-unleashes-trumps-arsenal-freedom-warning-defense-giants
 
 
 ============================================================
-  Generated at 10:54 AM PDT by GitHub Actions
+  Generated at 02:33 PM PDT by GitHub Actions
 ============================================================
