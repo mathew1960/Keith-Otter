@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump immigration win could strengthen admin's hand in looming Supreme Court fight
+   1. MAPPED: The states Trump and top Democrats are targeting before Election Day
+      https://www.foxnews.com/politics/mapped-states-trump-top-democrats-targeting-election-day
+
+   2. Trump reveals dire warning to Macron as violent unrest spreads across Europe
+      https://www.foxnews.com/media/trump-reveals-dire-warning-macron-violent-unrest-spreads-across-europe
+
+   3. DOJ flooded with thousands of fraud tips after cash incentive launch, Trump official says
+      https://www.foxnews.com/media/doj-flooded-thousands-fraud-tips-after-cash-incentive-launch-trump-official-says
+
+   4. Trump immigration win could strengthen admin's hand in looming Supreme Court fight
       https://www.foxnews.com/politics/trump-immigration-win-could-strengthen-admins-hand-looming-supreme-court-fight
 
-   2. NFL overcomes civil unrest, Trump concerns and calls to postpone as Steelers and Saints kick off in Paris
-      https://www.foxnews.com/outkick-sports/nfl-overcomes-civil-unrest-trump-concerns-calls-postpone-steelers-saints-kick-off-paris
-
-   3. Leavitt says Trump is defying midterm headwinds as he barnstorms country
+   5. Leavitt says Trump is defying midterm headwinds as he barnstorms country
       https://www.foxnews.com/politics/leavitt-says-trump-defying-midterm-headwinds-he-barnstorms-country
 
-   4. Obama compares Trump's White House renovations to 'Saddam Hussein opening a Cheesecake Factory' at Ohio rally
+   6. Obama compares Trump's White House renovations to 'Saddam Hussein opening a Cheesecake Factory' at Ohio rally
       https://www.foxnews.com/politics/obama-compares-trumps-white-house-renovations-saddam-hussein-opening-cheesecake-factory-ohio-rally
 
-   5. Trump's war on drug cartels could gain powerful new ally after pivotal election
+   7. Trump's war on drug cartels could gain powerful new ally after pivotal election
       https://www.foxnews.com/politics/trumps-war-drug-cartels-could-gain-powerful-new-ally-after-pivotal-election
 
-   6. Canada is feeling the pain from Trump's tariffs, but the trade fight didn't start overnight
+   8. Canada is feeling the pain from Trump's tariffs, but the trade fight didn't start overnight
       https://www.foxnews.com/politics/canada-feeling-pain-trumps-tariffs-trade-fight-didnt-start-overnight
 
-   7. Trump officials warn decades-long decline among American men could carry national security consequences
+   9. Trump officials warn decades-long decline among American men could carry national security consequences
       https://www.foxnews.com/politics/trump-officials-warn-decades-long-decline-american-men-could-carry-national-security-consequences
 
-   8. Virginia Dems cast doubt on prosecution of colleague after embracing criminal allegations against Trump
+  10. Virginia Dems cast doubt on prosecution of colleague after embracing criminal allegations against Trump
       https://www.foxnews.com/politics/virginia-dems-cast-doubt-prosecution-colleague-embracing-criminal-allegations-trump
-
-   9. Ilhan Omar calls Trump ‘creep’ as president revives ‘fake name,’ marriage allegations
-      https://www.foxnews.com/politics/ilhan-omar-calls-trump-creep-president-revives-fake-name-marriage-allegations
-
-  10. Baylor fires Dave Aranda after third loss of season, will reportedly owe him substantial buyout
-      https://www.foxnews.com/outkick-sports/baylor-fires-dave-aranda-after-third-loss-season-will-reportedly-owe-him-substantial-buyout
 
 
 ============================================================
-  Generated at 10:06 AM PDT by GitHub Actions
+  Generated at 02:01 PM PDT by GitHub Actions
 ============================================================
