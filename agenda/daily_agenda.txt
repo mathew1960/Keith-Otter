@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, October 24, 2026
+  DAILY BRIEFING — Sunday, October 25, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Obama compares Trump's White House renovations to 'Saddam Hussein opening a Cheesecake Factory' at Ohio rally
+   1. Leavitt says Trump is defying midterm headwinds as he barnstorms country
+      https://www.foxnews.com/politics/leavitt-says-trump-defying-midterm-headwinds-he-barnstorms-country
+
+   2. Obama compares Trump's White House renovations to 'Saddam Hussein opening a Cheesecake Factory' at Ohio rally
       https://www.foxnews.com/politics/obama-compares-trumps-white-house-renovations-saddam-hussein-opening-cheesecake-factory-ohio-rally
 
-   2. Trump's war on drug cartels could gain powerful new ally after pivotal election
+   3. Trump's war on drug cartels could gain powerful new ally after pivotal election
       https://www.foxnews.com/politics/trumps-war-drug-cartels-could-gain-powerful-new-ally-after-pivotal-election
 
-   3. Canada is feeling the pain from Trump's tariffs, but the trade fight didn't start overnight
+   4. Canada is feeling the pain from Trump's tariffs, but the trade fight didn't start overnight
       https://www.foxnews.com/politics/canada-feeling-pain-trumps-tariffs-trade-fight-didnt-start-overnight
 
-   4. Trump officials warn decades-long decline among American men could carry national security consequences
+   5. Trump officials warn decades-long decline among American men could carry national security consequences
       https://www.foxnews.com/politics/trump-officials-warn-decades-long-decline-american-men-could-carry-national-security-consequences
 
-   5. Virginia Dems cast doubt on prosecution of colleague after embracing criminal allegations against Trump
+   6. Virginia Dems cast doubt on prosecution of colleague after embracing criminal allegations against Trump
       https://www.foxnews.com/politics/virginia-dems-cast-doubt-prosecution-colleague-embracing-criminal-allegations-trump
 
-   6. Ilhan Omar calls Trump ‘creep’ as president revives ‘fake name,’ marriage allegations
+   7. Ilhan Omar calls Trump ‘creep’ as president revives ‘fake name,’ marriage allegations
       https://www.foxnews.com/politics/ilhan-omar-calls-trump-creep-president-revives-fake-name-marriage-allegations
 
-   7. Raiders mourn Super Bowl champion Pete Banaszak, key figure in iconic 'Holy Roller' play
-      https://www.foxnews.com/outkick-sports/raiders-mourn-super-bowl-champion-pete-banaszak-key-figure-iconic-holy-roller-play
+   8. Alarming fraud trend puts small-town mosque with industry and foreign govt ties in focus: ‘Our motherland now’
+      https://www.foxnews.com/politics/alarming-fraud-trend-puts-small-town-mosque-industry-foreign-govt-ties-focus-our-motherland-now
 
-   8. Man arrested after fire engulfs Hitler’s Eagle’s Nest mountain retreat in the Bavarian Alps
-      https://www.foxnews.com/travel/man-arrested-fire-engulfs-hitlers-eagles-nest-mountain-retreat-bavarian-alps
+   9. Iran’s oil lifeline is drying up. The biggest pain may fall on ordinary citizens
+      https://www.foxnews.com/politics/irans-oil-lifeline-drying-up-biggest-pain-may-fall-ordinary-citizens
 
-   9. Sacha Baron Cohen says 'Ali G: Who Iz I?' is his last in this style of comedy, calling them too risky
-      https://www.foxnews.com/entertainment/sacha-baron-cohen-says-ali-g-who-iz-i-last-over-the-top-comedy-calling-them-too-risky
-
-  10. UCF Knights pull off stunning upset over undefeated BYU in mind-boggling overtime thriller
-      https://www.foxnews.com/outkick-sports/ucf-knights-pull-off-stunning-upset-undefeated-byu-mind-boggling-overtime-thriller
+  10. Florida A&M University shooting leaves 12 injured, including 6 children, near football stadium
+      https://www.foxnews.com/us/florida-am-university-shooting-tallahassee-stadium-copy-slug
 
 
 ============================================================
-  Generated at 06:25 PM PDT by GitHub Actions
+  Generated at 02:19 AM PDT by GitHub Actions
 ============================================================
