@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump restored the Department of War. Now it’s up to Congress to finish the job
-      https://www.foxnews.com/opinion/trump-restored-department-of-war-now-congress-finish-job
+   1. Obama judge rules Trump DOJ illegally fired James Comey's daughter, rejects sweeping Article II claim
+      https://www.foxnews.com/politics/obama-judge-rules-trump-doj-illegally-fired-james-comeys-daughter-rejects-sweeping-article-ii-claim
 
-   2. Trump's fingerprints seen on Latin America's rightward shift as Brazil becomes next test
+   2. Trump's not on the ballot but swing state voters still cast ballots with MAGA in mind
+      https://www.foxnews.com/politics/trumps-not-ballot-swing-state-voters-still-cast-ballots-maga-mind
+
+   3. Trump isn't done overhauling the White House — and his next move could hit the media where it works
+      https://www.foxnews.com/politics/trump-isnt-done-overhauling-white-house-his-next-move-could-hit-media-where-works
+
+   4. Trump's brutal Truth Social attack on Bill Maher after dinner sparks confusion online
+      https://www.foxnews.com/media/trumps-brutal-truth-social-attack-bill-maher-after-dinner-sparks-confusion-online
+
+   5. Trump-appointed judge slams door on DOJ as court losses pile up days ahead of midterms
+      https://www.foxnews.com/politics/trump-appointed-judge-slams-door-doj-court-losses-pile-up-days-ahead-midterms
+
+   6. Trump's fingerprints seen on Latin America's rightward shift while Brazil throws up roadblock
       https://www.foxnews.com/politics/trumps-fingerprints-latin-americas-rightward-shift-brazil-becomes-next-test
 
-   3. Nicki Minaj pledges to support Donald Trump again during Michigan Republican campaign rally
+   7. Nicki Minaj pledges to support Donald Trump again during Michigan Republican campaign rally
       https://www.foxnews.com/politics/nicki-minaj-pledges-support-donald-trump-michigan-republican-campaign-rally
 
-   4. Ninth Circuit questions Trump DOJ's emergency request to set aside 20,000 California mail ballots
+   8. Ninth Circuit questions Trump DOJ's emergency request to set aside 20,000 California mail ballots
       https://www.foxnews.com/politics/ninth-circuit-questions-trump-doj-emergency-request-set-aside-20000-california-mail-ballots
 
-   5. MAPPED: The states Trump and top Democrats are targeting before Election Day
+   9. MAPPED: The states Trump and top Democrats are targeting before Election Day
       https://www.foxnews.com/politics/mapped-states-trump-top-democrats-targeting-election-day
 
-   6. Trump immigration win could strengthen admin's hand in looming Supreme Court fight
+  10. Trump immigration win could strengthen admin's hand in looming Supreme Court fight
       https://www.foxnews.com/politics/trump-immigration-win-could-strengthen-admins-hand-looming-supreme-court-fight
-
-   7. Leavitt says Trump is defying midterm headwinds as he barnstorms country
-      https://www.foxnews.com/politics/leavitt-says-trump-defying-midterm-headwinds-he-barnstorms-country
-
-   8. Obama compares Trump's White House renovations to 'Saddam Hussein opening a Cheesecake Factory' at Ohio rally
-      https://www.foxnews.com/politics/obama-compares-trumps-white-house-renovations-saddam-hussein-opening-cheesecake-factory-ohio-rally
-
-   9. Trump's war on drug cartels could gain powerful new ally after pivotal election
-      https://www.foxnews.com/politics/trumps-war-drug-cartels-could-gain-powerful-new-ally-after-pivotal-election
-
-  10. Canada is feeling the pain from Trump's tariffs, but the trade fight didn't start overnight
-      https://www.foxnews.com/politics/canada-feeling-pain-trumps-tariffs-trade-fight-didnt-start-overnight
 
 
 ============================================================
-  Generated at 03:24 AM PDT by GitHub Actions
+  Generated at 12:26 PM PDT by GitHub Actions
 ============================================================
