@@ -8,17 +8,17 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Obama judge rules Trump DOJ illegally fired James Comey's daughter, rejects sweeping Article II claim
+   1. Not even sky high gas prices or the Iran war will stop Trump supporters voting MAGA
+      https://www.foxnews.com/politics/sky-high-gas-prices-iran-war-wont-stop-trump-supporters-voting-maga
+
+   2. Obama judge rules Trump DOJ illegally fired James Comey's daughter, rejects sweeping Article II claim
       https://www.foxnews.com/politics/obama-judge-rules-trump-doj-illegally-fired-james-comeys-daughter-rejects-sweeping-article-ii-claim
 
-   2. Trump's not on the ballot but swing state voters still cast ballots with MAGA in mind
+   3. Trump's not on the ballot but swing state voters still cast ballots with MAGA in mind
       https://www.foxnews.com/politics/trumps-not-ballot-swing-state-voters-still-cast-ballots-maga-mind
 
-   3. Trump isn't done overhauling the White House — and his next move could hit the media where it works
+   4. Trump isn't done overhauling the White House — and his next move could hit the media where it works
       https://www.foxnews.com/politics/trump-isnt-done-overhauling-white-house-his-next-move-could-hit-media-where-works
-
-   4. Trump's brutal Truth Social attack on Bill Maher after dinner sparks confusion online
-      https://www.foxnews.com/media/trumps-brutal-truth-social-attack-bill-maher-after-dinner-sparks-confusion-online
 
    5. Trump-appointed judge slams door on DOJ as court losses pile up days ahead of midterms
       https://www.foxnews.com/politics/trump-appointed-judge-slams-door-doj-court-losses-pile-up-days-ahead-midterms
@@ -32,13 +32,13 @@
    8. Ninth Circuit questions Trump DOJ's emergency request to set aside 20,000 California mail ballots
       https://www.foxnews.com/politics/ninth-circuit-questions-trump-doj-emergency-request-set-aside-20000-california-mail-ballots
 
-   9. MAPPED: The states Trump and top Democrats are targeting before Election Day
-      https://www.foxnews.com/politics/mapped-states-trump-top-democrats-targeting-election-day
+   9. Deadly security risks prompt updated travel warnings for 13 countries
+      https://www.foxnews.com/travel/deadly-security-risks-prompt-updated-travel-warnings-13-countries
 
-  10. Trump immigration win could strengthen admin's hand in looming Supreme Court fight
-      https://www.foxnews.com/politics/trump-immigration-win-could-strengthen-admins-hand-looming-supreme-court-fight
+  10. Robert Griffin III says he would '100%' take Baylor's vacant head football coach job
+      https://www.foxnews.com/outkick-sports/robert-griffin-iii-100-percent-take-baylor-vacant-head-football-coach-job
 
 
 ============================================================
-  Generated at 12:26 PM PDT by GitHub Actions
+  Generated at 03:48 PM PDT by GitHub Actions
 ============================================================
