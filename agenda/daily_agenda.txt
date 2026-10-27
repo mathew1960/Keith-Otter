@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Not even sky high gas prices or the Iran war will stop Trump supporters voting MAGA
+   1. White House defends Trump after archbishop calls prayer moment 'manipulated' ahead of midterms
+      https://www.foxnews.com/media/white-house-defends-trump-after-archbishop-calls-prayer-moment-manipulated-ahead-midterms
+
+   2. The Hitchhiker's Guide to why removing Ilhan Omar from Congress could be harder than Trump expects
+      https://www.foxnews.com/politics/hitchhikers-guide-why-removing-ilhan-omar-from-congress-could-harder-than-trump-expects
+
+   3. Not even sky high gas prices or the Iran war will stop Trump supporters voting MAGA
       https://www.foxnews.com/politics/sky-high-gas-prices-iran-war-wont-stop-trump-supporters-voting-maga
 
-   2. Obama judge rules Trump DOJ illegally fired James Comey's daughter, rejects sweeping Article II claim
+   4. Obama judge rules Trump DOJ illegally fired James Comey's daughter, rejects sweeping Article II claim
       https://www.foxnews.com/politics/obama-judge-rules-trump-doj-illegally-fired-james-comeys-daughter-rejects-sweeping-article-ii-claim
 
-   3. Trump's not on the ballot but swing state voters still cast ballots with MAGA in mind
+   5. Trump's not on the ballot but swing state voters still cast ballots with MAGA in mind
       https://www.foxnews.com/politics/trumps-not-ballot-swing-state-voters-still-cast-ballots-maga-mind
 
-   4. Trump isn't done overhauling the White House — and his next move could hit the media where it works
+   6. Trump isn't done overhauling the White House — and his next move could hit the media where it works
       https://www.foxnews.com/politics/trump-isnt-done-overhauling-white-house-his-next-move-could-hit-media-where-works
 
-   5. Trump-appointed judge slams door on DOJ as court losses pile up days ahead of midterms
+   7. Trump-appointed judge slams door on DOJ as court losses pile up days ahead of midterms
       https://www.foxnews.com/politics/trump-appointed-judge-slams-door-doj-court-losses-pile-up-days-ahead-midterms
 
-   6. Trump's fingerprints seen on Latin America's rightward shift while Brazil throws up roadblock
+   8. Trump's fingerprints seen on Latin America's rightward shift while Brazil throws up roadblock
       https://www.foxnews.com/politics/trumps-fingerprints-latin-americas-rightward-shift-brazil-becomes-next-test
 
-   7. Nicki Minaj pledges to support Donald Trump again during Michigan Republican campaign rally
-      https://www.foxnews.com/politics/nicki-minaj-pledges-support-donald-trump-michigan-republican-campaign-rally
+   9. Stranded hikers cling to steep California mountain ridge as helicopter crew swoops in
+      https://www.foxnews.com/us/stranded-hikers-cling-steep-california-mountain-ridge-helicopter-crew-swoops
 
-   8. Ninth Circuit questions Trump DOJ's emergency request to set aside 20,000 California mail ballots
-      https://www.foxnews.com/politics/ninth-circuit-questions-trump-doj-emergency-request-set-aside-20000-california-mail-ballots
-
-   9. Deadly security risks prompt updated travel warnings for 13 countries
-      https://www.foxnews.com/travel/deadly-security-risks-prompt-updated-travel-warnings-13-countries
-
-  10. Robert Griffin III says he would '100%' take Baylor's vacant head football coach job
-      https://www.foxnews.com/outkick-sports/robert-griffin-iii-100-percent-take-baylor-vacant-head-football-coach-job
+  10. Angel Reese's 'Protect Black women' shirt adds to overall strangeness of WNBA Finals
+      https://www.foxnews.com/outkick-sports/angel-reese-protect-black-women-shirt-adds-overall-strangeness-wnba-finals
 
 
 ============================================================
-  Generated at 03:48 PM PDT by GitHub Actions
+  Generated at 07:18 PM PDT by GitHub Actions
 ============================================================
