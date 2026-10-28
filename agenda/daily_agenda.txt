@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Inside Melania Trump's secret diplomatic role in the Russia-Ukraine ceasefire deal
+   1. FBI reports 67% jump in violent crime arrests under Trump compared to Biden’s final months
+      https://www.foxnews.com/us/fbi-reports-67-percent-jump-violent-crime-arrests-trump-compared-bidens-final-months
+
+   2. Federal judge who oversaw Maduro, Trump cases dead at 92
+      https://www.foxnews.com/politics/federal-judge-oversaw-maduro-trump-cases-dead-92
+
+   3. LEE ZELDIN: Biden's energy rules cost billions. Trump's EPA is lowering costs
+      https://www.foxnews.com/opinion/lee-zeldin-bidens-energy-rules-cost-billions-trumps-epa-lowering-costs
+
+   4. Murkowski snubs Trump-backed Alaska candidate, endorses Democrat for governor
+      https://www.foxnews.com/politics/murkowski-snubs-trump-backed-alaska-candidate-endorses-democrat-governor
+
+   5. Long-running embassy fight comes back to haunt Trump as State Dept hit with $461M lawsuit
+      https://www.foxnews.com/politics/trump-admin-hit-461m-lawsuit-embassy-fight-started-under-biden-comes-back-haunt-state-dept
+
+   6. Trump revisits 10-year warning to Macron as protests sweep France: ‘You have to get them out’
+      https://www.foxnews.com/politics/trump-revisits-10-year-warning-macron-protests-sweep-france-get-them-out
+
+   7. Trump's unusual legal gambit against Biden-era deportation rule pays off at Supreme Court
+      https://www.foxnews.com/politics/trumps-unusual-legal-gambit-against-biden-era-deportation-rule-pays-off-supreme-court
+
+   8. Inside Melania Trump's secret diplomatic role in the Russia-Ukraine ceasefire deal
       https://www.foxnews.com/politics/inside-melania-trumps-secret-diplomatic-role-russia-ukraine-ceasefire-deal
 
-   2. Deep in Trump country, a new generation reveals the divide behind Texas' tight Senate race
+   9. Deep in Trump country, a new generation reveals the divide behind Texas' tight Senate race
       https://www.foxnews.com/politics/deep-trump-country-new-generation-reveals-divide-behind-texas-tight-senate-race
 
-   3. Senate control is a coin flip — and Democrats’ path runs through Trump Country
+  10. Senate control is a coin flip — and Democrats’ path runs through Trump Country
       https://www.foxnews.com/politics/senate-control-coin-flip-democrats-path-runs-through-trump-country
-
-   4. MEHEK COOKE: Trump’s record is the GOP’s best weapon in the midterms
-      https://www.foxnews.com/opinion/mehek-cooke-trumps-record-gops-best-weapon-midterms
-
-   5. Russian diesel tankers close in on US ports as Trump, Putin deal triggers legal showdown
-      https://www.foxnews.com/politics/russian-diesel-tankers-close-us-ports-trump-putin-deal-triggers-legal-showdown
-
-   6. Judge who apologized to accused would-be Trump assassin lights up DOJ in Hunter Biden FBI case
-      https://www.foxnews.com/politics/judge-who-apologized-accused-would-be-trump-assassin-lights-up-doj-hunter-biden-fbi-case
-
-   7. 175 Democrats demand Trump admin stop Ilhan Omar investigation, warn it could hurt her re-election bid
-      https://www.foxnews.com/politics/175-democrats-demand-trump-admin-stop-ilhan-omar-investigation-warn-could-hurt-her-re-election-bid
-
-   8. Trump accused of trying to 'force' Senate candidate on voters as GOP feud erupts
-      https://www.foxnews.com/politics/trump-accused-trying-force-senate-candidate-voters-gop-feud-erupts
-
-   9. Netanyahu defies exit polls as vote shifts in his favor, but majority remains elusive
-      https://www.foxnews.com/world/netanyahu-defies-exit-polls-vote-shifts-his-favor-majority-remains-elusive
-
-  10. Unearthed filing shows largest teachers unions poured over $900 million into political activities
-      https://www.foxnews.com/media/unearthed-filing-shows-top-teachers-unions-poured-900-million-political-activities
 
 
 ============================================================
-  Generated at 03:45 AM PDT by GitHub Actions
+  Generated at 11:57 AM PDT by GitHub Actions
 ============================================================
