@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, October 31, 2026
+  DAILY BRIEFING — Sunday, November 01, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. How House Democrats' 'deterrence message' on Trump jobs could backfire
-      https://www.foxnews.com/politics/house-democrats-deterrence-message-trump-jobs-could-backfire-former-federal-prosecutor-warns
+   1. Colombia's 'El Tigre' takes fight to cartels as Trump alliance takes shape
+      https://www.foxnews.com/world/colombias-el-tigre-takes-fight-cartels-trump-alliance-takes-shape
 
-   2. Kid Rock reveals what he told French President Macron after Trump unexpectedly handed him phone on golf course
-      https://www.foxnews.com/media/kid-rock-reveals-told-french-president-macron-trump-unexpectedly-handed-phone-golf-course
+   2. How House Democrats' 'deterrence message' on Trump jobs could backfire
+      https://www.foxnews.com/politics/house-democrats-deterrence-message-trump-jobs-could-backfire-former-federal-prosecutor-warns
 
    3. Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says
       https://www.foxnews.com/politics/trump-prosecutions-biden-set-precedent-doj-alaska-decoy-dan-probe-ex-fec-chair-says
@@ -35,10 +35,10 @@
    9. Americans 'frustrated' about Iran war going into midterms as Trump admin has decision to make: GOP lawmaker
       https://www.foxnews.com/politics/americans-frustrated-iran-war-midterms-trump-admin-decision-gop-lawmaker
 
-  10. California election workers hit with criminal subpoenas as Trump DOJ turns up heat in voting showdown
-      https://www.foxnews.com/politics/california-election-workers-criminal-subpoenas-trump-doj-voting-showdown
+  10. JOHN NAGEL: Ilhan Omar, my opponent, had a choice and picked political theater
+      https://www.foxnews.com/opinion/john-nagel-ilhan-omar-opponent-choice-picked-political-theater
 
 
 ============================================================
-  Generated at 07:26 PM PDT by GitHub Actions
+  Generated at 03:26 AM PST by GitHub Actions
 ============================================================
