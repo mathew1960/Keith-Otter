@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Colombia's 'El Tigre' takes fight to cartels as Trump alliance takes shape
-      https://www.foxnews.com/world/colombias-el-tigre-takes-fight-cartels-trump-alliance-takes-shape
+   1. Inside top Trump bulldog’s plan to save House GOP majority and defy history
+      https://www.foxnews.com/politics/inside-top-trump-bulldog-plan-save-house-gop-majority-defy-history
 
-   2. How House Democrats' 'deterrence message' on Trump jobs could backfire
+   2. Trump's DOJ makeover hasn't changed where the political cash is flowing — and the gap is growing
+      https://www.foxnews.com/politics/trumps-doj-makeover-hasnt-changed-where-political-cash-flowing-gap-growing
+
+   3. Americans forced to change clocks again as Senate stalls Trump-backed daylight saving time bill
+      https://www.foxnews.com/politics/americans-forced-change-clocks-again-senate-stalls-trump-backed-daylight-saving-time-bill
+
+   4. How House Democrats' 'deterrence message' on Trump jobs could backfire
       https://www.foxnews.com/politics/house-democrats-deterrence-message-trump-jobs-could-backfire-former-federal-prosecutor-warns
 
-   3. Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says
+   5. Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says
       https://www.foxnews.com/politics/trump-prosecutions-biden-set-precedent-doj-alaska-decoy-dan-probe-ex-fec-chair-says
 
-   4. How Obama appointee and Trump nemesis Boasberg ended up overseeing Ilhan Omar warrant, other key cases
+   6. How Obama appointee and Trump nemesis Boasberg ended up overseeing Ilhan Omar warrant, other key cases
       https://www.foxnews.com/politics/obama-appointee-trump-nemesis-boasberg-overseeing-ilhan-omar-warrant-key-cases
 
-   5. Trump admin threatens Iran with 'consequences' as allies convene amid threats of post-election escalation
+   7. Trump admin threatens Iran with 'consequences' as allies convene amid threats of post-election escalation
       https://www.foxnews.com/politics/trump-admin-threatens-iran-consequences-allies-convene-amid-threats-post-election-escalation
 
-   6. Trump's push to oust Omar faces historic Supreme Court test, but legal experts see ‘uncharted’ twist
+   8. Trump's push to oust Omar faces historic Supreme Court test, but legal experts see ‘uncharted’ twist
       https://www.foxnews.com/politics/trump-push-oust-omar-faces-historic-supreme-court-test-legal-experts-see-uncharted-twist
 
-   7. Federal judge blocks Trump DOJ's threats against election workers ahead of 2026 midterms
-      https://www.foxnews.com/politics/federal-judge-blocks-trump-doj-threats-against-election-workers-ahead-2026-midterms
+   9. Will Democrats block the stock trading ban again after the midterm elections?
+      https://www.foxnews.com/opinion/will-democrats-block-stock-trading-ban-again-after-midterm-elections
 
-   8. Liberal court delivers immigration win for Trump as judge warns of ‘floodgates’ if law firm succeeded
-      https://www.foxnews.com/politics/liberal-court-delivers-immigration-win-trump-judge-warns-floodgates-law-firm-succeeded
-
-   9. Americans 'frustrated' about Iran war going into midterms as Trump admin has decision to make: GOP lawmaker
-      https://www.foxnews.com/politics/americans-frustrated-iran-war-midterms-trump-admin-decision-gop-lawmaker
-
-  10. JOHN NAGEL: Ilhan Omar, my opponent, had a choice and picked political theater
-      https://www.foxnews.com/opinion/john-nagel-ilhan-omar-opponent-choice-picked-political-theater
+  10. Hollywood director Michael Mann hospitalized after accidentally shooting himself at Los Angeles gun range
+      https://www.foxnews.com/entertainment/hollywood-director-michael-mann-hospitalized-accidentally-shooting-himself-los-angeles-gun-range
 
 
 ============================================================
-  Generated at 03:26 AM PST by GitHub Actions
+  Generated at 10:27 AM PST by GitHub Actions
 ============================================================
