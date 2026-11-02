@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Sunday, November 01, 2026
+  DAILY BRIEFING — Monday, November 02, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Inside top Trump bulldog’s plan to save House GOP majority and defy history
+   1. Trump takes midterm campaign blitz to historic stage for grand finale before Election Day
+      https://www.foxnews.com/politics/trump-takes-midterm-campaign-blitz-historic-stage-grand-finale-before-election-day
+
+   2. Charter school founder backs Trump administration push to decentralize K-12 education
+      https://www.foxnews.com/media/charter-school-founder-backs-trump-administration-push-decentralize-k-12-education
+
+   3. Mamdani says Trump agrees to grant visa so mother can attend funeral of teen killed in Bronx shooting
+      https://www.foxnews.com/politics/mamdani-says-trump-agrees-grant-visa-mother-attend-funeral-teen-killed-bronx-shooting
+
+   4. Inside top Trump bulldog’s plan to save House GOP majority and defy history
       https://www.foxnews.com/politics/inside-top-trump-bulldog-plan-save-house-gop-majority-defy-history
 
-   2. Trump's DOJ makeover hasn't changed where the political cash is flowing — and the gap is growing
+   5. Trump's DOJ makeover hasn't changed where the political cash is flowing — and the gap is growing
       https://www.foxnews.com/politics/trumps-doj-makeover-hasnt-changed-where-political-cash-flowing-gap-growing
 
-   3. Americans forced to change clocks again as Senate stalls Trump-backed daylight saving time bill
+   6. Americans forced to change clocks again as Senate stalls Trump-backed daylight saving time bill
       https://www.foxnews.com/politics/americans-forced-change-clocks-again-senate-stalls-trump-backed-daylight-saving-time-bill
 
-   4. How House Democrats' 'deterrence message' on Trump jobs could backfire
+   7. How House Democrats' 'deterrence message' on Trump jobs could backfire
       https://www.foxnews.com/politics/house-democrats-deterrence-message-trump-jobs-could-backfire-former-federal-prosecutor-warns
 
-   5. Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says
+   8. Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says
       https://www.foxnews.com/politics/trump-prosecutions-biden-set-precedent-doj-alaska-decoy-dan-probe-ex-fec-chair-says
 
-   6. How Obama appointee and Trump nemesis Boasberg ended up overseeing Ilhan Omar warrant, other key cases
-      https://www.foxnews.com/politics/obama-appointee-trump-nemesis-boasberg-overseeing-ilhan-omar-warrant-key-cases
+   9. Travis Kelce frustrated with Chiefs' procedural issues after loss to Broncos: 'You just can’t f---ing do it'
+      https://www.foxnews.com/outkick-sports/travis-kelce-frustrated-chiefs-procedural-issues-loss-broncos
 
-   7. Trump admin threatens Iran with 'consequences' as allies convene amid threats of post-election escalation
-      https://www.foxnews.com/politics/trump-admin-threatens-iran-consequences-allies-convene-amid-threats-post-election-escalation
-
-   8. Trump's push to oust Omar faces historic Supreme Court test, but legal experts see ‘uncharted’ twist
-      https://www.foxnews.com/politics/trump-push-oust-omar-faces-historic-supreme-court-test-legal-experts-see-uncharted-twist
-
-   9. Chris Pratt went from living in a van to Hollywood stardom after chance encounter changed everything
-      https://www.foxnews.com/entertainment/chris-pratt-went-from-living-van-hollywood-stardom-after-chance-encounter-changed-everything
-
-  10. Ukraine says air alert system hacked after false radiation warning in Kyiv
-      https://www.foxnews.com/world/ukraine-air-alert-system-hacked-false-radiation-warning-kyiv
+  10. Staff exodus ensues after Dem Haley Stevens flips on own party and endorses GOP rival and more top headlines
+      https://www.foxnews.com/us/staff-exodus-ensues-after-dem-haley-stevens-party-endorses-gop-rival-more-top-headlines
 
 
 ============================================================
-  Generated at 06:40 PM PST by GitHub Actions
+  Generated at 04:47 AM PST by GitHub Actions
 ============================================================
