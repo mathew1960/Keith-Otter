@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Actor Bill Murray stuns Trump's top economic advisor with bizarre question on news show
+   1. Trump calls Iran conflict a 'soft war,' insists US holds the cards ahead of midterm elections
+      https://www.foxnews.com/media/trump-calls-iran-conflict-soft-war-insists-us-holds-cards-ahead-midterm-elections
+
+   2. Actor Bill Murray stuns Trump's top economic advisor with bizarre question on news show
       https://www.foxnews.com/media/actor-bill-murray-stuns-trumps-top-economic-advisor-bizarre-question-news-show
 
-   2. Battleground Dem touts bipartisan record, but can’t name single issue she’d work with Trump on
+   3. Battleground Dem touts bipartisan record, but can’t name single issue she’d work with Trump on
       https://www.foxnews.com/politics/battleground-dem-touts-bipartisan-record-cant-name-single-issue-shed-work-trump
 
-   3. Supreme Court denies Trump admin request to reverse block on segregating 20K California ballots
+   4. Supreme Court denies Trump admin request to reverse block on segregating 20K California ballots
       https://www.foxnews.com/politics/supreme-court-denies-trump-admin-request-reverse-block-segregating-20k-california-ballots
 
-   4. Trump takes midterm campaign blitz to historic stage for grand finale before Election Day
+   5. Trump takes midterm campaign blitz to historic stage for grand finale before Election Day
       https://www.foxnews.com/politics/trump-takes-midterm-campaign-blitz-historic-stage-grand-finale-before-election-day
 
-   5. Mamdani says Trump agrees to grant visa so mother can attend funeral of teen killed in Bronx shooting
+   6. Mamdani says Trump agrees to grant visa so mother can attend funeral of teen killed in Bronx shooting
       https://www.foxnews.com/politics/mamdani-says-trump-agrees-grant-visa-mother-attend-funeral-teen-killed-bronx-shooting
 
-   6. US will mediate upcoming Ukraine-Russia talks in Abu Dhabi, Witkoff says
-      https://www.foxnews.com/world/us-mediate-upcoming-ukraine-russia-talks-abu-dhabi-witkoff-says
+   7. Child’s measles death marks New York state’s first in more than 30 years amid outbreak
+      https://www.foxnews.com/health/childs-measles-death-marks-new-york-states-first-more-than-30-years-amid-outbreak
 
-   7. How a midterm tie gets settled in the case of the Senate
-      https://www.foxnews.com/politics/how-midterm-tie-gets-settled-case-senate
+   8. Christian Yelich says 'Brewer Ball' is hard to replicate for this season after World Series triumph
+      https://www.foxnews.com/outkick-sports/christian-yelich-says-brewer-ball-hard-replicate-season-after-world-series-triumph
 
-   8. Bill Belichick doesn't have time for questions about relationship with Jordon Hudson after near Miami upset
-      https://www.foxnews.com/outkick-sports/bill-belichick-doesnt-have-time-questions-relationship-jordon-hudson-after-near-miami-upset
+   9. Associated Press Top 25 poll voters hit a new, ridiculous low with this week's results
+      https://www.foxnews.com/outkick-sports/associated-press-top-25-poll-voters-hit-new-ridiculous-low-weeks-results
 
-   9. Russia plotting 'massive strike' during midterms, Zelenskyy warns, urges US to stop Putin
-      https://www.foxnews.com/world/russia-planning-massive-strike-midterms-zelenskyy-warns-urges-us-stop-putin
-
-  10. Shoppers love Particle's new cologne — and FOX readers can save 25%
-      https://www.foxnews.com/deals/particle-gravite-cologne
+  10. Angel Reese steps back from 'Unapologetically Angel' podcast after Atlanta Dream's Finals loss
+      https://www.foxnews.com/outkick-sports/angel-reese-steps-back-unapologetically-angel-podcast-atlanta-dream-finals-loss
 
 
 ============================================================
-  Generated at 05:06 PM PST by GitHub Actions
+  Generated at 07:58 PM PST by GitHub Actions
 ============================================================
