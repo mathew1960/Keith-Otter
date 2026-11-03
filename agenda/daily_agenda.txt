@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Mamdani threatens to sue Trump admin over ICE's use of city-owned lots for immigration enforcement
+   1. Talarico warms to Trump, says he wants to help fulfill some MAGA promises
+      https://www.foxnews.com/politics/talarico-warms-trump-says-help-fulfill-maga-promises
+
+   2. Trump says Israel will stop receiving $4B in US aid by year's end, can still buy weapons
+      https://www.foxnews.com/politics/trump-says-israel-stop-receiving-4b-us-aid-years-end-can-still-buy-weapons
+
+   3. Federal judge tosses Trump admin Harvard admissions lawsuit, leaves door open to future challenge
+      https://www.foxnews.com/politics/federal-judge-tosses-trump-admin-harvard-admissions-lawsuit-leaves-door-open-future-challenge
+
+   4. Mamdani threatens to sue Trump admin over ICE's use of city-owned lots for immigration enforcement
       https://www.foxnews.com/politics/mamdani-threatens-sue-trump-admin-ices-use-city-owned-lots-immigration-enforcement
 
-   2. Trump calls Iran conflict a 'soft war,' insists US holds the cards ahead of midterm elections
-      https://www.foxnews.com/media/trump-calls-iran-conflict-soft-war-insists-us-holds-cards-ahead-midterm-elections
-
-   3. Battleground Dem touts bipartisan record, but can’t name single issue she’d work with Trump on
+   5. Battleground Dem touts bipartisan record, but can’t name single issue she’d work with Trump on
       https://www.foxnews.com/politics/battleground-dem-touts-bipartisan-record-cant-name-single-issue-shed-work-trump
 
-   4. Supreme Court denies Trump admin request to reverse block on segregating 20K California ballots
-      https://www.foxnews.com/politics/supreme-court-denies-trump-admin-request-reverse-block-segregating-20k-california-ballots
+   6. 7 holiday shopping scams to watch for this season
+      https://www.foxnews.com/tech/7-holiday-shopping-scams-watch-season
 
-   5. Trump takes midterm campaign blitz to historic stage for grand finale before Election Day
-      https://www.foxnews.com/politics/trump-takes-midterm-campaign-blitz-historic-stage-grand-finale-before-election-day
+   7. Americans urged to avoid dangerous border state despite US lifting shelter order
+      https://www.foxnews.com/travel/americans-urged-avoid-dangerous-mexican-border-state-despite-us-lifting-shelter-order
 
-   6. MICHAEL RUIZ: Idaho college massacre survivor says family moved 9 times as strangers followed them
-      https://www.foxnews.com/us/michael-ruiz-idaho-college-massacre-survivor-says-family-moved-9-times-strangers-followed-them
+   8. Mariners hire 36-year-old Jason Kanzler as new manager after disappointing season
+      https://www.foxnews.com/outkick-sports/mariners-hire-jason-kanzler-new-manager-disappointing-season
 
-   7. Federal judge orders DOJ to ensure poll monitors are not law enforcement officials
-      https://www.foxnews.com/politics/federal-judge-orders-doj-ensure-poll-monitors-not-law-enforcement-officials
+   9. Chris Cuomo says talking about politics makes it difficult for him to avoid violence
+      https://www.foxnews.com/outkick-culture/chris-cuomo-talking-politics-difficult-avoid-violence
 
-   8. Kordell Stewart opens up about the rumor that haunted his Steelers career for 28 years in new documentary
-      https://www.foxnews.com/outkick-sports/kordell-stewart-opens-rumor-haunted-steelers-career-28-years-new-documentary
-
-   9. Lamar Jackson goes from being a problem for 31 NFL teams to becoming a problem for the Ravens
-      https://www.foxnews.com/outkick-sports/lamar-jackson-problem-31-nfl-teams-becoming-problem-ravens
-
-  10. DOJ faces ‘heavy lift’ in Alaska election appeal as separate criminal probe continues
-      https://www.foxnews.com/politics/doj-faces-heavy-lift-alaska-election-appeal-separate-criminal-probe-continues
+  10. Tiger Woods to redesign famed Long Island golf club that was rocked by prostitution scandal
+      https://www.foxnews.com/outkick-sports/tiger-woods-redesign-famed-long-island-golf-club-rocked-prostitution-scandal
 
 
 ============================================================
-  Generated at 04:14 AM PST by GitHub Actions
+  Generated at 12:10 PM PST by GitHub Actions
 ============================================================
