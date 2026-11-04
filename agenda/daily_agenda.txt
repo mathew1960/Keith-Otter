@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Texas Senate victor James Talarico lays out common ground with Trump, vows to 'work together'
-      https://www.foxnews.com/media/texas-senate-victor-james-talarico-lays-out-common-ground-trump-vows-work-together
+   1. Vance courting disgruntled Trump voters to form ‘new right’ alliance after Republican bloodbath, sources say
+      https://www.foxnews.com/politics/vance-courting-disgruntled-trump-voters-form-new-right-alliance-republican-bloodbath
 
-   2. Trump 'couldn't transfer the love' of his supporters to other Republicans amid historic midterm loss
+   2. Hegseth's future draws ominous predictions from insiders after GOP losses, but Trump isn't budging yet
+      https://www.foxnews.com/politics/hegseths-future-draws-ominous-predictions-from-insiders-after-gop-losses-trump-isnt-budging-yet
+
+   3. Trump 'couldn't transfer the love' of his supporters to other Republicans amid historic midterm loss
       https://www.foxnews.com/politics/trump-couldnt-transfer-love-supporters-other-republicans-amid-historic-midterm-loss
 
-   3. GOP's midterm defeat sparks bold claims from foreign leaders who've clashed with Trump
+   4. GOP's midterm defeat sparks bold claims from foreign leaders who've clashed with Trump
       https://www.foxnews.com/politics/gops-midterm-defeat-sparks-bold-claims-from-foreign-leaders-whove-clashed-trump
 
-   4. House Dem who defied Hakeem Jeffries scores upset win in pro-Trump district
+   5. House Dem who defied Hakeem Jeffries scores upset win in pro-Trump district
       https://www.foxnews.com/politics/house-dem-who-defied-hakeem-jeffries-scores-upset-win-pro-trump-district
 
-   5. Hasan Piker declares 'woke is back,' fantasizes about putting Donald Trump in prison
-      https://www.foxnews.com/media/hasan-piker-declares-woke-back-fantasizes-about-putting-donald-trump-prison
+   6. Idaho voters focused on the real issues during midterms, like choosing the Winchester 1873 as their state gun
+      https://www.foxnews.com/outkick-sports/idaho-voters-focused-real-issues-midterms-choosing-winchester-1873-state-gun
 
-   6. Top union boss drops 2028 warning on Democrats amid blue wave celebration: 'Wake up call'
-      https://www.foxnews.com/politics/top-union-boss-drops-2028-warning-democrats-amid-blue-wave-celebration-wake-up-call
+   7. CBB With Danny Z: Kansas, Tennessee and USC lead another human polls vs. analytics argument
+      https://www.foxnews.com/outkick-sports/cbb-danny-z-kansas-tennessee-usc-lead-human-polls-vs-analytics-argument
 
-   7. Dem newcomer heads to Washington despite past ties to al Qaeda-linked group
-      https://www.foxnews.com/politics/dem-newcomer-heads-washington-despite-past-ties-al-qaeda-linked-group
+   8. JACKSON THOMPSON: Democrat-appointed judges hand Letitia James win over county trying to protect girls sports
+      https://www.foxnews.com/outkick-sports/jackson-thompson-democrat-appointed-judges-hand-letitia-james-win-county-trying-protect-girls-sports
 
-   8. NYC marathoner with 'heart for Jesus' remembered after tragic death for faith, strength and charity
-      https://www.foxnews.com/health/nyc-marathoner-heart-jesus-remembered-tragic-death-faith-strength-charity
+   9. San Francisco 49ers coach shuts down reunion talks as Brandon Aiyuk seeks NFL reinstatement
+      https://www.foxnews.com/outkick-sports/san-francisco-49ers-coach-shuts-down-reunion-talks-brandon-aiyuk-seeks-nfl-reinstatement
 
-   9. Utah student cited after physical altercation with College Republican caught on camera
-      https://www.foxnews.com/media/utah-student-cited-after-physical-altercation-college-republican-caught-camera
-
-  10. Sam Darnold out for Seahawks Week 9 game against Arizona Cardinals so in comes Drew Lock probably, maybe
-      https://www.foxnews.com/outkick-sports/sam-darnold-out-seahawks-week-9-game-arizona-cardinals-drew-lock
+  10. Bryce Harper implies there won't be a 2027 MLB season, admits he enjoys offseason more than playing
+      https://www.foxnews.com/outkick-sports/bryce-harper-implies-no-2027-mlb-season-admits-enjoys-offseason-more-than-playing
 
 
 ============================================================
-  Generated at 12:28 PM PST by GitHub Actions
+  Generated at 03:49 PM PST by GitHub Actions
 ============================================================
