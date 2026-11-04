@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Talarico warms to Trump, says he wants to help fulfill some MAGA promises
+   1. Trump-backed Byron Donalds to make history as Florida’s first Black governor
+      https://www.foxnews.com/politics/trump-backed-byron-donalds-make-history-floridas-first-black-governor
+
+   2. Dem flips key Senate seat in battleground North Carolina as Cooper defeats Trump ally
+      https://www.foxnews.com/politics/democrats-flip-key-senate-seat-battleground-north-carolina-cooper-defeats-trump-backed-republican
+
+   3. Trump touts 'ultimate power' of veto if Democrats win control of House and Senate
+      https://www.foxnews.com/media/trump-touts-ultimate-power-veto-democrats-win-control-house-senate
+
+   4. Democrats score major Senate victory as Pappas defeats Trump-backed Republican in key battleground
+      https://www.foxnews.com/politics/pappas-wins-democrats-score-major-senate-victory-pappas-defeats-trump-backed-republican-key-battleground
+
+   5. Georgia Senator Warnock says only a 'spiritually sick' country would elect Trump twice
+      https://www.foxnews.com/media/georgia-senator-says-spiritually-sick-country-would-elect-donald-trump-twice
+
+   6. Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe
+      https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe
+
+   7. Talarico warms to Trump, says he wants to help fulfill some MAGA promises
       https://www.foxnews.com/politics/talarico-warms-trump-says-help-fulfill-maga-promises
 
-   2. Trump says Israel will stop receiving $4B in US aid by year's end, can still buy weapons
+   8. Trump says Israel will stop receiving $4B in US aid by year's end, can still buy weapons
       https://www.foxnews.com/politics/trump-says-israel-stop-receiving-4b-us-aid-years-end-can-still-buy-weapons
 
-   3. Federal judge tosses Trump admin Harvard admissions lawsuit, leaves door open to future challenge
+   9. Federal judge tosses Trump admin Harvard admissions lawsuit, leaves door open to future challenge
       https://www.foxnews.com/politics/federal-judge-tosses-trump-admin-harvard-admissions-lawsuit-leaves-door-open-future-challenge
 
-   4. Mamdani threatens to sue Trump admin over ICE's use of city-owned lots for immigration enforcement
-      https://www.foxnews.com/politics/mamdani-threatens-sue-trump-admin-ices-use-city-owned-lots-immigration-enforcement
-
-   5. Spanish soccer player Jesús de Miguel dies after on-field collision as authorities open investigation
-      https://www.foxnews.com/outkick-sports/spanish-soccer-player-jesus-de-miguel-dies-after-on-field-collision-authorities-open-investigation
-
-   6. Joe Rogan warns 'woke' ideology is replacing God on the left and entering into Christianity
-      https://www.foxnews.com/media/joe-rogan-warns-woke-ideology-replacing-god-left-entering-christianity
-
-   7. Jerry Jones calls for Cowboys star player to see the ball more after crushing overtime defeat
-      https://www.foxnews.com/outkick-sports/jerry-jones-calls-cowboys-star-player-see-ball-more-crushing-overtime-defeat
-
-   8. Christa Pike asks court not to send her to former prison block following failed execution
-      https://www.foxnews.com/us/christa-pike-asks-court-not-send-former-prison-block-following-failed-execution
-
-   9. WATCH: Repeat offender leads deputies on 100 mph chase before hiding under porch in his underwear
-      https://www.foxnews.com/us/repeat-offender-leads-deputies-100-mph-chase-hiding-under-porch-underwear
-
-  10. Two helicopters collide near Mount Everest during rescue flight, killing one, injuring others
-      https://www.foxnews.com/travel/two-helicopters-collide-mount-everest-during-rescue-flight-killing-one-injuring-others
+  10. Super Bowl champion Russell Wilson reportedly in the mix for NC State head-coaching job
+      https://www.foxnews.com/outkick-sports/super-bowl-champion-russell-wilson-reportedly-mix-nc-state-head-coaching-job
 
 
 ============================================================
-  Generated at 03:32 PM PST by GitHub Actions
+  Generated at 07:06 PM PST by GitHub Actions
 ============================================================
