@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Hockey great Wayne Gretzky defends relationship with President Trump and speaks on Russian hockey ban
-      https://www.foxnews.com/outkick-sports/hockey-great-wayne-gretzky-defends-relationship-president-trump-speaks-russian-hockey-ban
+   1. Secret Service arrests armed Venezuelan migrant near White House over alleged Trump assassination threat
+      https://www.foxnews.com/us/secret-service-arrests-armed-venezuelan-migrant-near-white-house-alleged-trump-assassination-threat
 
-   2. Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles
+   2. Trump's move from Wiles to Miller signals major tactical shift for governing without Congress
+      https://www.foxnews.com/politics/trumps-move-wiles-miller-signals-major-tactical-shift-governing-without-congress
+
+   3. Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles
       https://www.foxnews.com/politics/trump-names-stephen-miller-new-white-house-chief-staff-replacing-susie-wiles
 
-   3. Progressive group's 182-page blueprint maps out potential Dem investigations into Trump, corporate allies
+   4. Progressive group's 182-page blueprint maps out potential Dem investigations into Trump, corporate allies
       https://www.foxnews.com/politics/progressive-groups-182-page-blueprint-maps-potential-dem-investigations-trump-corporate-allies
 
-   4. Trump admin sues Penn State over in-state tuition policy for undocumented migrants
+   5. Trump admin sues Penn State over in-state tuition policy for undocumented migrants
       https://www.foxnews.com/politics/trump-admin-sues-penn-state-in-state-tuition-policy-undocumented-migrants
 
-   5. Federal judge temporarily blocks construction of Trump's Arlington triumphal arch hours after approval
+   6. Federal judge temporarily blocks construction of Trump's Arlington triumphal arch hours after approval
       https://www.foxnews.com/politics/trumps-massive-arlington-triumphal-arch-approved-construction-federal-planning-commission
 
-   6. Vance ‘privately’ blasts Netanyahu as Iran war divides Trump administration and 2028 ambitions loom
-      https://www.foxnews.com/politics/vance-privately-blasts-netanyahu-iran-war-divides-trump-admin-2028-ambitions-loom
+   7. Browns to start Shedeur Sanders at quarterback as Deshaun Watson remains in concussion protocol
+      https://www.foxnews.com/outkick-sports/browns-start-shedeur-sanders-quarterback-deshaun-watson-remains-concussion-protocol
 
-   7. Trump signs proclamation to prevent changes to Oval Office, other White House rooms
-      https://www.foxnews.com/politics/trump-signs-proclamation-prevent-changes-oval-office-other-white-house-rooms
+   8. BOBBY BURACK: Ryan Clark claims ESPN interviewed Sophie Cunningham about trans athletes to impress OutKick
+      https://www.foxnews.com/outkick-sports/ryan-clark-claims-espn-interviewed-sophie-cunningham-trans-athletes-impress-outkick
 
-   8. Reporter's Notebook: A user’s manual to upcoming leadership elections in the House and Senate
-      https://www.foxnews.com/politics/reporters-notebook-users-manual-upcoming-leadership-elections-house-senate
+   9. Craig Carton rips Chiefs teammates for not helping embattled Rashee Rice avoid bankruptcy
+      https://www.foxnews.com/outkick-sports/craig-carton-rips-chiefs-teammates-not-helping-embattled-rashee-rice-avoid-bankruptcy
 
-   9. Chicago Bears and NFL reopen talks with Illinois leaders to keep franchise from moving to Indiana
-      https://www.foxnews.com/outkick-sports/chicago-bears-nfl-reopen-talks-illinois-leaders-keep-franchise-moving-indiana
-
-  10. Alzheimer's warning signs could emerge years before memory loss, study finds
-      https://www.foxnews.com/health/alzheimers-warning-signs-emerge-years-before-memory-loss-study-finds
+  10. World's tallest women's college basketball player makes her debut for Texas Tech
+      https://www.foxnews.com/outkick-sports/worlds-tallest-womens-college-basketball-player-makes-debut-texas-tech
 
 
 ============================================================
-  Generated at 11:59 AM PST by GitHub Actions
+  Generated at 03:21 PM PST by GitHub Actions
 ============================================================
