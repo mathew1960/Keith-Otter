@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Secret Service arrests armed Venezuelan migrant near White House over alleged Trump assassination threat
+   1. Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028
+      https://www.foxnews.com/politics/trump-highlights-nasa-nuclear-powered-mars-spacecraft-mission-planned-2028
+
+   2. Bernie Sanders thinks Medicare-for-all bill could pass, 'not absolutely certain' Trump would veto
+      https://www.foxnews.com/media/bernie-sanders-thinks-medicare-all-bill-could-pass-not-absolutely-certain-trump-would-veto
+
+   3. White House trashes 'peanut-sized brain' Jimmy Kimmel after host demands Trump 'resign'
+      https://www.foxnews.com/media/white-house-trashes-peanut-sized-brain-jimmy-kimmel-host-demands-trump-resign
+
+   4. Secret Service arrests armed Venezuelan migrant near White House over alleged Trump assassination threat
       https://www.foxnews.com/us/secret-service-arrests-armed-venezuelan-migrant-near-white-house-alleged-trump-assassination-threat
 
-   2. Trump's move from Wiles to Miller signals major tactical shift for governing without Congress
+   5. Trump's move from Wiles to Miller signals major tactical shift for governing without Congress
       https://www.foxnews.com/politics/trumps-move-wiles-miller-signals-major-tactical-shift-governing-without-congress
 
-   3. Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles
+   6. Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles
       https://www.foxnews.com/politics/trump-names-stephen-miller-new-white-house-chief-staff-replacing-susie-wiles
 
-   4. Progressive group's 182-page blueprint maps out potential Dem investigations into Trump, corporate allies
+   7. Progressive group's 182-page blueprint maps out potential Dem investigations into Trump, corporate allies
       https://www.foxnews.com/politics/progressive-groups-182-page-blueprint-maps-potential-dem-investigations-trump-corporate-allies
 
-   5. Trump admin sues Penn State over in-state tuition policy for undocumented migrants
-      https://www.foxnews.com/politics/trump-admin-sues-penn-state-in-state-tuition-policy-undocumented-migrants
+   8. Tiger Woods and ex-wife Elin Nordegren reunite to celebrate son Charlie's college golf commitment
+      https://www.foxnews.com/outkick-sports/tiger-woods-ex-wife-elin-nordegren-reunite-celebrate-son-charlie-college-golf-commitment
 
-   6. Federal judge temporarily blocks construction of Trump's Arlington triumphal arch hours after approval
-      https://www.foxnews.com/politics/trumps-massive-arlington-triumphal-arch-approved-construction-federal-planning-commission
+   9. Denver man found dead at bottom of national park canyon beneath steep drop-offs
+      https://www.foxnews.com/us/denver-man-found-dead-bottom-national-park-canyon-beneath-steep-drop-offs
 
-   7. Browns to start Shedeur Sanders at quarterback as Deshaun Watson remains in concussion protocol
-      https://www.foxnews.com/outkick-sports/browns-start-shedeur-sanders-quarterback-deshaun-watson-remains-concussion-protocol
-
-   8. BOBBY BURACK: Ryan Clark claims ESPN interviewed Sophie Cunningham about trans athletes to impress OutKick
-      https://www.foxnews.com/outkick-sports/ryan-clark-claims-espn-interviewed-sophie-cunningham-trans-athletes-impress-outkick
-
-   9. Craig Carton rips Chiefs teammates for not helping embattled Rashee Rice avoid bankruptcy
-      https://www.foxnews.com/outkick-sports/craig-carton-rips-chiefs-teammates-not-helping-embattled-rashee-rice-avoid-bankruptcy
-
-  10. World's tallest women's college basketball player makes her debut for Texas Tech
-      https://www.foxnews.com/outkick-sports/worlds-tallest-womens-college-basketball-player-makes-debut-texas-tech
+  10. US offers $20 million reward for information on Iran's nuclear program
+      https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program
 
 
 ============================================================
-  Generated at 03:21 PM PST by GitHub Actions
+  Generated at 07:01 PM PST by GitHub Actions
 ============================================================
