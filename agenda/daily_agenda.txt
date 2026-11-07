@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Friday, November 06, 2026
+  DAILY BRIEFING — Saturday, November 07, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,17 +8,17 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028
+   1. Top Gulf official offers glimmer of hope on Trump-Iran nuclear talks as threat of war hangs over region
+      https://www.foxnews.com/world/gulf-official-glimmer-hope-trump-iran-nuclear-talks-threat-war-hangs-region
+
+   2. Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028
       https://www.foxnews.com/politics/trump-highlights-nasa-nuclear-powered-mars-spacecraft-mission-planned-2028
 
-   2. Bernie Sanders thinks Medicare-for-all bill could pass, 'not absolutely certain' Trump would veto
+   3. Bernie Sanders thinks Medicare-for-all bill could pass, 'not absolutely certain' Trump would veto
       https://www.foxnews.com/media/bernie-sanders-thinks-medicare-all-bill-could-pass-not-absolutely-certain-trump-would-veto
 
-   3. White House trashes 'peanut-sized brain' Jimmy Kimmel after host demands Trump 'resign'
+   4. White House trashes 'peanut-sized brain' Jimmy Kimmel after host demands Trump 'resign'
       https://www.foxnews.com/media/white-house-trashes-peanut-sized-brain-jimmy-kimmel-host-demands-trump-resign
-
-   4. Secret Service arrests armed Venezuelan migrant near White House over alleged Trump assassination threat
-      https://www.foxnews.com/us/secret-service-arrests-armed-venezuelan-migrant-near-white-house-alleged-trump-assassination-threat
 
    5. Trump's move from Wiles to Miller signals major tactical shift for governing without Congress
       https://www.foxnews.com/politics/trumps-move-wiles-miller-signals-major-tactical-shift-governing-without-congress
@@ -29,16 +29,16 @@
    7. Progressive group's 182-page blueprint maps out potential Dem investigations into Trump, corporate allies
       https://www.foxnews.com/politics/progressive-groups-182-page-blueprint-maps-potential-dem-investigations-trump-corporate-allies
 
-   8. Tiger Woods and ex-wife Elin Nordegren reunite to celebrate son Charlie's college golf commitment
-      https://www.foxnews.com/outkick-sports/tiger-woods-ex-wife-elin-nordegren-reunite-celebrate-son-charlie-college-golf-commitment
+   8. Americans who 'screw up' their eating should use a simple fix, says Stanford scientist
+      https://www.foxnews.com/food-drink/americans-who-screw-up-eating-should-use-simple-fix-says-stanford-scientist
 
-   9. Denver man found dead at bottom of national park canyon beneath steep drop-offs
-      https://www.foxnews.com/us/denver-man-found-dead-bottom-national-park-canyon-beneath-steep-drop-offs
+   9. GOP eyes Senate comeback after Democratic bloodbath, but another political nightmare could await
+      https://www.foxnews.com/politics/gop-eyes-senate-comeback-after-democratic-bloodbath-another-political-nightmare-could-await
 
-  10. US offers $20 million reward for information on Iran's nuclear program
-      https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program
+  10. Meghan Markle's estrangement from father Thomas Markle: From royal wedding fallout to his arrest
+      https://www.foxnews.com/entertainment/meghan-markle-estrangement-father-thomas-markle-royal-wedding-fallout-arrest
 
 
 ============================================================
-  Generated at 07:01 PM PST by GitHub Actions
+  Generated at 03:15 AM PST by GitHub Actions
 ============================================================
