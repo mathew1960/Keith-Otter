@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Leavitt reveals what Republicans must do to survive politically after Trump leaves White House
-      https://www.foxnews.com/media/leavitt-reveals-what-republicans-must-do-survive-politically-after-trump-leaves-white-house
-
-   2. Trump ‘holds all the cards’ in war against Iran’s regime, White House says
+   1. Trump ‘holds all the cards’ in war against Iran’s regime, White House says
       https://www.foxnews.com/politics/trump-holds-all-cards-war-against-irans-regime-white-house-says
 
-   3. Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown
+   2. Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown
       https://www.foxnews.com/politics/melania-trump-secures-7-2m-foster-care-scholarships-lsu-ahead-alabama-showdown
 
-   4. Trump orders DOJ probe into Democrats over alleged threats against administration officials
+   3. Trump orders DOJ probe into Democrats over alleged threats against administration officials
       https://www.foxnews.com/politics/trump-orders-doj-probe-democrats-over-alleged-threats-against-admin-officials
 
-   5. House GOP critics erupt at Stephen Miller as Trump elevates him after midterm massacre
+   4. House GOP critics erupt at Stephen Miller as Trump elevates him after midterm massacre
       https://www.foxnews.com/politics/house-gop-erupts-stephen-miller-trump-elevates-him-after-midterm-massacre-megalomaniac
 
-   6. Democratic senator-elect calls Trump 'unserious fool' while defending combative political style
+   5. Democratic senator-elect calls Trump 'unserious fool' while defending combative political style
       https://www.foxnews.com/politics/democratic-senator-elect-calls-trump-unserious-fool-defending-combative-political-style
 
-   7. Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028
+   6. Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028
       https://www.foxnews.com/politics/trump-highlights-nasa-nuclear-powered-mars-spacecraft-mission-planned-2028
 
-   8. Trump's move from Wiles to Miller signals major tactical shift for governing without Congress
-      https://www.foxnews.com/politics/trumps-move-wiles-miller-signals-major-tactical-shift-governing-without-congress
+   7. Bengals quarterback Joe Burrow offers nothing in Spanish in Madrid but in English he's making an MVP statement
+      https://www.foxnews.com/outkick-sports/bengals-quarterback-joe-burrow-offers-nothing-spanish-madrid-english-making-mvp-statement
 
-   9. Fishing is big business, and FXR founder says the sport's growth is only getting started
-      https://www.foxnews.com/outkick-sports/fishing-big-business-fxr-founder-says-sports-growth-only-getting-started
+   8. Chynna Phillips admits she considered calling lawyer to end Billy Baldwin marriage after 'treacherous times'
+      https://www.foxnews.com/entertainment/chynna-phillips-admits-she-considered-calling-lawyer-end-billy-baldwin-marriage-after-treacherous-times
 
-  10. Detroit Lions wear Jack Campbell jerseys ahead of Miami Dolphins game to honor injured teammate
-      https://www.foxnews.com/outkick-sports/detroit-lions-wear-jack-campbell-jerseys-ahead-miami-dolphins-game-honor-injured-teammate
+   9. Video shows small plane clip pickup truck during emergency landing on busy Florida road
+      https://www.foxnews.com/us/video-shows-small-plane-clip-pickup-truck-during-emergency-landing-busy-florida-road
+
+  10. Alligator attack on Florida mom sparks panicked 911 call: 'Her arm is gone'
+      https://www.foxnews.com/travel/alligator-attack-florida-mom-sparks-panicked-911-call-arm-gone
 
 
 ============================================================
-  Generated at 10:24 AM PST by GitHub Actions
+  Generated at 02:18 PM PST by GitHub Actions
 ============================================================
