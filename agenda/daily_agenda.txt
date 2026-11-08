@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, November 07, 2026
+  DAILY BRIEFING — Sunday, November 08, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown
-      https://www.foxnews.com/politics/melania-trump-secures-7-2m-foster-care-scholarships-lsu-ahead-alabama-showdown
+   1. JACKSON THOMPSON: Dana White says he'll meet with Trump amid claim of White House press secretary job offer
+      https://www.foxnews.com/outkick-sports/jackson-thompson-dana-white-says-hell-meet-trump-amid-claim-white-house-press-secretary-job-offer
 
-   2. JACKSON THOMPSON: Trump says he offered UFC CEO Dana White press secretary job
-      https://www.foxnews.com/outkick-sports/jackson-thompson-trump-says-offered-ufc-ceo-dana-white-press-secretary-job
+   2. Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown
+      https://www.foxnews.com/politics/melania-trump-secures-7-2m-foster-care-scholarships-lsu-ahead-alabama-showdown
 
    3. Trump orders DOJ probe into Democrats over alleged threats against administration officials
       https://www.foxnews.com/politics/trump-orders-doj-probe-democrats-over-alleged-threats-against-admin-officials
@@ -32,13 +32,13 @@
    8. Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles
       https://www.foxnews.com/politics/trump-names-stephen-miller-new-white-house-chief-staff-replacing-susie-wiles
 
-   9. Boston College scores on bizarre 'Ring-Around-The-Rosie' homage to 'The Longest Yard'
-      https://www.foxnews.com/outkick-sports/boston-college-scores-bizarre-ring-around-rosie-homage-longest-yard
+   9. King Charles' 'short fuse' on display in viral downpour as Queen Camilla gets umbrella first: expert
+      https://www.foxnews.com/entertainment/king-charles-short-fuse-display-viral-downpour-queen-camilla-gets-umbrella-first-expert
 
-  10. Two experienced skydivers die after midair collision entangles their parachutes
-      https://www.foxnews.com/us/two-experienced-skydivers-die-midair-collision-entangles-parachutes
+  10. Struggling with depression? Psychiatrist says 6 habits may be making it worse
+      https://www.foxnews.com/health/struggling-depression-psychiatrist-says-6-habits-making-worse
 
 
 ============================================================
-  Generated at 06:38 PM PST by GitHub Actions
+  Generated at 03:28 AM PST by GitHub Actions
 ============================================================
