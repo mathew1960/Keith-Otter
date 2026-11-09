@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump ‘holds all the cards’ in war against Iran’s regime, White House says
+   1. Trump admits immigration enforcement may have been too 'tough' in first interview since midterms
+      https://www.foxnews.com/media/trump-admits-immigration-enforcement-may-have-been-too-tough-first-interview-since-midterms
+
+   2. Trump says he was ‘only kidding’ about making Dana White press secretary
+      https://www.foxnews.com/politics/trump-says-only-kidding-making-dana-white-white-house-press-secretary
+
+   3. Trump’s proposed Russia deal raises NATO alarm as ex-commander warns Putin seeks influence over Europe
+      https://www.foxnews.com/world/trumps-proposed-russia-deal-raises-nato-alarm-ex-commander-warns-putin-seeks-influence-over-europe
+
+   4. Trump ‘holds all the cards’ in war against Iran’s regime, White House says
       https://www.foxnews.com/politics/trump-holds-all-cards-war-against-irans-regime-white-house-says
 
-   2. Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown
+   5. Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown
       https://www.foxnews.com/politics/melania-trump-secures-7-2m-foster-care-scholarships-lsu-ahead-alabama-showdown
 
-   3. Trump orders DOJ probe into Democrats over alleged threats against administration officials
+   6. Trump orders DOJ probe into Democrats over alleged threats against administration officials
       https://www.foxnews.com/politics/trump-orders-doj-probe-democrats-over-alleged-threats-against-admin-officials
 
-   4. House GOP critics erupt at Stephen Miller as Trump elevates him after midterm massacre
+   7. House GOP critics erupt at Stephen Miller as Trump elevates him after midterm massacre
       https://www.foxnews.com/politics/house-gop-erupts-stephen-miller-trump-elevates-him-after-midterm-massacre-megalomaniac
 
-   5. Democratic senator-elect calls Trump 'unserious fool' while defending combative political style
+   8. Democratic senator-elect calls Trump 'unserious fool' while defending combative political style
       https://www.foxnews.com/politics/democratic-senator-elect-calls-trump-unserious-fool-defending-combative-political-style
 
-   6. Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028
-      https://www.foxnews.com/politics/trump-highlights-nasa-nuclear-powered-mars-spacecraft-mission-planned-2028
+   9. Dallas public defender’s chief investigator charged with wife’s murder after bloody apartment discovery
+      https://www.foxnews.com/us/dallas-public-defenders-chief-investigator-charged-wifes-murder-after-bloody-apartment-discovery
 
-   7. Bengals quarterback Joe Burrow offers nothing in Spanish in Madrid but in English he's making an MVP statement
-      https://www.foxnews.com/outkick-sports/bengals-quarterback-joe-burrow-offers-nothing-spanish-madrid-english-making-mvp-statement
-
-   8. Chynna Phillips admits she considered calling lawyer to end Billy Baldwin marriage after 'treacherous times'
-      https://www.foxnews.com/entertainment/chynna-phillips-admits-she-considered-calling-lawyer-end-billy-baldwin-marriage-after-treacherous-times
-
-   9. Video shows small plane clip pickup truck during emergency landing on busy Florida road
-      https://www.foxnews.com/us/video-shows-small-plane-clip-pickup-truck-during-emergency-landing-busy-florida-road
-
-  10. Alligator attack on Florida mom sparks panicked 911 call: 'Her arm is gone'
-      https://www.foxnews.com/travel/alligator-attack-florida-mom-sparks-panicked-911-call-arm-gone
+  10. Tensions flare as demonstrators target Jewish restaurants, drawing massive counterprotest
+      https://www.foxnews.com/us/tensions-flare-demonstrators-target-jewish-restaurants-drawing-massive-counterprotest
 
 
 ============================================================
-  Generated at 02:18 PM PST by GitHub Actions
+  Generated at 06:53 PM PST by GitHub Actions
 ============================================================
