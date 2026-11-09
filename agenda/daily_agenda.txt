@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. AG Blanche clashes with anchor asking whether it's his 'job' to defend the Trump administration
-      https://www.foxnews.com/media/ag-blanche-clashes-anchor-asking-whether-its-his-job-defend-trump-administration
+   1. Dana White takes questions at podium during White House briefing with Trump
+      https://www.foxnews.com/politics/dana-white-takes-questions-podium-during-white-house-briefing-trump
 
-   2. Rubio defends Trump's Iran war as not 'necessarily popular, but necessary'
+   2. Jeffries vows Democrats won’t ‘give a dime’ to Trump’s deportation efforts
+      https://www.foxnews.com/politics/jeffries-vows-democrats-wont-give-dime-trumps-deportation-efforts
+
+   3. Trump tells DHS chief to work with Democrats on immigration reform, but no amnesty
+      https://www.foxnews.com/politics/trump-tells-dhs-chief-work-democrats-immigration-reform-no-amnesty
+
+   4. Trump's redistricting gamble faces reckoning as GOP holdouts claim vindication
+      https://www.foxnews.com/politics/trumps-redistricting-gamble-faces-reckoning-gop-holdouts-claim-vindication
+
+   5. SCOTUS allows Trump admin to temporarily resume border construction in Texas' Big Bend
+      https://www.foxnews.com/politics/scotus-allows-trump-admin-temporarily-resume-border-construction-texas-big-bend
+
+   6. Rubio's defense of Trump's Iran war draws sharp contrast with Vance's midterm blame
+      https://www.foxnews.com/politics/rubios-defense-trumps-iran-war-draws-sharp-contrast-vances-midterm-blame
+
+   7. Melania Trump scholarship recipient reveals how Fostering the Future helped her with LSU after foster care
+      https://www.foxnews.com/media/melania-trump-scholarship-recipient-how-fostering-future-helped-her-reach-lsu-after-life-foster-care
+
+   8. White House doubles down after Trump angers base by floating illegal alien deal with Dems
+      https://www.foxnews.com/politics/white-house-doubles-down-trump-angers-base-floating-illegal-alien-deal-dems
+
+   9. Trump-aligned Mississippi auditor launches governor bid, vows to dismantle 'good ol' boys' club'
+      https://www.foxnews.com/politics/trump-aligned-mississippi-auditor-launches-governor-bid-vows-dismantle-good-ol-boys-club
+
+  10. Rubio defends Trump's Iran war as not 'necessarily popular, but necessary'
       https://www.foxnews.com/politics/rubio-defends-trumps-iran-war-not-necessarily-popular-necessary
-
-   3. EXCLUSIVE: Trump's FAA touts new AI-powered tool helping thousands of passengers avoid flight delays
-      https://www.foxnews.com/politics/exclusive-trumps-faa-touts-new-ai-powered-tool-helping-thousands-passengers-avoid-flight-delays
-
-   4. The stoning of Stephen Miller, now running the Trump White House
-      https://www.foxnews.com/opinion/stoning-stephen-miller-now-running-trump-white-house
-
-   5. Bernie Sanders warns Democrats not to spend all their time investigating Trump
-      https://www.foxnews.com/politics/bernie-sanders-warns-democrats-not-spend-all-time-investigating-trump
-
-   6. Trump says he was ‘only kidding’ about making Dana White press secretary
-      https://www.foxnews.com/politics/trump-says-only-kidding-making-dana-white-white-house-press-secretary
-
-   7. Trump ‘holds all the cards’ in war against Iran’s regime, White House says
-      https://www.foxnews.com/politics/trump-holds-all-cards-war-against-irans-regime-white-house-says
-
-   8. Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown
-      https://www.foxnews.com/politics/melania-trump-secures-7-2m-foster-care-scholarships-lsu-ahead-alabama-showdown
-
-   9. Trump orders DOJ probe into Democrats over alleged threats against administration officials
-      https://www.foxnews.com/politics/trump-orders-doj-probe-democrats-over-alleged-threats-against-admin-officials
-
-  10. GOP faces daunting post-election test as grip on Congress nears end and more top headlines
-      https://www.foxnews.com/us/gop-faces-daunting-post-election-test-grip-congress-nears-end-more-top-headlines
 
 
 ============================================================
-  Generated at 05:14 AM PST by GitHub Actions
+  Generated at 03:02 PM PST by GitHub Actions
 ============================================================
