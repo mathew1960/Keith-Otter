@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Jamie Raskin calls concerns over spending too much time investigating Trump a media 'narrative'
-      https://www.foxnews.com/media/jamie-raskin-calls-concerns-over-spending-too-much-time-investigating-trump-media-narrative
-
-   2. Top Dem cries ‘weaponization’ as comments warning young people not to join Trump admin lands her in hot water
+   1. Top Dem cries ‘weaponization’ as comments warning young people not to join Trump admin land her in hot water
       https://www.foxnews.com/politics/top-dem-cries-weaponization-comments-warning-young-people-not-join-trump-admin-lands-hot-water
 
-   3. Trump closing in on new press secretary as administration officials push for pick who could break the mold
+   2. Trump closing in on new press secretary as administration officials push for pick who could break the mold
       https://www.foxnews.com/politics/trump-closing-new-press-secretary-admin-officials-push-pick-break-mold
 
-   4. Trump's first Iran war escalation post-midterm losses seeks to choke off Tehran’s trade
+   3. Trump's first Iran war escalation post-midterm losses seeks to choke off Tehran’s trade
       https://www.foxnews.com/politics/trumps-first-iran-war-escalation-post-midterm-losses-seeks-choke-off-tehrans-trade
 
-   5. Trump signals surprising approach to choosing his successor as GOP's 2028 field grows
+   4. Trump signals surprising approach to choosing his successor as GOP's 2028 field grows
       https://www.foxnews.com/politics/trump-signals-surprising-approach-choosing-his-successor-gops-2028-field-grows
 
-   6. Kushner enters Ukraine peace talks as Trump eyes securing safeguards against another Russian invasion
-      https://www.foxnews.com/politics/kushner-enters-ukraine-peace-talks-trump-eyes-securing-safeguards-against-another-russian-invasion
+   5. House GOP leaders block Massie's Hegseth impeachment push
+      https://www.foxnews.com/politics/house-gop-leaders-block-massie-hegseth-impeachment-push
 
-   7. Trump defends Pentagon chief as Massie targets him: 'Hegseth should be praised, not impeached'
-      https://www.foxnews.com/politics/trump-defends-pentagon-chief-massie-targets-him-hegseth-praised-not-impeached
+   6. Former Seattle Mariners player Dave Edler critically injured in Yakima crash that killed his wife
+      https://www.foxnews.com/outkick-sports/former-seattle-mariners-player-dave-edler-critically-injured-yakima-crash-killed-wife
 
-   8. Jim Jordan picked as next House GOP leader: Sound off!
-      https://www.foxnews.com/politics/jim-jordan-picked-next-house-gop-leader-sound-off
+   7. NFL trade deadline winners and losers, including Dianna Russini and Kirk Cousins
+      https://www.foxnews.com/outkick-sports/nfl-trade-deadline-winners-losers-dianna-russini-kirk-cousins
 
-   9. Shanghai-based tycoon Neville Roy Singham's 'Squad,' Bernie Sanders donations resurface
-      https://www.foxnews.com/politics/shanghai-based-tycoon-neville-roy-singham-squad-bernie-sanders-donations-resurface
+   8. Colts had Jonathan Taylor and Grover Stewart trade offers but didn't complete deals that eventually got pulled
+      https://www.foxnews.com/outkick-sports/colts-jonathan-taylor-grover-stewart-trade-offers-didnt-complete-deals-eventually-pulled
 
-  10. US warns Americans to avoid famed tourist square after gunman kills 6, injures 15
-      https://www.foxnews.com/travel/us-warns-americans-avoid-famed-tourist-square-after-gunman-kills-6-injures-15
+   9. Bob Boone, World Series champion and member of MLB's first three-generation family, dead at 78
+      https://www.foxnews.com/outkick-sports/bob-boone-world-series-champion-member-mlbs-first-three-generation-family-dead-78
+
+  10. Ilhan Omar huddles with her DC-based lawyers during her first day back on Capitol Hill amid federal probes
+      https://www.foxnews.com/politics/ilhan-omar-huddles-dc-based-lawyers-first-day-back-capitol-hill-amid-federal-probes
 
 
 ============================================================
-  Generated at 12:30 PM PST by GitHub Actions
+  Generated at 03:36 PM PST by GitHub Actions
 ============================================================
