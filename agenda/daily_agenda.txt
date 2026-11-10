@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. PAUL MAURO: Sanctuary states have a DMV problem — and Trump can demand answers
-      https://www.foxnews.com/opinion/paul-mauro-sanctuary-states-dmv-problem-trump-can-demand-answers
+   1. Jamie Raskin calls concerns over spending too much time investigating Trump a media 'narrative'
+      https://www.foxnews.com/media/jamie-raskin-calls-concerns-over-spending-too-much-time-investigating-trump-media-narrative
 
-   2. Kushner enters Ukraine peace talks as Trump eyes securing safeguards against another Russian invasion
+   2. Top Dem cries ‘weaponization’ as comments warning young people not to join Trump admin lands her in hot water
+      https://www.foxnews.com/politics/top-dem-cries-weaponization-comments-warning-young-people-not-join-trump-admin-lands-hot-water
+
+   3. Trump closing in on new press secretary as administration officials push for pick who could break the mold
+      https://www.foxnews.com/politics/trump-closing-new-press-secretary-admin-officials-push-pick-break-mold
+
+   4. Trump's first Iran war escalation post-midterm losses seeks to choke off Tehran’s trade
+      https://www.foxnews.com/politics/trumps-first-iran-war-escalation-post-midterm-losses-seeks-choke-off-tehrans-trade
+
+   5. Trump signals surprising approach to choosing his successor as GOP's 2028 field grows
+      https://www.foxnews.com/politics/trump-signals-surprising-approach-choosing-his-successor-gops-2028-field-grows
+
+   6. Kushner enters Ukraine peace talks as Trump eyes securing safeguards against another Russian invasion
       https://www.foxnews.com/politics/kushner-enters-ukraine-peace-talks-trump-eyes-securing-safeguards-against-another-russian-invasion
 
-   3. Trump defends Pentagon chief as Massie targets him: 'Hegseth should be praised, not impeached'
+   7. Trump defends Pentagon chief as Massie targets him: 'Hegseth should be praised, not impeached'
       https://www.foxnews.com/politics/trump-defends-pentagon-chief-massie-targets-him-hegseth-praised-not-impeached
 
-   4. Trump's Supreme Court majority faces looming threat after Dem Senate takeover: 'Stuck'
-      https://www.foxnews.com/politics/trumps-supreme-court-majority-faces-looming-threat-after-dem-senate-takeover-stuck
+   8. Jim Jordan picked as next House GOP leader: Sound off!
+      https://www.foxnews.com/politics/jim-jordan-picked-next-house-gop-leader-sound-off
 
-   5. LIZ PEEK: Here’s how Trump can rebound and become one of the presidential greats
-      https://www.foxnews.com/opinion/liz-peek-how-trump-rebound-become-one-presidential-greats
+   9. Shanghai-based tycoon Neville Roy Singham's 'Squad,' Bernie Sanders donations resurface
+      https://www.foxnews.com/politics/shanghai-based-tycoon-neville-roy-singham-squad-bernie-sanders-donations-resurface
 
-   6. HUGH HEWITT: Three big legal fights are looming, and Trump needs answers before January
-      https://www.foxnews.com/opinion/hugh-hewitt-three-big-legal-fights-looming-trump-needs-answers-before-january
-
-   7. Trump says deportation push hasn’t put 'same pressure' on farmworkers, hotel staff: 'Not even close'
-      https://www.foxnews.com/politics/trump-says-deportation-push-hasnt-put-same-pressure-farm-workers-hotel-staff-not-even-close
-
-   8. Dana White takes questions at podium during White House briefing with Trump
-      https://www.foxnews.com/politics/dana-white-takes-questions-podium-during-white-house-briefing-trump
-
-   9. Jeffries vows Democrats won’t ‘give a dime’ to Trump’s deportation efforts
-      https://www.foxnews.com/politics/jeffries-vows-democrats-wont-give-dime-trumps-deportation-efforts
-
-  10. Trump tells DHS chief to work with Democrats on immigration reform, but no amnesty
-      https://www.foxnews.com/politics/trump-tells-dhs-chief-work-democrats-immigration-reform-no-amnesty
+  10. US warns Americans to avoid famed tourist square after gunman kills 6, injures 15
+      https://www.foxnews.com/travel/us-warns-americans-avoid-famed-tourist-square-after-gunman-kills-6-injures-15
 
 
 ============================================================
-  Generated at 04:53 AM PST by GitHub Actions
+  Generated at 12:30 PM PST by GitHub Actions
 ============================================================
