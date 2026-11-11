@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Senate Republicans plan 54-day blitz to push Trump's agenda before Democrats seize power
+   1. GOP congressman-elect makes unusual Trump request, ejects reporter during profanity-laced victory speech
+      https://www.foxnews.com/politics/gop-congressman-elect-makes-unusual-trump-request-ejects-reporter-during-profanity-laced-victory-speech
+
+   2. Trump defends Iran war during Veterans Day address, says he is making the world 'safer'
+      https://www.foxnews.com/politics/trump-defends-iran-war-during-veterans-day-address-says-making-world-safer
+
+   3. Multiple Kennedy family members seek to join legal battle against Trump's triumphal arch
+      https://www.foxnews.com/politics/multiple-kennedy-family-members-seek-join-legal-battle-against-trumps-triumphal-arch
+
+   4. Senate Republicans plan 54-day blitz to push Trump's agenda before Democrats seize power
       https://www.foxnews.com/politics/senate-republicans-plan-54-day-blitz-push-trumps-agenda-before-democrats-seize-power
 
-   2. Maddow fears Trump migrant detention centers may be used to imprison ‘the rest of us’
-      https://www.foxnews.com/media/maddow-fears-trump-migrant-detention-centers-may-used-imprison-the-rest-us
+   5. Ex-NFL coach Rex Ryan turns himself in to Nashville police for allegedly running over two pedestrians' feet
+      https://www.foxnews.com/outkick-sports/ex-nfl-coach-rex-ryan-turns-himself-nashville-police-allegedly-running-two-pedestrians-feet
 
-   3. Top Dem cries ‘weaponization’ as comments warning young people not to join Trump admin land her in hot water
-      https://www.foxnews.com/politics/top-dem-cries-weaponization-comments-warning-young-people-not-join-trump-admin-lands-hot-water
+   6. Kelsey Grammer still feels 'sense of smallness' for not serving in military: 'I do my best to make up for it'
+      https://www.foxnews.com/entertainment/kelsey-grammer-still-feels-sense-smallness-not-serving-military-i-do-my-best-make-up-it
 
-   4. Trump closing in on new press secretary as administration officials push for pick who could break the mold
-      https://www.foxnews.com/politics/trump-closing-new-press-secretary-admin-officials-push-pick-break-mold
+   7. Former ESPN star Sean Salisbury says political arguments wore out fans who just wanted sports
+      https://www.foxnews.com/outkick-sports/former-espn-star-sean-salisbury-says-political-arguments-wore-out-fans-wanted-sports
 
-   5. Trump's first Iran war escalation post-midterm losses seeks to choke off Tehran’s trade
-      https://www.foxnews.com/politics/trumps-first-iran-war-escalation-post-midterm-losses-seeks-choke-off-tehrans-trade
+   8. Tampa Bay Lightning visit Buffalo Sabres with both goalies struggling to stop pucks this season
+      https://www.foxnews.com/outkick/tampa-bay-lightning-visit-buffalo-sabres-goalies-struggling-stop-pucks-season
 
-   6. Veterans Day 2026 brings free meals at popular restaurants — and some deals don't end Nov. 11
-      https://www.foxnews.com/food-drink/veterans-day-2026-brings-free-meals-popular-restaurants-some-deals-dont-end-nov-11
+   9. Horny bull elk keeps attacking cars, forces Missouri wildlife park to close indefinitely
+      https://www.foxnews.com/outkick-sports/horny-bull-elk-keeps-attacking-cars-forces-missouri-wildlife-park-close-indefinitely
 
-   7. CFP reaction: Alabama feels the love, Indiana gets the shaft and Big 12 gets relief as committee confuses us
-      https://www.foxnews.com/outkick-sports/cfp-reaction-alabama-feels-love-indiana-gets-shaft-big-12-gets-relief-committee-confuses-us
-
-   8. House Dem criticizes Fetterman's record, mulls 2028 Senate bid
-      https://www.foxnews.com/politics/house-dem-mulls-senate-bid-disappointed-fettermans-performance-senator
-
-   9. Dakota Meyer survived a battle he thought would kill him. 15 years after leaving the Marines, he went back
-      https://www.foxnews.com/politics/dakota-meyer-survived-battle-thought-would-kill-him-15-years-after-leaving-marines-went-back
-
-  10. Small-town Marine veteran refuses to back down in 16-year fight for America's forgotten heroes — and wins
-      https://www.foxnews.com/politics/small-town-marine-veteran-refuses-back-down-16-year-fight-americas-forgotten-heroes-wins
+  10. Russian Ambassador to US Alexander Darchiev dies suddenly at 66
+      https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66
 
 
 ============================================================
-  Generated at 04:03 AM PST by GitHub Actions
+  Generated at 12:15 PM PST by GitHub Actions
 ============================================================
