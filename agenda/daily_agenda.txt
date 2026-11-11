@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Tuesday, November 10, 2026
+  DAILY BRIEFING — Wednesday, November 11, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Maddow fears Trump migrant detention centers may be used to imprison ‘the rest of us’
+   1. Senate Republicans plan 54-day blitz to push Trump's agenda before Democrats seize power
+      https://www.foxnews.com/politics/senate-republicans-plan-54-day-blitz-push-trumps-agenda-before-democrats-seize-power
+
+   2. Maddow fears Trump migrant detention centers may be used to imprison ‘the rest of us’
       https://www.foxnews.com/media/maddow-fears-trump-migrant-detention-centers-may-used-imprison-the-rest-us
 
-   2. Biden reveals letter Trump left him at White House that made it seem 'as if there were two Donald Trumps'
-      https://www.foxnews.com/media/biden-reveals-letter-trump-left-him-white-house-made-seem-as-were-two-donald-trumps
-
-   3. IRGC operative lands on FBI’s Most Wanted Terrorists list over alleged plot to kill former Trump advisor
-      https://www.foxnews.com/us/irgc-operative-lands-fbis-most-wanted-terrorists-list-alleged-plot-kill-former-trump-adviser
-
-   4. Top Dem cries ‘weaponization’ as comments warning young people not to join Trump admin land her in hot water
+   3. Top Dem cries ‘weaponization’ as comments warning young people not to join Trump admin land her in hot water
       https://www.foxnews.com/politics/top-dem-cries-weaponization-comments-warning-young-people-not-join-trump-admin-lands-hot-water
 
-   5. Trump closing in on new press secretary as administration officials push for pick who could break the mold
+   4. Trump closing in on new press secretary as administration officials push for pick who could break the mold
       https://www.foxnews.com/politics/trump-closing-new-press-secretary-admin-officials-push-pick-break-mold
 
-   6. Trump's first Iran war escalation post-midterm losses seeks to choke off Tehran’s trade
+   5. Trump's first Iran war escalation post-midterm losses seeks to choke off Tehran’s trade
       https://www.foxnews.com/politics/trumps-first-iran-war-escalation-post-midterm-losses-seeks-choke-off-tehrans-trade
 
-   7. Trump signals surprising approach to choosing his successor as GOP's 2028 field grows
-      https://www.foxnews.com/politics/trump-signals-surprising-approach-choosing-his-successor-gops-2028-field-grows
+   6. Veterans Day 2026 brings free meals at popular restaurants — and some deals don't end Nov. 11
+      https://www.foxnews.com/food-drink/veterans-day-2026-brings-free-meals-popular-restaurants-some-deals-dont-end-nov-11
 
-   8. Twice-deported illegal immigrant accused of trying to storm United cockpit, threatening bomb: DHS
-      https://www.foxnews.com/us/twice-deported-illegal-immigrant-accused-trying-storm-united-cockpit-threatening-bomb-dhs
+   7. CFP reaction: Alabama feels the love, Indiana gets the shaft and Big 12 gets relief as committee confuses us
+      https://www.foxnews.com/outkick-sports/cfp-reaction-alabama-feels-love-indiana-gets-shaft-big-12-gets-relief-committee-confuses-us
 
-   9. Turning Point USA Spox Andrew Kolvet speaks out as Jennifer Welch, Dave Chappelle mock Charlie Kirk's murder
-      https://www.foxnews.com/media/turning-point-usa-spox-andrew-kolvet-speaks-out-jennifer-welch-dave-chappelle-mock-charlie-kirks-murder
+   8. House Dem criticizes Fetterman's record, mulls 2028 Senate bid
+      https://www.foxnews.com/politics/house-dem-mulls-senate-bid-disappointed-fettermans-performance-senator
 
-  10. Rising pro wrestling star Johnnie Robbie signing with CMLL
-      https://www.foxnews.com/outkick-sports/rising-pro-wrestling-star-johnnie-robbie-signing-cmll
+   9. Dakota Meyer survived a battle he thought would kill him. 15 years after leaving the Marines, he went back
+      https://www.foxnews.com/politics/dakota-meyer-survived-battle-thought-would-kill-him-15-years-after-leaving-marines-went-back
+
+  10. Small-town Marine veteran refuses to back down in 16-year fight for America's forgotten heroes — and wins
+      https://www.foxnews.com/politics/small-town-marine-veteran-refuses-back-down-16-year-fight-americas-forgotten-heroes-wins
 
 
 ============================================================
-  Generated at 06:55 PM PST by GitHub Actions
+  Generated at 04:03 AM PST by GitHub Actions
 ============================================================
