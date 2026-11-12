@@ -1,10 +1,30 @@
 {
-  "temp": 78,
+  "temp": 73,
   "high": 89,
   "low": 70,
   "conditions": "Clear",
-  "updated": "2026-11-12T00:52:32.574631+00:00",
+  "updated": "2026-11-12T04:03:20.517534+00:00",
   "hourly": [
+    {
+      "time": "8 PM",
+      "temp": 73,
+      "conditions": "Clear"
+    },
+    {
+      "time": "9 PM",
+      "temp": 72,
+      "conditions": "Clear"
+    },
+    {
+      "time": "10 PM",
+      "temp": 73,
+      "conditions": "Clear"
+    },
+    {
+      "time": "11 PM",
+      "temp": 73,
+      "conditions": "Clear"
+    },
     {
       "time": "12 AM",
       "temp": 73,
@@ -12,57 +32,37 @@
     },
     {
       "time": "1 AM",
-      "temp": 71,
+      "temp": 72,
       "conditions": "Clear"
     },
     {
       "time": "2 AM",
-      "temp": 71,
+      "temp": 72,
       "conditions": "Clear"
     },
     {
       "time": "3 AM",
-      "temp": 70,
+      "temp": 71,
       "conditions": "Clear"
     },
     {
       "time": "4 AM",
-      "temp": 71,
+      "temp": 69,
       "conditions": "Clear"
     },
     {
       "time": "5 AM",
-      "temp": 70,
+      "temp": 69,
       "conditions": "Clear"
     },
     {
       "time": "6 AM",
-      "temp": 70,
+      "temp": 68,
       "conditions": "Clear"
     },
     {
       "time": "7 AM",
-      "temp": 71,
-      "conditions": "Clear"
-    },
-    {
-      "time": "8 AM",
-      "temp": 76,
-      "conditions": "Clear"
-    },
-    {
-      "time": "9 AM",
-      "temp": 77,
-      "conditions": "Clear"
-    },
-    {
-      "time": "10 AM",
-      "temp": 83,
-      "conditions": "Clear"
-    },
-    {
-      "time": "11 AM",
-      "temp": 86,
+      "temp": 68,
       "conditions": "Clear"
     }
   ],
@@ -75,15 +75,15 @@
     },
     {
       "day": "Thu",
-      "high": 86,
-      "low": 67,
+      "high": 85,
+      "low": 68,
       "conditions": "Overcast"
     },
     {
       "day": "Fri",
-      "high": 80,
-      "low": 62,
-      "conditions": "Light drizzle"
+      "high": 79,
+      "low": 64,
+      "conditions": "Overcast"
     },
     {
       "day": "Sat",
