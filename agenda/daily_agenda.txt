@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. At least 9 new Dem members will carry Al Green's mantle and try to impeach President Trump
-      https://www.foxnews.com/politics/least-10-new-dem-members-carry-al-greenes-mantle-try-impeach-president-trump
+   1. Jeffries leaves door open to investigating major Trump ally as Democrats prepare to take power
+      https://www.foxnews.com/politics/jeffries-leaves-door-open-investigating-major-trump-ally-democrats-prepare-take-power
 
-   2. Jeffries promises ‘remedial assistance’ to anyone impacted by Trump immigration enforcement
+   2. At least 9 new Dem members will carry Al Green's mantle and try to impeach President Trump
+      https://www.foxnews.com/politics/new-dem-members-carry-al-greens-mantle-try-impeach-president-trump
+
+   3. Jeffries promises ‘remedial assistance’ to anyone impacted by Trump immigration enforcement
       https://www.foxnews.com/media/jeffries-promises-remedial-assistance-anyone-impacted-trump-immigration-enforcement
 
-   3. Dems projected to score historic upset in deep-red Mississippi, topple Trump ally Hyde-Smith
+   4. Dems projected to score historic upset in deep-red Mississippi, topple Trump ally Hyde-Smith
       https://www.foxnews.com/politics/dems-projected-score-historic-upset-deep-red-mississippi-topple-trump-ally-hyde-smith
 
-   4. Trump's ex-lawyer Alina Habba loses massive contract days after president blasts 'outrageous' deal
+   5. Trump's ex-lawyer Alina Habba loses massive contract days after president blasts 'outrageous' deal
       https://www.foxnews.com/politics/trumps-ex-lawyer-alina-habba-loses-massive-contract-days-after-president-blasts-outrageous-deal
 
-   5. Stephen Miller's internal memo unleashes Trump agencies after 'absolute control' under Wiles' reign
+   6. Stephen Miller's internal memo unleashes Trump agencies after 'absolute control' under Wiles' reign
       https://www.foxnews.com/politics/stephen-miller-internal-memo-unleashes-trump-agencies-absolute-control-wiles-reign
 
-   6. GOP congressman-elect makes unusual Trump request, ejects reporter during profanity-laced victory speech
+   7. GOP congressman-elect makes unusual Trump request, ejects reporter during profanity-laced victory speech
       https://www.foxnews.com/politics/gop-congressman-elect-makes-unusual-trump-request-ejects-reporter-during-profanity-laced-victory-speech
 
-   7. Trump defends Iran war during Veterans Day address, says he is making the world 'safer'
+   8. Trump defends Iran war during Veterans Day address, says he is making the world 'safer'
       https://www.foxnews.com/politics/trump-defends-iran-war-during-veterans-day-address-says-making-world-safer
 
-   8. Multiple Kennedy family members seek to join legal battle against Trump's triumphal arch
+   9. Multiple Kennedy family members seek to join legal battle against Trump's triumphal arch
       https://www.foxnews.com/politics/multiple-kennedy-family-members-seek-join-legal-battle-against-trumps-triumphal-arch
 
-   9. Senate Republicans plan 54-day blitz to push Trump's agenda before Democrats seize power
+  10. Senate Republicans plan 54-day blitz to push Trump's agenda before Democrats seize power
       https://www.foxnews.com/politics/senate-republicans-plan-54-day-blitz-push-trumps-agenda-before-democrats-seize-power
-
-  10. Team USA withdraws from FIFA U-17 World Cup amid State Department travel warning in Middle East
-      https://www.foxnews.com/outkick-sports/team-usa-withdraws-fifa-u-17-world-cup-state-department-travel-warning-middle-east
 
 
 ============================================================
-  Generated at 04:53 PM PST by GitHub Actions
+  Generated at 08:01 PM PST by GitHub Actions
 ============================================================
