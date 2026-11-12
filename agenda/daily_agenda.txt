@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. GOP congressman-elect makes unusual Trump request, ejects reporter during profanity-laced victory speech
+   1. At least 9 new Dem members will carry Al Green's mantle and try to impeach President Trump
+      https://www.foxnews.com/politics/least-10-new-dem-members-carry-al-greenes-mantle-try-impeach-president-trump
+
+   2. Jeffries promises ‘remedial assistance’ to anyone impacted by Trump immigration enforcement
+      https://www.foxnews.com/media/jeffries-promises-remedial-assistance-anyone-impacted-trump-immigration-enforcement
+
+   3. Dems projected to score historic upset in deep-red Mississippi, topple Trump ally Hyde-Smith
+      https://www.foxnews.com/politics/dems-projected-score-historic-upset-deep-red-mississippi-topple-trump-ally-hyde-smith
+
+   4. Trump's ex-lawyer Alina Habba loses massive contract days after president blasts 'outrageous' deal
+      https://www.foxnews.com/politics/trumps-ex-lawyer-alina-habba-loses-massive-contract-days-after-president-blasts-outrageous-deal
+
+   5. Stephen Miller's internal memo unleashes Trump agencies after 'absolute control' under Wiles' reign
+      https://www.foxnews.com/politics/stephen-miller-internal-memo-unleashes-trump-agencies-absolute-control-wiles-reign
+
+   6. GOP congressman-elect makes unusual Trump request, ejects reporter during profanity-laced victory speech
       https://www.foxnews.com/politics/gop-congressman-elect-makes-unusual-trump-request-ejects-reporter-during-profanity-laced-victory-speech
 
-   2. Trump defends Iran war during Veterans Day address, says he is making the world 'safer'
+   7. Trump defends Iran war during Veterans Day address, says he is making the world 'safer'
       https://www.foxnews.com/politics/trump-defends-iran-war-during-veterans-day-address-says-making-world-safer
 
-   3. Multiple Kennedy family members seek to join legal battle against Trump's triumphal arch
+   8. Multiple Kennedy family members seek to join legal battle against Trump's triumphal arch
       https://www.foxnews.com/politics/multiple-kennedy-family-members-seek-join-legal-battle-against-trumps-triumphal-arch
 
-   4. Senate Republicans plan 54-day blitz to push Trump's agenda before Democrats seize power
+   9. Senate Republicans plan 54-day blitz to push Trump's agenda before Democrats seize power
       https://www.foxnews.com/politics/senate-republicans-plan-54-day-blitz-push-trumps-agenda-before-democrats-seize-power
 
-   5. Ex-NFL coach Rex Ryan turns himself in to Nashville police for allegedly running over two pedestrians' feet
-      https://www.foxnews.com/outkick-sports/ex-nfl-coach-rex-ryan-turns-himself-nashville-police-allegedly-running-two-pedestrians-feet
-
-   6. Kelsey Grammer still feels 'sense of smallness' for not serving in military: 'I do my best to make up for it'
-      https://www.foxnews.com/entertainment/kelsey-grammer-still-feels-sense-smallness-not-serving-military-i-do-my-best-make-up-it
-
-   7. Former ESPN star Sean Salisbury says political arguments wore out fans who just wanted sports
-      https://www.foxnews.com/outkick-sports/former-espn-star-sean-salisbury-says-political-arguments-wore-out-fans-wanted-sports
-
-   8. Tampa Bay Lightning visit Buffalo Sabres with both goalies struggling to stop pucks this season
-      https://www.foxnews.com/outkick/tampa-bay-lightning-visit-buffalo-sabres-goalies-struggling-stop-pucks-season
-
-   9. Horny bull elk keeps attacking cars, forces Missouri wildlife park to close indefinitely
-      https://www.foxnews.com/outkick-sports/horny-bull-elk-keeps-attacking-cars-forces-missouri-wildlife-park-close-indefinitely
-
-  10. Russian Ambassador to US Alexander Darchiev dies suddenly at 66
-      https://www.foxnews.com/world/russian-ambassador-us-alexander-darchiev-dies-suddenly-66
+  10. Team USA withdraws from FIFA U-17 World Cup amid State Department travel warning in Middle East
+      https://www.foxnews.com/outkick-sports/team-usa-withdraws-fifa-u-17-world-cup-state-department-travel-warning-middle-east
 
 
 ============================================================
-  Generated at 12:15 PM PST by GitHub Actions
+  Generated at 04:53 PM PST by GitHub Actions
 ============================================================
