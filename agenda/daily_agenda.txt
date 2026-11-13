@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Democrats won Congress, but their Trump obsession could give it right back
-      https://www.foxnews.com/opinion/democrats-won-congress-trump-obsession-give-back
+   1. Two top Trump Cabinet officials go to war over China spy scandal amid explosive accusations: report
+      https://www.foxnews.com/politics/two-top-trump-cabinet-officials-go-war-over-china-spy-scandal-amid-explosive-accusations-report
 
-   2. Stephen A Smith debriefs interview with President Trump, warns Democrats face steep challenge
-      https://www.foxnews.com/media/stephen-a-smith-debriefs-interview-president-trump-warns-democrats-face-steep-challenge
+   2. Eric Trump-partnered robotics CEO addresses 'Terminator' fears as he sends combat humanoids into war zones
+      https://www.foxnews.com/tech/eric-trump-partnered-robotics-ceo-addresses-terminator-fears-sends-combat-humanoids-warzones
 
-   3. Donald Trump calls Barack Obama 'highly overrated' and claims he'd win a third-term matchup
-      https://www.foxnews.com/media/donald-trump-calls-barack-obama-highly-overrated-claims-hed-win-third-term-matchup
+   3. Chris Van Hollen floats using government shutdown threat to force Trump to end Iran war
+      https://www.foxnews.com/media/chris-van-hollen-floats-using-government-shutdown-threat-force-trump-end-iran-war
 
-   4. The top Trump officials Democrats admit are on their hit list for investigations in the new Congress
+   4. Trump's spy chiefs put Republican leaders on the clock over 'huge priority' as power shift looms over Congress
+      https://www.foxnews.com/politics/trumps-spy-chiefs-put-republican-leaders-clock-huge-priority-power-shift-looms-congress
+
+   5. The mistake newly-elected Dems admit they can't afford to make with Trump after sweeping 2026 wins
+      https://www.foxnews.com/politics/mistake-newly-elected-dems-admit-cant-afford-make-trump-after-sweeping-2026-wins
+
+   6. The top Trump officials Democrats admit are on their hit list for investigations in the new Congress
       https://www.foxnews.com/politics/top-trump-officials-democrats-admit-hit-list-investigations-new-congress
 
-   5. Trump asks Vance to focus on ‘corruption and crime’ in Dem-run cities, states
-      https://www.foxnews.com/politics/trump-asks-vance-focus-corruption-crime-dem-run-cities-states
+   7. Schumer's leadership rival reveals major Senate rule change he'd pursue if elected
+      https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected
 
-   6. Howard Lutnick is next Trump official top Dems want on the chopping block amid NVIDIA scandal
-      https://www.foxnews.com/politics/howard-lutnick-next-trump-official-dems-want-chopping-block-amid-nvidia-scandal
+   8. Pete Hegseth impeachment effort dies in the House as absent Democrats couldn't beat the traffic
+      https://www.foxnews.com/politics/pete-hegseth-impeachment-effort-dies-house-absent-democrats-couldnt-beat-traffic
 
-   7. Trump opens door to immigration deal, but Republicans have one condition
-      https://www.foxnews.com/politics/trump-opens-door-immigration-deal-republicans-have-one-condition
+   9. 'Hunting Wives’ star Malin Akerman ditches LA lifestyle for ‘dream’ of raising son like it’s the 1950s
+      https://www.foxnews.com/entertainment/hunting-wives-star-malin-akerman-ditches-la-lifestyle-dream-raising-son-1950s
 
-   8. Another Trump heavyweight revealed to be living on military base as Cabinet roster grows
-      https://www.foxnews.com/politics/another-trump-heavyweight-revealed-living-military-base-cabinet-roster-grows
-
-   9. Pence delivers scathing rebuke of Vance's Iran war assessment, blames Trump policies for GOP losses
-      https://www.foxnews.com/politics/pence-delivers-scathing-rebuke-vances-iran-war-assessment-blames-trump-policies-gop-losses
-
-  10. Healthy runner suffers sudden stroke at 27 as doctors discover possible cause
-      https://www.foxnews.com/health/healthy-runner-suffers-sudden-stroke-27-doctors-discover-possible-cause
+  10. This towel warmer is the ultimate cold-weather bathroom upgrade, now 15% off
+      https://www.foxnews.com/deals/towel-warmer-amazon-deals
 
 
 ============================================================
-  Generated at 04:31 AM PST by GitHub Actions
+  Generated at 12:33 PM PST by GitHub Actions
 ============================================================
