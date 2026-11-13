@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Two top Trump Cabinet officials go to war over China spy scandal amid explosive accusations: report
+   1. UFC boss Dana White brushes off Democratic probe threats, recalls 'crazy 48 hours' around Trump job offer
+      https://www.foxnews.com/media/ufc-boss-dana-white-brushes-off-democratic-probe-threats-recalls-crazy-48-hours-around-trump-job-offer
+
+   2. Two top Trump Cabinet officials go to war over China spy scandal amid explosive accusations: report
       https://www.foxnews.com/politics/two-top-trump-cabinet-officials-go-war-over-china-spy-scandal-amid-explosive-accusations-report
 
-   2. Eric Trump-partnered robotics CEO addresses 'Terminator' fears as he sends combat humanoids into war zones
-      https://www.foxnews.com/tech/eric-trump-partnered-robotics-ceo-addresses-terminator-fears-sends-combat-humanoids-warzones
-
-   3. Chris Van Hollen floats using government shutdown threat to force Trump to end Iran war
-      https://www.foxnews.com/media/chris-van-hollen-floats-using-government-shutdown-threat-force-trump-end-iran-war
-
-   4. Trump's spy chiefs put Republican leaders on the clock over 'huge priority' as power shift looms over Congress
+   3. Trump's spy chiefs put Republican leaders on the clock over 'huge priority' as power shift looms over Congress
       https://www.foxnews.com/politics/trumps-spy-chiefs-put-republican-leaders-clock-huge-priority-power-shift-looms-congress
 
-   5. The mistake newly-elected Dems admit they can't afford to make with Trump after sweeping 2026 wins
+   4. The mistake newly-elected Dems admit they can't afford to make with Trump after sweeping 2026 wins
       https://www.foxnews.com/politics/mistake-newly-elected-dems-admit-cant-afford-make-trump-after-sweeping-2026-wins
 
-   6. The top Trump officials Democrats admit are on their hit list for investigations in the new Congress
+   5. The top Trump officials Democrats admit are on their hit list for investigations in the new Congress
       https://www.foxnews.com/politics/top-trump-officials-democrats-admit-hit-list-investigations-new-congress
 
-   7. Schumer's leadership rival reveals major Senate rule change he'd pursue if elected
-      https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected
+   6. Which current three-loss team would be the most dangerous in this year's College Football Playoff?
+      https://www.foxnews.com/outkick-sports/current-three-loss-team-most-dangerous-college-football-playoff
 
-   8. Pete Hegseth impeachment effort dies in the House as absent Democrats couldn't beat the traffic
-      https://www.foxnews.com/politics/pete-hegseth-impeachment-effort-dies-house-absent-democrats-couldnt-beat-traffic
+   7. Mike Myers teases possible political nature of 'Austin Powers 4,' but critic warns that would be ‘foolish’
+      https://www.foxnews.com/media/mike-myers-teases-possible-political-nature-austin-powers-4-critic-warns-foolish
 
-   9. 'Hunting Wives’ star Malin Akerman ditches LA lifestyle for ‘dream’ of raising son like it’s the 1950s
-      https://www.foxnews.com/entertainment/hunting-wives-star-malin-akerman-ditches-la-lifestyle-dream-raising-son-1950s
+   8. Join Costco now and get a $45 gift card for holiday shopping
+      https://www.foxnews.com/deals/costco-membership-deal
 
-  10. This towel warmer is the ultimate cold-weather bathroom upgrade, now 15% off
-      https://www.foxnews.com/deals/towel-warmer-amazon-deals
+   9. Celebrity and humanitarian advocates of persecuted Nigerian Christians hope for continued attention to crisis
+      https://www.foxnews.com/media/celebrity-humanitarian-advocates-persecuted-nigerian-christians-hope-continued-attention-crisis
+
+  10. FAA ground stop leaves College Football teams stranded on eve of crucial Saturday showdowns
+      https://www.foxnews.com/outkick-sports/faa-ground-stop-leaves-college-football-teams-stranded-eve-crucial-saturday-showdowns
 
 
 ============================================================
-  Generated at 12:33 PM PST by GitHub Actions
+  Generated at 03:45 PM PST by GitHub Actions
 ============================================================
