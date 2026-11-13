@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Thursday, November 12, 2026
+  DAILY BRIEFING — Friday, November 13, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Donald Trump calls Barack Obama 'highly overrated' and claims he'd win a third-term matchup
+   1. Democrats won Congress, but their Trump obsession could give it right back
+      https://www.foxnews.com/opinion/democrats-won-congress-trump-obsession-give-back
+
+   2. Stephen A Smith debriefs interview with President Trump, warns Democrats face steep challenge
+      https://www.foxnews.com/media/stephen-a-smith-debriefs-interview-president-trump-warns-democrats-face-steep-challenge
+
+   3. Donald Trump calls Barack Obama 'highly overrated' and claims he'd win a third-term matchup
       https://www.foxnews.com/media/donald-trump-calls-barack-obama-highly-overrated-claims-hed-win-third-term-matchup
 
-   2. The top Trump officials Democrats admit are on their hit list for investigations in the new Congress
+   4. The top Trump officials Democrats admit are on their hit list for investigations in the new Congress
       https://www.foxnews.com/politics/top-trump-officials-democrats-admit-hit-list-investigations-new-congress
 
-   3. Trump asks Vance to focus on ‘corruption and crime’ in Dem-run cities, states
+   5. Trump asks Vance to focus on ‘corruption and crime’ in Dem-run cities, states
       https://www.foxnews.com/politics/trump-asks-vance-focus-corruption-crime-dem-run-cities-states
 
-   4. Howard Lutnick is next Trump official top Dems want on the chopping block amid NVIDIA scandal
+   6. Howard Lutnick is next Trump official top Dems want on the chopping block amid NVIDIA scandal
       https://www.foxnews.com/politics/howard-lutnick-next-trump-official-dems-want-chopping-block-amid-nvidia-scandal
 
-   5. Trump opens door to immigration deal, but Republicans have one condition
+   7. Trump opens door to immigration deal, but Republicans have one condition
       https://www.foxnews.com/politics/trump-opens-door-immigration-deal-republicans-have-one-condition
 
-   6. Another Trump heavyweight revealed to be living on military base as Cabinet roster grows
+   8. Another Trump heavyweight revealed to be living on military base as Cabinet roster grows
       https://www.foxnews.com/politics/another-trump-heavyweight-revealed-living-military-base-cabinet-roster-grows
 
-   7. Pence delivers scathing rebuke of Vance's Iran war assessment, blames Trump policies for GOP losses
+   9. Pence delivers scathing rebuke of Vance's Iran war assessment, blames Trump policies for GOP losses
       https://www.foxnews.com/politics/pence-delivers-scathing-rebuke-vances-iran-war-assessment-blames-trump-policies-gop-losses
 
-   8. Trump threatens to double tariffs on Mexico if migrant caravans not stopped
-      https://www.foxnews.com/politics/trump-threatens-double-tariffs-mexico-migrant-caravans-not-stopped
-
-   9. WWE star Brie Bella talks challenges of wine business, describes perfect Las Vegas day
-      https://www.foxnews.com/outkick-sports/wwe-star-brie-bella-talks-challenges-wine-business-describes-perfect-las-vegas-day
-
-  10. Pete Crow-Armstrong unanimously ends Shohei Ohtani's run as NL MVP, Yordan Alvarez takes AL MVP for Astros
-      https://www.foxnews.com/outkick-sports/pete-crow-armstrong-unanimously-ends-shohei-ohtani-run-nl-mvp-yordan-alvarez-takes-al-mvp-astros
+  10. Healthy runner suffers sudden stroke at 27 as doctors discover possible cause
+      https://www.foxnews.com/health/healthy-runner-suffers-sudden-stroke-27-doctors-discover-possible-cause
 
 
 ============================================================
-  Generated at 07:30 PM PST by GitHub Actions
+  Generated at 04:31 AM PST by GitHub Actions
 ============================================================
