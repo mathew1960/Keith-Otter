@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Federal judge blocks Trump's renovations of DC golf course hours before its closure
-      https://www.foxnews.com/outkick-sports/federal-judge-blocks-trumps-renovations-dc-golf-course-hours-before-closure
+   1. Buttigieg takes swipe at Trump administration amid FAA flight chaos
+      https://www.foxnews.com/politics/buttigieg-takes-swipe-trump-administration-amid-faa-flight-chaos
 
-   2. Kai Trump opens up about relationship with Tiger Woods, her mother's boyfriend: 'I love him so much'
-      https://www.foxnews.com/outkick-sports/kai-trump-opens-relationship-tiger-woods-mothers-boyfriend-love-him-so-much
+   2. Trump's top officials retreat behind military gates as ex-FBI deputy points to what's fueling threats
+      https://www.foxnews.com/politics/trumps-top-officials-retreat-behind-military-gates-ex-fbi-deputy-points-whats-fueling-threats
 
    3. Anti-Trump Republican courts other defectors as House weighs another vote against Iran war
       https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war
@@ -26,19 +26,19 @@
    6. Democrat flips Alaska governor's mansion after Trump-backed GOP infighting
       https://www.foxnews.com/politics/democrat-flips-alaska-governors-mansion-trump-backed-gop-infighting
 
-   7. Two top Trump Cabinet officials go to war over China spy scandal amid explosive accusations: report
-      https://www.foxnews.com/politics/two-top-trump-cabinet-officials-go-war-over-china-spy-scandal-amid-explosive-accusations-report
+   7. Bessent blasts newspaper editor over 'reckless journalism' after Iran threats force move to military base
+      https://www.foxnews.com/media/bessent-blasts-wall-street-journal-editor-in-chief-reckless-journalism-iran-threats-force-move
 
-   8. Living longer may start with 3 foods a doctor eats every day
-      https://www.foxnews.com/food-drink/living-longer-start-3-foods-doctor-eats-every-day
+   8. Duffy: Investigators examining 2 routers after nationwide FAA ground stop, no signs of foreign cyberattack
+      https://www.foxnews.com/us/duffy-investigators-examining-2-routers-nationwide-faa-ground-stop-no-signs-foreign-cyberattack
 
-   9. Harvard scientist pushes back on NASA chief over mystery space object: 'It's not an asteroid'
-      https://www.foxnews.com/us/harvard-scientist-pushes-back-nasa-chief-mystery-space-object-not-asteroid
+   9. Wyatt Hammond makes kayak fishing history with third straight national title and KBF record
+      https://www.foxnews.com/outkick-sports/wyatt-hammond-makes-kayak-fishing-history-third-straight-national-title-kbf-record
 
-  10. Life is short, but Jerry Jones makes being a Dallas Cowboys fan feel endless
-      https://www.foxnews.com/opinion/life-short-jerry-jones-makes-being-dallas-cowboys-fan-feel-endless
+  10. Chiefs' Chris Jones explains why opinions 'are like buttholes' on national television
+      https://www.foxnews.com/outkick-sports/chiefs-chris-jones-explains-why-opinions-are-like-buttholes-national-television
 
 
 ============================================================
-  Generated at 04:10 AM PST by GitHub Actions
+  Generated at 11:25 AM PST by GitHub Actions
 ============================================================
