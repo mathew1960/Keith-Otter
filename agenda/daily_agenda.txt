@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump takes parting shot at DC golf course conditions one day before major overhaul begins
+   1. Kai Trump opens up about relationship with Tiger Woods, her mother's boyfriend: 'I love him so much'
+      https://www.foxnews.com/outkick-sports/kai-trump-opens-relationship-tiger-woods-mothers-boyfriend-love-him-so-much
+
+   2. Trump takes parting shot at DC golf course conditions one day before major overhaul begins
       https://www.foxnews.com/outkick-sports/trump-takes-parting-shot-dc-golf-course-conditions-one-day-before-major-overhaul-begins
 
-   2. Anti-Trump Republican courts other defectors as House weighs another vote against Iran war
+   3. Anti-Trump Republican courts other defectors as House weighs another vote against Iran war
       https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war
 
-   3. One industry increased DC lobbying 337% under Trump; here’s what’s driving the push
+   4. One industry increased DC lobbying 337% under Trump; here’s what’s driving the push
       https://www.foxnews.com/politics/industry-drove-dc-lobbying-337-percent-trump-whats-driving-push
 
-   4. Trump keeps signaling an end to Iran war, but expert warns a crucial piece of his strategy is missing
+   5. Trump keeps signaling an end to Iran war, but expert warns a crucial piece of his strategy is missing
       https://www.foxnews.com/politics/trump-keeps-signaling-end-iran-war-expert-warns-crucial-piece-his-strategy-missing
 
-   5. Democrat flips Alaska governor's mansion after Trump-backed GOP infighting
+   6. Democrat flips Alaska governor's mansion after Trump-backed GOP infighting
       https://www.foxnews.com/politics/democrat-flips-alaska-governors-mansion-trump-backed-gop-infighting
 
-   6. Two top Trump Cabinet officials go to war over China spy scandal amid explosive accusations: report
+   7. Two top Trump Cabinet officials go to war over China spy scandal amid explosive accusations: report
       https://www.foxnews.com/politics/two-top-trump-cabinet-officials-go-war-over-china-spy-scandal-amid-explosive-accusations-report
 
-   7. Tom Arnold admits he hasn’t dated in nearly 10 years after calling people his age ‘disgusting’
-      https://www.foxnews.com/entertainment/tom-arnold-ready-date-again-nine-years-single-despite-thinking-age-disgusting
+   8. Dabo Swinney reacts after Clemson hits latest low with upset loss to Georgia Tech: 'Nobody coming to save us'
+      https://www.foxnews.com/outkick-sports/dabo-swinney-reacts-clemson-hits-latest-low-upset-loss-georgia-tech-nobody-coming-save-us
 
-   8. Ohio State's Jeremiah Smith becomes Big Ten's all-time leading receiver in just his third college season
-      https://www.foxnews.com/outkick-sports/ohio-state-jeremiah-smith-becomes-big-ten-all-time-leading-receiver-third-college-season
+   9. UNC Asheville player makes costly mistake after miracle 3-pointer that could have forced overtime
+      https://www.foxnews.com/outkick-sports/unc-asheville-player-makes-costly-mistake-after-miracle-3-pointer-could-have-forced-overtime
 
-   9. Maher challenges Sarah Huckabee Sanders on 'socialism' as Arkansas governor defends free school breakfasts
-      https://www.foxnews.com/media/maher-challenges-sarah-huckabee-sanders-socialism-arkansas-governor-defends-free-school-breakfasts
-
-  10. At least 100 people pulled from Mississippi River after New Orleans ship crash as lengthy salvage effort looms
-      https://www.foxnews.com/us/100-people-pulled-mississippi-river-new-orleans-ship-crash-salvage-effort
+  10. Top-ranked Georgia rolls past Missouri, moves closer to SEC championship game return
+      https://www.foxnews.com/outkick-sports/top-ranked-georgia-rolls-past-missouri-moves-closer-sec-championship-game-return
 
 
 ============================================================
-  Generated at 02:38 PM PST by GitHub Actions
+  Generated at 06:57 PM PST by GitHub Actions
 ============================================================
