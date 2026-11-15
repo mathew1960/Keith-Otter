@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Saturday, November 14, 2026
+  DAILY BRIEFING — Sunday, November 15, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Kai Trump opens up about relationship with Tiger Woods, her mother's boyfriend: 'I love him so much'
-      https://www.foxnews.com/outkick-sports/kai-trump-opens-relationship-tiger-woods-mothers-boyfriend-love-him-so-much
+   1. Federal judge blocks Trump's renovations of DC golf course hours before its closure
+      https://www.foxnews.com/outkick-sports/federal-judge-blocks-trumps-renovations-dc-golf-course-hours-before-closure
 
-   2. Trump takes parting shot at DC golf course conditions one day before major overhaul begins
-      https://www.foxnews.com/outkick-sports/trump-takes-parting-shot-dc-golf-course-conditions-one-day-before-major-overhaul-begins
+   2. Kai Trump opens up about relationship with Tiger Woods, her mother's boyfriend: 'I love him so much'
+      https://www.foxnews.com/outkick-sports/kai-trump-opens-relationship-tiger-woods-mothers-boyfriend-love-him-so-much
 
    3. Anti-Trump Republican courts other defectors as House weighs another vote against Iran war
       https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war
@@ -29,16 +29,16 @@
    7. Two top Trump Cabinet officials go to war over China spy scandal amid explosive accusations: report
       https://www.foxnews.com/politics/two-top-trump-cabinet-officials-go-war-over-china-spy-scandal-amid-explosive-accusations-report
 
-   8. Dabo Swinney reacts after Clemson hits latest low with upset loss to Georgia Tech: 'Nobody coming to save us'
-      https://www.foxnews.com/outkick-sports/dabo-swinney-reacts-clemson-hits-latest-low-upset-loss-georgia-tech-nobody-coming-save-us
+   8. Living longer may start with 3 foods a doctor eats every day
+      https://www.foxnews.com/food-drink/living-longer-start-3-foods-doctor-eats-every-day
 
-   9. UNC Asheville player makes costly mistake after miracle 3-pointer that could have forced overtime
-      https://www.foxnews.com/outkick-sports/unc-asheville-player-makes-costly-mistake-after-miracle-3-pointer-could-have-forced-overtime
+   9. Harvard scientist pushes back on NASA chief over mystery space object: 'It's not an asteroid'
+      https://www.foxnews.com/us/harvard-scientist-pushes-back-nasa-chief-mystery-space-object-not-asteroid
 
-  10. Top-ranked Georgia rolls past Missouri, moves closer to SEC championship game return
-      https://www.foxnews.com/outkick-sports/top-ranked-georgia-rolls-past-missouri-moves-closer-sec-championship-game-return
+  10. Life is short, but Jerry Jones makes being a Dallas Cowboys fan feel endless
+      https://www.foxnews.com/opinion/life-short-jerry-jones-makes-being-dallas-cowboys-fan-feel-endless
 
 
 ============================================================
-  Generated at 06:57 PM PST by GitHub Actions
+  Generated at 04:10 AM PST by GitHub Actions
 ============================================================
