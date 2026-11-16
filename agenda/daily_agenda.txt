@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Prosecutor issues 'significant' warning to Warren over Trump-linked probes and more top headlines
-      https://www.foxnews.com/us/prosecutor-issues-significant-warning-warren-over-trump-linked-probes-more-top-headlines
+   1. JD Vance says he and Trump still 'don't know' whether Alice Huang was a Chinese spy
+      https://www.foxnews.com/media/jd-vance-trump-dont-know-alice-huang-chinese-spy
 
-   2. Democrats plot massive spending spree after midterm rout — and Trump could help them pull it off
+   2. Dem governor rips College Republicans for hosting ex-Trump Border chief, provokes fiery response
+      https://www.foxnews.com/politics/dem-governor-rips-college-republicans-hosting-ex-trump-border-chief-provokes-fiery-response
+
+   3. Hillary Clinton 'looking forward' to Trump's State of the Union, Democratic women staring him down
+      https://www.foxnews.com/media/hillary-clinton-looking-forward-trumps-state-union-democratic-women-staring-him-down
+
+   4. Trump brings two divided Cabinet heavyweights to China as controversy hangs over high-stakes talks
+      https://www.foxnews.com/politics/trump-brings-two-divided-cabinet-heavyweights-china-controversy-hangs-over-high-stakes-talks
+
+   5. Trump leaves door open to Kim Jong Un joining high-stakes talks with Xi, Putin
+      https://www.foxnews.com/politics/trump-leaves-door-open-kim-jong-un-joining-high-stakes-talks-xi-putin
+
+   6. Trump's immigration olive branch threatens to open Pandora's box as experts warn of far-reaching fallout
+      https://www.foxnews.com/politics/trumps-immigration-olive-branch-threatens-open-pandoras-box-experts-warn-far-reaching-fallout
+
+   7. Trump tangles with reporter on beautifying White House: ‘You’re so pathetic’
+      https://www.foxnews.com/politics/trump-tangles-reporter-beautifying-white-house-youre-so-pathetic
+
+   8. Democrats plot massive spending spree after midterm rout — and Trump could help them pull it off
       https://www.foxnews.com/politics/democrats-plot-massive-spending-spree-after-midterm-rout-trump-could-help-them-pull-off
 
-   3. Federal prosecutor warns Sen Warren of 'legal consequences' if records aren't preserved in Trump-linked probes
+   9. Federal prosecutor warns Sen Warren of 'legal consequences' if records aren't preserved in Trump-linked probes
       https://www.foxnews.com/politics/federal-prosecutor-warns-sen-warren-legal-consequences-records-arent-preserved-trump-linked-probes
 
-   4. Buttigieg takes swipe at Trump administration amid FAA flight chaos
+  10. Buttigieg takes swipe at Trump administration amid FAA flight chaos
       https://www.foxnews.com/politics/buttigieg-takes-swipe-trump-administration-amid-faa-flight-chaos
-
-   5. Trump's top officials retreat behind military gates as ex-FBI deputy points to what's fueling threats
-      https://www.foxnews.com/politics/trumps-top-officials-retreat-behind-military-gates-ex-fbi-deputy-points-whats-fueling-threats
-
-   6. Anti-Trump Republican courts other defectors as House weighs another vote against Iran war
-      https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war
-
-   7. One industry increased DC lobbying 337% under Trump; here’s what’s driving the push
-      https://www.foxnews.com/politics/industry-drove-dc-lobbying-337-percent-trump-whats-driving-push
-
-   8. Trump keeps signaling an end to Iran war, but expert warns a crucial piece of his strategy is missing
-      https://www.foxnews.com/politics/trump-keeps-signaling-end-iran-war-expert-warns-crucial-piece-his-strategy-missing
-
-   9. Browns make NFL history as they storm back to pick up sixth win of season over Texans
-      https://www.foxnews.com/outkick-sports/browns-make-nfl-history-storm-back-pick-sixth-win-season-texans
-
-  10. Dem eyeing Homeland Security committee's oversight subcommittee gavel aims 'to dismantle DHS from the inside'
-      https://www.foxnews.com/politics/dem-eyeing-homeland-security-committee-oversight-subcommittee-gavel-aims-dismantle-dhs-inside
 
 
 ============================================================
-  Generated at 05:03 AM PST by GitHub Actions
+  Generated at 02:56 PM PST by GitHub Actions
 ============================================================
