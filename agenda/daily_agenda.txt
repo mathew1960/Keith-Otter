@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. DHS chief Mullin says Iran poses daily threat to Trump and his family amid drone concerns
-      https://www.foxnews.com/media/dhs-chief-mullin-says-iran-poses-daily-threat-trump-his-family-amid-drone-concerns
-
-   2. Buttigieg takes swipe at Trump administration amid FAA flight chaos
+   1. Buttigieg takes swipe at Trump administration amid FAA flight chaos
       https://www.foxnews.com/politics/buttigieg-takes-swipe-trump-administration-amid-faa-flight-chaos
 
-   3. Trump's top officials retreat behind military gates as ex-FBI deputy points to what's fueling threats
+   2. Trump's top officials retreat behind military gates as ex-FBI deputy points to what's fueling threats
       https://www.foxnews.com/politics/trumps-top-officials-retreat-behind-military-gates-ex-fbi-deputy-points-whats-fueling-threats
 
-   4. Anti-Trump Republican courts other defectors as House weighs another vote against Iran war
+   3. Anti-Trump Republican courts other defectors as House weighs another vote against Iran war
       https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war
 
-   5. One industry increased DC lobbying 337% under Trump; here’s what’s driving the push
+   4. One industry increased DC lobbying 337% under Trump; here’s what’s driving the push
       https://www.foxnews.com/politics/industry-drove-dc-lobbying-337-percent-trump-whats-driving-push
 
-   6. Trump keeps signaling an end to Iran war, but expert warns a crucial piece of his strategy is missing
+   5. Trump keeps signaling an end to Iran war, but expert warns a crucial piece of his strategy is missing
       https://www.foxnews.com/politics/trump-keeps-signaling-end-iran-war-expert-warns-crucial-piece-his-strategy-missing
 
-   7. TNA's Trey Miguel working his way to Canada for Destination X title match despite travel chaos
-      https://www.foxnews.com/outkick-sports/tna-trey-miguel-working-way-canada-destination-x-title-match-despite-travel-chaos
+   6. 49ers offense puts up over 580 yards against a bad Cowboys defense behind a Christian McCaffrey masterclass
+      https://www.foxnews.com/outkick-sports/49ers-offense-580-yards-bad-cowboys-defense-christian-mccaffrey-masterclass
 
-   8. USC great Keyshawn Johnson calls for Lincoln Riley's job: 'Time to find somebody else'
-      https://www.foxnews.com/outkick-sports/usc-great-keyshawn-johnson-calls-lincoln-riley-job-time-find-somebody-else
+   7. Mike Vrabel doesn't want Patriots to 'b---h and complain' but he b----es and complains about his players a lot
+      https://www.foxnews.com/outkick-sports/mike-vrabel-doesnt-want-patriots-bitch-complain-bitches-complains-players
 
-   9. Joe Biden calls Zelenskyy 'moody and stubborn,' questions his gratitude in new memoir
-      https://www.foxnews.com/media/joe-biden-calls-zelenskyy-moody-stubborn-questions-gratitude-new-memoir
+   8. Young paraglider dies after reported emergency sends him crashing into field during Illinois flight
+      https://www.foxnews.com/us/young-paraglider-dies-after-reported-emergency-sends-him-crashing-field-during-illinois-flight
 
-  10. White House calls DC policies 'insanity' after 19-year-old gunman gets probation in shooting
-      https://www.foxnews.com/politics/white-house-calls-dc-policies-insanity-after-19-year-old-gunman-gets-probation-shooting
+   9. Pete Buttigieg breaks with Democrats on student loan handouts, admits party ‘overtorqued’ on issue
+      https://www.foxnews.com/media/pete-buttigieg-breaks-democrats-student-loan-handouts-admits-party-overtorqued-issue
+
+  10. Raiders fans stayed seated when Fernando Mendoza scored so his wheelchair bound mom could see him celebrate
+      https://www.foxnews.com/outkick-sports/raiders-fans-stayed-seated-fernando-mendoza-scored-wheelchair-bound-mom-could-see-him-celebrate
 
 
 ============================================================
-  Generated at 03:01 PM PST by GitHub Actions
+  Generated at 06:56 PM PST by GitHub Actions
 ============================================================
