@@ -1,44 +1,29 @@
 {
-  "temp": 68,
-  "high": 78,
-  "low": 66,
-  "conditions": "Mostly clear",
-  "updated": "2026-11-17T05:11:45.971715+00:00",
+  "temp": 60,
+  "high": 76,
+  "low": 58,
+  "conditions": "Clear",
+  "updated": "2026-11-17T13:45:21.045215+00:00",
   "hourly": [
-    {
-      "time": "9 PM",
-      "temp": 68,
-      "conditions": "Mostly clear"
-    },
-    {
-      "time": "10 PM",
-      "temp": 66,
-      "conditions": "Clear"
-    },
-    {
-      "time": "11 PM",
-      "temp": 66,
-      "conditions": "Partly cloudy"
-    },
     {
       "time": "12 AM",
       "temp": 68,
-      "conditions": "Overcast"
+      "conditions": "Partly cloudy"
     },
     {
       "time": "1 AM",
       "temp": 68,
-      "conditions": "Overcast"
+      "conditions": "Mostly clear"
     },
     {
       "time": "2 AM",
-      "temp": 66,
-      "conditions": "Overcast"
+      "temp": 67,
+      "conditions": "Partly cloudy"
     },
     {
       "time": "3 AM",
       "temp": 66,
-      "conditions": "Overcast"
+      "conditions": "Clear"
     },
     {
       "time": "4 AM",
@@ -47,54 +32,69 @@
     },
     {
       "time": "5 AM",
-      "temp": 64,
+      "temp": 63,
       "conditions": "Clear"
     },
     {
       "time": "6 AM",
-      "temp": 61,
+      "temp": 60,
       "conditions": "Clear"
     },
     {
       "time": "7 AM",
-      "temp": 62,
+      "temp": 61,
       "conditions": "Clear"
     },
     {
       "time": "8 AM",
-      "temp": 65,
+      "temp": 66,
+      "conditions": "Clear"
+    },
+    {
+      "time": "9 AM",
+      "temp": 68,
+      "conditions": "Clear"
+    },
+    {
+      "time": "10 AM",
+      "temp": 71,
+      "conditions": "Clear"
+    },
+    {
+      "time": "11 AM",
+      "temp": 73,
       "conditions": "Clear"
     }
   ],
   "daily": [
     {
-      "day": "Mon",
-      "high": 78,
-      "low": 66,
-      "conditions": "Overcast"
-    },
-    {
       "day": "Tue",
-      "high": 72,
-      "low": 57,
-      "conditions": "Overcast"
+      "high": 76,
+      "low": 58,
+      "conditions": "Partly cloudy"
     },
     {
       "day": "Wed",
-      "high": 71,
-      "low": 54,
+      "high": 72,
+      "low": 56,
       "conditions": "Overcast"
     },
     {
       "day": "Thu",
-      "high": 71,
+      "high": 70,
       "low": 58,
       "conditions": "Overcast"
     },
     {
       "day": "Fri",
-      "high": 70,
-      "low": 58,
+      "high": 69,
+      "low": 56,
+      "conditions": "Overcast"
+    },
+    {
+      "day": "Sat",
+      "high": 67,
+      "low": 55,
       "conditions": "Overcast"
     }
   ]
