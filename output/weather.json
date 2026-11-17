@@ -1,9 +1,9 @@
 {
-  "temp": 78,
+  "temp": 73,
   "high": 78,
   "low": 66,
-  "conditions": "Clear",
-  "updated": "2026-11-16T22:58:56.324247+00:00",
+  "conditions": "Partly cloudy",
+  "updated": "2026-11-17T01:54:38.354468+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -93,7 +93,7 @@
     },
     {
       "day": "Fri",
-      "high": 71,
+      "high": 70,
       "low": 58,
       "conditions": "Overcast"
     }
