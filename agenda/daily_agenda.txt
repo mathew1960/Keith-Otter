@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Monday, November 16, 2026
+  DAILY BRIEFING — Tuesday, November 17, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump admin opens civil rights probes into 15 colleges over DEI grants
-      https://www.foxnews.com/media/trump-admin-opens-civil-rights-probes-15-colleges-over-dei-grants
+   1. SPEAK UP: What message should Trump give to China?
+      https://www.foxnews.com/politics/speak-up-what-message-should-trump-give-china
 
-   2. Trump’s Asia trip takes Alaska detour as weather forces refueling stop change
+   2. Trump warns Iran about reported plot against admin officials: 'We take it very seriously'
+      https://www.foxnews.com/politics/trump-warns-iran-reported-plot-against-admin-officials-take-very-seriously
+
+   3. President Trump opens Asia trip with dealmaking on tap and more top headlines
+      https://www.foxnews.com/us/trump-opens-asia-trip-dealmaking-on-top-more-top-headlines
+
+   4. I talked with Trump. Will his final years lead to an immigration deal?
+      https://www.foxnews.com/opinion/i-talked-trump-his-final-years-lead-immigration-deal
+
+   5. Trump kicks off high-stakes Asia trip with Xi, Putin meetings looming on world stage
+      https://www.foxnews.com/politics/trump-kicks-off-high-stakes-asia-swing-xi-putin-meetings-looming-world-stage
+
+   6. Trump arrives in Philippines ahead of Xi Jinping summit in China after GOP midterm losses
+      https://www.foxnews.com/politics/trump-philippines-arrival-xi-jinping-china-summit
+
+   7. Trump’s Asia trip takes Alaska detour as weather forces refueling stop change
       https://www.foxnews.com/politics/trumps-asia-trip-takes-alaska-detour-weather-forces-refueling-stop-change
 
-   3. Dem governor rips College Republicans for hosting ex-Trump Border chief, provokes fiery response
+   8. Dem governor rips College Republicans for hosting ex-Trump Border chief, provokes fiery response
       https://www.foxnews.com/politics/dem-governor-rips-college-republicans-hosting-ex-trump-border-chief-provokes-fiery-response
 
-   4. Trump brings two divided Cabinet heavyweights to China as controversy hangs over high-stakes talks
+   9. Trump brings two divided Cabinet heavyweights to China as controversy hangs over high-stakes talks
       https://www.foxnews.com/politics/trump-brings-two-divided-cabinet-heavyweights-china-controversy-hangs-over-high-stakes-talks
 
-   5. Trump leaves door open to Kim Jong Un joining high-stakes talks with Xi, Putin
+  10. Trump leaves door open to Kim Jong Un joining high-stakes talks with Xi, Putin
       https://www.foxnews.com/politics/trump-leaves-door-open-kim-jong-un-joining-high-stakes-talks-xi-putin
-
-   6. Trump's immigration olive branch threatens to open Pandora's box as experts warn of far-reaching fallout
-      https://www.foxnews.com/politics/trumps-immigration-olive-branch-threatens-open-pandoras-box-experts-warn-far-reaching-fallout
-
-   7. Trump tangles with reporter on beautifying White House: ‘You’re so pathetic’
-      https://www.foxnews.com/politics/trump-tangles-reporter-beautifying-white-house-youre-so-pathetic
-
-   8. Democrats plot massive spending spree after midterm rout — and Trump could help them pull it off
-      https://www.foxnews.com/politics/democrats-plot-massive-spending-spree-after-midterm-rout-trump-could-help-them-pull-off
-
-   9. Federal prosecutor warns Sen Warren of 'legal consequences' if records aren't preserved in Trump-linked probes
-      https://www.foxnews.com/politics/federal-prosecutor-warns-sen-warren-legal-consequences-records-arent-preserved-trump-linked-probes
-
-  10. Chargers, Justin Herbert finally win first game of season after brutal mistake by Ravens star
-      https://www.foxnews.com/outkick-sports/chargers-justin-herbert-finally-win-first-game-season-brutal-mistake-ravens-star
 
 
 ============================================================
-  Generated at 09:11 PM PST by GitHub Actions
+  Generated at 05:45 AM PST by GitHub Actions
 ============================================================
