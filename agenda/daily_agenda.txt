@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. US launches unarmed ICBM with Trump in Asia in routine test
+   1. Kim Jong Un's nuclear buildup sparks 'serious concern' ahead of Trump-Xi-Putin summit
+      https://www.foxnews.com/world/kim-jong-un-nuclear-buildup-sparks-serious-concern-trump-xi-putin-summit
+
+   2. Trump holds the nuclear cards to play against China and Russia on arms control
+      https://www.foxnews.com/opinion/trump-holds-nuclear-cards-play-against-china-russia-arms-control
+
+   3. China watchdog warns Trump faces ‘2-on-1’ showdown with Xi, Putin as Taiwan risks mount
+      https://www.foxnews.com/world/china-watchdog-warns-trump-faces-2-on-1-showdown-xi-putin-taiwan-risks-mount
+
+   4. Protesters heckle Trump's ex-Border Patrol chief offstage after Dem governor condemns College Republican event
+      https://www.foxnews.com/politics/protesters-heckle-trumps-ex-border-patrol-chief-offstage-dem-governor-condemns-college-republican-event
+
+   5. SOUND OFF: Trump face to face with Putin in China
+      https://www.foxnews.com/politics/sound-off-trump-face-face-putin-china
+
+   6. US launches unarmed ICBM with Trump in Asia in routine test
       https://www.foxnews.com/politics/us-launches-unarmed-icbm-trump-asia-routine-test
 
-   2. Trump’s grip on GOP faces major post-election test as his hand-picked leader faces challenge from within
+   7. Trump’s grip on GOP faces major post-election test as his hand-picked leader faces challenge from within
       https://www.foxnews.com/politics/trumps-grip-gop-faces-major-post-election-test-hand-picked-leader-faces-challenge-within
 
-   3. China's Xi surprises Trump at tarmac, reciprocating gesture shown months ago
+   8. China's Xi surprises Trump at tarmac, reciprocating gesture shown months ago
       https://www.foxnews.com/politics/chinas-xi-surprises-trump-tarmac-reciprocating-gesture-shown-months-ago
 
-   4. Trump-Xi showdown revives 25-year-old Clinton China 'mistake' as Senate vet demands reversal
+   9. Trump-Xi showdown revives 25-year-old Clinton China 'mistake' as Senate vet demands reversal
       https://www.foxnews.com/politics/trump-xi-showdown-revives-25-year-old-clinton-china-mistake-senate-vet-demands-reversal
 
-   5. Xi breaks protocol to personally welcome Trump ahead of historic trilateral summit and more top headlines
-      https://www.foxnews.com/us/xi-breaks-protocol-welcome-trump-historic-summit-more-top-headlines
-
-   6. Beijing's hidden chokehold could derail Trump's $50B plan to fix America's aging skies
+  10. Beijing's hidden chokehold could derail Trump's $50B plan to fix America's aging skies
       https://www.foxnews.com/politics/beijings-hidden-chokehold-derail-trumps-50b-plan-fix-americas-aging-skies
-
-   7. Trump set for economic showdown with Xi as unfulfilled promises leave billions hanging in balance
-      https://www.foxnews.com/politics/trump-set-economic-showdown-xi-unfulfilled-promises-leave-billions-hanging-balance
-
-   8. GOP chairman demands answers on Trump's costly VA technology overhaul amid US-wide outages
-      https://www.foxnews.com/politics/gop-chairman-demands-answers-trumps-costly-va-technology-overhaul
-
-   9. House Dems target Trump family, JD Vance in sweeping new investigation push
-      https://www.foxnews.com/politics/house-dems-target-trump-family-jd-vance-sweeping-new-investigation-push
-
-  10. White House pulls Trump’s FDA pick Heidi Overton on eve of Senate panel vote
-      https://www.foxnews.com/politics/white-house-pulls-trumps-fda-pick-heidi-overton-eve-senate-panel-vote
 
 
 ============================================================
-  Generated at 05:21 AM PST by GitHub Actions
+  Generated at 01:28 PM PST by GitHub Actions
 ============================================================
