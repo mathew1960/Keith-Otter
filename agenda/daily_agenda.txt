@@ -8,14 +8,14 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump admin permanently pulls funding from LA homeless agency over mounting fraud allegations
+   1. White House pulls Trump’s FDA pick Heidi Overton on eve of Senate panel vote
+      https://www.foxnews.com/politics/white-house-pulls-trumps-fda-pick-heidi-overton-eve-senate-panel-vote
+
+   2. Trump administration permanently pulls funding from LA homeless agency over mounting fraud allegations
       https://www.foxnews.com/politics/trump-admin-permanently-pulls-funding-from-la-homeless-agency-over-mounting-fraud-allegations
 
-   2. White House blasts 'Trumpcare for All' pitch from far-left El-Sayed who called president 'unserious fool'
+   3. White House blasts 'Trumpcare for All' pitch from far-left El-Sayed who called president 'unserious fool'
       https://www.foxnews.com/politics/white-house-blasts-trumpcare-all-pitch-far-left-el-sayed-called-president-unserious-fool
-
-   3. Europe assassination scheme emerges as Iran denies DC 'dirty bomb' plot amid Trump warning
-      https://www.foxnews.com/world/europe-assassination-scheme-emerges-iran-denies-dirty-bomb-plot-amid-trump-warning
 
    4. Judge fires back at Fani Willis' office in courtroom clash over Trump case: 'Due process doesn't apply to you'
       https://www.foxnews.com/politics/judge-fires-back-fani-willis-office-courtroom-clash-trump-case-due-process-doesnt-apply
@@ -40,5 +40,5 @@
 
 
 ============================================================
-  Generated at 05:05 PM PST by GitHub Actions
+  Generated at 08:38 PM PST by GitHub Actions
 ============================================================
