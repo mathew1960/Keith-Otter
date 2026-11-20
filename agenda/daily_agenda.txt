@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump set to address Americans after historic talks in China and more top headlines
-      https://www.foxnews.com/us/trump-set-address-after-historic-talks-china-more-top-headlines
+   1. EXCLUSIVE: Trump’s former FDA nominee vowed new abortion pill safety review after pressure from Sen Hawley
+      https://www.foxnews.com/politics/exclusive-trumps-fda-nominee-vows-new-abortion-pill-safety-review-after-pressure-sen-hawley
 
-   2. Trump will face reporters after historic Xi-Putin talks as war questions linger
+   2. Iran takes pointed jab at Trump Cabinet secretary for moving onto military base
+      https://www.foxnews.com/politics/iran-takes-pointed-jab-trump-cabinet-secretary-moving-military-base
+
+   3. Trump wags finger at 'really rude' reporter, tells her she belongs in the 'back row' during press exchange
+      https://www.foxnews.com/politics/trump-wags-finger-really-rude-reporter-tells-her-she-belongs-back-row-during-press-exchange
+
+   4. Trump responds after Vance blames Iran war for midterm losses, VP says his job is to support president
+      https://www.foxnews.com/politics/trump-responds-vance-blames-iran-war-midterm-losses-vp-says-job-support-president
+
+   5. Trump and Dana White honor Marine Corps band with six-figure checks in first event on new helipad
+      https://www.foxnews.com/politics/trump-dana-white-honor-marine-corps-band-six-figure-checks-first-event-new-helipad
+
+   6. Trump will face reporters after historic Xi-Putin talks as war questions linger
       https://www.foxnews.com/politics/trump-face-reporters-historic-xi-putin-talks-war-questions-linger
 
-   3. Pro-life group says Trump admin didn't give key abortion drug commitments before Overton FDA nomination pulled
+   7. Pro-life group says Trump admin didn't give key abortion drug commitments before Overton FDA nomination pulled
       https://www.foxnews.com/politics/pro-life-group-says-trump-admin-didnt-give-key-abortion-drug-commitments-overton-fda-nomination-pulled
 
-   4. Trump’s National Cyber Director Sean Cairncross fired amid widespread tech outages
+   8. Trump’s National Cyber Director Sean Cairncross fired amid widespread tech outages
       https://www.foxnews.com/politics/trumps-national-cyber-director-sean-cairncross-fired
 
-   5. Trump scores key win over House progressive accused of assaulting ICE agent
+   9. Trump scores key win over House progressive accused of assaulting ICE agent
       https://www.foxnews.com/politics/trump-scores-key-win-over-house-progressive-accused-assaulting-ice-agent
 
-   6. Trump ally Bill Essayli tapped to lead investigation of Biden officials over Mar-a-Lago raid
-      https://www.foxnews.com/politics/trump-ally-bill-essayli-tapped-lead-investigation-biden-officials-mar-a-lago-raid
-
-   7. Dems, GOP rebels fail to rein in Trump's Iran war in Senate, but bigger battle looms
-      https://www.foxnews.com/politics/dems-gop-rebels-fail-rein-trumps-iran-war-senate-bigger-battle-looms
-
-   8. Wife of American wrongfully detained in China calls for his release after Trump-Xi meeting
-      https://www.foxnews.com/politics/wife-american-wrongfully-detained-china-calls-release-trump-xi-meeting
-
-   9. AOC leaves door open to 2028 presidential run, signals willingness to work with Trump
-      https://www.foxnews.com/politics/aoc-leaves-door-open-2028-presidential-run-signals-willingness-work-trump
-
-  10. China blocks Bloomberg reporter from Trump-Putin-Xi meeting over question to Trump
-      https://www.foxnews.com/politics/china-blocks-bloomberg-reporter-trump-putin-xi-meeting-question-trump
+  10. Americans don’t have to choose between our AI future and ripping off copyright owners
+      https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
 
 
 ============================================================
-  Generated at 05:29 AM PST by GitHub Actions
+  Generated at 01:21 PM PST by GitHub Actions
 ============================================================
