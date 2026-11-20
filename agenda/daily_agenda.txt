@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Thursday, November 19, 2026
+  DAILY BRIEFING — Friday, November 20, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump’s National Cyber Director Sean Cairncross fired amid widespread tech outages
+   1. Trump set to address Americans after historic talks in China and more top headlines
+      https://www.foxnews.com/us/trump-set-address-after-historic-talks-china-more-top-headlines
+
+   2. Trump will face reporters after historic Xi-Putin talks as war questions linger
+      https://www.foxnews.com/politics/trump-face-reporters-historic-xi-putin-talks-war-questions-linger
+
+   3. Pro-life group says Trump admin didn't give key abortion drug commitments before Overton FDA nomination pulled
+      https://www.foxnews.com/politics/pro-life-group-says-trump-admin-didnt-give-key-abortion-drug-commitments-overton-fda-nomination-pulled
+
+   4. Trump’s National Cyber Director Sean Cairncross fired amid widespread tech outages
       https://www.foxnews.com/politics/trumps-national-cyber-director-sean-cairncross-fired
 
-   2. Trump clears hurdle in $15 billion lawsuit against New York Times
-      https://www.foxnews.com/media/trump-clears-hurdle-15-billion-lawsuit-against-new-york-times
-
-   3. Trump scores key win over House progressive accused of assaulting ICE agent
+   5. Trump scores key win over House progressive accused of assaulting ICE agent
       https://www.foxnews.com/politics/trump-scores-key-win-over-house-progressive-accused-assaulting-ice-agent
 
-   4. Trump ally Bill Essayli tapped to lead investigation of Biden officials over Mar-a-Lago raid
+   6. Trump ally Bill Essayli tapped to lead investigation of Biden officials over Mar-a-Lago raid
       https://www.foxnews.com/politics/trump-ally-bill-essayli-tapped-lead-investigation-biden-officials-mar-a-lago-raid
 
-   5. Dems, GOP rebels fail to rein in Trump's Iran war in Senate, but bigger battle looms
+   7. Dems, GOP rebels fail to rein in Trump's Iran war in Senate, but bigger battle looms
       https://www.foxnews.com/politics/dems-gop-rebels-fail-rein-trumps-iran-war-senate-bigger-battle-looms
 
-   6. Wife of American wrongfully detained in China calls for his release after Trump-Xi meeting
+   8. Wife of American wrongfully detained in China calls for his release after Trump-Xi meeting
       https://www.foxnews.com/politics/wife-american-wrongfully-detained-china-calls-release-trump-xi-meeting
 
-   7. AOC leaves door open to 2028 presidential run, signals willingness to work with Trump
+   9. AOC leaves door open to 2028 presidential run, signals willingness to work with Trump
       https://www.foxnews.com/politics/aoc-leaves-door-open-2028-presidential-run-signals-willingness-work-trump
 
-   8. China blocks Bloomberg reporter from Trump-Putin-Xi meeting over question to Trump
+  10. China blocks Bloomberg reporter from Trump-Putin-Xi meeting over question to Trump
       https://www.foxnews.com/politics/china-blocks-bloomberg-reporter-trump-putin-xi-meeting-question-trump
-
-   9. Trump's historic summit with Xi, Putin marks diplomatic milestone, but breakthroughs remain elusive
-      https://www.foxnews.com/politics/trumps-historic-summit-xi-putin-marks-diplomatic-milestone-breakthroughs-remain-elusive
-
-  10. Supreme Court urged to defang ‘criminal trap’ that has sent Trump officials to prison
-      https://www.foxnews.com/politics/supreme-court-urged-defang-criminal-trap-sent-trump-officials-prison
 
 
 ============================================================
-  Generated at 08:09 PM PST by GitHub Actions
+  Generated at 05:29 AM PST by GitHub Actions
 ============================================================
