@@ -1,38 +1,18 @@
 {
-  "temp": 57,
+  "temp": 59,
   "high": 72,
-  "low": 52,
+  "low": 57,
   "conditions": "Clear",
-  "updated": "2026-11-21T04:12:11.748313+00:00",
+  "updated": "2026-11-21T12:55:34.316586+00:00",
   "hourly": [
     {
-      "time": "8 PM",
-      "temp": 57,
-      "conditions": "Clear"
-    },
-    {
-      "time": "9 PM",
-      "temp": 57,
-      "conditions": "Clear"
-    },
-    {
-      "time": "10 PM",
-      "temp": 57,
-      "conditions": "Clear"
-    },
-    {
-      "time": "11 PM",
-      "temp": 58,
-      "conditions": "Clear"
-    },
-    {
       "time": "12 AM",
-      "temp": 58,
+      "temp": 60,
       "conditions": "Clear"
     },
     {
       "time": "1 AM",
-      "temp": 58,
+      "temp": 60,
       "conditions": "Clear"
     },
     {
@@ -52,7 +32,7 @@
     },
     {
       "time": "5 AM",
-      "temp": 58,
+      "temp": 59,
       "conditions": "Clear"
     },
     {
@@ -64,15 +44,29 @@
       "time": "7 AM",
       "temp": 59,
       "conditions": "Clear"
+    },
+    {
+      "time": "8 AM",
+      "temp": 63,
+      "conditions": "Clear"
+    },
+    {
+      "time": "9 AM",
+      "temp": 66,
+      "conditions": "Clear"
+    },
+    {
+      "time": "10 AM",
+      "temp": 68,
+      "conditions": "Clear"
+    },
+    {
+      "time": "11 AM",
+      "temp": 70,
+      "conditions": "Clear"
     }
   ],
   "daily": [
-    {
-      "day": "Fri",
-      "high": 72,
-      "low": 52,
-      "conditions": "Overcast"
-    },
     {
       "day": "Sat",
       "high": 72,
@@ -82,20 +76,26 @@
     {
       "day": "Sun",
       "high": 70,
-      "low": 54,
-      "conditions": "Overcast"
+      "low": 55,
+      "conditions": "Partly cloudy"
     },
     {
       "day": "Mon",
-      "high": 69,
+      "high": 71,
       "low": 57,
       "conditions": "Overcast"
     },
     {
       "day": "Tue",
-      "high": 70,
-      "low": 58,
+      "high": 72,
+      "low": 59,
       "conditions": "Overcast"
+    },
+    {
+      "day": "Wed",
+      "high": 72,
+      "low": 60,
+      "conditions": "Light drizzle"
     }
   ]
 }
