@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. EXCLUSIVE: Trump’s former FDA nominee vowed new abortion pill safety review after pressure from Sen Hawley
+   1. Trump floats an unexpected name to be his successor as powerhouses Rubio and Vance stand by
+      https://www.foxnews.com/politics/trump-floats-unexpected-name-successor-powerhouses-rubio-vance-stand
+
+   2. EXCLUSIVE: Trump’s former FDA nominee vowed new abortion pill safety review after pressure from Sen Hawley
       https://www.foxnews.com/politics/exclusive-trumps-fda-nominee-vows-new-abortion-pill-safety-review-after-pressure-sen-hawley
 
-   2. Iran takes pointed jab at Trump Cabinet secretary for moving onto military base
+   3. Iran takes pointed jab at Trump Cabinet secretary for moving onto military base
       https://www.foxnews.com/politics/iran-takes-pointed-jab-trump-cabinet-secretary-moving-military-base
 
-   3. Trump wags finger at 'really rude' reporter, tells her she belongs in the 'back row' during press exchange
+   4. Trump wags finger at 'really rude' reporter, tells her she belongs in the 'back row' during press exchange
       https://www.foxnews.com/politics/trump-wags-finger-really-rude-reporter-tells-her-she-belongs-back-row-during-press-exchange
 
-   4. Trump responds after Vance blames Iran war for midterm losses, VP says his job is to support president
+   5. Trump responds after Vance blames Iran war for midterm losses, VP says his job is to support president
       https://www.foxnews.com/politics/trump-responds-vance-blames-iran-war-midterm-losses-vp-says-job-support-president
 
-   5. Trump and Dana White honor Marine Corps band with six-figure checks in first event on new helipad
+   6. Trump and Dana White honor Marine Corps band with six-figure checks in first event on new helipad
       https://www.foxnews.com/politics/trump-dana-white-honor-marine-corps-band-six-figure-checks-first-event-new-helipad
 
-   6. Trump will face reporters after historic Xi-Putin talks as war questions linger
+   7. Trump will face reporters after historic Xi-Putin talks as war questions linger
       https://www.foxnews.com/politics/trump-face-reporters-historic-xi-putin-talks-war-questions-linger
 
-   7. Pro-life group says Trump admin didn't give key abortion drug commitments before Overton FDA nomination pulled
+   8. Pro-life group says Trump admin didn't give key abortion drug commitments before Overton FDA nomination pulled
       https://www.foxnews.com/politics/pro-life-group-says-trump-admin-didnt-give-key-abortion-drug-commitments-overton-fda-nomination-pulled
 
-   8. Trump’s National Cyber Director Sean Cairncross fired amid widespread tech outages
+   9. Trump’s National Cyber Director Sean Cairncross fired amid widespread tech outages
       https://www.foxnews.com/politics/trumps-national-cyber-director-sean-cairncross-fired
-
-   9. Trump scores key win over House progressive accused of assaulting ICE agent
-      https://www.foxnews.com/politics/trump-scores-key-win-over-house-progressive-accused-assaulting-ice-agent
 
   10. Americans don’t have to choose between our AI future and ripping off copyright owners
       https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
 
 
 ============================================================
-  Generated at 01:21 PM PST by GitHub Actions
+  Generated at 04:04 PM PST by GitHub Actions
 ============================================================
