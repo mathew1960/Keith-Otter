@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Apex predator at center of farmers vs environmentalists fight as Trump weighs major move: 'Out of control'
+   1. Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’
+      https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers
+
+   2. Trump says it would be 'hard' to work with Chuck Schumer: 'He will fail again'
+      https://www.foxnews.com/politics/trump-says-hard-work-chuck-schumer-fail-again
+
+   3. $275M Obama-era solar fraud case could net taxpayers $1B, but Trump's DOJ backs Biden dismissal
+      https://www.foxnews.com/politics/275m-obama-era-solar-fraud-case-net-taxpayers-1b-trump-doj-backs-biden-dismissal
+
+   4. Apex predator at center of farmers vs environmentalists fight as Trump weighs major move: 'Out of control'
       https://www.foxnews.com/politics/apex-predator-center-farmers-vs-environmentalists-fight-trump-weighs-major-move-out-control
 
-   2. Voters want to 'move on' from the president, former Trump official claims as reason for GOP's midterm defeat
+   5. Voters want to 'move on' from the president, former Trump official claims as reason for GOP's midterm defeat
       https://www.foxnews.com/politics/voters-want-move-president-former-trump-official-claims-reason-gop-midterm-defeat
 
-   3. Trump says Sen Cornyn is doing a 'tremendous disservice' by blocking Texas judicial pick
+   6. Trump says Sen Cornyn is doing a 'tremendous disservice' by blocking Texas judicial pick
       https://www.foxnews.com/politics/trump-sen-cornyn-tremendous-disservice-blocking-texas-judicial-pick
 
-   4. Trump says Vance, Rubio are 'doing fantastically' ahead of 2028 Republican presidential primary
+   7. Trump says Vance, Rubio are 'doing fantastically' ahead of 2028 Republican presidential primary
       https://www.foxnews.com/politics/trump-says-vance-rubio-doing-fantastically-ahead-2028-republican-presidential-primary
 
-   5. Top Trump officials' holiday emails to staff calling Jesus 'our Savior' went 'too far,' judge rules
+   8. Top Trump officials' holiday emails to staff calling Jesus 'our Savior' went 'too far,' judge rules
       https://www.foxnews.com/politics/trump-officials-holiday-emails-staff-calling-jesus-savior-went-too-far-judge-rules
 
-   6. Trump orders federal contractors to alert White House on congressional record requests
+   9. Trump orders federal contractors to alert White House on congressional record requests
       https://www.foxnews.com/politics/trump-orders-federal-contractors-alert-white-house-congressional-record-requests
 
-   7. Trump floats an unexpected name to be his successor as powerhouses Rubio and Vance stand by
-      https://www.foxnews.com/politics/trump-floats-unexpected-name-successor-powerhouses-rubio-vance-stand
-
-   8. EXCLUSIVE: Trump’s former FDA nominee vowed new abortion pill safety review after pressure from Sen Hawley
-      https://www.foxnews.com/politics/exclusive-trumps-fda-nominee-vows-new-abortion-pill-safety-review-after-pressure-sen-hawley
-
-   9. Iran takes pointed jab at Trump Cabinet secretary for moving onto military base
-      https://www.foxnews.com/politics/iran-takes-pointed-jab-trump-cabinet-secretary-moving-military-base
-
-  10. Trump wags finger at 'really rude' reporter, tells her she belongs in the 'back row' during press exchange
-      https://www.foxnews.com/politics/trump-wags-finger-really-rude-reporter-tells-her-she-belongs-back-row-during-press-exchange
+  10. Americans don’t have to choose between our AI future and ripping off copyright owners
+      https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
 
 
 ============================================================
-  Generated at 04:48 AM PST by GitHub Actions
+  Generated at 12:24 PM PST by GitHub Actions
 ============================================================
