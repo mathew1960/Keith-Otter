@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump to confront Newsom over plan to spare 548 death row inmates and more top headlines
-      https://www.foxnews.com/us/trump-confront-newsom-plan-spare-548-death-row-inmates-more-top-headlines
+   1. Venezuelan illegal immigrant arrested in Utah after soliciting assassination of Trump, DHS says
+      https://www.foxnews.com/us/venezuelan-illegal-immigrant-arrested-utah-soliciting-assassination-trump-dhs
 
-   2. Trump to confront Newsom over plan to spare 548 death row inmates, including notorious child killers
+   2. Trump accused of 'socialism, communism' after helping scandal-plagued Nvidia CEO reclaim top job
+      https://www.foxnews.com/politics/trump-accused-socialism-communism-after-helping-scandal-plagued-nvidia-ceo-reclaim-top-job
+
+   3. Trump admin announces sweeping measure to cut Iran’s ‘last financial lifeline’
+      https://www.foxnews.com/politics/trump-admin-announces-sweeping-measure-cut-iran-last-financial-lifeline
+
+   4. Trump officials told 'not to stab each other' amid demands Nvidia dispute be put under oath in Congress
+      https://www.foxnews.com/politics/trump-officials-told-not-stab-each-other-amid-demands-nvidia-dispute-put-under-oath-congress
+
+   5. Trump vows to seek death penalty for child killers, rips Newsom’s plan to spare 548 death row inmates
       https://www.foxnews.com/politics/president-trump-confront-newsom-plan-spare-548-death-row-inmates-notorious-child-killers
 
-   3. Trump's Thanksgiving turkeys arrive at luxury DC hotel as Americans vote on their names
+   6. Trump's Thanksgiving turkeys arrive at luxury DC hotel as Americans vote on their names
       https://www.foxnews.com/politics/trumps-thanksgiving-turkeys-arrive-luxury-dc-hotel-americans-vote-names
 
-   4. Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’
+   7. Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’
       https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers
 
-   5. Trump says it would be 'hard' to work with Chuck Schumer: 'He will fail again'
+   8. Trump says it would be 'hard' to work with Chuck Schumer: 'He will fail again'
       https://www.foxnews.com/politics/trump-says-hard-work-chuck-schumer-fail-again
 
-   6. $275M Obama-era solar fraud case could net taxpayers $1B, but Trump's DOJ backs Biden dismissal
-      https://www.foxnews.com/politics/275m-obama-era-solar-fraud-case-net-taxpayers-1b-trump-doj-backs-biden-dismissal
+   9. Americans don’t have to choose between our AI future and ripping off copyright owners
+      https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
 
-   7. Apex predator at center of farmers vs environmentalists fight as Trump weighs major move: 'Out of control'
-      https://www.foxnews.com/politics/apex-predator-center-farmers-vs-environmentalists-fight-trump-weighs-major-move-out-control
-
-   8. Voters want to 'move on' from the president, former Trump official claims as reason for GOP's midterm defeat
-      https://www.foxnews.com/politics/voters-want-move-president-former-trump-official-claims-reason-gop-midterm-defeat
-
-   9. Trump says Sen Cornyn is doing a 'tremendous disservice' by blocking Texas judicial pick
-      https://www.foxnews.com/politics/trump-sen-cornyn-tremendous-disservice-blocking-texas-judicial-pick
-
-  10. Trump says Vance, Rubio are 'doing fantastically' ahead of 2028 Republican presidential primary
-      https://www.foxnews.com/politics/trump-says-vance-rubio-doing-fantastically-ahead-2028-republican-presidential-primary
+  10. Unsealed warrant documents for Ilhan Omar's DC home raid reveal decades-long scope of investigation
+      https://www.foxnews.com/politics/unsealed-warrant-documents-for-ilhan-omars-dc-home-raid-reveal-decades-long-scope-of-investigation
 
 
 ============================================================
-  Generated at 07:12 AM PST by GitHub Actions
+  Generated at 05:03 PM PST by GitHub Actions
 ============================================================
