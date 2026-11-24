@@ -35,10 +35,10 @@
    9. Americans don’t have to choose between our AI future and ripping off copyright owners
       https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
 
-  10. Unsealed warrant documents for Ilhan Omar's DC home raid reveal decades-long scope of investigation
-      https://www.foxnews.com/politics/unsealed-warrant-documents-for-ilhan-omars-dc-home-raid-reveal-decades-long-scope-of-investigation
+  10. Stadium lights go out during Bengals-Commanders game because vendor forgot about Monday Night Football
+      https://www.foxnews.com/outkick-sports/stadium-lights-go-out-during-bengals-commanders-game-because-vendor-forgot-about-monday-night-football
 
 
 ============================================================
-  Generated at 05:03 PM PST by GitHub Actions
+  Generated at 08:00 PM PST by GitHub Actions
 ============================================================
