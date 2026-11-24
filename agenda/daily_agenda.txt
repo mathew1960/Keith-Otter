@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Venezuelan illegal immigrant arrested in Utah after soliciting assassination of Trump, DHS says
+   1. Massachusetts sues Trump admin to stop ICE's courthouse arrests: 'Unnecessary fear'
+      https://www.foxnews.com/politics/massachusetts-sues-trump-admin-stop-ice-courthouse-arrests-unnecessary-fear
+
+   2. Trump's Nixon-to-China moment: There's an immigration move only he can make
+      https://www.foxnews.com/opinion/trumps-nixon-to-china-moment-immigration-move-only-he-can-make
+
+   3. Venezuelan illegal immigrant arrested in Utah after soliciting assassination of Trump, DHS says
       https://www.foxnews.com/us/venezuelan-illegal-immigrant-arrested-utah-soliciting-assassination-trump-dhs
 
-   2. Trump accused of 'socialism, communism' after helping scandal-plagued Nvidia CEO reclaim top job
+   4. Trump accused of 'socialism, communism' after helping scandal-plagued Nvidia CEO reclaim top job
       https://www.foxnews.com/politics/trump-accused-socialism-communism-after-helping-scandal-plagued-nvidia-ceo-reclaim-top-job
 
-   3. Trump admin announces sweeping measure to cut Iran’s ‘last financial lifeline’
+   5. Trump admin announces sweeping measure to cut Iran’s ‘last financial lifeline’
       https://www.foxnews.com/politics/trump-admin-announces-sweeping-measure-cut-iran-last-financial-lifeline
 
-   4. Trump officials told 'not to stab each other' amid demands Nvidia dispute be put under oath in Congress
+   6. Trump officials told 'not to stab each other' amid demands Nvidia dispute be put under oath in Congress
       https://www.foxnews.com/politics/trump-officials-told-not-stab-each-other-amid-demands-nvidia-dispute-put-under-oath-congress
 
-   5. Trump vows to seek death penalty for child killers, rips Newsom’s plan to spare 548 death row inmates
+   7. Trump vows to seek death penalty for child killers, rips Newsom’s plan to spare 548 death row inmates
       https://www.foxnews.com/politics/president-trump-confront-newsom-plan-spare-548-death-row-inmates-notorious-child-killers
 
-   6. Trump's Thanksgiving turkeys arrive at luxury DC hotel as Americans vote on their names
+   8. Trump's Thanksgiving turkeys arrive at luxury DC hotel as Americans vote on their names
       https://www.foxnews.com/politics/trumps-thanksgiving-turkeys-arrive-luxury-dc-hotel-americans-vote-names
 
-   7. Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’
+   9. Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’
       https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers
 
-   8. Trump says it would be 'hard' to work with Chuck Schumer: 'He will fail again'
+  10. Trump says it would be 'hard' to work with Chuck Schumer: 'He will fail again'
       https://www.foxnews.com/politics/trump-says-hard-work-chuck-schumer-fail-again
-
-   9. Americans don’t have to choose between our AI future and ripping off copyright owners
-      https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
-
-  10. Stadium lights go out during Bengals-Commanders game because vendor forgot about Monday Night Football
-      https://www.foxnews.com/outkick-sports/stadium-lights-go-out-during-bengals-commanders-game-because-vendor-forgot-about-monday-night-football
 
 
 ============================================================
-  Generated at 08:00 PM PST by GitHub Actions
+  Generated at 11:01 PM PST by GitHub Actions
 ============================================================
