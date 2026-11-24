@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump to award Giuliani Presidential Medal of Freedom
+   1. Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case
+      https://www.foxnews.com/politics/obama-judges-omar-warrant-unsealing-directly-contradicts-his-own-decision-trump-case
+
+   2. Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'
+      https://www.foxnews.com/politics/trump-pauses-turkey-pardon-salute-us-troops-guarding-strait-hormuz-watch-over-protect
+
+   3. Trump to award Giuliani Presidential Medal of Freedom
       https://www.foxnews.com/politics/trump-award-giuliani-presidential-medal-freedom
 
-   2. Trump was 'gangbusters' to take stunner at WrestleMania, WWE legend 'Stone Cold' Steve Austin says
-      https://www.foxnews.com/outkick-sports/trump-gangbusters-take-stunner-wrestlemania-wwe-legend-stone-cold-steve-austin-says
-
-   3. Trump welcomes turkeys to the White House for Thanksgiving pardon as farmer dishes on prep for the big day
+   4. Trump welcomes turkeys to the White House for Thanksgiving pardon as farmer dishes on prep for the big day
       https://www.foxnews.com/politics/turkey-farmer-dishes-preparing-birds-trumps-thanksgiving-presidential-pardon
 
-   4. Massachusetts sues Trump admin to stop ICE's courthouse arrests: 'Unnecessary fear'
+   5. Massachusetts sues Trump admin to stop ICE's courthouse arrests: 'Unnecessary fear'
       https://www.foxnews.com/politics/massachusetts-sues-trump-admin-stop-ice-courthouse-arrests-unnecessary-fear
 
-   5. Trump accused of 'socialism, communism' after helping scandal-plagued Nvidia CEO reclaim top job
+   6. Trump accused of 'socialism, communism' after helping scandal-plagued Nvidia CEO reclaim top job
       https://www.foxnews.com/politics/trump-accused-socialism-communism-after-helping-scandal-plagued-nvidia-ceo-reclaim-top-job
 
-   6. Trump admin announces sweeping measure to cut Iran’s ‘last financial lifeline’
-      https://www.foxnews.com/politics/trump-admin-announces-sweeping-measure-cut-iran-last-financial-lifeline
-
-   7. Trump officials told 'not to stab each other' amid demands Nvidia dispute be put under oath in Congress
-      https://www.foxnews.com/politics/trump-officials-told-not-stab-each-other-amid-demands-nvidia-dispute-put-under-oath-congress
-
-   8. Trump vows to seek death penalty for child killers, rips Newsom’s plan to spare 548 death row inmates
-      https://www.foxnews.com/politics/president-trump-confront-newsom-plan-spare-548-death-row-inmates-notorious-child-killers
-
-   9. Trump's Thanksgiving turkeys arrive at luxury DC hotel as Americans vote on their names
-      https://www.foxnews.com/politics/trumps-thanksgiving-turkeys-arrive-luxury-dc-hotel-americans-vote-names
-
-  10. Americans don’t have to choose between our AI future and ripping off copyright owners
+   7. Americans don’t have to choose between our AI future and ripping off copyright owners
       https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
+
+   8. Worst airports for Thanksgiving travel chaos ranked as major US hubs top list
+      https://www.foxnews.com/travel/worst-airports-thanksgiving-travel-chaos-ranked-major-us-hubs-top-list
+
+   9. Broncos coach Sean Payton suspends RB JK Dobbins for conduct 'detrimental to the team'
+      https://www.foxnews.com/outkick-sports/broncos-coach-sean-payton-suspends-rb-jk-dobbins-conduct-detrimental-team
+
+  10. Thanksgiving week betting guide 2026: NFL Thanksgiving, Rivalry Week, NBA Cup, NHL and college hoops picks
+      https://www.foxnews.com/outkick-betting/thanksgiving-week-betting-guide-2026-nfl-thanksgiving-rivalry-week-nba-cup-nhl-college-hoops-picks
 
 
 ============================================================
-  Generated at 07:10 AM PST by GitHub Actions
+  Generated at 03:07 PM PST by GitHub Actions
 ============================================================
