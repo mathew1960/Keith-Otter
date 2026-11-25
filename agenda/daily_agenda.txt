@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case
+   1. Piker backs idea to sell Trump on Medicare-for-all by calling it 'Trumpcare'
+      https://www.foxnews.com/media/piker-backs-idea-sell-trump-medicare-all-calling-trumpcare
+
+   2. Trump administration weighs targeting Iran's top regime leaders in bid to end war: report
+      https://www.foxnews.com/world/trump-administration-weighs-targeting-irans-top-regime-leaders-bid-end-war-report
+
+   3. Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case, DOJ says
       https://www.foxnews.com/politics/obama-judges-omar-warrant-unsealing-directly-contradicts-his-own-decision-trump-case
 
-   2. Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'
+   4. Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'
       https://www.foxnews.com/politics/trump-pauses-turkey-pardon-salute-us-troops-guarding-strait-hormuz-watch-over-protect
 
-   3. Trump to award Giuliani Presidential Medal of Freedom
+   5. Trump to award Giuliani Presidential Medal of Freedom
       https://www.foxnews.com/politics/trump-award-giuliani-presidential-medal-freedom
 
-   4. Trump welcomes turkeys to the White House for Thanksgiving pardon as farmer dishes on prep for the big day
+   6. Trump welcomes turkeys to the White House for Thanksgiving pardon as farmer dishes on prep for the big day
       https://www.foxnews.com/politics/turkey-farmer-dishes-preparing-birds-trumps-thanksgiving-presidential-pardon
 
-   5. Massachusetts sues Trump admin to stop ICE's courthouse arrests: 'Unnecessary fear'
+   7. Massachusetts sues Trump admin to stop ICE's courthouse arrests: 'Unnecessary fear'
       https://www.foxnews.com/politics/massachusetts-sues-trump-admin-stop-ice-courthouse-arrests-unnecessary-fear
 
-   6. Trump accused of 'socialism, communism' after helping scandal-plagued Nvidia CEO reclaim top job
-      https://www.foxnews.com/politics/trump-accused-socialism-communism-after-helping-scandal-plagued-nvidia-ceo-reclaim-top-job
-
-   7. Americans don’t have to choose between our AI future and ripping off copyright owners
+   8. Americans don’t have to choose between our AI future and ripping off copyright owners
       https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
 
-   8. Worst airports for Thanksgiving travel chaos ranked as major US hubs top list
-      https://www.foxnews.com/travel/worst-airports-thanksgiving-travel-chaos-ranked-major-us-hubs-top-list
+   9. Al Gore buys hometown Tennessee newspaper, vows to preserve local outlet's 'independent voice'
+      https://www.foxnews.com/media/al-gore-buys-hometown-tennessee-newspaper-vows-preserve-independent-voice
 
-   9. Broncos coach Sean Payton suspends RB JK Dobbins for conduct 'detrimental to the team'
-      https://www.foxnews.com/outkick-sports/broncos-coach-sean-payton-suspends-rb-jk-dobbins-conduct-detrimental-team
-
-  10. Thanksgiving week betting guide 2026: NFL Thanksgiving, Rivalry Week, NBA Cup, NHL and college hoops picks
-      https://www.foxnews.com/outkick-betting/thanksgiving-week-betting-guide-2026-nfl-thanksgiving-rivalry-week-nba-cup-nhl-college-hoops-picks
+  10. Lions owner/chair emeritus Martha Firestone Ford dead at 101
+      https://www.foxnews.com/outkick-sports/lions-owner-chair-emeritus-martha-firestone-ford-dead-101
 
 
 ============================================================
-  Generated at 03:07 PM PST by GitHub Actions
+  Generated at 06:40 PM PST by GitHub Actions
 ============================================================
