@@ -1,5 +1,5 @@
 ============================================================
-  DAILY BRIEFING — Tuesday, November 24, 2026
+  DAILY BRIEFING — Wednesday, November 25, 2026
 ============================================================
 
 📅  TODAY'S AGENDA
@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Piker backs idea to sell Trump on Medicare-for-all by calling it 'Trumpcare'
-      https://www.foxnews.com/media/piker-backs-idea-sell-trump-medicare-all-calling-trumpcare
+   1. Marco Rubio's 2028 stock surges among House Republicans as Trump insiders split on Vance
+      https://www.foxnews.com/politics/marco-rubios-2028-stock-surges-among-house-republicans-trump-insiders-split-vance
 
-   2. Trump administration weighs targeting Iran's top regime leaders in bid to end war: report
-      https://www.foxnews.com/world/trump-administration-weighs-targeting-irans-top-regime-leaders-bid-end-war-report
+   2. Trump's NVIDIA power play opens Pandora's box Democrats could weaponize, analyst warns
+      https://www.foxnews.com/politics/trumps-nvidia-power-play-opens-pandoras-box-democrats-could-weaponize-analyst-warns
 
-   3. Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case, DOJ says
+   3. Kilmar Ábrego García lands in Spain, ending deportation battle with Trump administration
+      https://www.foxnews.com/politics/kilmar-abrego-garcia-leave-us-voluntarily-europe-avoiding-forced-deportation
+
+   4. Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case, DOJ says
       https://www.foxnews.com/politics/obama-judges-omar-warrant-unsealing-directly-contradicts-his-own-decision-trump-case
 
-   4. Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'
+   5. Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'
       https://www.foxnews.com/politics/trump-pauses-turkey-pardon-salute-us-troops-guarding-strait-hormuz-watch-over-protect
 
-   5. Trump to award Giuliani Presidential Medal of Freedom
+   6. Trump to award Giuliani Presidential Medal of Freedom
       https://www.foxnews.com/politics/trump-award-giuliani-presidential-medal-freedom
 
-   6. Trump welcomes turkeys to the White House for Thanksgiving pardon as farmer dishes on prep for the big day
+   7. Trump welcomes turkeys to the White House for Thanksgiving pardon as farmer dishes on prep for the big day
       https://www.foxnews.com/politics/turkey-farmer-dishes-preparing-birds-trumps-thanksgiving-presidential-pardon
 
-   7. Massachusetts sues Trump admin to stop ICE's courthouse arrests: 'Unnecessary fear'
-      https://www.foxnews.com/politics/massachusetts-sues-trump-admin-stop-ice-courthouse-arrests-unnecessary-fear
+   8. Democrats to include creators and influencers to maximize viewership for presidential primary debates
+      https://www.foxnews.com/media/democrats-include-creators-influencers-maximize-viewership-presidential-primary-debates
 
-   8. Americans don’t have to choose between our AI future and ripping off copyright owners
-      https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
+   9. The absolute worst call of the college football season happened last night while you were sleeping
+      https://www.foxnews.com/outkick-sports/absolute-worst-call-college-football-season-happened-last-night-while-you-were-sleeping
 
-   9. Urban Meyer reveals his pick for the Big Ten’s top team ahead of College Football Playoff
-      https://www.foxnews.com/outkick-sports/urban-meyer-reveals-pick-big-ten-top-team-ahead-college-football-playoff
-
-  10. Man arrested after bystanders stop alleged rape attempt inside popular fast-food restaurant's restroom
-      https://www.foxnews.com/us/man-arrested-bystanders-stop-alleged-rape-attempt-popular-fast-food-restaurants-restroom
+  10. Viral wildlife video captures deer flipping bobcat into the air during wild confrontation
+      https://www.foxnews.com/outkick-culture/viral-wildlife-video-captures-deer-flipping-bobcat-air-wild-confrontation
 
 
 ============================================================
-  Generated at 09:35 PM PST by GitHub Actions
+  Generated at 06:50 AM PST by GitHub Actions
 ============================================================
