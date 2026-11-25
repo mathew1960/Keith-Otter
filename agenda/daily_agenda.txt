@@ -32,13 +32,13 @@
    8. Americans don’t have to choose between our AI future and ripping off copyright owners
       https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners
 
-   9. Al Gore buys hometown Tennessee newspaper, vows to preserve local outlet's 'independent voice'
-      https://www.foxnews.com/media/al-gore-buys-hometown-tennessee-newspaper-vows-preserve-independent-voice
+   9. Urban Meyer reveals his pick for the Big Ten’s top team ahead of College Football Playoff
+      https://www.foxnews.com/outkick-sports/urban-meyer-reveals-pick-big-ten-top-team-ahead-college-football-playoff
 
-  10. Lions owner/chair emeritus Martha Firestone Ford dead at 101
-      https://www.foxnews.com/outkick-sports/lions-owner-chair-emeritus-martha-firestone-ford-dead-101
+  10. Man arrested after bystanders stop alleged rape attempt inside popular fast-food restaurant's restroom
+      https://www.foxnews.com/us/man-arrested-bystanders-stop-alleged-rape-attempt-popular-fast-food-restaurants-restroom
 
 
 ============================================================
-  Generated at 06:40 PM PST by GitHub Actions
+  Generated at 09:35 PM PST by GitHub Actions
 ============================================================
