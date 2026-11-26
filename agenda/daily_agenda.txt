@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump's birthright citizenship restrictions struck down again by DC federal judge he called 'hater'
+   1. 2nd Circuit deals blow to Manhattan DA, breathes new life into Trump's hush money appeal
+      https://www.foxnews.com/politics/second-circuit-deals-blow-manhattan-da-breathes-new-life-trump-hush-money-appeal
+
+   2. Trump's birthright citizenship restrictions struck down again by DC federal judge he called 'hater'
       https://www.foxnews.com/politics/trumps-birthright-citizenship-restrictions-struck-down-dc-federal-judge-called-hater
 
-   2. Trump could avoid Dems' ‘extreme’ amnesty push by signing immigration reform before new Congress
+   3. Trump could avoid Dems' ‘extreme’ amnesty push by signing immigration reform before new Congress
       https://www.foxnews.com/politics/trump-sign-dignity-act-dems-extreme-amnesty-push-house-republican-says
 
-   3. Presidential contender's 'remarkably tone-deaf’ move against Trump triggers parental uproar: 'Unconscionable'
+   4. Presidential contender's 'remarkably tone-deaf’ move against Trump triggers parental uproar: 'Unconscionable'
       https://www.foxnews.com/politics/presidential-contenders-remarkably-tone-deaf-move-against-trump-triggers-parental-uproar-unconscionable
 
-   4. EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines
+   5. EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines
       https://www.foxnews.com/politics/exclusive-white-house-accuses-south-korea-breaking-promise-trump-us-tech-giant-faces-688m-fines
 
-   5. Newsom shredded for ‘hypocritical’ claim Trump 'sells' pardons after moving to spare 548 death row inmates
+   6. Newsom shredded for ‘hypocritical’ claim Trump 'sells' pardons after moving to spare 548 death row inmates
       https://www.foxnews.com/politics/newsom-shredded-hypocritical-claim-trump-sells-pardons-after-moving-spare-548-death-row-inmates
 
-   6. Trump officials reportedly at odds over tech titan's comeback as national security concerns linger
+   7. Trump officials reportedly at odds over tech titan's comeback as national security concerns linger
       https://www.foxnews.com/politics/trump-officials-odds-tech-titan-comeback-national-security-concerns-linger
 
-   7. Marco Rubio's 2028 stock surges among House Republicans as Trump insiders split on Vance
+   8. Marco Rubio's 2028 stock surges among House Republicans as Trump insiders split on Vance
       https://www.foxnews.com/politics/marco-rubios-2028-stock-surges-among-house-republicans-trump-insiders-split-vance
 
-   8. Trump's Nvidia power play opens Pandora's box Democrats could weaponize, analyst warns
+   9. Trump's Nvidia power play opens Pandora's box Democrats could weaponize, analyst warns
       https://www.foxnews.com/politics/trumps-nvidia-power-play-opens-pandoras-box-democrats-could-weaponize-analyst-warns
 
-   9. Kilmar Ábrego García lands in Spain, ending deportation battle with Trump administration
+  10. Kilmar Ábrego García lands in Spain, ending deportation battle with Trump administration
       https://www.foxnews.com/politics/kilmar-abrego-garcia-leave-us-voluntarily-europe-avoiding-forced-deportation
-
-  10. Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case, DOJ says
-      https://www.foxnews.com/politics/obama-judges-omar-warrant-unsealing-directly-contradicts-his-own-decision-trump-case
 
 
 ============================================================
-  Generated at 02:38 PM PST by GitHub Actions
+  Generated at 05:52 PM PST by GitHub Actions
 ============================================================
