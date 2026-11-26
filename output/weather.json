@@ -1,9 +1,9 @@
 {
-  "temp": 77,
+  "temp": 68,
   "high": 77,
   "low": 57,
-  "conditions": "Overcast",
-  "updated": "2026-11-25T22:39:58.273947+00:00",
+  "conditions": "Clear",
+  "updated": "2026-11-26T01:52:35.866577+00:00",
   "hourly": [
     {
       "time": "12 AM",
@@ -82,13 +82,13 @@
     {
       "day": "Fri",
       "high": 81,
-      "low": 66,
+      "low": 65,
       "conditions": "Overcast"
     },
     {
       "day": "Sat",
-      "high": 75,
-      "low": 63,
+      "high": 74,
+      "low": 62,
       "conditions": "Overcast"
     },
     {
