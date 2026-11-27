@@ -8,37 +8,37 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump takes on Somali welfare dependency in Thanksgiving message, lays out who should stay in US
+   1. Iran accuses Zelenskyy of 'false flag' Kuwait drone strike op to get Trump's attention
+      https://www.foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention
+
+   2. Trump takes on Somali welfare dependency in Thanksgiving message, lays out who should stay in US
       https://www.foxnews.com/politics/trump-takes-somali-welfare-dependency-thanksgiving-message-lays-who-should-stay-us
 
-   2. Trump, NATO chief push Russia to avoid any actions that would 'expand the war' with Ukraine
+   3. Trump, NATO chief push Russia to avoid any actions that would 'expand the war' with Ukraine
       https://www.foxnews.com/politics/trump-nato-chief-push-russia-avoid-actions-expand-war-ukraine
 
-   3. A look at how the Trumps spend their Thanksgiving holiday through the years
+   4. A look at how the Trumps spend their Thanksgiving holiday through the years
       https://www.foxnews.com/politics/look-trumps-spend-thanksgiving-holiday-through-years
 
-   4. Trump country cracked: 5 races that saw double-digit Trump territory fall to Democrats in 2026
+   5. Trump country cracked: 5 races that saw double-digit Trump territory fall to Democrats in 2026
       https://www.foxnews.com/politics/trump-country-cracked-5-races-double-digit-trump-territory-fall-democrats-2026
 
-   5. 2nd Circuit deals blow to Manhattan DA, breathes new life into Trump's hush money appeal
+   6. 2nd Circuit deals blow to Manhattan DA, breathes new life into Trump's hush money appeal
       https://www.foxnews.com/politics/second-circuit-deals-blow-manhattan-da-breathes-new-life-trump-hush-money-appeal
 
-   6. Trump's birthright citizenship restrictions struck down again by DC federal judge he called 'hater'
+   7. Trump's birthright citizenship restrictions struck down again by DC federal judge he called 'hater'
       https://www.foxnews.com/politics/trumps-birthright-citizenship-restrictions-struck-down-dc-federal-judge-called-hater
 
-   7. Trump could avoid Dems' ‘extreme’ amnesty push by signing immigration reform before new Congress
+   8. Trump could avoid Dems' ‘extreme’ amnesty push by signing immigration reform before new Congress
       https://www.foxnews.com/politics/trump-sign-dignity-act-dems-extreme-amnesty-push-house-republican-says
 
-   8. Presidential contender's 'remarkably tone-deaf’ move against Trump triggers parental uproar: 'Unconscionable'
+   9. Presidential contender's 'remarkably tone-deaf’ move against Trump triggers parental uproar: 'Unconscionable'
       https://www.foxnews.com/politics/presidential-contenders-remarkably-tone-deaf-move-against-trump-triggers-parental-uproar-unconscionable
 
-   9. EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines
+  10. EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines
       https://www.foxnews.com/politics/exclusive-white-house-accuses-south-korea-breaking-promise-trump-us-tech-giant-faces-688m-fines
-
-  10. Newsom shredded for ‘hypocritical’ claim Trump 'sells' pardons after moving to spare 548 death row inmates
-      https://www.foxnews.com/politics/newsom-shredded-hypocritical-claim-trump-sells-pardons-after-moving-spare-548-death-row-inmates
 
 
 ============================================================
-  Generated at 02:28 PM PST by GitHub Actions
+  Generated at 05:50 PM PST by GitHub Actions
 ============================================================
