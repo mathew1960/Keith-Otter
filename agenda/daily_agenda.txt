@@ -8,11 +8,11 @@
 
 📰  FOX NEWS — TOP HEADLINES
 ------------------------------------------------------------
-   1. Trump draws line on Somali welfare in Thanksgiving message and more top headlines
-      https://www.foxnews.com/us/trump-somali-welfare-thanksgiving-message-nov-27-newsletter-more-top-headlines
+   1. Donald Trump Jr criticizes Netflix over racy 'Hunting Wives' Thanksgiving post
+      https://www.foxnews.com/media/donald-trump-jr-criticizes-netflix-over-racy-hunting-wives-thanksgiving-post
 
-   2. Trump mourns Florida detective killed by suspected drunk driver on Thanksgiving
-      https://www.foxnews.com/us/trump-mourns-florida-detective-killed-suspected-drunk-driver-thanksgiving
+   2. US pilot tells Trump which fighter jet is ‘world’s greatest’ during Thanksgiving phone call
+      https://www.foxnews.com/politics/us-pilot-tells-trump-which-fighter-jet-worlds-greatest-thanksgiving-phone-call
 
    3. Trump takes on Somali welfare dependency in Thanksgiving message, lays out who should stay in US
       https://www.foxnews.com/politics/trump-takes-somali-welfare-dependency-thanksgiving-message-lays-who-should-stay-us
@@ -35,10 +35,10 @@
    9. Trump could avoid Dems' ‘extreme’ amnesty push by signing immigration reform before new Congress
       https://www.foxnews.com/politics/trump-sign-dignity-act-dems-extreme-amnesty-push-house-republican-says
 
-  10. Presidential contender's 'remarkably tone-deaf’ move against Trump triggers parental uproar: 'Unconscionable'
-      https://www.foxnews.com/politics/presidential-contenders-remarkably-tone-deaf-move-against-trump-triggers-parental-uproar-unconscionable
+  10. From turkey shortages to helicopter deliveries: The extraordinary history of Thanksgiving during war
+      https://www.foxnews.com/politics/turkey-shortages-helicopter-deliveries-extraordinary-history-thanksgiving-war
 
 
 ============================================================
-  Generated at 06:11 AM PST by GitHub Actions
+  Generated at 02:09 PM PST by GitHub Actions
 ============================================================
